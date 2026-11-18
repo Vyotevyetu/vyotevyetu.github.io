@@ -240,6 +240,17 @@ input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-sea
 .vacts{display:flex;gap:8px;margin:0 0 10px}
 .vacts a,.vacts button{flex:1;display:flex;align-items:center;justify-content:center;gap:6px;height:40px;border-radius:12px;border:1px solid rgba(255,255,255,.22);background:rgba(255,255,255,.1);color:#fff;font:700 .85rem var(--body);text-decoration:none;cursor:pointer}
 .vacts svg{width:16px;height:16px}
+.card.out .ph img{filter:grayscale(1);opacity:.55}
+.card.out .name,.card.out .price{opacity:.6}
+.ph .soldtag{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) rotate(-8deg);background:rgba(20,35,28,.88);color:#fff;font:800 .8rem var(--body);letter-spacing:.1em;padding:7px 12px;border-radius:8px;z-index:1}
+.sold{display:inline-flex;align-items:center;height:38px;padding:0 10px;border-radius:12px;background:var(--chip);color:var(--muted);font:700 .78rem var(--body);white-space:nowrap;text-decoration:none}
+.deals{margin:4px 0 0}
+.deal{display:flex;justify-content:space-between;gap:10px;padding:8px 12px;margin-top:6px;border-radius:12px;background:color-mix(in srgb,var(--wa) 12%,transparent);color:var(--ink);font:600 .86rem var(--body)}
+.deal b{color:var(--wa);white-space:nowrap;font-variant-numeric:tabular-nums}
+.hint{padding:10px 12px;margin-top:6px;border-radius:12px;background:color-mix(in srgb,var(--gold) 22%,transparent);font:600 .86rem var(--body);line-height:1.35}
+.hint b{color:var(--gold-ink)}
+@media (prefers-color-scheme: dark){.hint b{color:var(--gold)}}
+.obar .s s{opacity:.6;font-size:.8rem;margin-left:6px}
 </style>
 </head>
 <body>
@@ -296,6 +307,7 @@ input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-sea
     <div class="sh"><h2 id="ptitle">Your order</h2><button class="x" id="close" type="button" aria-label="Close">✕</button></div>
     <p class="note">We deliver in Nairobi and worldwide. Delivery is at your cost and quoted on WhatsApp once we know your location.</p>
     <div id="lines"></div>
+    <div class="deals" id="deals"></div>
     <div class="total"><span>Total (delivery extra)</span><span id="total">KES 0</span></div>
     <label for="where">Your name, town and country</label>
     <textarea id="where" placeholder="e.g. Jane, Juja, Kenya (near the stage)"></textarea>
@@ -327,7 +339,7 @@ let cart = {};
 try { cart = JSON.parse(localStorage.getItem("vv-cart") || "{}") || {}; } catch (e) { cart = {}; }
 const save = () => { try { localStorage.setItem("vv-cart", JSON.stringify(cart)); } catch (e) {} };
 const byId = Object.fromEntries(PRODUCTS.map(p => [p.id, p]));
-for (const k of Object.keys(cart)) if (!byId[k] || cart[k] < 1) delete cart[k];
+for (const k of Object.keys(cart)) if (!byId[k] || cart[k] < 1 || byId[k].soldout) delete cart[k];
 const $ = id => document.getElementById(id);
 const TH = id => "img/t/" + id + ".jpg";
 const NOW = (() => { try { return new Date(new Intl.DateTimeFormat("en-CA", { timeZone: "Africa/Nairobi" }).format(new Date()) + "T12:00:00"); } catch (e) { return new Date(); } })();
@@ -396,7 +408,7 @@ $("cats").addEventListener("click", e => {
 /* showcase carousel: seasonal top picks, one per category */
 const SHOW = (() => {
   const seen = new Set(), out = [];
-  [...PRODUCTS].sort((a, b) => REC[b.id] - REC[a.id]).forEach(p => { if (out.length < 8 && !seen.has(p.cat)) { seen.add(p.cat); out.push(p); } });
+  [...PRODUCTS].filter(p => !p.soldout).sort((a, b) => REC[b.id] - REC[a.id]).forEach(p => { if (out.length < 8 && !seen.has(p.cat)) { seen.add(p.cat); out.push(p); } });
   return out;
 })();
 function renderShow() {
@@ -421,6 +433,7 @@ function autoShow() { clearInterval(sTimer); sTimer = setInterval(() => { if (!s
 
 /* grid */
 function buyHTML(p) {
+  if (p.soldout) return `<a class="sold" href="https://wa.me/${PHONE}?text=${encodeURIComponent("Hi Vyetu Vyote, please tell me when this is back in stock: " + p.name)}" target="_blank" rel="noopener">Sold out · Notify me</a>`;
   const q = cart[p.id] || 0;
   return q ? `<div class="step"><button type="button" data-act="dec" data-id="${p.id}" aria-label="One less">−</button><output>${q}</output><button type="button" data-act="inc" data-id="${p.id}" aria-label="One more">+</button></div>`
            : `<button class="add" type="button" data-act="inc" data-id="${p.id}" aria-label="Add ${esc(p.name)}">${PLUS}</button>`;
@@ -431,18 +444,18 @@ function visible() {
   if (sort === "rec") list = [...list].sort((a, b) => REC[b.id] - REC[a.id]);
   if (sort === "lo") list = [...list].sort((a, b) => a.price - b.price);
   if (sort === "hi") list = [...list].sort((a, b) => b.price - a.price);
-  return list;
+  return [...list.filter(p => !p.soldout), ...list.filter(p => p.soldout)];
 }
 function renderGrid(scroll) {
   const list = visible();
   $("season").textContent = sort === "rec" && !query.trim() ? "Sorted for now: " + SEASON.label : "";
   $("count").innerHTML = `${query.trim() ? "Results for “" + esc(query.trim()) + "”" : cat === "all" ? "All products" : cat === "new" ? "New arrivals" : esc(CATNAME[cat])}<small>${list.length}</small>`;
   $("grid").innerHTML = list.length ? list.map((p, i) => `
-    <article class="card" style="animation-delay:${Math.min(i, 12) * 30}ms">
+    <article class="card${p.soldout ? " out" : ""}" style="animation-delay:${Math.min(i, 12) * 30}ms">
       <button class="ph" type="button" data-view="${p.id}" aria-label="View photo of ${esc(p.name)}">
         <img src="${TH(p.id)}" alt="${esc(p.name)}" loading="lazy" decoding="async" width="520" height="520" onload="this.parentNode.classList.add('ok')" onerror="this.parentNode.classList.add('ok')">
         ${(cat === "all" || cat === "new" || query.trim()) ? `<span class="tag">${esc(CATNAME[p.cat])}</span>` : ""}
-        ${isNew(p) ? '<span class="new">NEW</span>' : ""}<span class="zoom">${ZOOM}</span>
+        ${p.soldout ? '<span class="soldtag">SOLD OUT</span>' : isNew(p) ? '<span class="new">NEW</span>' : ""}<span class="zoom">${ZOOM}</span>
       </button>
       <div class="body">
         <h3 class="name">${esc(p.name)}</h3>
@@ -460,34 +473,62 @@ $("qclr").addEventListener("click", () => { $("q").value = ""; query = ""; $("se
 $("sort").addEventListener("change", e => { sort = e.target.value; renderGrid(); });
 addEventListener("scroll", () => $("top").classList.toggle("scrolled", scrollY > 8), { passive: true });
 
-/* cart */
-function totals() { let n = 0, t = 0; for (const [k, q] of Object.entries(cart)) { n += q; t += q * byId[k].price; } return { n, t }; }
+/* cart + bundle deals */
+const DEALS = [
+  { label: "Any 2 mug sets", qty: 2, price: 1990, test: p => /Any 2 sets \(12 mugs\) KES 1,990/.test(p.detail) },
+  { label: "Any 2 gold mug sets", qty: 2, price: 2590, test: p => /Any 2 gold sets/.test(p.detail) },
+  { label: "Two-tone trio, 3 sets", qty: 3, price: 1990, test: p => /^mug-25002[ybg]$/.test(p.id) },
+  { label: "Any 2 toilet mat sets", qty: 2, price: 2190, test: p => p.id.startsWith("mat-") },
+  { label: "Any 2 corner shelves", qty: 2, price: 1790, test: p => p.id === "shelf-rotating" },
+  { label: "Any 2 kindergarten bags", qty: 2, price: 2390, test: p => /Any 2 kindergarten bags/.test(p.detail) },
+];
+function dealCalc() {
+  const used = [], hints = []; let disc = 0;
+  DEALS.forEach(dl => {
+    const units = []; Object.entries(cart).forEach(([k, q]) => { const p = byId[k]; if (dl.test(p)) for (let i = 0; i < q; i++) units.push(p.price); });
+    units.sort((a, b) => b - a);
+    let times = 0, save = 0, i = 0;
+    while (i + dl.qty <= units.length) { const s = units.slice(i, i + dl.qty).reduce((a, b) => a + b, 0); if (s <= dl.price) break; save += s - dl.price; times++; i += dl.qty; }
+    if (times) { used.push({ label: dl.label, times, save }); disc += save; }
+    const left = units.length - i;
+    if (left > 0 && left < dl.qty) {
+      const need = dl.qty - left, have = units.slice(i).reduce((a, b) => a + b, 0);
+      const cheapest = Math.min(...PRODUCTS.filter(p => dl.test(p) && !p.soldout).map(p => p.price));
+      const extra = have + need * cheapest - dl.price;
+      if (extra > 0) hints.push(`Add <b>${need} more</b> for <b>${dl.label.toLowerCase()}</b> at ${fmt(dl.price)}. You save up to <b>${fmt(have + need * Math.max(...PRODUCTS.filter(p => dl.test(p) && !p.soldout).map(p => p.price)) - dl.price)}</b>.`);
+    }
+  });
+  return { used, hints, disc };
+}
+function totals() { let n = 0, t = 0; for (const [k, q] of Object.entries(cart)) { n += q; t += q * byId[k].price; } const d = dealCalc(); return { n, t, disc: d.disc, net: t - d.disc, d }; }
 function photoURL(id) { try { const u = new URL("img/" + id + ".jpg", document.baseURI); return /^https?:$/.test(u.protocol) ? u.href : ""; } catch (e) { return ""; } }
 function message() {
   const lines = Object.entries(cart).map(([k, q]) => { const u = photoURL(k); return `- ${q} x ${byId[k].name} (${byId[k].unit}) @ ${fmt(byId[k].price)} = ${fmt(q * byId[k].price)}` + (u ? `\n  Photo: ${u}` : ""); });
   const where = $("where").value.trim();
-  return `Hi Vyetu Vyote, I would like to order:\n${lines.join("\n")}\n\nTotal: ${fmt(totals().t)} plus delivery (at my cost)` + (where ? `\nName and location: ${where}` : "");
+  const T = totals(); const dl = T.d.used.map(u => `- Deal: ${u.label}${u.times > 1 ? " x" + u.times : ""} = -${fmt(u.save)}`);
+  return `Hi Vyetu Vyote, I would like to order:\n${lines.join("\n")}` + (dl.length ? `\n\nBundle deals:\n${dl.join("\n")}\nSubtotal: ${fmt(T.t)}` : "") + `\n\nTotal: ${fmt(T.net)} plus delivery (at my cost)` + (where ? `\nName and location: ${where}` : "");
 }
 function setSend() { $("send").href = `https://wa.me/${PHONE}?text=` + encodeURIComponent(message()); }
 function renderCart() {
-  const { n, t } = totals();
-  $("sum").innerHTML = `<b>${fmt(t)}</b><span>${n} item${n === 1 ? "" : "s"} in your order</span>`;
+  const { n, t, disc, net, d } = totals();
+  $("sum").innerHTML = `<b>${fmt(net)}</b><span>${disc ? "🎁 Deals save you " + fmt(disc) : n + " item" + (n === 1 ? "" : "s") + " in your order"}</span>`;
+  $("deals").innerHTML = d.used.map(u => `<div class="deal"><span>🎁 ${esc(u.label)}${u.times > 1 ? " ×" + u.times : ""}</span><b>−${fmt(u.save)}</b></div>`).join("") + d.hints.map(x => `<div class="hint">💡 ${x}</div>`).join("");
   $("obar").classList.toggle("show", n > 0);
   const b = $("badge"); b.textContent = n; b.classList.toggle("on", n > 0);
   $("lines").innerHTML = Object.entries(cart).map(([k, q]) => { const p = byId[k];
     return `<div class="line"><img src="${TH(p.id)}" alt="" data-view="${p.id}"><div class="t">${esc(p.name)}<small>${fmt(p.price)} · ${esc(p.unit)}</small></div>${buyHTML(p)}</div>`; }).join("");
-  $("total").textContent = fmt(t);
+  $("total").textContent = fmt(net);
   setSend();
   if (!n) closePanel();
 }
-let tt; function toast(s) { const el = $("toast"); el.textContent = s; el.classList.add("on"); clearTimeout(tt); tt = setTimeout(() => el.classList.remove("on"), 1600); }
+let tt; function toast(s) { const el = $("toast"); el.textContent = s; el.classList.add("on"); clearTimeout(tt); tt = setTimeout(() => el.classList.remove("on"), s.startsWith("💡") ? 3200 : 1600); }
 function change(id, d) {
   cart[id] = (cart[id] || 0) + d; if (cart[id] < 1) delete cart[id];
   save();
   const slot = $("b-" + id); if (slot) slot.innerHTML = buyHTML(byId[id]);
   if (vid === id) $("vbuy").innerHTML = buyHTML(byId[id]);
   const ss = $("s-" + id); if (ss) ss.innerHTML = buyHTML(byId[id]);
-  if (d > 0) { toast("Added · " + byId[id].name.replace(/^\W+\s*/, "")); if (navigator.vibrate) try { navigator.vibrate(12); } catch (e) {} }
+  if (d > 0) { const H = dealCalc().hints; toast(H.length ? "💡 " + H[0].replace(/<[^>]+>/g, "").split(". You save")[0] : "Added · " + byId[id].name.replace(/^\W+\s*/, "")); if (navigator.vibrate) try { navigator.vibrate(12); } catch (e) {} }
   renderCart();
 }
 document.addEventListener("click", e => { const b = e.target.closest("[data-act]"); if (!b) return; e.stopImmediatePropagation(); change(b.dataset.id, b.dataset.act === "inc" ? 1 : -1); });
@@ -513,7 +554,7 @@ function showV(id) {
   $("vprice").innerHTML = `${fmt(p.price)}<small>${esc(p.unit)}</small>`;
   $("vbuy").innerHTML = buyHTML(p);
   const link = SITE + "#p=" + id;
-  $("vask").href = `https://wa.me/${PHONE}?text=` + encodeURIComponent(`Hi Vyetu Vyote, is this available?\n${p.name} (${fmt(p.price)})\n${link}`);
+  $("vask").href = `https://wa.me/${PHONE}?text=` + encodeURIComponent(`Hi Vyetu Vyote, ${p.soldout ? "please tell me when this is back in stock" : "is this available"}?\n${p.name} (${fmt(p.price)})\n${link}`);
   $("vcount").textContent = vlist.length > 1 ? `${i + 1} / ${vlist.length}` : "";
   $("vprev").hidden = $("vnext").hidden = vlist.length < 2;
 }
