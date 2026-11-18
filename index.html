@@ -94,6 +94,7 @@ button{font-family:inherit}
 .count small{font:500 .85rem var(--body);color:var(--soft);margin-left:6px}
 .sort{appearance:none;border:1px solid var(--line);background:var(--card) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%238a978f' stroke-width='2' fill='none'/%3E%3C/svg%3E") no-repeat right 12px center;color:var(--ink);font:600 .85rem var(--body);height:38px;padding:0 32px 0 14px;border-radius:999px;cursor:pointer}
 
+
 /* grid */
 .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:6px 0 30px}
 @media (min-width:700px){.grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}}
@@ -205,6 +206,30 @@ input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-sea
 .count{line-height:1.2}
 .season{font:600 .76rem var(--body);color:var(--green-2);margin-top:2px}
 @media (prefers-color-scheme: dark){.season{color:var(--gold)}}
+
+.show{margin:12px 0 4px}
+.show-h{display:flex;align-items:baseline;justify-content:space-between;margin:0 2px 8px}
+.show-h b{font:800 1.15rem var(--display);letter-spacing:-.01em}
+.show-h span{color:var(--soft);font-size:.82rem}
+.track{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;border-radius:24px;-webkit-overflow-scrolling:touch}
+.track::-webkit-scrollbar{display:none}
+.slide{position:relative;flex:0 0 100%;scroll-snap-align:center;border-radius:24px;overflow:hidden;aspect-ratio:4/3.1;background:var(--chip);cursor:pointer;box-shadow:var(--shadow)}
+@media (min-width:700px){.slide{flex-basis:calc(50% - 6px);aspect-ratio:16/11}}
+@media (min-width:1000px){.slide{flex-basis:calc(33.333% - 8px)}}
+.slide img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform 6s ease}
+.slide.on img{transform:scale(1.07)}
+.slide::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 38%,rgba(5,15,10,.86) 100%)}
+.slide .chip{position:absolute;z-index:1;left:14px;top:14px;background:rgba(255,255,255,.94);color:#14231c;font:800 .7rem var(--body);letter-spacing:.06em;text-transform:uppercase;padding:6px 10px;border-radius:999px}
+.slide .cap{position:absolute;z-index:1;left:16px;right:16px;bottom:14px;display:flex;align-items:flex-end;justify-content:space-between;gap:12px;color:#fff}
+.slide .cap h3{margin:0;font:800 1.25rem/1.15 var(--display);letter-spacing:-.01em;text-shadow:0 1px 8px rgba(0,0,0,.4);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.slide .cap p{margin:4px 0 0;font:800 1.05rem var(--display);color:var(--gold);font-variant-numeric:tabular-nums}
+.slide .cap p small{font:500 .78rem var(--body);color:rgba(255,255,255,.75);margin-left:6px}
+.slide .cap .add,.slide .cap .step{background:var(--gold);color:var(--gold-ink);flex:none}
+.slide .cap .step button{color:var(--gold-ink)}
+.dots{display:flex;justify-content:center;gap:6px;margin-top:10px}
+.dots button{width:7px;height:7px;border-radius:9px;border:0;padding:0;background:var(--line);cursor:pointer;transition:width .3s,background .3s}
+.dots button.on{width:22px;background:var(--green-2)}
+@media (prefers-color-scheme: dark){.dots button.on{background:var(--gold)}}
 </style>
 </head>
 <body>
@@ -221,15 +246,10 @@ input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-sea
 </div></header>
 
 <main class="wrap">
-  <section class="hero">
-    <span class="kick">Delivering in Nairobi & worldwide</span>
-    <h1>Kitchen & home essentials, <em>delivered</em>.</h1>
-    <p>Dinner sets, mugs, cookers, glassware and more. Pick what you love and send your order on WhatsApp in one tap.</p>
-    <ul class="trust">
-      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg>Nairobi riders · worldwide shipping</li>
-      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12a8 8 0 11-3-6.2L20 4v5h-5"/></svg>Stock confirmed on WhatsApp</li>
-      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.6 5.6 6 .7-4.5 4.1 1.2 6L12 16.4 6.7 19.4l1.2-6L3.4 9.3l6-.7z"/></svg>Wholesale-direct prices</li>
-    </ul>
+  <section class="show" aria-label="Recommended for you" aria-roledescription="carousel">
+    <div class="show-h"><b id="showlabel">Top picks</b><span id="showcount"></span></div>
+    <div class="track" id="track"></div>
+    <div class="dots" id="dots"></div>
   </section>
 
   <div class="sec-h"><h2>Shop by category</h2><span id="total-n"></span></div>
@@ -357,6 +377,32 @@ $("cats").addEventListener("click", e => {
   renderGrid(true);
 });
 
+/* showcase carousel: seasonal top picks, one per category */
+const SHOW = (() => {
+  const seen = new Set(), out = [];
+  [...PRODUCTS].sort((a, b) => REC[b.id] - REC[a.id]).forEach(p => { if (out.length < 8 && !seen.has(p.cat)) { seen.add(p.cat); out.push(p); } });
+  return out;
+})();
+function renderShow() {
+  $("showlabel").textContent = SEASON.on.length ? SEASON.on[0].label : "Top picks";
+  $("showcount").textContent = "Swipe →";
+  $("track").innerHTML = SHOW.map((p, i) => `<article class="slide" data-view="${p.id}" role="group" aria-label="${i + 1} of ${SHOW.length}">
+    <img src="img/${p.id}.jpg" alt="${esc(p.name)}" ${i > 1 ? 'loading="lazy"' : ""}>
+    <span class="chip">${esc(CATNAME[p.cat])}</span>
+    <div class="cap"><div><h3>${esc(p.name)}</h3><p>${fmt(p.price)}<small>${esc(p.unit)}</small></p></div><div id="s-${p.id}">${buyHTML(p)}</div></div></article>`).join("");
+  $("dots").innerHTML = SHOW.map((_, i) => `<button type="button" aria-label="Slide ${i + 1}" data-i="${i}"></button>`).join("");
+}
+const track = () => $("track");
+let si = 0, sTimer, sPaused = false;
+function slideW() { const s = track().querySelector(".slide"); return s ? s.getBoundingClientRect().width + 12 : 1; }
+function markShow() {
+  si = Math.round(track().scrollLeft / slideW());
+  track().querySelectorAll(".slide").forEach((s, i) => s.classList.toggle("on", i === si));
+  $("dots").querySelectorAll("button").forEach((d, i) => d.classList.toggle("on", i === si));
+}
+function goShow(i) { const n = SHOW.length; const per = Math.max(1, Math.round(track().clientWidth / slideW())); si = (i + n) % Math.max(1, n - per + 1); track().scrollTo({ left: si * slideW(), behavior: "smooth" }); }
+function autoShow() { clearInterval(sTimer); sTimer = setInterval(() => { if (!sPaused && !document.hidden && !vopen && !panel.classList.contains("open")) goShow(si + 1); }, 3800); }
+
 /* grid */
 function buyHTML(p) {
   const q = cart[p.id] || 0;
@@ -424,10 +470,11 @@ function change(id, d) {
   save();
   const slot = $("b-" + id); if (slot) slot.innerHTML = buyHTML(byId[id]);
   if (vid === id) $("vbuy").innerHTML = buyHTML(byId[id]);
+  const ss = $("s-" + id); if (ss) ss.innerHTML = buyHTML(byId[id]);
   if (d > 0) { toast("Added · " + byId[id].name.replace(/^\W+\s*/, "")); if (navigator.vibrate) try { navigator.vibrate(12); } catch (e) {} }
   renderCart();
 }
-document.addEventListener("click", e => { const b = e.target.closest("[data-act]"); if (!b) return; e.stopPropagation(); change(b.dataset.id, b.dataset.act === "inc" ? 1 : -1); });
+document.addEventListener("click", e => { const b = e.target.closest("[data-act]"); if (!b) return; e.stopImmediatePropagation(); change(b.dataset.id, b.dataset.act === "inc" ? 1 : -1); });
 const panel = $("panel");
 function openPanel() { if (!totals().n) { toast("Your order is empty. Tap + on any product"); return; } panel.classList.add("open"); document.body.style.overflow = "hidden"; }
 function closePanel() { panel.classList.remove("open"); if (!vopen) document.body.style.overflow = ""; }
@@ -480,7 +527,12 @@ document.addEventListener("keydown", e => { if (!vopen) return;
   if (e.key === "Escape") { e.stopImmediatePropagation(); closeV(false); }
   if (e.key === "ArrowRight") stepV(1); if (e.key === "ArrowLeft") stepV(-1); }, true);
 
-renderCats(); renderGrid(); renderCart();
+renderCats(); renderShow(); renderGrid(); renderCart();
+let stt; track().addEventListener("scroll", () => { clearTimeout(stt); stt = setTimeout(markShow, 80); }, { passive: true });
+["touchstart","pointerdown","mouseenter"].forEach(ev => track().addEventListener(ev, () => { sPaused = true; }, { passive: true }));
+["touchend","mouseleave"].forEach(ev => track().addEventListener(ev, () => { setTimeout(() => sPaused = false, 2500); }, { passive: true }));
+$("dots").addEventListener("click", e => { const b = e.target.closest("button"); if (b) { goShow(+b.dataset.i); autoShow(); } });
+markShow(); if (!matchMedia("(prefers-reduced-motion: reduce)").matches) autoShow();
 </script>
 </body>
 </html>
