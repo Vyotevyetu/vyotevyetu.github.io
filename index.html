@@ -75,7 +75,7 @@ button{font-family:inherit}
 
 
 /* categories */
-.sec-h{display:flex;align-items:baseline;justify-content:space-between;margin:22px 0 10px}
+.sec-h{display:flex;align-items:baseline;justify-content:space-between;margin:14px 0 10px}
 .sec-h h2{font:800 1.2rem var(--display);margin:0;letter-spacing:-.01em}
 .sec-h span{color:var(--soft);font-size:.86rem}
 .cats{display:flex;gap:12px;overflow-x:auto;padding:2px 2px 8px;scroll-snap-type:x proximity;scrollbar-width:none}
@@ -267,11 +267,7 @@ input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-sea
 </div></header>
 
 <main class="wrap">
-  <section class="show" aria-label="Recommended for you" aria-roledescription="carousel">
-    <div class="show-h"><b id="showlabel">Top picks</b><span id="showcount"></span></div>
-    <div class="track" id="track"></div>
-    <div class="dots" id="dots"></div>
-  </section>
+  
 
   <div class="sec-h"><h2>Shop by category</h2><span id="total-n"></span></div>
   <nav class="cats" id="cats" aria-label="Categories"></nav>
@@ -603,18 +599,14 @@ document.addEventListener("keydown", e => { if (!vopen) return;
   if (e.key === "Escape") { e.stopImmediatePropagation(); closeV(false); }
   if (e.key === "ArrowRight") stepV(1); if (e.key === "ArrowLeft") stepV(-1); }, true);
 
-renderCats(); renderShow(); renderGrid(); renderCart();
-let stt; track().addEventListener("scroll", () => { clearTimeout(stt); stt = setTimeout(markShow, 80); }, { passive: true });
-["touchstart","pointerdown","mouseenter"].forEach(ev => track().addEventListener(ev, () => { sPaused = true; }, { passive: true }));
-["touchend","mouseleave"].forEach(ev => track().addEventListener(ev, () => { setTimeout(() => sPaused = false, 2500); }, { passive: true }));
-$("dots").addEventListener("click", e => { const b = e.target.closest("button"); if (b) { goShow(+b.dataset.i); autoShow(); } });
+renderCats(); renderGrid(); renderCart();
 (function () {
   const m = location.hash.match(/^#(p|c)=([\w-]+)/); if (!m) return;
   try { history.replaceState(null, "", location.pathname + location.search); } catch (e) {}
   if (m[1] === "c" && (counts[m[2]] || m[2] === "new")) { cat = m[2]; renderCats(); renderGrid(true); }
   if (m[1] === "p" && byId[m[2]]) openV(m[2]);
 })();
-markShow(); if (!matchMedia("(prefers-reduced-motion: reduce)").matches) autoShow();
+
 </script>
 </body>
 </html>
