@@ -251,6 +251,21 @@ input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-sea
 .hint b{color:var(--gold-ink)}
 @media (prefers-color-scheme: dark){.hint b{color:var(--gold)}}
 .obar .s s{opacity:.6;font-size:.8rem;margin-left:6px}
+/* story-style category bubbles */
+.cats{gap:14px;padding:4px 2px 10px;scroll-snap-type:none}
+.cat{width:78px}
+.cat .ci{position:relative;width:78px;height:78px;border-radius:50%;padding:3px;border:0;box-shadow:none;background:conic-gradient(from var(--a,0deg),#0f3d2e,#17533f,#f2b544,#17533f,#0f3d2e);animation:ring 6s linear infinite;overflow:visible}
+@property --a{syntax:"<angle>";inherits:false;initial-value:0deg}
+@keyframes ring{to{--a:360deg}}
+.cat .cin{position:relative;display:block;width:100%;height:100%;border-radius:50%;overflow:hidden;background:var(--chip);border:2.5px solid var(--bg)}
+.cat .cin img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.12);transition:opacity .9s ease,transform 3s ease}
+.cat .cin img.on{opacity:1;transform:scale(1)}
+.cat .cin .all,.cat .cin .newt{position:absolute;inset:0;border-radius:50%}
+.cat[data-cat="new"] .ci{background:conic-gradient(from var(--a,0deg),#d9412e,#f2b544,#ff7a59,#d9412e);animation:ring 3s linear infinite}
+.cat[aria-pressed="true"] .ci{transform:scale(1.06);background:var(--green-2);animation:none}
+.cat[aria-pressed="true"] .cin{border-color:var(--bg)}
+.cat .cn{margin-top:6px}
+@media (prefers-reduced-motion:reduce){.cat .ci{animation:none}}
 </style>
 </head>
 <body>
@@ -387,13 +402,17 @@ const REC = (() => {
 /* categories */
 const counts = {}; PRODUCTS.forEach(p => counts[p.cat] = (counts[p.cat] || 0) + 1);
 $("total-n").textContent = PRODUCTS.length + " products";
+function catPics(k) {
+  const ids = []; if (byId[COVER[k]] && !byId[COVER[k]].soldout) ids.push(COVER[k]);
+  PRODUCTS.filter(p => p.cat === k && !p.soldout && !ids.includes(p.id)).sort((a, b) => REC[b.id] - REC[a.id]).slice(0, 4 - ids.length).forEach(p => ids.push(p.id));
+  return ids;
+}
 function renderCats() {
   $("cats").innerHTML = CATS.filter(([k]) => k === "all" || counts[k]).sort((a, b) => a[0] === "all" ? -1 : b[0] === "all" ? 1 : (SEASON.w[b[0]] || 1) - (SEASON.w[a[0]] || 1)).map(([k, n]) => {
-    const cover = k === "all" ? "" : (byId[COVER[k]] ? COVER[k] : PRODUCTS.find(p => p.cat === k).id);
-    const img = k === "all" ? `<div class="all">All</div>` : `<img src="${TH(cover)}" alt="" loading="lazy">`;
-    return `<button class="cat" type="button" data-cat="${k}" aria-pressed="${k === cat}"><span class="ci">${img}</span><span class="cn">${esc(n)}</span><span class="cc">${k === "all" ? PRODUCTS.length : counts[k]}</span></button>`;
+    const inner = k === "all" ? `<div class="all">All</div>` : catPics(k).map((id, i) => `<img src="${TH(id)}" alt="" ${i ? 'loading="lazy"' : ""} class="${i ? "" : "on"}">`).join("");
+    return `<button class="cat" type="button" data-cat="${k}" aria-pressed="${k === cat}"><span class="ci"><span class="cin">${inner}</span></span><span class="cn">${esc(n)}</span><span class="cc">${k === "all" ? PRODUCTS.length : counts[k]}</span></button>`;
   }).join("");
-  if (NEWN) $("cats").firstElementChild.insertAdjacentHTML("afterend", `<button class="cat" type="button" data-cat="new" aria-pressed="${cat === "new"}"><span class="ci"><div class="newt">NEW</div></span><span class="cn">New arrivals</span><span class="cc">${NEWN}</span></button>`);
+  if (NEWN) $("cats").firstElementChild.insertAdjacentHTML("afterend", `<button class="cat" type="button" data-cat="new" aria-pressed="${cat === "new"}"><span class="ci"><span class="cin"><div class="newt">NEW</div></span></span><span class="cn">New arrivals</span><span class="cc">${NEWN}</span></button>`);
 }
 $("cats").addEventListener("click", e => {
   const b = e.target.closest(".cat"); if (!b) return;
@@ -600,6 +619,29 @@ document.addEventListener("keydown", e => { if (!vopen) return;
   if (e.key === "ArrowRight") stepV(1); if (e.key === "ArrowLeft") stepV(-1); }, true);
 
 renderCats(); renderGrid(); renderCart();
+(function () {
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  let tick = 0;
+  setInterval(() => {
+    if (document.hidden) return; tick++;
+    $("cats").querySelectorAll(".cin").forEach((c, i) => {
+      const imgs = c.querySelectorAll("img"); if (imgs.length < 2 || (tick + i) % 2) return;
+      const cur = [...imgs].findIndex(x => x.classList.contains("on"));
+      imgs[cur].classList.remove("on"); imgs[(cur + 1) % imgs.length].classList.add("on");
+    });
+  }, 1400);
+  const row = $("cats"); let idle = true, dir = 1, last = 0, wait, pos = 0;
+  const stop = () => { idle = false; clearTimeout(wait); wait = setTimeout(() => idle = true, 6000); };
+  ["touchstart", "pointerdown", "wheel", "mouseenter"].forEach(ev => row.addEventListener(ev, stop, { passive: true }));
+  function drift(t) {
+    if (idle && !document.hidden && row.scrollWidth > row.clientWidth + 4) {
+      const dt = last ? Math.min(50, t - last) : 16; if (Math.abs(pos - row.scrollLeft) > 2) pos = row.scrollLeft; pos += dir * dt * 0.03; row.scrollLeft = pos;
+      if (row.scrollLeft + row.clientWidth >= row.scrollWidth - 1) dir = -1; else if (row.scrollLeft <= 0) dir = 1;
+    }
+    last = t; requestAnimationFrame(drift);
+  }
+  setTimeout(() => requestAnimationFrame(drift), 1500);
+})();
 (function () {
   const m = location.hash.match(/^#(p|c)=([\w-]+)/); if (!m) return;
   try { history.replaceState(null, "", location.pathname + location.search); } catch (e) {}
