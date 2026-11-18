@@ -553,7 +553,7 @@ function showV(id) {
   $("vname").textContent = p.name; $("vdetail").textContent = p.detail;
   $("vprice").innerHTML = `${fmt(p.price)}<small>${esc(p.unit)}</small>`;
   $("vbuy").innerHTML = buyHTML(p);
-  const link = SITE + "#p=" + id;
+  const link = SITE + "p/" + id + ".html";
   $("vask").href = `https://wa.me/${PHONE}?text=` + encodeURIComponent(`Hi Vyetu Vyote, ${p.soldout ? "please tell me when this is back in stock" : "is this available"}?\n${p.name} (${fmt(p.price)})\n${link}`);
   $("vcount").textContent = vlist.length > 1 ? `${i + 1} / ${vlist.length}` : "";
   $("vprev").hidden = $("vnext").hidden = vlist.length < 2;
@@ -577,9 +577,19 @@ $("vprev").addEventListener("click", () => stepV(-1));
 $("vnext").addEventListener("click", () => stepV(1));
 $("vzoom").addEventListener("click", zoomV);
 $("vshare").addEventListener("click", async () => {
-  const p = byId[vid], link = SITE + "#p=" + vid, text = `${p.name}: ${fmt(p.price)} at Vyetu Vyote`;
-  if (navigator.share) { try { await navigator.share({ title: p.name, text, url: link }); return; } catch (e) { if (e && e.name === "AbortError") return; } }
-  open("https://wa.me/?text=" + encodeURIComponent(text + "\n" + link), "_blank", "noopener");
+  const p = byId[vid], link = SITE + "p/" + vid + ".html", text = `${p.name}: ${fmt(p.price)} at Vyetu Vyote 🛒\n${link}`;
+  const btn = $("vshare"); btn.disabled = true;
+  try {
+    if (navigator.share) {
+      try {
+        const r = await fetch("img/" + vid + ".jpg"); const blob = await r.blob();
+        const file = new File([blob], vid + ".jpg", { type: blob.type || "image/jpeg" });
+        if (navigator.canShare && navigator.canShare({ files: [file] })) { await navigator.share({ files: [file], title: p.name, text }); return; }
+      } catch (e) { if (e && e.name === "AbortError") return; }
+      try { await navigator.share({ title: p.name, text, url: link }); return; } catch (e) { if (e && e.name === "AbortError") return; }
+    }
+    open("https://wa.me/?text=" + encodeURIComponent(text), "_blank", "noopener");
+  } finally { btn.disabled = false; }
 });
 vimg.addEventListener("dblclick", zoomV);
 let lastTap = 0, sx = 0, sy = 0, multi = false;
