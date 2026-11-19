@@ -2442,5 +2442,95 @@
   "price": 1190,
   "unit": "each",
   "added": "2026-11-19"
+ },
+ {
+  "id": "bottle-starry",
+  "cat": "flasks",
+  "name": "⭐ Starry Sky bottle 800ml, M0250",
+  "detail": "Steel vacuum bottle with strap. Blue, purple, gold or black-gold. Any 2 bottles KES 1,390",
+  "price": 790,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "bottle-eiffel",
+  "cat": "flasks",
+  "name": "🗼 Eiffel bottle 500ml, B122",
+  "detail": "Steel vacuum bottle. Gold, black, pink or blue. Any 2 bottles KES 1,390",
+  "price": 690,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "bottle-0218",
+  "cat": "flasks",
+  "name": "💪 Sport bottle 800ml, TITM0218",
+  "detail": "Chrome steel, hot or cold. Blue, gold, red or silver. Any 2 bottles KES 1,390",
+  "price": 790,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "bottle-0647",
+  "cat": "flasks",
+  "name": "🎨 Steel bottle 800ml, TITM0647",
+  "detail": "7 colours, carry strap, keeps hot or cold. Any 2 bottles KES 1,390",
+  "price": 790,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "bottle-0457",
+  "cat": "flasks",
+  "name": "🖤 Matte bottle 800ml, TITM0457",
+  "detail": "Matte finish with strap. Blue, white, black or red. Any 2 bottles KES 1,390",
+  "price": 790,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "bottle-0660",
+  "cat": "flasks",
+  "name": "🌡️ Smart temperature bottle 500ml, TITM0660",
+  "detail": "Touch the lid to see the drink temperature. 6 colours. Any 2 bottles KES 1,390",
+  "price": 850,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "bottle-b123",
+  "cat": "flasks",
+  "name": "☕ Jamespot bottle 500ml with cup, B123",
+  "detail": "Steel bottle, cup lid. White, black, lilac or pink. Any 2 bottles KES 1,390",
+  "price": 750,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "bottle-6443",
+  "cat": "flasks",
+  "name": "🏃 Sports bottle 800ml, 6443",
+  "detail": "Pastel steel bottle with strap. Pink, green, grey or cream. Boxed. Any 2 bottles KES 1,390",
+  "price": 850,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "bottle-6444",
+  "cat": "flasks",
+  "name": "🏃 Sports bottle 1L, 6444",
+  "detail": "Tall pastel steel bottle with strap. White, green, pink or grey. Any 2 bottles KES 1,390",
+  "price": 890,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "bottle-6448",
+  "cat": "flasks",
+  "name": "🌈 Sports bottle 1L, 6448",
+  "detail": "Gradient colours, 316 steel, boxed. Lilac, pink, green or grey. Any 2 bottles KES 1,390",
+  "price": 890,
+  "unit": "each",
+  "added": "2026-11-19"
  }
 ]
