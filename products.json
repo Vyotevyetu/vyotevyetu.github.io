@@ -2532,5 +2532,77 @@
   "price": 890,
   "unit": "each",
   "added": "2026-11-19"
+ },
+ {
+  "id": "bottle-6447",
+  "cat": "flasks",
+  "name": "🌈 Sports bottle 800ml, 6447",
+  "detail": "Gradient colours, 316 steel, boxed. Lilac, grey, green or pink. Any 2 bottles KES 1,390",
+  "price": 850,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "bottle-6445",
+  "cat": "flasks",
+  "name": "🧧 Fortune print bottle 800ml, 6445",
+  "detail": "Pastel with gold ring and strap. Pink, grey, blue or green. Boxed. Any 2 bottles KES 1,390",
+  "price": 850,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "bottle-2290",
+  "cat": "flasks",
+  "name": "🔵 Vacuum bottle 800ml, 2290",
+  "detail": "Steel with carry strap, boxed. Silver, blue or black. Any 2 bottles KES 1,390",
+  "price": 850,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "bottle-6396",
+  "cat": "flasks",
+  "name": "🧡 Matte bottle 800ml, 6396",
+  "detail": "Chrome lid, strap, boxed. Orange, green or blue. Any 2 bottles KES 1,390",
+  "price": 850,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "bottle-6320",
+  "cat": "flasks",
+  "name": "🌡️ Temperature bottle 600ml, 6320",
+  "detail": "Shows drink temperature on the lid. Black, white, blue or red. Boxed. Any 2 bottles KES 1,390",
+  "price": 990,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "bottle-6394",
+  "cat": "flasks",
+  "name": "✨ Gold-top bottle 800ml, 6394",
+  "detail": "Gold lid and neck, leather strap. Cream, grey, orange, green or pink. Any 2 bottles KES 1,390",
+  "price": 850,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "bottle-g6042",
+  "cat": "flasks",
+  "name": "🖤 Vacuum sports bottle 800ml, G6042",
+  "detail": "Matte steel with strap. White, black or navy. Any 2 bottles KES 1,390",
+  "price": 790,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "bottle-6021b",
+  "cat": "flasks",
+  "name": "🏅 Sports bottle 500ml, 6021-B",
+  "detail": "Slim steel bottle with cord. Silver, gold, blue or red. Any 2 bottles KES 1,390",
+  "price": 650,
+  "unit": "each",
+  "added": "2026-11-19"
  }
 ]
