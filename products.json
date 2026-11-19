@@ -2298,5 +2298,95 @@
   "price": 590,
   "unit": "each",
   "added": "2026-11-19"
+ },
+ {
+  "id": "flask-510g",
+  "cat": "flasks",
+  "name": "🌸 Vacuum flask 1L, 510G",
+  "detail": "Star print, cup lid. Pink, black, blue or mint.",
+  "price": 690,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "flask-044g",
+  "cat": "flasks",
+  "name": "🫧 Vacuum flask 1.8L, 044G",
+  "detail": "Dots or terrazzo print, cup lid, handle. 4 colours.",
+  "price": 850,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "flask-094g",
+  "cat": "flasks",
+  "name": "✨ Vacuum flask 1.8L, 094G",
+  "detail": "Mosaic or gold star print. Green, blue, pink or black.",
+  "price": 850,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "flask-vfp007",
+  "cat": "flasks",
+  "name": "🌼 Nice One 2L flower flask, VFP-007",
+  "detail": "Flower print, carry handle, cup lid. Brown, blue or pink.",
+  "price": 1090,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "flask-vfp092",
+  "cat": "flasks",
+  "name": "☕ Nice One 3.2L flask with 2 cups, VFP-092",
+  "detail": "Big family size, 2 cups on top. Green, pink or blue.",
+  "price": 1190,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "flask-vfp017",
+  "cat": "flasks",
+  "name": "🌺 Nice One 3.2L flower flask, VFP-017",
+  "detail": "Big family size, flower print. Mint, lilac, orange or blue.",
+  "price": 1290,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "flask-7753",
+  "cat": "flasks",
+  "name": "🥇 Steel unbreakable flask 2L, 7753",
+  "detail": "Stainless steel, push lid, no glass to break. Boxed.",
+  "price": 1390,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "flask-7754",
+  "cat": "flasks",
+  "name": "🥇 Steel unbreakable flask 2.5L, 7754",
+  "detail": "Stainless steel, push lid, no glass to break. Boxed.",
+  "price": 1550,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "flask-02789",
+  "cat": "flasks",
+  "name": "🥇 Steel unbreakable flask 2.5L, 02789",
+  "detail": "Tall jug shape, stainless steel. Boxed.",
+  "price": 1650,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "flask-1825",
+  "cat": "flasks",
+  "name": "🏆 Steel unbreakable flask 3.5L, 1825",
+  "detail": "Big jug for family, office or church. Boxed.",
+  "price": 1990,
+  "unit": "each",
+  "added": "2026-11-19"
  }
 ]
