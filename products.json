@@ -1983,5 +1983,86 @@
   "price": 1190,
   "unit": "6pc set",
   "added": "2026-11-19"
+ },
+ {
+  "id": "tray-peony-mel",
+  "cat": "trays",
+  "name": "🌺 Peony melamine tray",
+  "detail": "Single tray with handles, pink peony border. Unbreakable.",
+  "price": 690,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "tray-acr-oval-pink",
+  "cat": "trays",
+  "name": "🌹 Pink rose acrylic trays",
+  "detail": "Gold bead handles, 3 nesting sizes. Any 2 sets KES 3,990",
+  "price": 2190,
+  "unit": "3pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "tray-acr-oval-yellow",
+  "cat": "trays",
+  "name": "🌼 Yellow flower acrylic trays",
+  "detail": "Gold bead handles, 3 nesting sizes. Any 2 sets KES 3,990",
+  "price": 2190,
+  "unit": "3pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "tray-acr-round-yellow",
+  "cat": "trays",
+  "name": "🌻 Round yellow flower trays",
+  "detail": "Gold bead handles, 3 nesting sizes. Any 2 sets KES 3,990",
+  "price": 2190,
+  "unit": "3pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "tray-acr-round-pink",
+  "cat": "trays",
+  "name": "🌸 Round pink rose trays",
+  "detail": "Gold bead handles, 3 nesting sizes. Any 2 sets KES 3,990",
+  "price": 2190,
+  "unit": "3pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "tray-acr-rect",
+  "cat": "trays",
+  "name": "💐 Rectangular flower trays",
+  "detail": "Yellow or pink flowers. Gold bead handles, 3 nesting sizes. Any 2 sets KES 3,990",
+  "price": 2190,
+  "unit": "3pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "tray-karuri-48",
+  "cat": "trays",
+  "name": "✨ Gold marble tray set #48",
+  "detail": "Gold and grey marble print, gold handles, 3 nesting sizes.",
+  "price": 2490,
+  "unit": "3pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "tray-karuri-22",
+  "cat": "trays",
+  "name": "🏺 Gold vase tray set #22",
+  "detail": "Gold vase art print, gold frame and handles, 3 nesting sizes.",
+  "price": 2490,
+  "unit": "3pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "tray-karuri-24",
+  "cat": "trays",
+  "name": "🌊 Blue marble tray set #24",
+  "detail": "Blue and silver marble print, silver handles, 3 nesting sizes.",
+  "price": 2490,
+  "unit": "3pc set",
+  "added": "2026-11-19"
  }
 ]
