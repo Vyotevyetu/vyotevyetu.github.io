@@ -2649,5 +2649,95 @@
   "price": 1290,
   "unit": "each",
   "added": "2026-11-19"
+ },
+ {
+  "id": "stone-cream",
+  "cat": "plates",
+  "name": "🤍 Cream embossed stoneware plates",
+  "detail": "Cream with raised leaf rim and dark edge. Ceramic stoneware, sold as 6. Mix designs in one set. Any 2 sets KES 3,790. Stands not included.",
+  "price": 1990,
+  "unit": "6pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "stone-midnight",
+  "cat": "plates",
+  "name": "🌌 Midnight blue stoneware plates",
+  "detail": "Deep blue reactive glaze, raised rim. Ceramic stoneware, sold as 6. Mix designs in one set. Any 2 sets KES 3,790. Stands not included.",
+  "price": 1990,
+  "unit": "6pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "stone-amber-ring",
+  "cat": "plates",
+  "name": "🌕 Amber ring stoneware plates",
+  "detail": "Grey speckled centre, amber glaze ring. Ceramic stoneware, sold as 6. Mix designs in one set. Any 2 sets KES 3,790. Stands not included.",
+  "price": 1990,
+  "unit": "6pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "stone-blue-sand",
+  "cat": "plates",
+  "name": "🌊 Blue rim sand stoneware plates",
+  "detail": "Sand speckled centre, bright blue rim. Ceramic stoneware, sold as 6. Mix designs in one set. Any 2 sets KES 3,790. Stands not included.",
+  "price": 1990,
+  "unit": "6pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "stone-teal",
+  "cat": "plates",
+  "name": "🦚 Deep teal stoneware plates",
+  "detail": "Hammered texture, teal-blue glaze. Ceramic stoneware, sold as 6. Mix designs in one set. Any 2 sets KES 3,790. Stands not included.",
+  "price": 1990,
+  "unit": "6pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "stone-sage",
+  "cat": "plates",
+  "name": "🌿 Sage grey stoneware plates",
+  "detail": "Soft sage speckled glaze, white rim. Ceramic stoneware, sold as 6. Mix designs in one set. Any 2 sets KES 3,790. Stands not included.",
+  "price": 1990,
+  "unit": "6pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "stone-watercolour",
+  "cat": "plates",
+  "name": "🎨 Watercolour stoneware plates",
+  "detail": "Grey with blue and teal brush strokes. Ceramic stoneware, sold as 6. Mix designs in one set. Any 2 sets KES 3,790. Stands not included.",
+  "price": 1990,
+  "unit": "6pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "stone-navy-ribbed",
+  "cat": "plates",
+  "name": "💙 Navy ribbed stoneware plates",
+  "detail": "Navy glaze with ribbed rim. Ceramic stoneware, sold as 6. Mix designs in one set. Any 2 sets KES 3,790. Stands not included.",
+  "price": 1990,
+  "unit": "6pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "stone-grey-ribbed",
+  "cat": "plates",
+  "name": "🩶 Grey ribbed stoneware plates",
+  "detail": "Grey speckled glaze, ribbed rim, black edge. Ceramic stoneware, sold as 6. Mix designs in one set. Any 2 sets KES 3,790. Stands not included.",
+  "price": 1990,
+  "unit": "6pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "stone-amber-square",
+  "cat": "plates",
+  "name": "🟧 Amber square stoneware plates",
+  "detail": "Square, honey amber glaze, black edge. Ceramic stoneware, sold as 6. Mix designs in one set. Any 2 sets KES 3,790. Stands not included.",
+  "price": 1990,
+  "unit": "6pc set",
+  "added": "2026-11-19"
  }
 ]
