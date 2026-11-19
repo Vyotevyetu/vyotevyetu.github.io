@@ -1857,5 +1857,59 @@
   "price": 350,
   "unit": "each",
   "added": "2026-11-19"
+ },
+ {
+  "id": "mel-p2232",
+  "cat": "plates",
+  "name": "🌼 Melamine plates P2232, 10.5 inch",
+  "detail": "White with grey and gold flower, fluted edge. Unbreakable.",
+  "price": 1090,
+  "unit": "6pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "mel-p2226",
+  "cat": "plates",
+  "name": "🌸 Melamine plates P2226, 10 inch",
+  "detail": "Flower designs on white, or blue flowers on cream. Unbreakable.",
+  "price": 990,
+  "unit": "6pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "mel-p2215",
+  "cat": "plates",
+  "name": "☀️ Melamine plates P2215, 10 inch",
+  "detail": "Sunburst rim in blue or gold. Unbreakable melamine, sold as 6.",
+  "price": 990,
+  "unit": "6pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "mel-p2233",
+  "cat": "plates",
+  "name": "💜 Melamine plates P2233, 10 inch",
+  "detail": "White with purple rose. Unbreakable. Stand not included.",
+  "price": 990,
+  "unit": "6pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "mel-p2212",
+  "cat": "plates",
+  "name": "🤍 Melamine plates P2212, 10 inch",
+  "detail": "Plain white, wavy edge. Unbreakable. White only.",
+  "price": 890,
+  "unit": "6pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "mel-p2210",
+  "cat": "plates",
+  "name": "🍂 Melamine plates P2210, 9 inch",
+  "detail": "Gold sunburst rim, deep plate. Unbreakable.",
+  "price": 790,
+  "unit": "6pc set",
+  "added": "2026-11-19"
  }
 ]
