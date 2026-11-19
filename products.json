@@ -2388,5 +2388,59 @@
   "price": 1990,
   "unit": "each",
   "added": "2026-11-19"
+ },
+ {
+  "id": "flask-always35",
+  "cat": "flasks",
+  "name": "🏆 Always 3.5L steel flask",
+  "detail": "Original Always brand, unbreakable stainless steel jug. Boxed.",
+  "price": 2390,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "flask-18028",
+  "cat": "flasks",
+  "name": "🍵 Flask 1.8L with 2 cups, 18028",
+  "detail": "Two cups on top. Blue, beige or green.",
+  "price": 890,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "flask-18108",
+  "cat": "flasks",
+  "name": "🫖 Dotted flask 1.8L, 18108",
+  "detail": "Dotted grip, 2 cups. Green, pink or blue.",
+  "price": 890,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "flask-10108",
+  "cat": "flasks",
+  "name": "🫖 Dotted flask 1L, 10108",
+  "detail": "Dotted grip, cup lid. Pink, blue or green.",
+  "price": 750,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "flask-10118",
+  "cat": "flasks",
+  "name": "☕ Cream flask 1L, 10118",
+  "detail": "Cream body, colour cup. Pink, green or blue.",
+  "price": 750,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "flask-32258",
+  "cat": "flasks",
+  "name": "🦌 Deer flask 3.2L, 32258",
+  "detail": "Big family size, carry handle. Pink, green or blue.",
+  "price": 1190,
+  "unit": "each",
+  "added": "2026-11-19"
  }
 ]
