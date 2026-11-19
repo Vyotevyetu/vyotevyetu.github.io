@@ -2244,5 +2244,59 @@
   "price": 690,
   "unit": "set of 4",
   "added": "2026-11-19"
+ },
+ {
+  "id": "sugar-steel-polished",
+  "cat": "home",
+  "name": "🥄 Polished steel sugar dish",
+  "detail": "Stainless steel, 8.5cm, lid with knob and spoon.",
+  "price": 890,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "sugar-steel-brushed",
+  "cat": "home",
+  "name": "🥄 Brushed steel sugar dish",
+  "detail": "Stainless steel, 8.5cm, slotted lid and spoon.",
+  "price": 790,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "jam-jar-acrylic",
+  "cat": "home",
+  "name": "🍯 Acrylic jam & sugar jar",
+  "detail": "Heavy clear acrylic with lid and spoon, boxed.",
+  "price": 650,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "shakers-ribbed-pair",
+  "cat": "home",
+  "name": "🧂 Ribbed salt & pepper shakers, pair",
+  "detail": "Heavy clear acrylic, boxed. 2 shakers.",
+  "price": 690,
+  "unit": "pair",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "tray-clear-round",
+  "cat": "trays",
+  "name": "✨ Clear acrylic tray, round",
+  "detail": "Ribbed clear acrylic, gold rim and handles, 29.5 x 27cm. Any 2 clear trays KES 990",
+  "price": 590,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "tray-clear-rect",
+  "cat": "trays",
+  "name": "✨ Clear acrylic tray, rectangular",
+  "detail": "Ribbed clear acrylic, gold handles. Any 2 clear trays KES 990",
+  "price": 590,
+  "unit": "each",
+  "added": "2026-11-19"
  }
 ]
