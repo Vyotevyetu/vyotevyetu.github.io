@@ -2199,5 +2199,50 @@
   "price": 790,
   "unit": "each",
   "added": "2026-11-19"
+ },
+ {
+  "id": "jar-square-crystal",
+  "cat": "home",
+  "name": "💎 Square crystal storage jar",
+  "detail": "Crystal-cut acrylic, airtight lid. Rice, pasta, sugar, snacks.",
+  "price": 1090,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "jar-bamboo-canister",
+  "cat": "home",
+  "name": "🎋 Bamboo glass canister",
+  "detail": "Glass jar, bamboo-look band, airtight lid. Tea, coffee, sugar, spices.",
+  "price": 690,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "jar-bamboo-spice4",
+  "cat": "home",
+  "name": "🧂 Bamboo spice jars, set of 4",
+  "detail": "Glass with bamboo-look lid and gold ring. Salt, pepper, sugar, tea.",
+  "price": 1290,
+  "unit": "set of 4",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "cereal-dispenser",
+  "cat": "home",
+  "name": "🥣 Cereal dispenser 1.5L",
+  "detail": "Airtight with pour spout and measuring cup. 2L KES 1,590 · 2.5L KES 1,890.",
+  "price": 1390,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "salt-shaker-acrylic",
+  "cat": "home",
+  "name": "🧂 Acrylic salt shakers, set of 4",
+  "detail": "Clear, small size. Large set of 4 KES 850.",
+  "price": 690,
+  "unit": "set of 4",
+  "added": "2026-11-19"
  }
 ]
