@@ -1911,5 +1911,59 @@
   "price": 790,
   "unit": "6pc set",
   "added": "2026-11-19"
+ },
+ {
+  "id": "musembi-black-flower",
+  "cat": "plates",
+  "name": "🖤 Black flower melamine plates",
+  "detail": "White swirl edge with black flower. Unbreakable.",
+  "price": 1090,
+  "unit": "6pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "musembi-cream-ring",
+  "cat": "plates",
+  "name": "🤎 Cream ringed melamine plates",
+  "detail": "Cream with raised rings, wide rim. Unbreakable.",
+  "price": 990,
+  "unit": "6pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "musembi-plain-white",
+  "cat": "plates",
+  "name": "⚪ Plain white melamine plates",
+  "detail": "Flat modern coupe shape. Unbreakable.",
+  "price": 990,
+  "unit": "6pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "musembi-pink-rose",
+  "cat": "plates",
+  "name": "🌹 Pink rose melamine plates",
+  "detail": "White with pink roses, deep. Unbreakable.",
+  "price": 790,
+  "unit": "6pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "musembi-cream-swirl",
+  "cat": "plates",
+  "name": "🌷 Cream swirl melamine plates",
+  "detail": "Cream swirl edge, pink flower centre. Unbreakable.",
+  "price": 790,
+  "unit": "6pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "musembi-orange-square",
+  "cat": "plates",
+  "name": "🧡 Orange square melamine plates",
+  "detail": "Bright orange, wavy square edge. Unbreakable.",
+  "price": 790,
+  "unit": "6pc set",
+  "added": "2026-11-19"
  }
 ]
