@@ -1,13 +1,5 @@
 [
  {
-  "id": "dinner-set",
-  "cat": "kitchen",
-  "name": "58pc dinner set",
-  "detail": "Opal glass, 5 designs, serves 6. Plates, bowls, 12 cups and saucers, jug, casserole with glass lid. Stands not included",
-  "price": 5490,
-  "unit": "full set"
- },
- {
   "id": "hotpot-set",
   "cat": "kitchen",
   "name": "🍲 Uken Flora hotpot set",
@@ -2737,6 +2729,78 @@
   "name": "🟧 Amber square stoneware plates",
   "detail": "Square, honey amber glaze, black edge. Ceramic stoneware, sold as 6. Mix designs in one set. Any 2 sets KES 3,790. Stands not included.",
   "price": 1990,
+  "unit": "6pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "dinner-set",
+  "cat": "sets",
+  "name": "🌸 58pc dinner set 8870, pink flowers",
+  "detail": "58 pieces, serves 6: 6 dinner plates, 6 side plates, 6 soup plates, 6 bowls, 12 cups and 12 saucers, 2 oval platters, serving bowl, teapot, milk pot, sugar pot, casserole with glass lid. Opal glass, boxed. Stands not included",
+  "price": 5490,
+  "unit": "full set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "ds58-8871",
+  "cat": "sets",
+  "name": "🌿 58pc dinner set 8871, green eucalyptus",
+  "detail": "58 pieces, serves 6: 6 dinner plates, 6 side plates, 6 soup plates, 6 bowls, 12 cups and 12 saucers, 2 oval platters, serving bowl, teapot, milk pot, sugar pot, casserole with glass lid. Opal glass, boxed. Stands not included",
+  "price": 5490,
+  "unit": "full set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "ds58-5068",
+  "cat": "sets",
+  "name": "💙 58pc dinner set 5068, blue rose",
+  "detail": "58 pieces, serves 6: 6 dinner plates, 6 side plates, 6 soup plates, 6 bowls, 12 cups and 12 saucers, 2 oval platters, serving bowl, teapot, milk pot, sugar pot, casserole with glass lid. Opal glass, boxed. Stands not included",
+  "price": 5490,
+  "unit": "full set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "ds58-8872",
+  "cat": "sets",
+  "name": "🌀 58pc dinner set 8872, blue rose swirl",
+  "detail": "58 pieces, serves 6: 6 dinner plates, 6 side plates, 6 soup plates, 6 bowls, 12 cups and 12 saucers, 2 oval platters, serving bowl, teapot, milk pot, sugar pot, casserole with glass lid. Opal glass, boxed. Stands not included",
+  "price": 5490,
+  "unit": "full set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "ds58-5064",
+  "cat": "sets",
+  "name": "🌺 58pc dinner set 5064, red blossom",
+  "detail": "58 pieces, serves 6: 6 dinner plates, 6 side plates, 6 soup plates, 6 bowls, 12 cups and 12 saucers, 2 oval platters, serving bowl, teapot, milk pot, sugar pot, casserole with glass lid. Opal glass, boxed. Stands not included",
+  "price": 5490,
+  "unit": "full set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "ds58-lilac",
+  "cat": "sets",
+  "name": "💜 58pc dinner set, lilac floral",
+  "detail": "58 pieces, serves 6: 6 dinner plates, 6 side plates, 6 soup plates, 6 bowls, 12 cups and 12 saucers, 2 oval platters, serving bowl, teapot, milk pot, sugar pot, casserole with glass lid. Opal glass, boxed. Stands not included",
+  "price": 5490,
+  "unit": "full set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "opal-7861",
+  "cat": "plates",
+  "name": "🌷 Opal dinner plates 7861, 10.5 inch",
+  "detail": "Blue, pink and black flowers, fluted edge. Stand not included",
+  "price": 1390,
+  "unit": "6pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "opal-8318",
+  "cat": "plates",
+  "name": "✨ Opal dinner plates 8318, 10.5 inch",
+  "detail": "Gold and grey wave, fluted edge. Stand not included",
+  "price": 1390,
   "unit": "6pc set",
   "added": "2026-11-19"
  }
