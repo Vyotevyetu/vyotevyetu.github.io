@@ -1965,5 +1965,23 @@
   "price": 790,
   "unit": "6pc set",
   "added": "2026-11-19"
+ },
+ {
+  "id": "musembi-wide-rim",
+  "cat": "plates",
+  "name": "🍽️ White wide-rim melamine plates",
+  "detail": "Hotel-style plate with wide flat rim. Unbreakable.",
+  "price": 1090,
+  "unit": "6pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "musembi-square-wave",
+  "cat": "plates",
+  "name": "◻️ White square melamine plates",
+  "detail": "Square plate with wave texture. Unbreakable.",
+  "price": 1190,
+  "unit": "6pc set",
+  "added": "2026-11-19"
  }
 ]
