@@ -2604,5 +2604,50 @@
   "price": 650,
   "unit": "each",
   "added": "2026-11-19"
+ },
+ {
+  "id": "mat-kitchen-2pc",
+  "cat": "mats",
+  "name": "🧡 Anti-fatigue kitchen mats, 2pc",
+  "detail": "Soft padded, antislip, wipe clean. 44x75cm + 44x125cm. Grey, blue, brown or coffee print.",
+  "price": 2690,
+  "unit": "2pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "mat-geometric",
+  "cat": "mats",
+  "name": "🔷 Geometric floor mat",
+  "detail": "50 x 80cm, antislip. For doorways, kitchens, hallways. Grey, black or beige.",
+  "price": 1390,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "mat-mesh-3d",
+  "cat": "mats",
+  "name": "🚪 3D dirt-trap door mat",
+  "detail": "Mesh weave traps mud, sand and dust. Shake or hose clean. Indoor or outdoor. 5 colours.",
+  "price": 1290,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "mat-welcome-rubber",
+  "cat": "mats",
+  "name": "🏠 Rubber Welcome mat, big",
+  "detail": "Muddy-shoe mat, 60 x 90cm, heavy rubber. 5 colours.",
+  "price": 1690,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "mat-bath-scrub",
+  "cat": "bathroom",
+  "name": "🦶 Antislip bath mat with foot scrubber",
+  "detail": "80 x 50cm. Suction grip, bristle pad scrubs your feet. Grey, green, lilac or beige.",
+  "price": 1290,
+  "unit": "each",
+  "added": "2026-11-19"
  }
 ]
