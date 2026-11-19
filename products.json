@@ -1997,7 +1997,7 @@
   "id": "tray-acr-oval-pink",
   "cat": "trays",
   "name": "🌹 Pink rose acrylic trays",
-  "detail": "Gold bead handles, 3 nesting sizes. Any 2 sets KES 3,990",
+  "detail": "Gold bead handles, 3 nesting sizes. Any 2 acrylic or House tray sets KES 3,990",
   "price": 2190,
   "unit": "3pc set",
   "added": "2026-11-19"
@@ -2006,7 +2006,7 @@
   "id": "tray-acr-oval-yellow",
   "cat": "trays",
   "name": "🌼 Yellow flower acrylic trays",
-  "detail": "Gold bead handles, 3 nesting sizes. Any 2 sets KES 3,990",
+  "detail": "Gold bead handles, 3 nesting sizes. Any 2 acrylic or House tray sets KES 3,990",
   "price": 2190,
   "unit": "3pc set",
   "added": "2026-11-19"
@@ -2015,7 +2015,7 @@
   "id": "tray-acr-round-yellow",
   "cat": "trays",
   "name": "🌻 Round yellow flower trays",
-  "detail": "Gold bead handles, 3 nesting sizes. Any 2 sets KES 3,990",
+  "detail": "Gold bead handles, 3 nesting sizes. Any 2 acrylic or House tray sets KES 3,990",
   "price": 2190,
   "unit": "3pc set",
   "added": "2026-11-19"
@@ -2024,7 +2024,7 @@
   "id": "tray-acr-round-pink",
   "cat": "trays",
   "name": "🌸 Round pink rose trays",
-  "detail": "Gold bead handles, 3 nesting sizes. Any 2 sets KES 3,990",
+  "detail": "Gold bead handles, 3 nesting sizes. Any 2 acrylic or House tray sets KES 3,990",
   "price": 2190,
   "unit": "3pc set",
   "added": "2026-11-19"
@@ -2033,7 +2033,7 @@
   "id": "tray-acr-rect",
   "cat": "trays",
   "name": "💐 Rectangular flower trays",
-  "detail": "Yellow or pink flowers. Gold bead handles, 3 nesting sizes. Any 2 sets KES 3,990",
+  "detail": "Yellow or pink flowers. Gold bead handles, 3 nesting sizes. Any 2 acrylic or House tray sets KES 3,990",
   "price": 2190,
   "unit": "3pc set",
   "added": "2026-11-19"
@@ -2062,6 +2062,87 @@
   "name": "🌊 Blue marble tray set #24",
   "detail": "Blue and silver marble print, silver handles, 3 nesting sizes.",
   "price": 2490,
+  "unit": "3pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "tray-karuri-36",
+  "cat": "trays",
+  "name": "🖤 Black swirl tray set #36",
+  "detail": "White and black swirl with gold flecks, black marble frame, gold handles.",
+  "price": 2490,
+  "unit": "3pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "tray-karuri-7",
+  "cat": "trays",
+  "name": "🌈 Rainbow rose tray set #7",
+  "detail": "Rainbow rose art print, gold frame and handles.",
+  "price": 2490,
+  "unit": "3pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "tray-karuri-12",
+  "cat": "trays",
+  "name": "⚫ Black gold marble tray set #12",
+  "detail": "Black and gold marble print, gold handles.",
+  "price": 2490,
+  "unit": "3pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "tray-karuri-52",
+  "cat": "trays",
+  "name": "🪶 Golden feather tray set #52",
+  "detail": "Feather and butterfly art print, wood frame, gold handles.",
+  "price": 2490,
+  "unit": "3pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "tray-house-black",
+  "cat": "trays",
+  "name": "✨ House black & gold trays",
+  "detail": "Black gloss with gold trim and handles. 3 nesting sizes. Any 2 acrylic or House tray sets KES 3,990",
+  "price": 2190,
+  "unit": "3pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "tray-house-wave",
+  "cat": "trays",
+  "name": "〰️ House white wave trays",
+  "detail": "White wavy shape, gold rim and handles. 3 nesting sizes. Any 2 acrylic or House tray sets KES 3,990",
+  "price": 2190,
+  "unit": "3pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "tray-house-round",
+  "cat": "trays",
+  "name": "⚪ House white round trays",
+  "detail": "Round, white with gold rim and handles. 3 nesting sizes. Any 2 acrylic or House tray sets KES 3,990",
+  "price": 2190,
+  "unit": "3pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "tray-house-gold",
+  "cat": "trays",
+  "name": "🤍 House white & gold trays",
+  "detail": "Rectangular, white with gold rim and handles. 3 nesting sizes. Any 2 acrylic or House tray sets KES 3,990",
+  "price": 2190,
+  "unit": "3pc set",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "tray-house-silver",
+  "cat": "trays",
+  "name": "🩶 House white & silver trays",
+  "detail": "Rectangular, cream with silver rim and handles. 3 nesting sizes. Any 2 acrylic or House tray sets KES 3,990",
+  "price": 2190,
   "unit": "3pc set",
   "added": "2026-11-19"
  }
