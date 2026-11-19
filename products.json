@@ -2145,5 +2145,59 @@
   "price": 2190,
   "unit": "3pc set",
   "added": "2026-11-19"
+ },
+ {
+  "id": "tray-nonslip-round",
+  "cat": "trays",
+  "name": "🍷 Non-slip round tray, 35cm",
+  "detail": "Rubber grip, glasses don't slide. 40cm KES 1,190 · 45cm KES 1,290. Bars, hotels and home.",
+  "price": 1090,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "tray-nonslip-rect",
+  "cat": "trays",
+  "name": "🍽️ Non-slip rectangular tray, 46x36cm",
+  "detail": "Rubber grip surface. 50x38cm KES 1,350 · 56x40cm KES 1,490.",
+  "price": 1190,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "tray-steel-embossed",
+  "cat": "trays",
+  "name": "✨ Embossed steel tray",
+  "detail": "Stainless steel, palm tree design, cut-out handles.",
+  "price": 690,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "jar-acrylic-ribbed",
+  "cat": "home",
+  "name": "🍪 Acrylic airtight jar",
+  "detail": "Ribbed clear jar with lid, for sugar, spices or biscuits.",
+  "price": 890,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "jar-acrylic-gold",
+  "cat": "home",
+  "name": "🎁 Gold acrylic jar",
+  "detail": "Gold cut-out sleeve, gold handle lid, gift box. Nuts, dates, sweets.",
+  "price": 1190,
+  "unit": "each",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "glass-holder-heart",
+  "cat": "glass",
+  "name": "💖 Heart glass holder",
+  "detail": "Holds 6 cups, stainless steel, drip tray included.",
+  "price": 790,
+  "unit": "each",
+  "added": "2026-11-19"
  }
 ]
