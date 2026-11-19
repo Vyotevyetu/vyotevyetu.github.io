@@ -386,9 +386,15 @@ const SEASON = (() => {
   return { w, on, payday, midMonth, label: on.length ? on.map(x => x.label).slice(0, 2).join(" · ") : "Popular right now" };
 })();
 const REC = (() => {
-  const seen = {}, score = {};
+  /* fresh shuffle within each category on every visit; stable while the visitor browses this session */
+  let seed; try { seed = +sessionStorage.getItem("vv_seed"); if (!seed) { seed = (Math.random() * 2 ** 31) | 0 || 1; sessionStorage.setItem("vv_seed", seed); } } catch (e) { seed = (Math.random() * 2 ** 31) | 0 || 1; }
+  const rnd = () => (seed = (seed * 48271) % 2147483647) / 2147483647;
+  const byCat = {}; PRODUCTS.forEach(p => (byCat[p.cat] = byCat[p.cat] || []).push(p.id));
+  const pos = {};
+  for (const k in byCat) { const a = byCat[k]; for (let j = a.length - 1; j > 0; j--) { const r = Math.floor(rnd() * (j + 1)); [a[j], a[r]] = [a[r], a[j]]; } a.forEach((id, n) => pos[id] = n); }
+  const score = {};
   PRODUCTS.forEach(p => {
-    const i = seen[p.cat] = (seen[p.cat] ?? -1) + 1;
+    const i = pos[p.id];
     const t = (p.name + " " + p.detail).toLowerCase();
     let s = (SEASON.w[p.cat] || 1) * Math.pow(0.88, i);
     if (SEASON.on.some(x => x.kw && x.kw.test(t))) s *= 1.6;
