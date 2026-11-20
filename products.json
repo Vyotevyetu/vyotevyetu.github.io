@@ -4196,10 +4196,26 @@
   "id": "hp-smartpot",
   "cat": "hotpots",
   "name": "🤍 SmartPot ribbed hotpots, 4pcs",
-  "detail": "Cream ribbed body with gold handles: 1500, 2000, 3000 and 3500ml",
+  "detail": "Ribbed body with gold handles: 1500, 2000, 3000 and 3500ml",
   "price": 4490,
   "unit": "4pc set",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Cream"
+     ],
+     [
+      "White"
+     ],
+     [
+      "Grey"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "hp-matrix6",
@@ -4845,6 +4861,37 @@
      ],
      [
       "Black"
+     ],
+     [
+      "Pink"
+     ],
+     [
+      "White"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hp-tangent",
+  "cat": "hotpots",
+  "name": "✨ Selvel Tangent hotpots, 4pcs",
+  "detail": "Finely ribbed body with shiny gold rims and handles, marble-print lids: 1000, 1500, 2500 and 3500ml. Premium Gold range, BPA free",
+  "price": 4390,
+  "unit": "4pc set",
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "White"
+     ],
+     [
+      "Grey"
+     ],
+     [
+      "Cream"
      ]
     ]
    }
