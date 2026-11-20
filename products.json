@@ -4435,7 +4435,7 @@
   "id": "hp-milton-pearl",
   "cat": "hotpots",
   "name": "🖤 Milton Pearl hotpots, 4pcs",
-  "detail": "Black or cream with a gold wave band, Milton Thermoware: 500, 1000, 1500 and 2500ml. Boxed",
+  "detail": "Black, cream or white with a gold wave band, Milton Thermoware: 500, 1000, 1500 and 2500ml. Boxed",
   "price": 4390,
   "unit": "4pc set",
   "added": "2026-11-20",
@@ -4448,6 +4448,9 @@
      ],
      [
       "Cream"
+     ],
+     [
+      "White"
      ]
     ]
    }
@@ -4690,5 +4693,111 @@
   "price": 1790,
   "unit": "3pc set",
   "added": "2026-11-20"
+ },
+ {
+  "id": "hp-happyhome-big3",
+  "cat": "hotpots",
+  "name": "🍲 Happy Home big stainless hotpots, 3pcs",
+  "detail": "Heavy-gauge stainless steel insulated hotpots for functions and big families: 10000, 15000 and 20000ml. Boxed",
+  "price": 10790,
+  "unit": "3pc set",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "hp-univia",
+  "cat": "hotpots",
+  "name": "🍲 Redberry Univia stainless hotpots, 4pcs",
+  "detail": "Shiny stainless steel with carry handles and coloured lids: 1200, 3000, 6000 and 12000ml. BPA free",
+  "price": 6390,
+  "unit": "4pc set",
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Green"
+     ],
+     [
+      "Blue"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hp-nexus",
+  "cat": "hotpots",
+  "name": "✨ Selvel Nexus hotpots, 4pcs",
+  "detail": "Glossy faceted body with gold handles and T-knob: 1000, 1500, 2500 and 3500ml. Made in India",
+  "price": 3790,
+  "unit": "4pc set",
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Blue"
+     ],
+     [
+      "Maroon"
+     ],
+     [
+      "White"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hp-azuri",
+  "cat": "hotpots",
+  "name": "🤍 Azuri hotpots, 4pcs",
+  "detail": "Smooth body with gold handles and knob: 1000, 1500, 2500 and 3500ml",
+  "price": 4090,
+  "unit": "4pc set",
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Grey"
+     ],
+     [
+      "White"
+     ],
+     [
+      "Cream"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hp-florence",
+  "cat": "hotpots",
+  "name": "✨ Selvel Florence hotpots, 4pcs",
+  "detail": "Premium Gold range, gold handles and T-knob: 1000, 1500, 2500 and 3500ml. Made in India, boxed",
+  "price": 4790,
+  "unit": "4pc set",
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "White marble"
+     ],
+     [
+      "Black and gold"
+     ],
+     [
+      "Speckled"
+     ]
+    ]
+   }
+  ]
  }
 ]
