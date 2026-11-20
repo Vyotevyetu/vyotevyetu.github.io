@@ -186,6 +186,7 @@ footer p{margin:0}
 @keyframes fade{from{opacity:0}}
 .vtop{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 12px;padding-top:max(10px,env(safe-area-inset-top))}
 .vtop span{font-size:.85rem;opacity:.7;font-variant-numeric:tabular-nums}
+.vmid{display:flex;flex-direction:column;align-items:center;gap:4px;min-width:0}.vcat{display:inline-flex;align-items:center;gap:7px;max-width:62vw;height:36px;padding:0 12px 0 4px;border-radius:999px;border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.12);color:#fff;font:700 .82rem var(--body);cursor:pointer;white-space:nowrap}.vcat img{width:28px;height:28px;border-radius:50%;object-fit:cover;flex:none}.vcat em{font-style:normal;overflow:hidden;text-overflow:ellipsis}.vcat b{color:var(--gold);font-weight:800}.vcat.in{background:var(--gold);border-color:var(--gold);color:var(--gold-ink)}.vcat.in b{color:var(--gold-ink)}
 .vbtn{background:rgba(255,255,255,.14);color:#fff;border:0;font:700 .95rem var(--body);min-width:44px;height:44px;padding:0 14px;border-radius:22px;cursor:pointer}
 .vstage{flex:1;overflow:auto;display:flex;align-items:center;justify-content:center;touch-action:pan-x pan-y pinch-zoom}
 .vstage img{max-width:100%;max-height:100%;object-fit:contain;display:block;margin:auto}
@@ -330,7 +331,7 @@ input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-sea
 </div>
 
 <div class="viewer" id="viewer" role="dialog" aria-modal="true" aria-label="Product photo">
-  <div class="vtop"><button class="vbtn" id="vclose" type="button" aria-label="Close photo">✕</button><span id="vcount"></span><button class="vbtn" id="vzoom" type="button">Zoom</button></div>
+  <div class="vtop"><button class="vbtn" id="vclose" type="button" aria-label="Close photo">✕</button><div class="vmid"><button type="button" class="vcat" id="vcat"></button><span id="vcount"></span></div><button class="vbtn" id="vzoom" type="button">Zoom</button></div>
   <div class="vstage" id="vstage"><img id="vimg" alt=""></div>
   <button class="vnav prev" id="vprev" type="button" aria-label="Previous product">‹</button>
   <button class="vnav next" id="vnext" type="button" aria-label="Next product">›</button>
@@ -604,6 +605,22 @@ function renderVBuy() {
   $("vask").href = `https://wa.me/${PHONE}?text=` + encodeURIComponent(`Hi Vyetu Vyote, ${p.soldout ? "please tell me when this is back in stock" : "is this available"}?\n${it.name} (${fmt(it.price)})\n${link}`);
   $("vopts").querySelectorAll("[data-o]").forEach(b => b.setAttribute("aria-pressed", VSEL[vid][+b.dataset.o] === b.dataset.c));
 }
+function renderVCat() {
+  const p = byId[vid], k = p.cat, inCat = cat === k && !query.trim();
+  const cover = catPics(k)[0] || p.id;
+  $("vcat").className = "vcat" + (inCat ? " in" : "");
+  $("vcat").innerHTML = `<img src="${TH(cover)}" alt=""><em>${esc(CATNAME[k])}</em><b>${inCat ? "Grid ›" : counts[k] + " ›"}</b>`;
+  $("vcat").setAttribute("aria-label", inCat ? `Close and see all ${counts[k]} in ${CATNAME[k]}` : `View all ${counts[k]} in ${CATNAME[k]}`);
+}
+$("vcat").addEventListener("click", () => {
+  const k = byId[vid].cat;
+  if (cat === k && !query.trim()) { closeV(false); renderGrid(true); return; }
+  query = ""; $("q").value = ""; $("searchbox").classList.remove("has");
+  cat = k; gc("category/" + k, "Category from photo: " + k);
+  renderCats(); renderGrid();
+  vlist = visible().map(p => p.id); if (!vlist.includes(vid)) vlist.unshift(vid);
+  showV(vid);
+});
 function renderVOpts() {
   const p = byId[vid], box = $("vopts");
   if (!p.opts || p.soldout) { box.innerHTML = ""; return; }
@@ -616,7 +633,7 @@ function showV(id) {
   vstage.classList.remove("zoom"); $("vzoom").textContent = "Zoom";
   vimg.src = "img/" + id + ".jpg"; vimg.alt = p.name;
   $("vname").textContent = p.name; $("vdetail").textContent = p.detail;
-  renderVOpts(); renderVBuy();
+  renderVOpts(); renderVBuy(); renderVCat();
   $("vcount").textContent = vlist.length > 1 ? `${i + 1} / ${vlist.length}` : "";
   $("vprev").hidden = $("vnext").hidden = vlist.length < 2;
 }
