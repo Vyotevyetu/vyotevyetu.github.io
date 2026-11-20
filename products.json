@@ -1,7 +1,7 @@
 [
  {
   "id": "hotpot-set",
-  "cat": "kitchen",
+  "cat": "cookware",
   "name": "🍲 Uken Flora hotpot set",
   "detail": "6 insulated stainless hotpots: 1L, 1.5L, 3.5L, 5L, 7.5L and 10L. Keeps food hot or cold.",
   "price": 6790,
@@ -9,7 +9,7 @@
  },
  {
   "id": "granite-set",
-  "cat": "kitchen",
+  "cat": "cookware",
   "name": "🍳 K.A.L M0451 granite cookware set",
   "detail": "Pots 20, 24, 28 and 34cm with glass lids, 28cm deep frying pan with lid, apron.",
   "price": 8990,
@@ -17,7 +17,7 @@
  },
  {
   "id": "stainless-set",
-  "cat": "kitchen",
+  "cat": "cookware",
   "name": "Stainless steel sufurias",
   "detail": "5 pots, 16 to 24cm, with lids",
   "price": 4490,
@@ -3992,7 +3992,7 @@
  },
  {
   "id": "marwa-30",
-  "cat": "kitchen",
+  "cat": "cookware",
   "name": "🍲 Marwa 30pc stainless cookware set",
   "detail": "7 stainless sufurias 16 to 28cm with glass lids, frying pan with lid, steamer/colander, egg boiler, cooking utensils, knife set with block. Induction base: gas, charcoal jiko, firewood and induction. Boxed",
   "price": 9990,
@@ -4001,11 +4001,127 @@
  },
  {
   "id": "marwa-72",
-  "cat": "kitchen",
+  "cat": "cookware",
   "name": "🍲 Marwa 72pc stainless cookware set",
   "detail": "Stainless sufurias with blue glass lids, frying pan, steamer, cutlery set with tray, knives, grater, cutting board, food storage bowls, apron and more. Induction base, works on all stoves. Boxed",
   "price": 10990,
   "unit": "72pc set",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "kalu-12",
+  "cat": "cookware",
+  "name": "🍲 Kaluworks Lion Brand sufuria set, 12pcs",
+  "detail": "Kaluworks Deluxe heavy-duty aluminium sufurias, made in Kenya. 12 sizes nest together: 1.2L, 1.7L, 2L, 3L, 3.5L, 4L, 5L, 6L, 7L, 9L, 10L and 11.5L. Biggest 23cm tall. Ugali, rice, stews, catering. No lids",
+  "price": 11490,
+  "unit": "12pc set",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "kalu-1619",
+  "cat": "cookware",
+  "name": "🍲 Kaluworks Deluxe sufuria set, 4pcs (1619)",
+  "detail": "Heavy-duty aluminium, mirror finish, made in Kenya. Sizes about 4L, 5L, 6.5L and 8L. No lids",
+  "price": 4490,
+  "unit": "4pc set",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "pardini-28",
+  "cat": "cookware",
+  "name": "🍲 Pardini aluminium casserole 11.5L (705/28)",
+  "detail": "Big 28cm casserole, 18cm deep, with aluminium lid and 2 steel side handles. Food-grade aluminium, made in Kenya",
+  "price": 4890,
+  "unit": "1 pc",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "pardini-18",
+  "cat": "cookware",
+  "name": "🍲 Pardini aluminium casserole 2.5L (704/18)",
+  "detail": "Medium-height 18cm casserole with lid and 2 steel side handles. Food-grade aluminium, made in Kenya",
+  "price": 1990,
+  "unit": "1 pc",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "freedom-belly4",
+  "cat": "cookware",
+  "name": "✨ Freedom stainless belly sufurias, 4pcs with lids",
+  "detail": "Stainless steel belly sufurias with matching steel lids: 21cm 2.3L, 23cm 3L, 24cm 3.5L, 25.5cm 4.3L. Gas, electric, induction",
+  "price": 3890,
+  "unit": "4pc set",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "uken-big",
+  "cat": "cookware",
+  "name": "✨ Uken big stainless sufuria",
+  "detail": "Heavy stainless sufuria sold singly for big families, functions and catering. Size 24 14L KES 4,890 up to Size 30 26L KES 6,890",
+  "price": 4890,
+  "unit": "1 pc",
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "24 · 14L",
+      4890
+     ],
+     [
+      "25 · 16L",
+      5190
+     ],
+     [
+      "26 · 18L",
+      5590
+     ],
+     [
+      "27 · 20L",
+      5890
+     ],
+     [
+      "28 · 22L",
+      6190
+     ],
+     [
+      "29 · 24L",
+      6590
+     ],
+     [
+      "30 · 26L",
+      6890
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "srl-14",
+  "cat": "cookware",
+  "name": "🖤 SRL 14pc non-stick granite cookware set",
+  "detail": "Black speckled non-stick pots with glass lids and steel-rim handles, plus scourers and a soap-dispensing brush. Any 2 sets KES 8,490",
+  "price": 4490,
+  "unit": "14pc set",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "srl-k104",
+  "cat": "cookware",
+  "name": "✨ Smart 10pc stainless cookware set (SRL-K104)",
+  "detail": "5 stainless pots 16, 18, 20, 22 and 24cm with glass lids, including a saucepan with long handle. Boxed",
+  "price": 3690,
+  "unit": "10pc set",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "tc-14",
+  "cat": "cookware",
+  "name": "🖤 TC 14pc non-stick cookware set",
+  "detail": "5 non-stick casseroles 20 to 30cm with glass lids, 26cm frying pan, 2 cooking spoons and a sponge. Boxed",
+  "price": 6790,
+  "unit": "14pc set",
   "added": "2026-11-20"
  }
 ]
