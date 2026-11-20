@@ -1,7 +1,7 @@
 [
  {
   "id": "hotpot-set",
-  "cat": "cookware",
+  "cat": "hotpots",
   "name": "🍲 Uken Flora hotpot set",
   "detail": "6 insulated stainless hotpots: 1L, 1.5L, 3.5L, 5L, 7.5L and 10L. Keeps food hot or cold.",
   "price": 6790,
@@ -4122,6 +4122,101 @@
   "detail": "5 non-stick casseroles 20 to 30cm with glass lids, 26cm frying pan, 2 cooking spoons and a sponge. Boxed",
   "price": 6790,
   "unit": "14pc set",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "hp-signature-tallboy",
+  "cat": "hotpots",
+  "name": "🍲 Signature Tall Boy hotpots, 4pcs",
+  "detail": "Stainless steel insulated hotpots: 1000, 1500, 2500 and 3500ml. Keeps food hot or cold. Boxed",
+  "price": 4490,
+  "unit": "4pc set",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "hp-spectra-gold",
+  "cat": "hotpots",
+  "name": "✨ Spectra Gold insulated hotpots, 4pcs",
+  "detail": "Ribbed body with gold handles and Greek-key band: 1200, 2200, 3200 and 4200ml. Stainless inner bowls, PU insulation",
+  "price": 4190,
+  "unit": "4pc set",
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Beige"
+     ],
+     [
+      "White"
+     ],
+     [
+      "Brown"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hp-gen-g",
+  "cat": "hotpots",
+  "name": "✨ Gen-G insulated hotpots, 4pcs",
+  "detail": "Fluted body, gold handles and rims: 1200, 2200, 3200 and 4200ml. Stainless inner bowls, PU insulation",
+  "price": 4190,
+  "unit": "4pc set",
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "White"
+     ],
+     [
+      "Beige"
+     ],
+     [
+      "Purple"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hp-simpex6",
+  "cat": "hotpots",
+  "name": "🍲 Simpex stainless hotpots, 6pcs",
+  "detail": "Stainless steel insulated casseroles: 1000, 1500, 3500, 5000, 7500 and 10000ml. Boxed",
+  "price": 4690,
+  "unit": "6pc set",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "hp-smartpot",
+  "cat": "hotpots",
+  "name": "🤍 SmartPot ribbed hotpots, 4pcs",
+  "detail": "Cream ribbed body with gold handles: 1500, 2000, 3000 and 3500ml",
+  "price": 4490,
+  "unit": "4pc set",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "hp-matrix6",
+  "cat": "hotpots",
+  "name": "🍲 Matrix Classic stainless hotpots, 6pcs",
+  "detail": "Made in Kenya, KEBS mark. Stainless insulated hotpots with locking lids: 1000, 1500, 3500, 5000, 7500 and 10000ml. Gift box",
+  "price": 6490,
+  "unit": "6pc set",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "hp-irish-selvel",
+  "cat": "hotpots",
+  "name": "🤍 Irish Selvel quilted hotpots, 4pcs",
+  "detail": "Cream quilted body with gold chain handles: 1000, 2000, 3000 and 5000ml",
+  "price": 4490,
+  "unit": "4pc set",
   "added": "2026-11-20"
  }
 ]
