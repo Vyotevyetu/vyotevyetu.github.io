@@ -351,6 +351,8 @@ let cat = "all", query = "", sort = "rec";
 let cart = {};
 try { cart = JSON.parse(localStorage.getItem("vv-cart") || "{}") || {}; } catch (e) { cart = {}; }
 /* size and colour options: a cart key is "id~Choice1|Choice2" */
+/* GoatCounter events */
+function gc(path, title) { try { if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path, title: title || path, event: true }); } catch (e) {} }
 const SEP = "~";
 function baseId(k) { return String(k).split(SEP)[0]; }
 function item(k) {
@@ -438,7 +440,7 @@ function renderCats() {
 }
 $("cats").addEventListener("click", e => {
   const b = e.target.closest(".cat"); if (!b) return;
-  cat = b.dataset.cat;
+  cat = b.dataset.cat; gc("category/" + cat, "Category: " + cat);
   $("cats").querySelectorAll(".cat").forEach(c => c.setAttribute("aria-pressed", c.dataset.cat === cat));
   renderGrid(true);
 });
@@ -573,6 +575,7 @@ function change(id, d) {
   const slot = $("b-" + b0); if (slot) slot.innerHTML = buyHTML(byId[b0]);
   if (vid === b0) renderVBuy();
   const ss = $("s-" + b0); if (ss) ss.innerHTML = buyHTML(byId[b0]);
+  if (d > 0) gc("add/" + baseId(id), "Added: " + item(id).name);
   if (d > 0) { const H = dealCalc().hints; toast(H.length ? "💡 " + H[0].replace(/<[^>]+>/g, "").split(". You save")[0] : "Added · " + item(id).name.replace(/^\W+\s*/, "")); if (navigator.vibrate) try { navigator.vibrate(12); } catch (e) {} }
   renderCart();
 }
@@ -609,7 +612,7 @@ function renderVOpts() {
 }
 $("vopts").addEventListener("click", e => { const b = e.target.closest("[data-o]"); if (!b) return; VSEL[vid][+b.dataset.o] = b.dataset.c; renderVBuy(); });
 function showV(id) {
-  vid = id; const p = byId[id]; const i = vlist.indexOf(id);
+  vid = id; const p = byId[id]; gc("view/" + id, "Viewed: " + p.name); const i = vlist.indexOf(id);
   vstage.classList.remove("zoom"); $("vzoom").textContent = "Zoom";
   vimg.src = "img/" + id + ".jpg"; vimg.alt = p.name;
   $("vname").textContent = p.name; $("vdetail").textContent = p.detail;
@@ -631,13 +634,16 @@ function stepV(d) { if (vlist.length < 2) return; const i = vlist.indexOf(vid); 
 function zoomV() { const z = vstage.classList.toggle("zoom"); $("vzoom").textContent = z ? "Fit" : "Zoom";
   if (z) { vstage.scrollLeft = (vstage.scrollWidth - vstage.clientWidth) / 2; vstage.scrollTop = (vstage.scrollHeight - vstage.clientHeight) / 2; } }
 document.addEventListener("click", e => { const t = e.target.closest("[data-view]"); if (t) { e.preventDefault(); openV(t.dataset.view); } });
+$("send").addEventListener("click", () => { const T = totals(); gc("order-sent", `Order sent: ${T.n} items, ${fmt(T.net)}`); });
+$("vask").addEventListener("click", () => gc("ask/" + vid, "Asked about: " + byId[vid].name));
+let gq; $("q").addEventListener("input", e => { clearTimeout(gq); const v = e.target.value.trim().toLowerCase(); if (v.length >= 3) gq = setTimeout(() => gc("search/" + v, "Searched: " + v), 1500); });
 $("vclose").addEventListener("click", () => closeV(false));
 $("vprev").addEventListener("click", () => stepV(-1));
 $("vnext").addEventListener("click", () => stepV(1));
 $("vzoom").addEventListener("click", zoomV);
 $("vshare").addEventListener("click", async () => {
   const p = byId[vid], link = SITE + "p/" + vid + ".html", text = `${p.name}: ${fmt(p.price)} at Vyetu Vyote 🛒\n${link}`;
-  const btn = $("vshare"); btn.disabled = true;
+  const btn = $("vshare"); btn.disabled = true; gc("share/" + vid, "Shared: " + p.name);
   try {
     if (navigator.share) {
       try {
@@ -693,5 +699,6 @@ renderCats(); renderGrid(); renderCart();
 })();
 
 </script>
+<script data-goatcounter="https://vyotevyetu.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>
