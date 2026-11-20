@@ -254,7 +254,26 @@
   "name": "Ceramic dinner set, 4 designs",
   "detail": "Brown, teal, matte white or speckled white. 6 plates, 6 side plates, 6 bowls, 6 cups. Stands not included",
   "price": 6490,
-  "unit": "24pc set"
+  "unit": "24pc set",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Brown"
+     ],
+     [
+      "Teal"
+     ],
+     [
+      "Matte white"
+     ],
+     [
+      "Speckled white"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "matte-black-24",
@@ -462,7 +481,23 @@
   "name": "Eurochef thermos kettle",
   "detail": "3.5L, boils and keeps water hot. Red, white or green",
   "price": 2290,
-  "unit": "each"
+  "unit": "each",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Red"
+     ],
+     [
+      "White"
+     ],
+     [
+      "Green"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "kettle-0317",
@@ -542,7 +577,22 @@
   "name": "Heavy steel oval tray",
   "detail": "45cm. 50cm size: KES 1,690",
   "price": 1390,
-  "unit": "45cm"
+  "unit": "45cm",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "45cm",
+      1390
+     ],
+     [
+      "50cm",
+      1690
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "tray-round-steel",
@@ -566,7 +616,20 @@
   "name": "Printed melamine tray",
   "detail": "17 inch, Africa or coffee print",
   "price": 590,
-  "unit": "each"
+  "unit": "each",
+  "opts": [
+   {
+    "n": "Print",
+    "v": [
+     [
+      "Africa"
+     ],
+     [
+      "Coffee"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "tray-floral-17",
@@ -582,7 +645,20 @@
   "name": "Plain melamine tray",
   "detail": "17 inch, white or cream",
   "price": 550,
-  "unit": "each"
+  "unit": "each",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "White"
+     ],
+     [
+      "Cream"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "tray-mel-rect",
@@ -1109,7 +1185,20 @@
   "detail": "Gold hearts or planes on white, gold handles. Any 2 gold sets (12 mugs) KES 2,590",
   "price": 1590,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "Hearts"
+     ],
+     [
+      "Planes"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "mug-6001",
@@ -1650,7 +1739,26 @@
   "detail": "Navy with red, sky blue, lake blue or pink top, reflective strips, side mesh pockets.",
   "price": 1490,
   "unit": "1 pc",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "opts": [
+   {
+    "n": "Top colour",
+    "v": [
+     [
+      "Red"
+     ],
+     [
+      "Sky blue"
+     ],
+     [
+      "Lake blue"
+     ],
+     [
+      "Pink"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "bag-hengwo",
@@ -1659,7 +1767,26 @@
   "detail": "Oxford fabric, grade 1-6. Colours: purple, navy and red, navy, light blue.",
   "price": 1790,
   "unit": "1 pc",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Purple"
+     ],
+     [
+      "Navy and red"
+     ],
+     [
+      "Navy"
+     ],
+     [
+      "Light blue"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "bag-bw1910d",
@@ -1794,7 +1921,26 @@
   "detail": "Big family size, clear body, easy-pour spout. Green, orange, blue or teal lid.",
   "price": 550,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Lid",
+    "v": [
+     [
+      "Green"
+     ],
+     [
+      "Orange"
+     ],
+     [
+      "Blue"
+     ],
+     [
+      "Teal"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "jug-premier3",
@@ -1803,7 +1949,23 @@
   "detail": "Clear body with coloured base and handle. Blue, green or pink.",
   "price": 490,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Blue"
+     ],
+     [
+      "Green"
+     ],
+     [
+      "Pink"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "jug-wj4",
@@ -1812,7 +1974,23 @@
   "detail": "Ribbed clear body, fits the fridge door, BPA free. Pink, white or blue lid.",
   "price": 490,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Lid",
+    "v": [
+     [
+      "Pink"
+     ],
+     [
+      "White"
+     ],
+     [
+      "Blue"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "jug-wj5",
@@ -1821,7 +1999,23 @@
   "detail": "Spiral grip body, fits the fridge door, BPA free. Red, white or orange lid.",
   "price": 490,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Lid",
+    "v": [
+     [
+      "Red"
+     ],
+     [
+      "White"
+     ],
+     [
+      "Orange"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "jug-wj3",
@@ -1830,7 +2024,23 @@
   "detail": "Clear body, airtight colour lid, fits the fridge door, BPA free. Red, pink or blue lid.",
   "price": 490,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Lid",
+    "v": [
+     [
+      "Red"
+     ],
+     [
+      "Pink"
+     ],
+     [
+      "Blue"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "jug-wj1",
@@ -1839,7 +2049,29 @@
   "detail": "Clear square body, easy-pour lid, strong handle. Blue, yellow, green, red or pink lid.",
   "price": 390,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Lid",
+    "v": [
+     [
+      "Blue"
+     ],
+     [
+      "Yellow"
+     ],
+     [
+      "Green"
+     ],
+     [
+      "Red"
+     ],
+     [
+      "Pink"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "jug-no930",
@@ -1848,7 +2080,20 @@
   "detail": "Food-grade plastic with fitted lid, made in Kenya. Blue or pink.",
   "price": 350,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Blue"
+     ],
+     [
+      "Pink"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "mel-p2232",
@@ -1866,7 +2111,20 @@
   "detail": "Flower designs on white, or blue flowers on cream. Unbreakable.",
   "price": 990,
   "unit": "6pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "Flowers on white"
+     ],
+     [
+      "Blue flowers on cream"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "mel-p2215",
@@ -1875,7 +2133,20 @@
   "detail": "Sunburst rim in blue or gold. Unbreakable melamine, sold as 6.",
   "price": 990,
   "unit": "6pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Rim",
+    "v": [
+     [
+      "Blue"
+     ],
+     [
+      "Gold"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "mel-p2233",
@@ -2028,7 +2299,20 @@
   "detail": "Yellow or pink flowers. Gold bead handles, 3 nesting sizes. Any 2 acrylic or House tray sets KES 3,990",
   "price": 2190,
   "unit": "3pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Flowers",
+    "v": [
+     [
+      "Yellow"
+     ],
+     [
+      "Pink"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "tray-karuri-48",
@@ -2298,7 +2582,26 @@
   "detail": "Star print, cup lid. Pink, black, blue or mint.",
   "price": 690,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Pink"
+     ],
+     [
+      "Black"
+     ],
+     [
+      "Blue"
+     ],
+     [
+      "Mint"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "flask-044g",
@@ -2307,7 +2610,20 @@
   "detail": "Dots or terrazzo print, cup lid, handle. 4 colours.",
   "price": 850,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Print",
+    "v": [
+     [
+      "Dots"
+     ],
+     [
+      "Terrazzo"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "flask-094g",
@@ -2316,7 +2632,37 @@
   "detail": "Mosaic or gold star print. Green, blue, pink or black.",
   "price": 850,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Print",
+    "v": [
+     [
+      "Mosaic"
+     ],
+     [
+      "Gold star"
+     ]
+    ]
+   },
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Green"
+     ],
+     [
+      "Blue"
+     ],
+     [
+      "Pink"
+     ],
+     [
+      "Black"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "flask-vfp007",
@@ -2325,7 +2671,23 @@
   "detail": "Flower print, carry handle, cup lid. Brown, blue or pink.",
   "price": 1090,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Brown"
+     ],
+     [
+      "Blue"
+     ],
+     [
+      "Pink"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "flask-vfp092",
@@ -2334,7 +2696,23 @@
   "detail": "Big family size, 2 cups on top. Green, pink or blue.",
   "price": 1190,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Green"
+     ],
+     [
+      "Pink"
+     ],
+     [
+      "Blue"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "flask-vfp017",
@@ -2343,7 +2721,26 @@
   "detail": "Big family size, flower print. Mint, lilac, orange or blue.",
   "price": 1290,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Mint"
+     ],
+     [
+      "Lilac"
+     ],
+     [
+      "Orange"
+     ],
+     [
+      "Blue"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "flask-7753",
@@ -2397,7 +2794,23 @@
   "detail": "Two cups on top. Blue, beige or green.",
   "price": 890,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Blue"
+     ],
+     [
+      "Beige"
+     ],
+     [
+      "Green"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "flask-18108",
@@ -2406,7 +2819,23 @@
   "detail": "Dotted grip, 2 cups. Green, pink or blue.",
   "price": 890,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Green"
+     ],
+     [
+      "Pink"
+     ],
+     [
+      "Blue"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "flask-10108",
@@ -2415,7 +2844,23 @@
   "detail": "Dotted grip, cup lid. Pink, blue or green.",
   "price": 750,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Pink"
+     ],
+     [
+      "Blue"
+     ],
+     [
+      "Green"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "flask-10118",
@@ -2424,7 +2869,23 @@
   "detail": "Cream body, colour cup. Pink, green or blue.",
   "price": 750,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Cup colour",
+    "v": [
+     [
+      "Pink"
+     ],
+     [
+      "Green"
+     ],
+     [
+      "Blue"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "flask-32258",
@@ -2433,7 +2894,23 @@
   "detail": "Big family size, carry handle. Pink, green or blue.",
   "price": 1190,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Pink"
+     ],
+     [
+      "Green"
+     ],
+     [
+      "Blue"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "bottle-starry",
@@ -2442,7 +2919,26 @@
   "detail": "Steel vacuum bottle with strap. Blue, purple, gold or black-gold. Any 2 bottles KES 1,390",
   "price": 790,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Blue"
+     ],
+     [
+      "Purple"
+     ],
+     [
+      "Gold"
+     ],
+     [
+      "Black-gold"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "bottle-eiffel",
@@ -2451,7 +2947,26 @@
   "detail": "Steel vacuum bottle. Gold, black, pink or blue. Any 2 bottles KES 1,390",
   "price": 690,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Gold"
+     ],
+     [
+      "Black"
+     ],
+     [
+      "Pink"
+     ],
+     [
+      "Blue"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "bottle-0218",
@@ -2460,7 +2975,26 @@
   "detail": "Chrome steel, hot or cold. Blue, gold, red or silver. Any 2 bottles KES 1,390",
   "price": 790,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Blue"
+     ],
+     [
+      "Gold"
+     ],
+     [
+      "Red"
+     ],
+     [
+      "Silver"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "bottle-0647",
@@ -2478,7 +3012,26 @@
   "detail": "Matte finish with strap. Blue, white, black or red. Any 2 bottles KES 1,390",
   "price": 790,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Blue"
+     ],
+     [
+      "White"
+     ],
+     [
+      "Black"
+     ],
+     [
+      "Red"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "bottle-0660",
@@ -2496,7 +3049,26 @@
   "detail": "Steel bottle, cup lid. White, black, lilac or pink. Any 2 bottles KES 1,390",
   "price": 750,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "White"
+     ],
+     [
+      "Black"
+     ],
+     [
+      "Lilac"
+     ],
+     [
+      "Pink"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "bottle-6443",
@@ -2505,7 +3077,26 @@
   "detail": "Pastel steel bottle with strap. Pink, green, grey or cream. Boxed. Any 2 bottles KES 1,390",
   "price": 850,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Pink"
+     ],
+     [
+      "Green"
+     ],
+     [
+      "Grey"
+     ],
+     [
+      "Cream"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "bottle-6444",
@@ -2514,7 +3105,26 @@
   "detail": "Tall pastel steel bottle with strap. White, green, pink or grey. Any 2 bottles KES 1,390",
   "price": 890,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "White"
+     ],
+     [
+      "Green"
+     ],
+     [
+      "Pink"
+     ],
+     [
+      "Grey"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "bottle-6448",
@@ -2523,7 +3133,26 @@
   "detail": "Gradient colours, 316 steel, boxed. Lilac, pink, green or grey. Any 2 bottles KES 1,390",
   "price": 890,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Lilac"
+     ],
+     [
+      "Pink"
+     ],
+     [
+      "Green"
+     ],
+     [
+      "Grey"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "bottle-6447",
@@ -2532,7 +3161,26 @@
   "detail": "Gradient colours, 316 steel, boxed. Lilac, grey, green or pink. Any 2 bottles KES 1,390",
   "price": 850,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Lilac"
+     ],
+     [
+      "Grey"
+     ],
+     [
+      "Green"
+     ],
+     [
+      "Pink"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "bottle-6445",
@@ -2541,7 +3189,26 @@
   "detail": "Pastel with gold ring and strap. Pink, grey, blue or green. Boxed. Any 2 bottles KES 1,390",
   "price": 850,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Pink"
+     ],
+     [
+      "Grey"
+     ],
+     [
+      "Blue"
+     ],
+     [
+      "Green"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "bottle-2290",
@@ -2550,7 +3217,23 @@
   "detail": "Steel with carry strap, boxed. Silver, blue or black. Any 2 bottles KES 1,390",
   "price": 850,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Silver"
+     ],
+     [
+      "Blue"
+     ],
+     [
+      "Black"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "bottle-6396",
@@ -2559,7 +3242,23 @@
   "detail": "Chrome lid, strap, boxed. Orange, green or blue. Any 2 bottles KES 1,390",
   "price": 850,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Orange"
+     ],
+     [
+      "Green"
+     ],
+     [
+      "Blue"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "bottle-6320",
@@ -2568,7 +3267,26 @@
   "detail": "Shows drink temperature on the lid. Black, white, blue or red. Boxed. Any 2 bottles KES 1,390",
   "price": 990,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Black"
+     ],
+     [
+      "White"
+     ],
+     [
+      "Blue"
+     ],
+     [
+      "Red"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "bottle-6394",
@@ -2577,7 +3295,29 @@
   "detail": "Gold lid and neck, leather strap. Cream, grey, orange, green or pink. Any 2 bottles KES 1,390",
   "price": 850,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Cream"
+     ],
+     [
+      "Grey"
+     ],
+     [
+      "Orange"
+     ],
+     [
+      "Green"
+     ],
+     [
+      "Pink"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "bottle-g6042",
@@ -2586,7 +3326,23 @@
   "detail": "Matte steel with strap. White, black or navy. Any 2 bottles KES 1,390",
   "price": 790,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "White"
+     ],
+     [
+      "Black"
+     ],
+     [
+      "Navy"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "bottle-6021b",
@@ -2595,7 +3351,26 @@
   "detail": "Slim steel bottle with cord. Silver, gold, blue or red. Any 2 bottles KES 1,390",
   "price": 650,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Silver"
+     ],
+     [
+      "Gold"
+     ],
+     [
+      "Blue"
+     ],
+     [
+      "Red"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "mat-kitchen-2pc",
@@ -2604,7 +3379,26 @@
   "detail": "Soft padded, antislip, wipe clean. 44x75cm + 44x125cm. Grey, blue, brown or coffee print.",
   "price": 2690,
   "unit": "2pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Grey"
+     ],
+     [
+      "Blue"
+     ],
+     [
+      "Brown"
+     ],
+     [
+      "Coffee print"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "mat-geometric",
@@ -2613,7 +3407,23 @@
   "detail": "50 x 80cm, antislip. For doorways, kitchens, hallways. Grey, black or beige.",
   "price": 1390,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Grey"
+     ],
+     [
+      "Black"
+     ],
+     [
+      "Beige"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "mat-mesh-3d",
@@ -2640,7 +3450,26 @@
   "detail": "80 x 50cm. Suction grip, bristle pad scrubs your feet. Grey, green, lilac or beige.",
   "price": 1290,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Grey"
+     ],
+     [
+      "Green"
+     ],
+     [
+      "Lilac"
+     ],
+     [
+      "Beige"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "stone-cream",
@@ -2882,8 +3711,54 @@
   "name": "🧳 3pc unbreakable rubber suitcase set",
   "detail": "Set of 3 unbreakable rubber (PP) suitcases, 360° spinner wheels, telescopic handle, combination lock. Colours: champagne, sky blue, taupe, grey, pink, black. Size 4 KES 7,290. Bigger sets: Size 3 KES 7,590, Size 2 KES 8,290, Size 1 (biggest) KES 8,490",
   "price": 7290,
-  "unit": "set of 3, Size 4",
-  "added": "2026-11-20"
+  "unit": "set of 3",
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "Size 4",
+      7290
+     ],
+     [
+      "Size 3",
+      7590
+     ],
+     [
+      "Size 2",
+      8290
+     ],
+     [
+      "Size 1 (biggest)",
+      8490
+     ]
+    ]
+   },
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Champagne"
+     ],
+     [
+      "Sky blue"
+     ],
+     [
+      "Taupe"
+     ],
+     [
+      "Grey"
+     ],
+     [
+      "Pink"
+     ],
+     [
+      "Black"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "lug-gp-4in1",
@@ -2891,8 +3766,54 @@
   "name": "🧳 4-in-1 Goodpartner unbreakable suitcase set",
   "detail": "3 unbreakable PP suitcases plus a matching vanity case, 360° spinner wheels, telescopic handle. Colours: taupe, pink, light grey, dark grey, black, navy. Size 4 KES 8,490. Bigger sets: Size 3 KES 8,690, Size 2 KES 8,990, Size 1 (biggest) KES 9,290",
   "price": 8490,
-  "unit": "set of 4, Size 4",
-  "added": "2026-11-20"
+  "unit": "set of 4",
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "Size 4",
+      8490
+     ],
+     [
+      "Size 3",
+      8690
+     ],
+     [
+      "Size 2",
+      8990
+     ],
+     [
+      "Size 1 (biggest)",
+      9290
+     ]
+    ]
+   },
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Taupe"
+     ],
+     [
+      "Pink"
+     ],
+     [
+      "Light grey"
+     ],
+     [
+      "Dark grey"
+     ],
+     [
+      "Black"
+     ],
+     [
+      "Navy"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "lug-gp-5in1",
@@ -2909,8 +3830,47 @@
   "name": "🧳 Single Goodpartner unbreakable suitcase",
   "detail": "Unbreakable PP suitcase sold singly, 360° spinner wheels, telescopic handle. Black, grey, navy, dark grey, pink. Small KES 3,290, Medium KES 3,790, Large KES 4,290",
   "price": 3290,
-  "unit": "1 pc, small",
-  "added": "2026-11-20"
+  "unit": "1 pc",
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "Small",
+      3290
+     ],
+     [
+      "Medium",
+      3790
+     ],
+     [
+      "Large",
+      4290
+     ]
+    ]
+   },
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Black"
+     ],
+     [
+      "Grey"
+     ],
+     [
+      "Navy"
+     ],
+     [
+      "Dark grey"
+     ],
+     [
+      "Pink"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "lug-vanity",
@@ -2919,7 +3879,29 @@
   "detail": "Unbreakable PP beauty and vanity case with a top handle, matches the Goodpartner suitcases. Black, grey, navy, dark grey, pink. Add-on to any suitcase",
   "price": 1690,
   "unit": "1 pc",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Black"
+     ],
+     [
+      "Grey"
+     ],
+     [
+      "Navy"
+     ],
+     [
+      "Dark grey"
+     ],
+     [
+      "Pink"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "lug-carryon-tsa",
@@ -2928,7 +3910,26 @@
   "detail": "Small unbreakable rubber cabin suitcase, TSA combination lock, 360° spinner wheels, telescopic handle. Purple, black, grey, pink",
   "price": 2990,
   "unit": "1 pc",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Purple"
+     ],
+     [
+      "Black"
+     ],
+     [
+      "Grey"
+     ],
+     [
+      "Pink"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "lug-2in1",
@@ -2937,7 +3938,29 @@
   "detail": "Cabin suitcase plus a matching vanity case that sits on top. Unbreakable rubber (PP), 360° spinner wheels, telescopic handle. Dark green, purple, pink, sky blue, beige",
   "price": 3490,
   "unit": "set of 2",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Dark green"
+     ],
+     [
+      "Purple"
+     ],
+     [
+      "Pink"
+     ],
+     [
+      "Sky blue"
+     ],
+     [
+      "Beige"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "lug-front-open-2pc",
@@ -2946,7 +3969,35 @@
   "detail": "Modern matte hard-shell suitcases with a front pocket that opens for a laptop or documents, gold-tone handle, 360° spinner wheels, telescopic handle, organiser pockets and straps inside. Lilac, mint, dark grey, champagne, steel blue, blue, black",
   "price": 15990,
   "unit": "set of 2",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Lilac"
+     ],
+     [
+      "Mint"
+     ],
+     [
+      "Dark grey"
+     ],
+     [
+      "Champagne"
+     ],
+     [
+      "Steel blue"
+     ],
+     [
+      "Blue"
+     ],
+     [
+      "Black"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "lug-duffle-purple",
