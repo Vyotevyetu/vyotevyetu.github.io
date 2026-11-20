@@ -4939,6 +4939,56 @@
      ],
      [
       "Cream"
+     ],
+     [
+      "Sage green"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hp-silvermax",
+  "cat": "hotpots",
+  "name": "✨ Rishabh SilverMax mirror hotpots, 3pcs",
+  "detail": "Shiny mirror-finish insulated casseroles with metal lids: 2000, 2500 and 3000ml. Comes with a serving spoon",
+  "price": 3890,
+  "unit": "3pc set",
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Gold trim"
+     ],
+     [
+      "Rose gold trim"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hp-marilyn",
+  "cat": "hotpots",
+  "name": "🌸 KlarionWare Marilyn marble hotpots, 4pcs",
+  "detail": "Ribbed body with rose-gold marble veins, rose-gold bands and handles: 1000, 2000, 3000 and 4000ml",
+  "price": 3690,
+  "unit": "4pc set",
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "White"
+     ],
+     [
+      "Cream"
+     ],
+     [
+      "Peach"
      ]
     ]
    }
