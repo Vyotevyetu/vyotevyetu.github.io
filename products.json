@@ -4461,5 +4461,163 @@
     ]
    }
   ]
+ },
+ {
+  "id": "hp-redberry3",
+  "cat": "hotpots",
+  "name": "🍲 Redberry big stainless hotpots, 3pcs",
+  "detail": "Heavy-gauge stainless steel insulated hotpots for functions and big families: 10000, 15000 and 20000ml. Hot and cold. Boxed",
+  "price": 10490,
+  "unit": "3pc set",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "hp-santorini",
+  "cat": "hotpots",
+  "name": "🤍 Panda Santorini hotpots, 4pcs + 2 spoons",
+  "detail": "Quilted cream body with steel inner bowls: 800, 1200, 2000 and 3000ml. Comes with 2 free serving spoons",
+  "price": 2290,
+  "unit": "4pc set",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "hp-regalia",
+  "cat": "hotpots",
+  "name": "✨ Uken Regalia marble hotpots, 4pcs",
+  "detail": "White marble with gold geometric triangles and gold handles: 1200, 1800, 2500 and 3200ml. Steel inner casing, twist lock",
+  "price": 4490,
+  "unit": "4pc set",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "hp-cello-midas",
+  "cat": "hotpots",
+  "name": "✨ Cello Midas hotpots, 4pcs",
+  "detail": "Gold-trim lids and loop handles, food grade and BPA free: 500, 1000, 1500 and 2500ml. Twist-lock lid",
+  "price": 4090,
+  "unit": "4pc set",
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Brown"
+     ],
+     [
+      "Black"
+     ],
+     [
+      "White leaf"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hp-cello-wicker",
+  "cat": "hotpots",
+  "name": "🧺 Cello Wicker hotpots, 4pcs",
+  "detail": "Woven-basket look with a colourful band: 500, 1000, 1500 and 2500ml. Food grade, BPA free",
+  "price": 3990,
+  "unit": "4pc set",
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "White"
+     ],
+     [
+      "Beige"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hp-cello-ornetto",
+  "cat": "hotpots",
+  "name": "✨ Cello Ornetto quilted hotpots, 4pcs",
+  "detail": "Quilted body with gold ring handles and locking lids: 1000, 1500, 2000 and 2500ml",
+  "price": 5190,
+  "unit": "4pc set",
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Blue"
+     ],
+     [
+      "White"
+     ],
+     [
+      "Grey"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hp-cello-jewel",
+  "cat": "hotpots",
+  "name": "✨ Cello Jewel NX hotpots, 4pcs",
+  "detail": "Gold lattice pattern with gold handles: 500, 1000, 1500 and 2500ml. Food grade, BPA free",
+  "price": 4390,
+  "unit": "4pc set",
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Beige"
+     ],
+     [
+      "Maroon"
+     ],
+     [
+      "White"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hp-cello-exotic",
+  "cat": "hotpots",
+  "name": "✨ Cello Exotic hotpots, 4pcs",
+  "detail": "Shiny gold rims with gold damask print: 500, 1000, 1500 and 2500ml. Twist-lock lids, BPA free",
+  "price": 3690,
+  "unit": "4pc set",
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "White"
+     ],
+     [
+      "Black"
+     ],
+     [
+      "Beige"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hp-selvel-classic-glass",
+  "cat": "hotpots",
+  "name": "✨ Selvel Classic glass-lid hotpots, 4pcs",
+  "detail": "Blush body with see-through glass lids and gold handles: 1500, 2500, 3000 and 3500ml. BPA free, boxed",
+  "price": 5490,
+  "unit": "4pc set",
+  "added": "2026-11-20"
  }
 ]
