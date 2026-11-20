@@ -4271,6 +4271,9 @@
      ],
      [
       "Cream"
+     ],
+     [
+      "Grey"
      ]
     ]
    }
@@ -4889,6 +4892,50 @@
      ],
      [
       "Grey"
+     ],
+     [
+      "Cream"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hp-starwood",
+  "cat": "hotpots",
+  "name": "🪵 Selvel Starwood wood-look hotpots, 4pcs",
+  "detail": "Glossy wood-grain body with gold bands, handles and T-knob: 1000, 1500, 2500 and 3500ml. Boxed",
+  "price": 4190,
+  "unit": "4pc set",
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Dark wood"
+     ],
+     [
+      "Light wood"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hp-selvel-matrixgold",
+  "cat": "hotpots",
+  "name": "✨ Selvel Matrix Gold hotpots, 4pcs",
+  "detail": "Round body with a shiny gold wing band and lid: 1000, 1500, 2500 and 3500ml. Premium Gold range, boxed",
+  "price": 4090,
+  "unit": "4pc set",
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "White"
      ],
      [
       "Cream"
