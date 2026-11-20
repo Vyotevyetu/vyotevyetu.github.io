@@ -2803,5 +2803,77 @@
   "price": 1390,
   "unit": "6pc set",
   "added": "2026-11-19"
+ },
+ {
+  "id": "lug-rosegold-stripe",
+  "cat": "luggage",
+  "name": "🧳 3pc suitcase set, rose gold stripes",
+  "detail": "Set of 3 suitcases, 63, 57 and 48 cm tall (Size 4). Hard fibre (ABS) shell, 360° spinner wheels, telescopic handle, zip closure, compression straps inside. Feng Tian Li",
+  "price": 6990,
+  "unit": "set of 3",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "lug-rose-shell",
+  "cat": "luggage",
+  "name": "🧳 3pc suitcase set, rose pink shell wave",
+  "detail": "Set of 3 suitcases, 63, 57 and 48 cm tall (Size 4). Hard fibre (ABS) shell, 360° spinner wheels, telescopic handle, zip closure, compression straps inside. Feng Tian Li",
+  "price": 6990,
+  "unit": "set of 3",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "lug-beige-chevron",
+  "cat": "luggage",
+  "name": "🧳 3pc unbreakable PP suitcase set, beige chevron",
+  "detail": "Set of 3 suitcases, 63, 57 and 48 cm tall (Size 4). Unbreakable polypropylene (PP) shell, flexes instead of cracking, 360° spinner wheels, telescopic handle, zip closure, compression straps inside. Feng Tian Li",
+  "price": 7490,
+  "unit": "set of 3",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "lug-lilac-ribs",
+  "cat": "luggage",
+  "name": "🧳 3pc suitcase set, lilac ribbed",
+  "detail": "Set of 3 suitcases, 63, 57 and 48 cm tall (Size 4). Hard fibre (ABS) shell, 360° spinner wheels, telescopic handle, zip closure, compression straps inside. Feng Tian Li",
+  "price": 6990,
+  "unit": "set of 3",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "lug-lilac-dotted",
+  "cat": "luggage",
+  "name": "🧳 3pc suitcase set, lilac dotted",
+  "detail": "Set of 3 suitcases, 63, 57 and 48 cm tall (Size 4). Hard fibre (ABS) shell, 360° spinner wheels, telescopic handle, zip closure, compression straps inside. Feng Tian Li",
+  "price": 6990,
+  "unit": "set of 3",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "lug-blue-dotted",
+  "cat": "luggage",
+  "name": "🧳 3pc suitcase set, royal blue dotted",
+  "detail": "Set of 3 suitcases, 63, 57 and 48 cm tall (Size 4). Hard fibre (ABS) shell, 360° spinner wheels, telescopic handle, zip closure, compression straps inside. Feng Tian Li",
+  "price": 6990,
+  "unit": "set of 3",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "lug-teal-stripe",
+  "cat": "luggage",
+  "name": "🧳 3pc suitcase set, teal stripes",
+  "detail": "Set of 3 suitcases, 63, 57 and 48 cm tall (Size 4). Hard fibre (ABS) shell, 360° spinner wheels, telescopic handle, zip closure, compression straps inside. Feng Tian Li",
+  "price": 6990,
+  "unit": "set of 3",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "lug-champagne-ribs",
+  "cat": "luggage",
+  "name": "🧳 3pc suitcase set, champagne ribbed",
+  "detail": "Set of 3 suitcases, 63, 57 and 48 cm tall (Size 4). Hard fibre (ABS) shell, 360° spinner wheels, telescopic handle, zip closure, compression straps inside. Feng Tian Li",
+  "price": 6990,
+  "unit": "set of 3",
+  "added": "2026-11-20"
  }
 ]
