@@ -4217,7 +4217,23 @@
   "detail": "Cream quilted body with gold chain handles: 1000, 2000, 3000 and 5000ml",
   "price": 4490,
   "unit": "4pc set",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "White"
+     ],
+     [
+      "Grey"
+     ],
+     [
+      "Cream"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "hp-camry",
@@ -4288,6 +4304,159 @@
      ],
      [
       "Beige"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hp-riona",
+  "cat": "hotpots",
+  "name": "🌸 Riona flower hotpots, 4pcs",
+  "detail": "Light plastic insulated hotpots with flower print: 600, 1000, 2000 and 3000ml. Great starter or gift set",
+  "price": 2190,
+  "unit": "4pc set",
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Red"
+     ],
+     [
+      "Blue"
+     ],
+     [
+      "Teal"
+     ],
+     [
+      "Pink"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hp-shahil",
+  "cat": "hotpots",
+  "name": "👑 Axis Shahil mirror hotpots, 4pcs",
+  "detail": "Shiny mirror-finish pot-belly hotpots with cream lids and ornate handles. A showpiece for the table",
+  "price": 4990,
+  "unit": "4pc set",
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Gold"
+     ],
+     [
+      "Silver"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hp-desire",
+  "cat": "hotpots",
+  "name": "✨ Selvel Desire marble hotpots, 4pcs",
+  "detail": "Fluted marble-print body with shiny gold rim and handles: 1000, 1500, 2500 and 3500ml. Made in India, boxed",
+  "price": 4390,
+  "unit": "4pc set",
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "White"
+     ],
+     [
+      "Brown"
+     ],
+     [
+      "Grey"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hp-taj",
+  "cat": "hotpots",
+  "name": "👑 Taj marble pedestal hotpots, 4pcs",
+  "detail": "Bowl-shaped marble hotpots on gold stands with gold rims and ring-handle lids. Made in India",
+  "price": 4990,
+  "unit": "4pc set",
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "White marble"
+     ],
+     [
+      "Black marble"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hp-goldstar",
+  "cat": "hotpots",
+  "name": "✨ Gold Star ribbed hotpots, 4pcs",
+  "detail": "Chunky ribbed body with gold handles: 1000, 1500, 2500 and 3500ml",
+  "price": 4990,
+  "unit": "4pc set",
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Mint"
+     ],
+     [
+      "White"
+     ],
+     [
+      "Grey"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hp-milton-pearl",
+  "cat": "hotpots",
+  "name": "🖤 Milton Pearl hotpots, 4pcs",
+  "detail": "Black with a gold wave band, Milton Thermoware: 500, 1000, 1500 and 2500ml. Boxed",
+  "price": 4390,
+  "unit": "4pc set",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "hp-turkish-glass",
+  "cat": "hotpots",
+  "name": "✨ Selvel Turkish hotpots with glass lid, 4pcs",
+  "detail": "Marble print with gold bands; the small pot has a see-through glass lid: 1000, 1500, 2500 and 3500ml",
+  "price": 5390,
+  "unit": "4pc set",
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "White"
+     ],
+     [
+      "Brown"
      ]
     ]
    }
