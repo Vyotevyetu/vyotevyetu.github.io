@@ -4218,5 +4218,79 @@
   "price": 4490,
   "unit": "4pc set",
   "added": "2026-11-20"
+ },
+ {
+  "id": "hp-camry",
+  "cat": "hotpots",
+  "name": "✨ Selvel Camry insulated hotpots, 4pcs",
+  "detail": "Fluted body with shiny gold rim and handles: 1000, 1500, 2500 and 3500ml. Made in India, boxed",
+  "price": 4190,
+  "unit": "4pc set",
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "White"
+     ],
+     [
+      "Beige"
+     ],
+     [
+      "Cream"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hp-happyhome6",
+  "cat": "hotpots",
+  "name": "🍲 Happy Home stainless hotpots, 6pcs",
+  "detail": "Stainless steel insulated hotpots with locking lids, hot and cold: 500, 1500, 2500, 5000, 7500 and 10000ml. Gift box",
+  "price": 5390,
+  "unit": "6pc set",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "hp-turkish-brown",
+  "cat": "hotpots",
+  "name": "🤎 Selvel Turkish marble hotpots, 4pcs, brown",
+  "detail": "Brown marble print with gold veins, gold handles and bands: 1000, 1500, 2500 and 3500ml. Boxed",
+  "price": 4990,
+  "unit": "4pc set",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "hp-turkish-white",
+  "cat": "hotpots",
+  "name": "🤍 Selvel Turkish marble hotpots, 4pcs, white",
+  "detail": "White marble print with gold veins, gold handles and bands: 1000, 1500, 2500 and 3500ml. Boxed",
+  "price": 4990,
+  "unit": "4pc set",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "hp-leatherite",
+  "cat": "hotpots",
+  "name": "✨ Selvel Leatherite hotpots, 4pcs",
+  "detail": "Quilted leather-look body with gold handles and Selvel plate: 1000, 1500, 2500 and 3500ml. Made in India, boxed",
+  "price": 4290,
+  "unit": "4pc set",
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Cream"
+     ],
+     [
+      "Beige"
+     ]
+    ]
+   }
+  ]
  }
 ]
