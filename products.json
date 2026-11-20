@@ -2875,5 +2875,95 @@
   "price": 6990,
   "unit": "set of 3",
   "added": "2026-11-20"
+ },
+ {
+  "id": "lug-rubber-3in1",
+  "cat": "luggage",
+  "name": "🧳 3pc unbreakable rubber suitcase set",
+  "detail": "Set of 3 unbreakable rubber (PP) suitcases, 360° spinner wheels, telescopic handle, combination lock. Colours: champagne, sky blue, taupe, grey, pink, black. Size 4 KES 7,290. Bigger sets: Size 3 KES 7,590, Size 2 KES 8,290, Size 1 (biggest) KES 8,490",
+  "price": 7290,
+  "unit": "set of 3, Size 4",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "lug-gp-4in1",
+  "cat": "luggage",
+  "name": "🧳 4-in-1 Goodpartner unbreakable suitcase set",
+  "detail": "3 unbreakable PP suitcases plus a matching vanity case, 360° spinner wheels, telescopic handle. Colours: taupe, pink, light grey, dark grey, black, navy. Size 4 KES 8,490. Bigger sets: Size 3 KES 8,690, Size 2 KES 8,990, Size 1 (biggest) KES 9,290",
+  "price": 8490,
+  "unit": "set of 4, Size 4",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "lug-gp-5in1",
+  "cat": "luggage",
+  "name": "🧳 5-in-1 Goodpartner unbreakable suitcase set, navy",
+  "detail": "4 unbreakable PP suitcases plus a matching vanity case, 360° spinner wheels, telescopic handle. The whole family packed in one set",
+  "price": 10490,
+  "unit": "set of 5",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "lug-gp-single",
+  "cat": "luggage",
+  "name": "🧳 Single Goodpartner unbreakable suitcase",
+  "detail": "Unbreakable PP suitcase sold singly, 360° spinner wheels, telescopic handle. Black, grey, navy, dark grey, pink. Small KES 3,290, Medium KES 3,790, Large KES 4,290",
+  "price": 3290,
+  "unit": "1 pc, small",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "lug-vanity",
+  "cat": "luggage",
+  "name": "👜 Hard-shell vanity case",
+  "detail": "Unbreakable PP beauty and vanity case with a top handle, matches the Goodpartner suitcases. Black, grey, navy, dark grey, pink. Add-on to any suitcase",
+  "price": 1690,
+  "unit": "1 pc",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "lug-carryon-tsa",
+  "cat": "luggage",
+  "name": "🧳 Carry-on rubber suitcase with TSA lock",
+  "detail": "Small unbreakable rubber cabin suitcase, TSA combination lock, 360° spinner wheels, telescopic handle. Purple, black, grey, pink",
+  "price": 2990,
+  "unit": "1 pc",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "lug-2in1",
+  "cat": "luggage",
+  "name": "🧳 2-in-1 rubber suitcase and vanity case",
+  "detail": "Cabin suitcase plus a matching vanity case that sits on top. Unbreakable rubber (PP), 360° spinner wheels, telescopic handle. Dark green, purple, pink, sky blue, beige",
+  "price": 3490,
+  "unit": "set of 2",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "lug-front-open-2pc",
+  "cat": "luggage",
+  "name": "💼 Front-opening laptop suitcase, set of 2",
+  "detail": "Modern matte hard-shell suitcases with a front pocket that opens for a laptop or documents, gold-tone handle, 360° spinner wheels, telescopic handle, organiser pockets and straps inside. Lilac, mint, dark grey, champagne, steel blue, blue, black",
+  "price": 15990,
+  "unit": "set of 2",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "lug-duffle-purple",
+  "cat": "luggage",
+  "name": "👜 Big travel duffle bag, purple",
+  "detail": "Large fabric weekend and gym bag, two handles plus a shoulder strap. Any 2 duffle bags KES 2,690",
+  "price": 1490,
+  "unit": "1 pc",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "lug-duffle-leather",
+  "cat": "luggage",
+  "name": "👜 Leather-look travel duffle bag, brown",
+  "detail": "Large PU leather-look weekend bag, front zip pocket, handles plus a shoulder strap. Any 2 duffle bags KES 2,690",
+  "price": 1490,
+  "unit": "1 pc",
+  "added": "2026-11-20"
  }
 ]
