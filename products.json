@@ -4426,6 +4426,9 @@
      ],
      [
       "Grey"
+     ],
+     [
+      "Lilac"
      ]
     ]
    }
@@ -4795,6 +4798,53 @@
      ],
      [
       "Speckled"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hp-goldstar-italian",
+  "cat": "hotpots",
+  "name": "✨ Selvel Goldstar Italian hotpots, 4pcs",
+  "detail": "Fluted body with gold marble swirls, beaded rim and gold handles: 1000, 1500, 2500 and 3500ml. Premium Gold range, made in India, BPA free",
+  "price": 4790,
+  "unit": "4pc set",
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Black and gold"
+     ],
+     [
+      "Cream and gold"
+     ],
+     [
+      "White and gold"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hp-jumbo-silverstar",
+  "cat": "hotpots",
+  "name": "🍲 Jiger Jumbo Silver Star hotpots, 3pcs",
+  "detail": "Big diamond-pattern hotpots with chrome bands: 3200, 5500 and 7500ml. Free serving spoon and 2 bowls",
+  "price": 5290,
+  "unit": "3pc set",
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Cream"
+     ],
+     [
+      "Black"
      ]
     ]
    }
