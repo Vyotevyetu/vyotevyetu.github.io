@@ -3827,15 +3827,19 @@
  {
   "id": "lug-gp-single",
   "cat": "luggage",
-  "name": "🧳 Single Goodpartner unbreakable suitcase",
-  "detail": "Unbreakable PP suitcase sold singly, 360° spinner wheels, telescopic handle. Black, grey, navy, dark grey, pink. Small KES 3,290, Medium KES 3,790, Large KES 4,290",
-  "price": 3290,
+  "name": "🧳 Goodpartner unbreakable suitcase, single pieces",
+  "detail": "Buy any piece on its own. Unbreakable PP, 360° spinner wheels, telescopic handle. Vanity case KES 1,690, Small KES 3,290, Medium KES 3,790, Large KES 4,290. Black, grey, navy, dark grey, pink",
+  "price": 1690,
   "unit": "1 pc",
   "added": "2026-11-20",
   "opts": [
    {
     "n": "Size",
     "v": [
+     [
+      "Vanity case",
+      1690
+     ],
      [
       "Small",
       3290
@@ -3850,37 +3854,6 @@
      ]
     ]
    },
-   {
-    "n": "Colour",
-    "v": [
-     [
-      "Black"
-     ],
-     [
-      "Grey"
-     ],
-     [
-      "Navy"
-     ],
-     [
-      "Dark grey"
-     ],
-     [
-      "Pink"
-     ]
-    ]
-   }
-  ]
- },
- {
-  "id": "lug-vanity",
-  "cat": "luggage",
-  "name": "👜 Hard-shell vanity case",
-  "detail": "Unbreakable PP beauty and vanity case with a top handle, matches the Goodpartner suitcases. Black, grey, navy, dark grey, pink. Add-on to any suitcase",
-  "price": 1690,
-  "unit": "1 pc",
-  "added": "2026-11-20",
-  "opts": [
    {
     "n": "Colour",
     "v": [
