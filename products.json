@@ -4435,10 +4435,23 @@
   "id": "hp-milton-pearl",
   "cat": "hotpots",
   "name": "🖤 Milton Pearl hotpots, 4pcs",
-  "detail": "Black with a gold wave band, Milton Thermoware: 500, 1000, 1500 and 2500ml. Boxed",
+  "detail": "Black or cream with a gold wave band, Milton Thermoware: 500, 1000, 1500 and 2500ml. Boxed",
   "price": 4390,
   "unit": "4pc set",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Black"
+     ],
+     [
+      "Cream"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "hp-turkish-glass",
@@ -4615,9 +4628,67 @@
   "id": "hp-selvel-classic-glass",
   "cat": "hotpots",
   "name": "✨ Selvel Classic glass-lid hotpots, 4pcs",
-  "detail": "Blush body with see-through glass lids and gold handles: 1500, 2500, 3000 and 3500ml. BPA free, boxed",
+  "detail": "Blush or white body with see-through glass lids and gold handles: 1500, 2500, 3000 and 3500ml. BPA free, boxed",
   "price": 5490,
   "unit": "4pc set",
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Blush"
+     ],
+     [
+      "White"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hp-happyhome4",
+  "cat": "hotpots",
+  "name": "🍲 Happy Home stainless hotpots, 4pcs",
+  "detail": "Heavy-gauge stainless steel insulated hotpots: 1500, 2500, 3500 and 5000ml. Hot and cold",
+  "price": 4090,
+  "unit": "4pc set",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "hp-alfaline",
+  "cat": "hotpots",
+  "name": "🍲 Happy Home Alfa Line ribbed hotpots, 4pcs",
+  "detail": "Shiny ribbed stainless steel insulated hotpots: 1500, 2500, 3500 and 5000ml. Boxed",
+  "price": 4090,
+  "unit": "4pc set",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "hp-matrix-gold4",
+  "cat": "hotpots",
+  "name": "🍲 Matrix Gold stainless hotpots, 4pcs",
+  "detail": "Stainless insulated hotpots with locking lids: 1200, 2400, 3600 and 4800ml. Gift box",
+  "price": 3890,
+  "unit": "4pc set",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "hp-silverlines",
+  "cat": "hotpots",
+  "name": "🍲 Happy Home Silverlines hotpots, 4pcs",
+  "detail": "Ribbed stainless steel insulated hotpots: 1000, 1500, 2500 and 3500ml. Boxed",
+  "price": 3290,
+  "unit": "4pc set",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "hp-happyhome3-small",
+  "cat": "hotpots",
+  "name": "🍲 Happy Home small stainless hotpots, 3pcs",
+  "detail": "Stainless steel insulated hotpots in small sizes: 500, 1500 and 2500ml. Good add-on or starter set",
+  "price": 1790,
+  "unit": "3pc set",
   "added": "2026-11-20"
  }
 ]
