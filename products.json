@@ -4016,5 +4016,23 @@
   "price": 1490,
   "unit": "1 pc",
   "added": "2026-11-20"
+ },
+ {
+  "id": "marwa-30",
+  "cat": "kitchen",
+  "name": "🍲 Marwa 30pc stainless cookware set",
+  "detail": "7 stainless sufurias 16 to 28cm with glass lids, frying pan with lid, steamer/colander, egg boiler, cooking utensils, knife set with block. Induction base: gas, charcoal jiko, firewood and induction. Boxed",
+  "price": 9990,
+  "unit": "30pc set",
+  "added": "2026-11-20"
+ },
+ {
+  "id": "marwa-72",
+  "cat": "kitchen",
+  "name": "🍲 Marwa 72pc stainless cookware set",
+  "detail": "Stainless sufurias with blue glass lids, frying pan, steamer, cutlery set with tray, knives, grater, cutting board, food storage bowls, apron and more. Induction base, works on all stoves. Boxed",
+  "price": 10990,
+  "unit": "72pc set",
+  "added": "2026-11-20"
  }
 ]
