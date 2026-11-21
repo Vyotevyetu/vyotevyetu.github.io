@@ -5077,5 +5077,121 @@
     ]
    }
   ]
+ },
+ {
+  "id": "suf-tornado7",
+  "cat": "cookware",
+  "name": "🍲 Afrlory Tornado aluminium pots with lids, 7pcs (2826)",
+  "detail": "7 aluminium pots with matching lids and double handles: 16, 18, 20, 22, 24, 26 and 28cm. Boxed",
+  "price": 5590,
+  "unit": "7pc set",
+  "added": "2026-11-21"
+ },
+ {
+  "id": "suf-redberry",
+  "cat": "cookware",
+  "name": "🍲 Redberry aluminium sufuria set",
+  "detail": "Heavy polished aluminium sufurias that nest together, England brand. Sizes 1 to 8 (8pcs) KES 4,490, sizes 1 to 12 (12pcs) KES 8,490. No lids",
+  "price": 4490,
+  "unit": "set",
+  "added": "2026-11-21",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "Sizes 1-8",
+      4490
+     ],
+     [
+      "Sizes 1-12",
+      8490
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "suf-signature8",
+  "cat": "cookware",
+  "name": "🍲 Signature big aluminium sufurias, 8pcs (12/19)",
+  "detail": "Big aluminium sufurias, sizes 12 to 19, made in India. For big families, schools and functions. No lids",
+  "price": 4690,
+  "unit": "8pc set",
+  "added": "2026-11-21"
+ },
+ {
+  "id": "suf-uken12",
+  "cat": "cookware",
+  "name": "🍲 Uken Premium aluminium sufurias, 12pcs (1-12)",
+  "detail": "Polished aluminium sufurias sizes 1 to 12, nest together. Made in India. No lids",
+  "price": 7990,
+  "unit": "12pc set",
+  "added": "2026-11-21"
+ },
+ {
+  "id": "suf-oxford",
+  "cat": "cookware",
+  "name": "🍲 Oxford aluminium sufuria set",
+  "detail": "Crystal Oxford aluminium sufurias, made in Kenya. Sizes 1-4 KES 1,190, 1-8 KES 2,690, 1-12 KES 4,790. No lids",
+  "price": 1190,
+  "unit": "set",
+  "added": "2026-11-21",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "Sizes 1-4",
+      1190
+     ],
+     [
+      "Sizes 1-8",
+      2690
+     ],
+     [
+      "Sizes 1-12",
+      4790
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "suf-bellypot",
+  "cat": "cookware",
+  "name": "🍲 Lion Brand Belly Pot sufuria set",
+  "detail": "Kaluworks Lion Brand belly-shaped aluminium sufurias, made in Kenya. Sizes 1-4 KES 1,990, 1-8 KES 4,290, 1-12 KES 7,990. No lids",
+  "price": 1990,
+  "unit": "set",
+  "added": "2026-11-21",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "Sizes 1-4",
+      1990
+     ],
+     [
+      "Sizes 1-8",
+      4290
+     ],
+     [
+      "Sizes 1-12",
+      7990
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "suf-freedom8",
+  "cat": "cookware",
+  "name": "🍲 Freedom aluminium sufurias with lids, 8pcs",
+  "detail": "Polished aluminium sufurias with matching lids, sizes 1 to 8, made in India",
+  "price": 4590,
+  "unit": "8pc set",
+  "added": "2026-11-21"
  }
 ]
