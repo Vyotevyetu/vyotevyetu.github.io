@@ -4993,5 +4993,29 @@
     ]
    }
   ]
+ },
+ {
+  "id": "bag-storage-houndstooth",
+  "cat": "home",
+  "name": "🧺 Big foldable houndstooth storage bag",
+  "detail": "Water-resistant fabric storage box with zip lid and 2 handles, for duvets, blankets, bedding and clothes. Folds flat when empty. 180L (70x50x50cm) KES 690, 210L (70x60x50cm) KES 790. Any 2 KES 1,290",
+  "price": 690,
+  "unit": "1 pc",
+  "added": "2026-11-21",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "180L",
+      690
+     ],
+     [
+      "210L",
+      790
+     ]
+    ]
+   }
+  ]
  }
 ]
