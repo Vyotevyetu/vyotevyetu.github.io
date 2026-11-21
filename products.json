@@ -5017,5 +5017,65 @@
     ]
    }
   ]
+ },
+ {
+  "id": "tray-oval-heavy",
+  "cat": "trays",
+  "name": "🍽️ Heavy steel oval sinia plate",
+  "detail": "Thick stainless steel oval serving plate with polished dot pattern. 30cm (½kg) KES 490, 35cm (1kg) KES 590, 40cm (1.5kg) KES 690. Great for nyama choma, pilau and chapati",
+  "price": 490,
+  "unit": "1 pc",
+  "added": "2026-11-21",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "30cm",
+      490
+     ],
+     [
+      "35cm",
+      590
+     ],
+     [
+      "40cm",
+      690
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "tray-oval-light",
+  "cat": "trays",
+  "name": "🍽️ Light steel oval platter, flower design",
+  "detail": "Light stainless steel oval platter with embossed flower centre and wave rim. 30cm KES 290, 35cm KES 350, 40cm KES 390, or all 3 sizes KES 890",
+  "price": 290,
+  "unit": "1 pc",
+  "added": "2026-11-21",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "30cm",
+      290
+     ],
+     [
+      "35cm",
+      350
+     ],
+     [
+      "40cm",
+      390
+     ],
+     [
+      "Set of 3",
+      890
+     ]
+    ]
+   }
+  ]
  }
 ]
