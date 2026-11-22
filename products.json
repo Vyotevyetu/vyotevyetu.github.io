@@ -6719,6 +6719,46 @@
   "sub": "Bows, stockings & ornaments"
  },
  {
+  "id": "tree-skirt-bow",
+  "cat": "decor",
+  "name": "🎀 Red velvet bow Christmas tree skirt, 90 x 45cm",
+  "detail": "Giant velvet bow that wraps round the tree stand, 90 x 45cm. Hides the stand and makes the tree look like a wrapped gift",
+  "price": 1890,
+  "unit": "1 pc",
+  "added": "2026-11-22",
+  "sub": "Christmas trees"
+ },
+ {
+  "id": "ornament-icicles-12",
+  "cat": "decor",
+  "name": "❄️ Crystal icicle ornaments, 12 pcs",
+  "detail": "Clear twisted icicles with hanging strings, set of 12. Catch the tree lights for a frosty sparkle. Add-on",
+  "price": 590,
+  "unit": "set of 12",
+  "added": "2026-11-22",
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "ornament-berry-picks",
+  "cat": "decor",
+  "name": "🍒 Red berry picks, 10 branches",
+  "detail": "10 bendable red berry stems. Tuck into the tree, wreath, garland, vase or gift wrapping. Add-on",
+  "price": 490,
+  "unit": "10 branches",
+  "added": "2026-11-22",
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "bow-set-3",
+  "cat": "decor",
+  "name": "🎀 Red sparkle bows, set of 3",
+  "detail": "3 small red bows with shiny sequin strips on a card. Tree, gifts, doors and chairs. Add-on",
+  "price": 290,
+  "unit": "set of 3",
+  "added": "2026-11-22",
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
   "id": "cushion-xmas-cream",
   "cat": "decor",
   "name": "🎄 Cream & gold 3D Christmas cushion covers",
