@@ -5672,6 +5672,31 @@
   "sub": "Spice jars & shakers"
  },
  {
+  "id": "foil-freezer-bags",
+  "cat": "storage",
+  "name": "🧊 Reusable aluminium foil freezer bags with zipper",
+  "detail": "Thick aluminium-coated food bags with slider zip, stand-up bottom and a Content/Date label to write on. Keep meat, fish, chicken, vegetables and leftovers fresh in the fridge or freezer, no freezer burn. Wash and reuse. Boxed. Any 2 freezer bag packs KES 890",
+  "price": 490,
+  "unit": "1 box",
+  "added": "2026-11-22",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "Medium 23 x 17cm, 20 bags",
+      490
+     ],
+     [
+      "Large 26 x 29cm, 12 bags",
+      490
+     ]
+    ]
+   }
+  ],
+  "sub": "Freezer & zip bags"
+ },
+ {
   "id": "dish-rack",
   "cat": "kitchen",
   "name": "🍽️ Above-sink dish rack 85cm (2469)",
