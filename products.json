@@ -4202,27 +4202,72 @@
   "id": "gl-25003",
   "cat": "glass",
   "name": "Diamond-cut tall glasses",
-  "detail": "330ml crystal-look. Sold by the dozen",
-  "price": 1590,
-  "unit": "12pcs",
+  "detail": "330ml crystal-look. Set of 6. Want 12? Pick 12 glasses for KES 1,590",
+  "price": 890,
+  "unit": "6pc set",
+  "opts": [
+   {
+    "n": "Qty",
+    "v": [
+     [
+      "6 glasses",
+      890
+     ],
+     [
+      "12 glasses",
+      1590
+     ]
+    ]
+   }
+  ],
   "sub": "Drinking glasses"
  },
  {
   "id": "gl-25006",
   "cat": "glass",
   "name": "Starburst-cut tall glasses",
-  "detail": "Crystal-look. Sold by the dozen",
-  "price": 1590,
-  "unit": "12pcs",
+  "detail": "Crystal-look. Set of 6. Want 12? Pick 12 glasses for KES 1,590",
+  "price": 890,
+  "unit": "6pc set",
+  "opts": [
+   {
+    "n": "Qty",
+    "v": [
+     [
+      "6 glasses",
+      890
+     ],
+     [
+      "12 glasses",
+      1590
+     ]
+    ]
+   }
+  ],
   "sub": "Drinking glasses"
  },
  {
   "id": "gl-25002",
   "cat": "glass",
   "name": "Leaf-cut glasses",
-  "detail": "Crystal-look. Sold by the dozen",
-  "price": 1590,
-  "unit": "12pcs",
+  "detail": "Crystal-look. Set of 6. Want 12? Pick 12 glasses for KES 1,590",
+  "price": 890,
+  "unit": "6pc set",
+  "opts": [
+   {
+    "n": "Qty",
+    "v": [
+     [
+      "6 glasses",
+      890
+     ],
+     [
+      "12 glasses",
+      1590
+     ]
+    ]
+   }
+  ],
   "sub": "Drinking glasses"
  },
  {
