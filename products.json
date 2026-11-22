@@ -1826,6 +1826,33 @@
   ]
  },
  {
+  "id": "biz-popcorn",
+  "cat": "business",
+  "name": "🍿 Commercial popcorn machine (jua kali)",
+  "detail": "Locally made electric popcorn maker with red POPCORN branding, glass display sides and steel frame. Start a popcorn business at schools, bus stops, events and outside shops. Delivery quoted separately",
+  "price": 8490,
+  "unit": "1 machine",
+  "added": "2026-11-22"
+ },
+ {
+  "id": "biz-sugarcane-full",
+  "cat": "business",
+  "name": "🥤 Complete sugarcane juice machine with stand",
+  "detail": "Electric sugarcane crusher on a steel cabinet stand with motor and belt drive. Stainless steel rollers squeeze cane into fresh juice and push out the waste. For juice kiosks, markets and hotels. Delivery quoted separately",
+  "price": 36990,
+  "unit": "1 machine",
+  "added": "2026-11-22"
+ },
+ {
+  "id": "biz-sugarcane-head",
+  "cat": "business",
+  "name": "🥤 Sugarcane juice extractor head (manual)",
+  "detail": "Hand-turned sugarcane juicer head with stainless steel cover, 3 rollers and juice tap. No electricity needed, can be fitted with a motor later. Boxed. Delivery quoted separately",
+  "price": 20990,
+  "unit": "1 machine",
+  "added": "2026-11-22"
+ },
+ {
   "id": "infrared-cooker",
   "cat": "cookers",
   "name": "Infrared gas cooker",
