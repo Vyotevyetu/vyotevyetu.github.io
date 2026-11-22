@@ -6330,7 +6330,7 @@
   "price": 4290,
   "unit": "1 garland",
   "added": "2026-11-22",
-  "sub": "Garlands & lights"
+  "sub": "Garlands, wreaths & lights"
  },
  {
   "id": "tree-mini-lit",
@@ -6350,7 +6350,7 @@
   "price": 990,
   "unit": "1 bow",
   "added": "2026-11-22",
-  "sub": "Bows & ornaments"
+  "sub": "Bows, stockings & ornaments"
  },
  {
   "id": "bow-velvet-berry",
@@ -6360,7 +6360,7 @@
   "price": 1090,
   "unit": "1 bow",
   "added": "2026-11-22",
-  "sub": "Bows & ornaments"
+  "sub": "Bows, stockings & ornaments"
  },
  {
   "id": "garland-cloth-ball",
@@ -6370,7 +6370,7 @@
   "price": 1990,
   "unit": "1 garland",
   "added": "2026-11-22",
-  "sub": "Garlands & lights"
+  "sub": "Garlands, wreaths & lights"
  },
  {
   "id": "ornament-cluster-balls",
@@ -6380,7 +6380,188 @@
   "price": 990,
   "unit": "set of 6",
   "added": "2026-11-22",
-  "sub": "Bows & ornaments"
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "tree-storage-bag",
+  "cat": "decor",
+  "name": "🎒 Christmas tree storage bag, green",
+  "detail": "Waterproof, termite-proof and tear-proof bag with zip and strong carry handles. Pack your tree away after the holidays and keep it like new",
+  "price": 1990,
+  "unit": "1 bag",
+  "added": "2026-11-22",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "Trees up to 7ft · 122x51x39cm",
+      1990
+     ],
+     [
+      "Trees up to 10ft · 166x76x39cm",
+      2390
+     ]
+    ]
+   }
+  ],
+  "sub": "Christmas trees"
+ },
+ {
+  "id": "garland-cypress",
+  "cat": "decor",
+  "name": "🌿 Plain green cypress garland, 2.7m",
+  "detail": "Undecorated green cypress garland, 2.7 metres. Drape on the staircase, mantel, doorway or windows and add your own bows, balls or lights",
+  "price": 1690,
+  "unit": "1 garland",
+  "added": "2026-11-22",
+  "sub": "Garlands, wreaths & lights"
+ },
+ {
+  "id": "wreath-lit-30",
+  "cat": "decor",
+  "name": "🎄 Christmas wreath with lights, 30cm",
+  "detail": "30cm Merry Christmas door wreath with built-in lights, red bow, baubles and gold poinsettias. Pick bow or bells design",
+  "price": 1390,
+  "unit": "1 wreath",
+  "added": "2026-11-22",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "Red bow"
+     ],
+     [
+      "Gold bells & gifts"
+     ]
+    ]
+   }
+  ],
+  "sub": "Garlands, wreaths & lights"
+ },
+ {
+  "id": "runner-xmas",
+  "cat": "decor",
+  "name": "🍽️ Christmas table runner, 33 x 200cm",
+  "detail": "Linen-look Christmas table runner for dining tables and parties: reindeer, Merry Christmas, snowman, gnomes, plaid trees or snowflakes. Pick design A to H",
+  "price": 1190,
+  "unit": "1 runner",
+  "added": "2026-11-22",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "A reindeer"
+     ],
+     [
+      "B Merry Christmas"
+     ],
+     [
+      "C snowman tree"
+     ],
+     [
+      "D snowman"
+     ],
+     [
+      "E snowman village"
+     ],
+     [
+      "F gnomes"
+     ],
+     [
+      "G plaid trees"
+     ],
+     [
+      "H snowflakes"
+     ]
+    ]
+   }
+  ],
+  "sub": "Table runners, banners & party"
+ },
+ {
+  "id": "banner-door-xmas",
+  "cat": "decor",
+  "name": "🚪 Merry Christmas door banners, pair 30 x 180cm",
+  "detail": "Pair of hanging porch and door banners, 30 x 180cm each. Pick design A Merry Christmas snow, B Merry Christmas red, or C Santa & snowman",
+  "price": 1090,
+  "unit": "1 pair",
+  "added": "2026-11-22",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "A snowy Merry Christmas"
+     ],
+     [
+      "B red Merry Christmas"
+     ],
+     [
+      "C Santa & snowman"
+     ]
+    ]
+   }
+  ],
+  "sub": "Table runners, banners & party"
+ },
+ {
+  "id": "stocking-felt",
+  "cat": "decor",
+  "name": "🧦 Felt Christmas stocking",
+  "detail": "Red felt stocking with green cuff, Santa or snowman. Hang on the tree, door or wall, fill with sweets for the kids. Any 4 stockings KES 790",
+  "price": 250,
+  "unit": "1 stocking",
+  "added": "2026-11-22",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "Santa"
+     ],
+     [
+      "Snowman"
+     ],
+     [
+      "Mixed"
+     ]
+    ]
+   }
+  ],
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "bow-gold-glitter",
+  "cat": "decor",
+  "name": "✨ Gold glitter Christmas bow",
+  "detail": "Big gold glitter bow with reindeer print. Tree top, gifts, doors and hampers. Add-on, great with any tree",
+  "price": 290,
+  "unit": "1 bow",
+  "added": "2026-11-22",
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "sign-merry-gold",
+  "cat": "decor",
+  "name": "✨ Gold Merry Christmas sign ornament",
+  "detail": "Gold glitter Merry Christmas script with hanging holes, hang on the tree, wreath or door. Add-on",
+  "price": 350,
+  "unit": "1 pc",
+  "added": "2026-11-22",
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "cupcard-xmas",
+  "cat": "decor",
+  "name": "🥂 Christmas cup cards, 10 pcs",
+  "detail": "Paper glass toppers: tree, reindeer, snowman and holly, random designs. Slot onto glasses for Christmas parties. Add-on",
+  "price": 290,
+  "unit": "10 pcs",
+  "added": "2026-11-22",
+  "sub": "Table runners, banners & party"
  },
  {
   "id": "cushion-xmas-cream",
