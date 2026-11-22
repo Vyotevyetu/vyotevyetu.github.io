@@ -1686,6 +1686,15 @@
   "sub": "58pc dinner sets"
  },
  {
+  "id": "cutlery-445f12",
+  "cat": "cutlery",
+  "name": "🍴 24pc cutlery set with stand (445-F12)",
+  "detail": "Stainless steel cutlery for 6: 6 butter knives, 6 forks, 6 table spoons and 6 tea spoons, with engraved handles. Comes with a matching steel stand that holds them all. Boxed, a great gift",
+  "price": 2990,
+  "unit": "24pc set",
+  "added": "2026-11-22"
+ },
+ {
   "id": "air-fryer",
   "cat": "pressure",
   "name": "🍟 ElectroMate AF03 air fryer",
@@ -3979,6 +3988,29 @@
   "sub": "Printed & coloured mugs"
  },
  {
+  "id": "mug-25018",
+  "cat": "mugs",
+  "name": "☕ Octagon gloss mugs (25018)",
+  "detail": "Faceted eight-sided ceramic mugs, glossy outside with white inside, square handle. Set of 6, black or sky blue. Stand not included",
+  "price": 990,
+  "unit": "6pc set",
+  "added": "2026-11-22",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Black"
+     ],
+     [
+      "Sky blue"
+     ]
+    ]
+   }
+  ],
+  "sub": "Printed & coloured mugs"
+ },
+ {
   "id": "water-set",
   "cat": "glass",
   "name": "7pc water set",
@@ -4167,6 +4199,26 @@
   "unit": "each",
   "added": "2026-11-19",
   "sub": "Drinking glasses"
+ },
+ {
+  "id": "gl-byd29",
+  "cat": "glass",
+  "name": "🥛 Nice One twisted glasses 387ml (BYD-29)",
+  "detail": "Tall twisted-cut drinking glasses, 387ml, set of 6 in a gift box. Water and juice",
+  "price": 790,
+  "unit": "6pc set",
+  "added": "2026-11-22",
+  "sub": "Drinking glasses"
+ },
+ {
+  "id": "wine-rl3057",
+  "cat": "glass",
+  "name": "🍷 Nice One wine glasses 330ml (RL3057)",
+  "detail": "Classic stemmed wine glasses, 330ml, set of 6 in a box. Red or white wine, parties and weddings",
+  "price": 1290,
+  "unit": "6pc set",
+  "added": "2026-11-22",
+  "sub": "Wine & party glasses"
  },
  {
   "id": "blue-plates",
@@ -4969,7 +5021,8 @@
   "detail": "Crystal-clear ribbed acrylic with lid. Looks like glass, does not break.",
   "price": 690,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Plastic & acrylic jugs"
  },
  {
   "id": "jug-adix947",
@@ -4997,7 +5050,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Plastic & acrylic jugs"
  },
  {
   "id": "jug-premier3",
@@ -5022,7 +5076,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Plastic & acrylic jugs"
  },
  {
   "id": "jug-wj4",
@@ -5047,7 +5102,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Plastic & acrylic jugs"
  },
  {
   "id": "jug-wj5",
@@ -5072,7 +5128,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Plastic & acrylic jugs"
  },
  {
   "id": "jug-wj3",
@@ -5097,7 +5154,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Plastic & acrylic jugs"
  },
  {
   "id": "jug-wj1",
@@ -5128,7 +5186,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Plastic & acrylic jugs"
  },
  {
   "id": "jug-no930",
@@ -5150,7 +5209,28 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Plastic & acrylic jugs"
+ },
+ {
+  "id": "jug-glass-ribbed18",
+  "cat": "jugs",
+  "name": "🫙 Ribbed glass jug 1.8L (BDSTH1800)",
+  "detail": "Tall square ribbed glass jug with white lid and easy-pour spout. 1.8 litres, fits the fridge door. Water, juice, milk",
+  "price": 690,
+  "unit": "1 pc",
+  "added": "2026-11-22",
+  "sub": "Glass jugs"
+ },
+ {
+  "id": "jug-glass-j7",
+  "cat": "jugs",
+  "name": "🍹 Glass jug 1.3L with lid (J-7)",
+  "detail": "Clear glass jug with a crystal-look lid and wide pouring lip. 1.3 litres for juice, water and tea",
+  "price": 590,
+  "unit": "1 pc",
+  "added": "2026-11-22",
+  "sub": "Glass jugs"
  },
  {
   "id": "sugar-marble",
@@ -5324,7 +5404,7 @@
   "detail": "350ml and 500ml borosilicate glass, bamboo lids",
   "price": 2390,
   "unit": "pair",
-  "sub": "Measuring jugs & scoops"
+  "sub": "Measuring jugs"
  },
  {
   "id": "boro-500",
@@ -5333,7 +5413,7 @@
   "detail": "Borosilicate glass, bamboo lid, heat resistant",
   "price": 1350,
   "unit": "each",
-  "sub": "Measuring jugs & scoops"
+  "sub": "Measuring jugs"
  },
  {
   "id": "boro-350",
@@ -5342,7 +5422,7 @@
   "detail": "Borosilicate glass, bamboo lid, heat resistant",
   "price": 1190,
   "unit": "each",
-  "sub": "Measuring jugs & scoops"
+  "sub": "Measuring jugs"
  },
  {
   "id": "stallion-jug",
@@ -5351,7 +5431,7 @@
   "detail": "Plastic, ml, oz, cups and pints. Made in Kenya. Add-on to any order",
   "price": 250,
   "unit": "each",
-  "sub": "Measuring jugs & scoops"
+  "sub": "Measuring jugs"
  },
  {
   "id": "scoop-ice-small",
@@ -5376,7 +5456,7 @@
     ]
    }
   ],
-  "sub": "Measuring jugs & scoops"
+  "sub": "Kitchen tools & gadgets"
  },
  {
   "id": "soap-acrylic",
@@ -5467,6 +5547,36 @@
   "price": 490,
   "unit": "each",
   "sub": "Kitchen towels & holders"
+ },
+ {
+  "id": "opener-8806",
+  "cat": "kitchen",
+  "name": "🍷 Wing wine opener (8806)",
+  "detail": "Heavy stainless steel wing corkscrew: twist, press the wings down and the cork comes out easily. Bottle cap opener on top. Great add-on to any order",
+  "price": 690,
+  "unit": "1 pc",
+  "added": "2026-11-22",
+  "sub": "Kitchen tools & gadgets"
+ },
+ {
+  "id": "pizza-cutter",
+  "cat": "kitchen",
+  "name": "🍕 Pizza & dough cutter, bamboo handle (MJ-XH029)",
+  "detail": "Sharp stainless steel wheel with finger guard and a bamboo handle. Cuts pizza, chapati dough, mandazi and pastry. Great add-on to any order",
+  "price": 390,
+  "unit": "1 pc",
+  "added": "2026-11-22",
+  "sub": "Kitchen tools & gadgets"
+ },
+ {
+  "id": "squeezer-767",
+  "cat": "kitchen",
+  "name": "🍋 Stainless lemon squeezer (767)",
+  "detail": "Large stainless steel hand press for lemons and limes: juice without seeds. Boxed. Great add-on to any order",
+  "price": 450,
+  "unit": "1 pc",
+  "added": "2026-11-22",
+  "sub": "Kitchen tools & gadgets"
  },
  {
   "id": "organizer",
