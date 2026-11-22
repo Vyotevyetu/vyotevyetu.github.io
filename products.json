@@ -5091,7 +5091,7 @@
   "id": "suf-redberry",
   "cat": "cookware",
   "name": "🍲 Redberry aluminium sufuria set",
-  "detail": "Heavy polished aluminium sufurias that nest together, England brand. Sizes 1 to 8 (8pcs) KES 4,490, sizes 1 to 12 (12pcs) KES 8,490. Lids sold separately: 8 lids (sizes 1-8) add KES 1,400, 12 lids (sizes 1-12) add KES 2,500. Pick \"+ lids\" in the size button",
+  "detail": "Heavy polished aluminium sufurias that nest together, England brand. Sizes 1 to 8 (8pcs) KES 4,490, sizes 1 to 12 (12pcs) KES 8,490. Lids sold separately: 4 lids (12/15) add KES 800, 8 lids (12/19) add KES 1,400, 12 lids (12/23) add KES 2,500. Pick \"+ lids\" in the size button",
   "price": 4490,
   "unit": "set",
   "added": "2026-11-21",
@@ -5100,19 +5100,19 @@
     "n": "Size",
     "v": [
      [
-      "Sizes 1-8",
+      "Sizes 1-8 (12/19)",
       4490
      ],
      [
-      "Sizes 1-8 + 8 lids",
+      "Sizes 1-8 (12/19) + lids",
       5890
      ],
      [
-      "Sizes 1-12",
+      "Sizes 1-12 (12/23)",
       8490
      ],
      [
-      "Sizes 1-12 + 12 lids",
+      "Sizes 1-12 (12/23) + lids",
       10990
      ]
     ]
@@ -5122,17 +5122,32 @@
  {
   "id": "suf-signature8",
   "cat": "cookware",
-  "name": "🍲 Signature big aluminium sufurias, 8pcs (12/19)",
-  "detail": "Big aluminium sufurias, sizes 12 to 19, made in India. For big families, schools and functions. No lids",
+  "name": "🍲 Signature aluminium sufurias, 8pcs (12/19)",
+  "detail": "Aluminium sufurias, sizes 12/19 (sizes 1 to 8), nest together. Made in India. Lids sold separately: 4 lids (12/15) add KES 800, 8 lids (12/19) add KES 1,400, 12 lids (12/23) add KES 2,500. Pick \"+ lids\" in the size button",
   "price": 4690,
-  "unit": "8pc set",
-  "added": "2026-11-21"
+  "unit": "set",
+  "added": "2026-11-21",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "Sizes 1-8 (12/19)",
+      4690
+     ],
+     [
+      "Sizes 1-8 (12/19) + lids",
+      6090
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "suf-uken12",
   "cat": "cookware",
   "name": "🍲 Uken Premium aluminium sufurias, 12pcs (1-12)",
-  "detail": "Polished aluminium sufurias sizes 1 to 12, nest together. Made in India. Lids sold separately: 8 lids (sizes 1-8) add KES 1,400, 12 lids (sizes 1-12) add KES 2,500. Pick \"+ lids\" in the size button",
+  "detail": "Polished aluminium sufurias sizes 1 to 12, nest together. Made in India. Lids sold separately: 4 lids (12/15) add KES 800, 8 lids (12/19) add KES 1,400, 12 lids (12/23) add KES 2,500. Pick \"+ lids\" in the size button",
   "price": 7990,
   "unit": "set",
   "added": "2026-11-21",
@@ -5141,11 +5156,11 @@
     "n": "Size",
     "v": [
      [
-      "Sizes 1-12",
+      "Sizes 1-12 (12/23)",
       7990
      ],
      [
-      "Sizes 1-12 + 12 lids",
+      "Sizes 1-12 (12/23) + lids",
       10490
      ]
     ]
@@ -5156,7 +5171,7 @@
   "id": "suf-oxford",
   "cat": "cookware",
   "name": "🍲 Oxford aluminium sufuria set",
-  "detail": "Crystal Oxford aluminium sufurias, made in Kenya. Sizes 1-4 KES 1,190, 1-8 KES 2,690, 1-12 KES 4,790. Lids sold separately: 8 lids (sizes 1-8) add KES 1,400, 12 lids (sizes 1-12) add KES 2,500. Pick \"+ lids\" in the size button",
+  "detail": "Crystal Oxford aluminium sufurias, made in Kenya. Sizes 1-4 (12/15) KES 1,190, 1-8 (12/19) KES 2,690, 1-12 (12/23) KES 4,790. Lids sold separately: 4 lids (12/15) add KES 800, 8 lids (12/19) add KES 1,400, 12 lids (12/23) add KES 2,500. Pick \"+ lids\" in the size button",
   "price": 1190,
   "unit": "set",
   "added": "2026-11-21",
@@ -5165,23 +5180,27 @@
     "n": "Size",
     "v": [
      [
-      "Sizes 1-4",
+      "Sizes 1-4 (12/15)",
       1190
      ],
      [
-      "Sizes 1-8",
+      "Sizes 1-4 (12/15) + lids",
+      1990
+     ],
+     [
+      "Sizes 1-8 (12/19)",
       2690
      ],
      [
-      "Sizes 1-8 + 8 lids",
+      "Sizes 1-8 (12/19) + lids",
       4090
      ],
      [
-      "Sizes 1-12",
+      "Sizes 1-12 (12/23)",
       4790
      ],
      [
-      "Sizes 1-12 + 12 lids",
+      "Sizes 1-12 (12/23) + lids",
       7290
      ]
     ]
@@ -5192,7 +5211,7 @@
   "id": "suf-bellypot",
   "cat": "cookware",
   "name": "🍲 Lion Brand Belly Pot sufuria set",
-  "detail": "Kaluworks Lion Brand belly-shaped aluminium sufurias, made in Kenya. Sizes 1-4 KES 1,990, 1-8 KES 4,290, 1-12 KES 7,990. Lids sold separately: 8 lids (sizes 1-8) add KES 1,400, 12 lids (sizes 1-12) add KES 2,500. Pick \"+ lids\" in the size button",
+  "detail": "Kaluworks Lion Brand belly-shaped aluminium sufurias, made in Kenya. Sizes 1-4 (12/15) KES 1,990, 1-8 (12/19) KES 4,290, 1-12 (12/23) KES 7,990. Lids sold separately: 4 lids (12/15) add KES 800, 8 lids (12/19) add KES 1,400, 12 lids (12/23) add KES 2,500. Pick \"+ lids\" in the size button",
   "price": 1990,
   "unit": "set",
   "added": "2026-11-21",
@@ -5201,23 +5220,27 @@
     "n": "Size",
     "v": [
      [
-      "Sizes 1-4",
+      "Sizes 1-4 (12/15)",
       1990
      ],
      [
-      "Sizes 1-8",
+      "Sizes 1-4 (12/15) + lids",
+      2790
+     ],
+     [
+      "Sizes 1-8 (12/19)",
       4290
      ],
      [
-      "Sizes 1-8 + 8 lids",
+      "Sizes 1-8 (12/19) + lids",
       5690
      ],
      [
-      "Sizes 1-12",
+      "Sizes 1-12 (12/23)",
       7990
      ],
      [
-      "Sizes 1-12 + 12 lids",
+      "Sizes 1-12 (12/23) + lids",
       10490
      ]
     ]
@@ -5228,7 +5251,7 @@
   "id": "suf-freedom8",
   "cat": "cookware",
   "name": "🍲 Freedom aluminium sufurias, 8pcs",
-  "detail": "Polished aluminium sufurias, sizes 1 to 8, made in India. Lids sold separately: 8 lids (sizes 1-8) add KES 1,400, 12 lids (sizes 1-12) add KES 2,500. Pick \"+ lids\" in the size button",
+  "detail": "Polished aluminium sufurias, sizes 1 to 8, made in India. Lids sold separately: 4 lids (12/15) add KES 800, 8 lids (12/19) add KES 1,400, 12 lids (12/23) add KES 2,500. Pick \"+ lids\" in the size button",
   "price": 4590,
   "unit": "set",
   "added": "2026-11-21",
@@ -5237,11 +5260,11 @@
     "n": "Size",
     "v": [
      [
-      "Sizes 1-8",
+      "Sizes 1-8 (12/19)",
       4590
      ],
      [
-      "Sizes 1-8 + 8 lids",
+      "Sizes 1-8 (12/19) + lids",
       5990
      ]
     ]
