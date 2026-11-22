@@ -121,6 +121,30 @@
   "unit": "each"
  },
  {
+  "id": "scoop-ice-small",
+  "cat": "kitchen",
+  "name": "🧊 Stainless ice scoop, small (1283-3)",
+  "detail": "Polished stainless steel scoop for ice, flour, sugar, rice, beans, sweets and pet food. Rust-free, easy to clean, hanging loop on the handle. Great add-on to any order",
+  "price": 490,
+  "unit": "1 pc",
+  "added": "2026-11-22",
+  "opts": [
+   {
+    "n": "Qty",
+    "v": [
+     [
+      "1 pc",
+      490
+     ],
+     [
+      "Any 2",
+      890
+     ]
+    ]
+   }
+  ]
+ },
+ {
   "id": "marble-set",
   "cat": "sets",
   "name": "Marble gold dinner set",
