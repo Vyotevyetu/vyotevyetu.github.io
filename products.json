@@ -4057,6 +4057,121 @@
   ]
  },
  {
+  "id": "kalu-55",
+  "cat": "cookware",
+  "name": "🍲 Kaluworks Deluxe sufuria 55L (size 36) with lid",
+  "detail": "Lion Brand 36 Deluxe heavy aluminium sufuria, made in Kenya. 55 litres, 55cm wide, 27cm tall. Sturdy side handles and tight-fitting lid. For schools, hotels, catering, events and big family functions",
+  "price": 5990,
+  "unit": "1 pc",
+  "added": "2026-11-22"
+ },
+ {
+  "id": "premium-5",
+  "cat": "cookware",
+  "name": "⭐ Premium heavy-duty sufurias, 5pcs with lids",
+  "detail": "Polished heavy-duty aluminium casseroles, 5 nesting sizes, each with its own steel lid and strong steel handles. Boxed. Home and commercial use",
+  "price": 9490,
+  "unit": "5pc set",
+  "added": "2026-11-22"
+ },
+ {
+  "id": "freedom-big",
+  "cat": "cookware",
+  "name": "🍲 Freedom extra heavy sufuria with lid, 25L to 280L",
+  "detail": "KC Freedom extra heavy aluminium sufuria with handles and lid, made in India. Pick the size: 25L to 280L. For schools, hotels, churches, caterers, weddings and funerals",
+  "price": 4690,
+  "unit": "1 pc",
+  "added": "2026-11-22",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "25L",
+      4690
+     ],
+     [
+      "30L",
+      5590
+     ],
+     [
+      "35L",
+      6390
+     ],
+     [
+      "40L",
+      7290
+     ],
+     [
+      "50L",
+      8990
+     ],
+     [
+      "60L",
+      10790
+     ],
+     [
+      "70L",
+      12490
+     ],
+     [
+      "80L",
+      14290
+     ],
+     [
+      "90L",
+      15990
+     ],
+     [
+      "100L",
+      17790
+     ],
+     [
+      "120L",
+      20990
+     ],
+     [
+      "140L",
+      24490
+     ],
+     [
+      "160L",
+      27990
+     ],
+     [
+      "180L",
+      30990
+     ],
+     [
+      "200L",
+      34490
+     ],
+     [
+      "230L",
+      39490
+     ],
+     [
+      "250L",
+      42990
+     ],
+     [
+      "280L",
+      47990
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "suf-signature-belly5",
+  "cat": "cookware",
+  "name": "🍲 Signature belly pot sufurias, 5pcs with lids (16/24)",
+  "detail": "Signature by Tiba pure aluminium belly pots, made in Egypt. 5 big sizes 16 to 24, all with lids. Stack together to save space",
+  "price": 5290,
+  "unit": "5pc set",
+  "added": "2026-11-22"
+ },
+ {
   "id": "pardini-28",
   "cat": "cookware",
   "name": "🍲 Pardini aluminium casserole 11.5L (705/28)",
