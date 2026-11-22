@@ -4012,19 +4012,49 @@
   "id": "kalu-12",
   "cat": "cookware",
   "name": "🍲 Kaluworks Lion Brand sufuria set, 12pcs",
-  "detail": "Kaluworks Deluxe heavy-duty aluminium sufurias, made in Kenya. 12 sizes nest together: 1.2L, 1.7L, 2L, 3L, 3.5L, 4L, 5L, 6L, 7L, 9L, 10L and 11.5L. Biggest 23cm tall. Ugali, rice, stews, catering. No lids",
+  "detail": "Kaluworks Deluxe heavy-duty aluminium sufurias, made in Kenya. 12 sizes nest together: 1.2L, 1.7L, 2L, 3L, 3.5L, 4L, 5L, 6L, 7L, 9L, 10L and 11.5L. Biggest 23cm tall. Ugali, rice, stews, catering. Fits 12/23 lids: add 12 lids for KES 2,500",
   "price": 11490,
   "unit": "12pc set",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "Sizes 1-12 (12/23)",
+      11490
+     ],
+     [
+      "Sizes 1-12 (12/23) + lids",
+      13990
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "kalu-1619",
   "cat": "cookware",
   "name": "🍲 Kaluworks Deluxe sufuria set, 4pcs (1619)",
-  "detail": "Heavy-duty aluminium, mirror finish, made in Kenya. Sizes about 4L, 5L, 6.5L and 8L. No lids",
+  "detail": "Heavy-duty aluminium, mirror finish, made in Kenya. Sizes about 4L, 5L, 6.5L and 8L. Sizes 5-8 (15/19). Add 4 lids for KES 1,100",
   "price": 4490,
   "unit": "4pc set",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "Sizes 5-8 (15/19)",
+      4490
+     ],
+     [
+      "Sizes 5-8 (15/19) + lids",
+      5590
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "pardini-28",
