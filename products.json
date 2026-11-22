@@ -512,6 +512,26 @@
   "sub": "Aluminium sufuria sets"
  },
  {
+  "id": "chapati-juakali",
+  "cat": "cookware",
+  "name": "🫓 Jua kali chapati pan",
+  "detail": "Locally made cast aluminium chapati pan (tawa) with wire handle. Even heat for chapati, pancakes and eggs on gas, jiko or firewood",
+  "price": 790,
+  "unit": "1 pc",
+  "added": "2026-11-22",
+  "sub": "Chapati pans & frying pans"
+ },
+ {
+  "id": "chapati-heavy",
+  "cat": "cookware",
+  "name": "🫓 Heavy chapati pan",
+  "detail": "Thick heavy-gauge aluminium chapati pan with steel loop handle. Does not warp, browns chapati evenly. Gas, jiko or firewood",
+  "price": 1090,
+  "unit": "1 pc",
+  "added": "2026-11-22",
+  "sub": "Chapati pans & frying pans"
+ },
+ {
   "id": "hotpot-set",
   "cat": "hotpots",
   "name": "🍲 Uken Flora hotpot set",
@@ -1784,6 +1804,28 @@
   "sub": "Electric pressure cookers"
  },
  {
+  "id": "blender-sonar-ux1",
+  "cat": "blenders",
+  "name": "🥤 Sonar UX-1 2-in-1 blender 1.8L",
+  "detail": "1.8 litre blender jug plus a dry grinder (mill) for spices, nuts and coffee. 300W motor, 2 speeds and pulse, safety lock, 1.5m cord. Smoothies, juice, soups, chutney",
+  "price": 2290,
+  "unit": "1 pc",
+  "added": "2026-11-22",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "White & green"
+     ],
+     [
+      "All black"
+     ]
+    ]
+   }
+  ]
+ },
+ {
   "id": "infrared-cooker",
   "cat": "cookers",
   "name": "Infrared gas cooker",
@@ -2676,6 +2718,52 @@
    }
   ],
   "sub": "Water bottles"
+ },
+ {
+  "id": "urn-single-8488",
+  "cat": "flasks",
+  "name": "🫖 Tea urn 9.5L, single tap (8488)",
+  "detail": "Sundabests stainless steel insulated tea urn: keeps tea hot or juice cold for hours, no electricity needed. Single tap, carry handle. Weddings, meetings, funerals, church",
+  "price": 2990,
+  "unit": "1 pc",
+  "added": "2026-11-22",
+  "sub": "Tea urns"
+ },
+ {
+  "id": "urn-double-7490",
+  "cat": "flasks",
+  "name": "🫖 Tea urn 9.5L, double tap (7490)",
+  "detail": "Sundabests stainless steel insulated tea urn with 2 taps for faster serving and stand legs. Keeps tea hot or juice cold for hours, no electricity needed. Events and offices",
+  "price": 3190,
+  "unit": "1 pc",
+  "added": "2026-11-22",
+  "sub": "Tea urns"
+ },
+ {
+  "id": "urn-marble-1420",
+  "cat": "flasks",
+  "name": "🫖 Marble tea urn 9.5L (1420)",
+  "detail": "Sundabests insulated tea urn in a gold-vein marble finish, single tap. Keeps drinks hot or cold for hours, no electricity needed. White, cream or black",
+  "price": 3190,
+  "unit": "1 pc",
+  "added": "2026-11-22",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "White"
+     ],
+     [
+      "Cream"
+     ],
+     [
+      "Black"
+     ]
+    ]
+   }
+  ],
+  "sub": "Tea urns"
  },
  {
   "id": "wd-afk103",
@@ -4011,6 +4099,16 @@
   "sub": "Printed & coloured mugs"
  },
  {
+  "id": "mug-a003hd",
+  "cat": "mugs",
+  "name": "☕ Butterfly & berry mugs (A003-HD)",
+  "detail": "White ceramic mugs with a red berry branch and orange butterfly print. Set of 6. Stand not included",
+  "price": 790,
+  "unit": "6pc set",
+  "added": "2026-11-22",
+  "sub": "Printed & coloured mugs"
+ },
+ {
   "id": "water-set",
   "cat": "glass",
   "name": "7pc water set",
@@ -4219,6 +4317,16 @@
   "unit": "6pc set",
   "added": "2026-11-22",
   "sub": "Wine & party glasses"
+ },
+ {
+  "id": "gl-5584",
+  "cat": "glass",
+  "name": "🥛 Lirmartur ribbed glasses 500ml (5584)",
+  "detail": "Big 500ml stackable glasses with a ribbed base, set of 6 in a gift box. Water, juice and smoothies",
+  "price": 990,
+  "unit": "6pc set",
+  "added": "2026-11-22",
+  "sub": "Drinking glasses"
  },
  {
   "id": "blue-plates",
@@ -5376,6 +5484,16 @@
   "price": 690,
   "unit": "pair",
   "added": "2026-11-19",
+  "sub": "Spice jars & shakers"
+ },
+ {
+  "id": "jar-spice-6012",
+  "cat": "storage",
+  "name": "🫙 Glass spice & canister jars, 6pcs with 2-tier stand (6012)",
+  "detail": "6 clear glass jars with cream lids and wood-look labels for sugar, tea, coffee, pasta, pepper and salt, on a chrome 2-tier rack. Keeps the counter neat",
+  "price": 2990,
+  "unit": "6 jars + stand",
+  "added": "2026-11-22",
   "sub": "Spice jars & shakers"
  },
  {
