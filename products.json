@@ -6686,6 +6686,39 @@
   "sub": "Bows, stockings & ornaments"
  },
  {
+  "id": "ornament-butterfly-40",
+  "cat": "decor",
+  "name": "🦋 Burgundy velvet Christmas butterfly, 40cm",
+  "detail": "Big 40 x 35cm layered velvet butterfly with gold glitter outlines and sparkle tips, clip-on wire. A statement piece for the tree top, wreath, mantel or wall. Any 3 butterflies KES 5,990",
+  "price": 2190,
+  "unit": "1 pc",
+  "added": "2026-11-22",
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "ornament-finial-6",
+  "cat": "decor",
+  "name": "✨ Velvet finial baubles 18cm, set of 6",
+  "detail": "Long ribbed velvet drop ornaments, 18cm, with gold and pearl bead trim on 3 of 6. Boxed. Deep burgundy or emerald green, great with gold baubles",
+  "price": 1890,
+  "unit": "set of 6",
+  "added": "2026-11-22",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Burgundy"
+     ],
+     [
+      "Emerald green"
+     ]
+    ]
+   }
+  ],
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
   "id": "cushion-xmas-cream",
   "cat": "decor",
   "name": "🎄 Cream & gold 3D Christmas cushion covers",
