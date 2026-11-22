@@ -6106,6 +6106,196 @@
   "unit": "6pc set"
  },
  {
+  "id": "cushion-xmas-cream",
+  "cat": "decor",
+  "name": "🎄 Cream & gold 3D Christmas cushion covers",
+  "detail": "Cream, gold and red 3D-look prints: Christmas tree, Santa, reindeer, wreath, stocking and bells. 45 x 45cm, zip closure. Cover only, no filling. Pick your design letter or number from the photo. Any 4 Christmas cushion covers KES 1,990, mix designs",
+  "price": 590,
+  "unit": "1 cover",
+  "added": "2026-11-22",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "A reindeer wreath"
+     ],
+     [
+      "B stocking"
+     ],
+     [
+      "C bells"
+     ],
+     [
+      "D tree"
+     ],
+     [
+      "E Santa"
+     ],
+     [
+      "F reindeer"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cushion-xmas-plaid",
+  "cat": "decor",
+  "name": "❤️ Red plaid Christmas cushion covers",
+  "detail": "Red and black buffalo check prints on white or plaid: reindeer, Merry Christmas tree, bow, stocking. 45 x 45cm, zip closure. Cover only, no filling. Pick your design letter or number from the photo. Any 4 Christmas cushion covers KES 1,990, mix designs",
+  "price": 590,
+  "unit": "1 cover",
+  "added": "2026-11-22",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "G reindeer"
+     ],
+     [
+      "H tree"
+     ],
+     [
+      "I bow"
+     ],
+     [
+      "J stocking"
+     ],
+     [
+      "K antlers"
+     ],
+     [
+      "L bow bell"
+     ],
+     [
+      "M two deer"
+     ],
+     [
+      "N bauble"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cushion-xmas-red",
+  "cat": "decor",
+  "name": "❄️ Red & cream snowflake Christmas cushion covers",
+  "detail": "Linen-look red and cream prints: baubles, snowflakes, Merry Christmas script, trees and reindeer. 45 x 45cm, zip closure. Cover only, no filling. Pick your design letter or number from the photo. Any 4 Christmas cushion covers KES 1,990, mix designs",
+  "price": 590,
+  "unit": "1 cover",
+  "added": "2026-11-22",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "O baubles"
+     ],
+     [
+      "P snowflake"
+     ],
+     [
+      "Q Merry Christmas"
+     ],
+     [
+      "R trees"
+     ],
+     [
+      "S deer in forest"
+     ],
+     [
+      "T two deer"
+     ],
+     [
+      "U snowflakes"
+     ],
+     [
+      "V leaping deer"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cushion-xmas-santa",
+  "cat": "decor",
+  "name": "🎅 Santa & snowman Christmas cushion covers",
+  "detail": "Bright full-colour prints: Santa, snowmen, candles, stockings, gifts, trees and Happy New Year. 45 x 45cm, zip closure. Cover only, no filling. Pick your design letter or number from the photo. Any 4 Christmas cushion covers KES 1,990, mix designs",
+  "price": 590,
+  "unit": "1 cover",
+  "added": "2026-11-22",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "1"
+     ],
+     [
+      "2"
+     ],
+     [
+      "3"
+     ],
+     [
+      "4"
+     ],
+     [
+      "5"
+     ],
+     [
+      "6"
+     ],
+     [
+      "7"
+     ],
+     [
+      "8"
+     ],
+     [
+      "9"
+     ],
+     [
+      "10"
+     ],
+     [
+      "11"
+     ],
+     [
+      "12"
+     ],
+     [
+      "17"
+     ],
+     [
+      "18"
+     ],
+     [
+      "19"
+     ],
+     [
+      "20"
+     ],
+     [
+      "21"
+     ],
+     [
+      "22"
+     ],
+     [
+      "23"
+     ],
+     [
+      "24"
+     ]
+    ]
+   }
+  ]
+ },
+ {
   "id": "bag-tortoise",
   "cat": "bags",
   "name": "🐢 Tortoise 3D kindergarten bag",
