@@ -4142,7 +4142,7 @@
   "detail": "190ml",
   "price": 1290,
   "unit": "6pc set",
-  "sub": "Wine & party glasses"
+  "sub": "Wine, whisky & party glasses"
  },
  {
   "id": "martini",
@@ -4151,7 +4151,7 @@
   "detail": "300ml",
   "price": 1190,
   "unit": "6pc set",
-  "sub": "Wine & party glasses"
+  "sub": "Wine, whisky & party glasses"
  },
  {
   "id": "ribbed-cups",
@@ -4178,7 +4178,7 @@
   "detail": "360ml",
   "price": 890,
   "unit": "6pc set",
-  "sub": "Wine & party glasses"
+  "sub": "Wine, whisky & party glasses"
  },
  {
   "id": "cut-glasses",
@@ -4331,7 +4331,7 @@
   "detail": "360ml tall tumbler",
   "price": 690,
   "unit": "6pc set",
-  "sub": "Wine & party glasses"
+  "sub": "Wine, whisky & party glasses"
  },
  {
   "id": "glass-holder-heart",
@@ -4361,7 +4361,7 @@
   "price": 1290,
   "unit": "6pc set",
   "added": "2026-11-22",
-  "sub": "Wine & party glasses"
+  "sub": "Wine, whisky & party glasses"
  },
  {
   "id": "gl-5584",
@@ -4372,6 +4372,26 @@
   "unit": "6pc set",
   "added": "2026-11-22",
   "sub": "Drinking glasses"
+ },
+ {
+  "id": "gl-dmc018",
+  "cat": "glass",
+  "name": "🥃 Diamond concave whisky glasses 390ml (DMC018)",
+  "detail": "Heavy-base rounded tumblers, 390ml, set of 6 in a box. Whisky, juice or water",
+  "price": 990,
+  "unit": "6pc set",
+  "added": "2026-11-22",
+  "sub": "Wine, whisky & party glasses"
+ },
+ {
+  "id": "gl-df25012",
+  "cat": "glass",
+  "name": "🥃 Dongfang whisky glasses 300ml (DF-25012)",
+  "detail": "Straight round tumblers with a thick base, 300ml, set of 6 in a box. Whisky, juice or water",
+  "price": 890,
+  "unit": "6pc set",
+  "added": "2026-11-22",
+  "sub": "Wine, whisky & party glasses"
  },
  {
   "id": "blue-plates",
@@ -4739,6 +4759,89 @@
   "unit": "6pc set",
   "added": "2026-11-19",
   "sub": "Ceramic & opal plates"
+ },
+ {
+  "id": "plate-c011",
+  "cat": "plates",
+  "name": "🍽️ Japanese side plates 8 inch (C011)",
+  "detail": "White ceramic with ribbed underside and black rim, set of 6. Matches the Japanese ring dinner plates and bowls. Stand not included",
+  "price": 890,
+  "unit": "6pc set",
+  "added": "2026-11-22",
+  "sub": "Ceramic & opal plates"
+ },
+ {
+  "id": "bowl-b021",
+  "cat": "plates",
+  "name": "🥣 Japanese ribbed bowls 6 inch (B021-28)",
+  "detail": "White ceramic bowls with ribbed outside and black rim, set of 6. Soup, rice, cereal, fruit. Matches the Japanese plates",
+  "price": 890,
+  "unit": "6pc set",
+  "added": "2026-11-22",
+  "sub": "Bowls"
+ },
+ {
+  "id": "bowl-b015",
+  "cat": "plates",
+  "name": "🥣 Japanese flat-base bowls 6 inch (B015-28)",
+  "detail": "White ceramic flat-base bowls with ribbed outside and black rim, stack neatly, set of 6. Soup, rice, cereal, desserts",
+  "price": 850,
+  "unit": "6pc set",
+  "added": "2026-11-22",
+  "sub": "Bowls"
+ },
+ {
+  "id": "mel-p2230-marble",
+  "cat": "plates",
+  "name": "🍽️ Marble melamine plates P2230, 9 inch",
+  "detail": "Square wavy melamine plates in mixed gold-vein marble prints, set of 6. Unbreakable. Stand not included",
+  "price": 790,
+  "unit": "6pc set",
+  "added": "2026-11-22",
+  "sub": "Melamine plates"
+ },
+ {
+  "id": "mel-p2230-deco",
+  "cat": "plates",
+  "name": "🍽️ Deco melamine plates P2230, 9 inch",
+  "detail": "Square wavy melamine plates, white or cream with line and flower prints, set of 6. Unbreakable. Stand not included",
+  "price": 790,
+  "unit": "6pc set",
+  "added": "2026-11-22",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "White deco"
+     ],
+     [
+      "Cream deco"
+     ]
+    ]
+   }
+  ],
+  "sub": "Melamine plates"
+ },
+ {
+  "id": "mel-p2244",
+  "cat": "plates",
+  "name": "🍽️ Heavy white melamine plates P2244, 11 inch",
+  "detail": "Big square plain white plates with a dotted rim, heavy unbreakable melamine, set of 6. Hotel and restaurant style",
+  "price": 1190,
+  "unit": "6pc set",
+  "added": "2026-11-22",
+  "sub": "Melamine plates"
+ },
+ {
+  "id": "bowl-w2210",
+  "cat": "plates",
+  "name": "🍲 Pumpkin serving bowl with lid, 10 inch (W2210)",
+  "detail": "Big melamine serving bowl with handles and a flower-print pumpkin lid. Rice, stew, githeri, salad. Unbreakable. Colours vary",
+  "price": 650,
+  "unit": "1 pc",
+  "added": "2026-11-22",
+  "sub": "Bowls"
  },
  {
   "id": "tray-wood-3",
