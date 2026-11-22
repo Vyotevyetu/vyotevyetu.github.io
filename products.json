@@ -6564,6 +6564,128 @@
   "sub": "Table runners, banners & party"
  },
  {
+  "id": "lights-star-curtain",
+  "cat": "decor",
+  "name": "🌟 Star curtain lights, 1 x 3m, warm white",
+  "detail": "3 metre LED curtain of hanging stars in warm white. Hang on windows, curtains, walls, shelves or behind the tree for a magical glow",
+  "price": 1790,
+  "unit": "1 set",
+  "added": "2026-11-22",
+  "sub": "Garlands, wreaths & lights"
+ },
+ {
+  "id": "garland-velvet-berry",
+  "cat": "decor",
+  "name": "🔴 Red velvet berry ball chain, 1.8m",
+  "detail": "Bendy 1.8m chain of soft red velvet balls in mixed sizes on a brown wire, with hanging loop. Wrap round the tree, mantel, mirror or staircase",
+  "price": 2490,
+  "unit": "1 chain",
+  "added": "2026-11-22",
+  "sub": "Garlands, wreaths & lights"
+ },
+ {
+  "id": "tree-skirt-plush",
+  "cat": "decor",
+  "name": "🎄 Plush red Christmas tree skirt with green bow",
+  "detail": "Soft red plush tree collar with a green velvet bow, 40 x 60 x 20cm. Hides the tree stand for a neat, finished look",
+  "price": 1790,
+  "unit": "1 pc",
+  "added": "2026-11-22",
+  "sub": "Christmas trees"
+ },
+ {
+  "id": "ornament-balls-9",
+  "cat": "decor",
+  "name": "✨ Velvet glitter Christmas balls 8cm, box of 9",
+  "detail": "9 velvet-finish 8cm baubles with glitter icicle and stripe patterns, gift boxed. Pick red, cream or caramel",
+  "price": 2890,
+  "unit": "box of 9",
+  "added": "2026-11-22",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Red"
+     ],
+     [
+      "Cream"
+     ],
+     [
+      "Caramel"
+     ]
+    ]
+   }
+  ],
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "ornament-glitter-branch",
+  "cat": "decor",
+  "name": "✨ Glitter beaded drop branches, gold or red",
+  "detail": "Bendable stems with cascading glitter bead strands. Tuck into the tree, a vase or a wreath for a falling-sparkle look. Any 4 glitter branches KES 1,890",
+  "price": 550,
+  "unit": "1 branch",
+  "added": "2026-11-22",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Gold"
+     ],
+     [
+      "Red"
+     ]
+    ]
+   }
+  ],
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "stocking-plush-bow",
+  "cat": "decor",
+  "name": "🧦 Plush red Christmas stocking with velvet bow",
+  "detail": "Soft faux-fur red stocking with a big green or red velvet bow and hanging loop. Fill with gifts and sweets",
+  "price": 750,
+  "unit": "1 stocking",
+  "added": "2026-11-22",
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "ornament-elf-legs",
+  "cat": "decor",
+  "name": "🧝 Elf legs hanging decor",
+  "detail": "Fun stuffed elf legs to hang from a mantel, shelf, tree or door. Red with black boots, or striped with green elf shoes",
+  "price": 750,
+  "unit": "1 pair",
+  "added": "2026-11-22",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "Red & black boots"
+     ],
+     [
+      "Striped & green shoes"
+     ]
+    ]
+   }
+  ],
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "ornament-star-topper",
+  "cat": "decor",
+  "name": "⭐ Gold star tree topper",
+  "detail": "Gold layered star that clips onto the top of your tree. Add-on, every tree needs one",
+  "price": 290,
+  "unit": "1 pc",
+  "added": "2026-11-22",
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
   "id": "cushion-xmas-cream",
   "cat": "decor",
   "name": "🎄 Cream & gold 3D Christmas cushion covers",
