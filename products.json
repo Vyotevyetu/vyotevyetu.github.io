@@ -6343,6 +6343,46 @@
   "sub": "Christmas trees"
  },
  {
+  "id": "bow-velvet-big",
+  "cat": "decor",
+  "name": "🎀 Big red velvet Christmas bow, 30 x 50cm",
+  "detail": "Large wine-red velvet bow with long tails. Tie it on the tree top, front door, wreath, gift hamper, car or staircase. Any 2 Christmas bows KES 1,790",
+  "price": 990,
+  "unit": "1 bow",
+  "added": "2026-11-22",
+  "sub": "Bows & ornaments"
+ },
+ {
+  "id": "bow-velvet-berry",
+  "cat": "decor",
+  "name": "🎀 Velvet Christmas bow with berries & pinecone, 20 x 25cm",
+  "detail": "Red velvet bow with pine sprigs, red berries and a pinecone, hanging loop. For the tree, door, windows, chairs and gifts. Any 2 Christmas bows KES 1,790",
+  "price": 1090,
+  "unit": "1 bow",
+  "added": "2026-11-22",
+  "sub": "Bows & ornaments"
+ },
+ {
+  "id": "garland-cloth-ball",
+  "cat": "decor",
+  "name": "🔴 Red velvet ball garland with ribbon ends, 1.8m",
+  "detail": "Soft red cloth balls on a 1.8m string with velvet ribbon tails. Drape on the tree, staircase, doorway or mantel",
+  "price": 1990,
+  "unit": "1 garland",
+  "added": "2026-11-22",
+  "sub": "Garlands & lights"
+ },
+ {
+  "id": "ornament-cluster-balls",
+  "cat": "decor",
+  "name": "🍒 Burgundy velvet cluster ball ornaments, set of 6",
+  "detail": "6 hanging clusters of burgundy velvet balls with loops. Quick way to fill a tree with rich colour, pairs well with gold baubles",
+  "price": 990,
+  "unit": "set of 6",
+  "added": "2026-11-22",
+  "sub": "Bows & ornaments"
+ },
+ {
   "id": "cushion-xmas-cream",
   "cat": "decor",
   "name": "🎄 Cream & gold 3D Christmas cushion covers",
