@@ -6106,6 +6106,152 @@
   "unit": "6pc set"
  },
  {
+  "id": "tree-green",
+  "cat": "decor",
+  "name": "🎄 Green artificial Christmas tree, 3ft to 9ft",
+  "detail": "Full, lush green PVC Christmas tree with foldable metal stand. Branches fold out, easy to set up and store. Homes, offices, shops, churches and hotels. Pick your height",
+  "price": 990,
+  "unit": "1 tree",
+  "added": "2026-11-22",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "3ft · 90cm",
+      990
+     ],
+     [
+      "4ft · 120cm",
+      1290
+     ],
+     [
+      "5ft · 150cm",
+      2790
+     ],
+     [
+      "6ft · 180cm",
+      3890
+     ],
+     [
+      "7ft · 210cm",
+      5290
+     ],
+     [
+      "8ft · 240cm",
+      7290
+     ],
+     [
+      "9ft · 270cm",
+      9290
+     ]
+    ]
+   }
+  ],
+  "sub": "Christmas trees"
+ },
+ {
+  "id": "tree-snow-pine",
+  "cat": "decor",
+  "name": "❄️ Snow-flocked pine Christmas tree, 5ft to 8ft",
+  "detail": "High-count snow-flocked pine tree with about 3,000 white frosted tips. Looks like fresh snow, great with gold or red baubles. Metal stand included",
+  "price": 9490,
+  "unit": "1 tree",
+  "added": "2026-11-22",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "5ft · 150cm",
+      9490
+     ],
+     [
+      "6ft · 180cm",
+      11990
+     ],
+     [
+      "7ft · 210cm",
+      14490
+     ],
+     [
+      "8ft · 240cm",
+      16990
+     ]
+    ]
+   }
+  ],
+  "sub": "Christmas trees"
+ },
+ {
+  "id": "tree-prelit-snow",
+  "cat": "decor",
+  "name": "✨ Pre-lit snowy white Christmas tree, 6ft to 8ft",
+  "detail": "Premium PE + PVC tree with extra-heavy white flocking and built-in warm white lights, 3 light modes. Just plug in and glow. Full branches look great even without ornaments. Sturdy stand included",
+  "price": 16490,
+  "unit": "1 tree",
+  "added": "2026-11-22",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "6ft · 180cm",
+      16490
+     ],
+     [
+      "7ft · 210cm",
+      23990
+     ],
+     [
+      "8ft · 240cm",
+      28990
+     ]
+    ]
+   }
+  ],
+  "sub": "Christmas trees"
+ },
+ {
+  "id": "tree-prelit-berry",
+  "cat": "decor",
+  "name": "🍒 Pre-lit flocked tree with pinecones & red berries, 6ft to 8ft",
+  "detail": "Premium PE + PVC tree, snow-dusted tips, natural pinecones and red berry clusters already on, built-in warm white lights with 3 modes. Ready in minutes. Metal stand included. Baubles in the photo not included",
+  "price": 15490,
+  "unit": "1 tree",
+  "added": "2026-11-22",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "6ft · 180cm",
+      15490
+     ],
+     [
+      "7ft · 210cm",
+      20490
+     ],
+     [
+      "8ft · 240cm",
+      26990
+     ]
+    ]
+   }
+  ],
+  "sub": "Christmas trees"
+ },
+ {
+  "id": "tree-mini-lit",
+  "cat": "decor",
+  "name": "🌲 Mini snowy Christmas tree with lights, 30cm",
+  "detail": "Table-top snow-flocked mini tree on a wooden log base with warm fairy lights. Office desks, shelves, gifts and kids' rooms",
+  "price": 1190,
+  "unit": "1 pc",
+  "added": "2026-11-22",
+  "sub": "Christmas trees"
+ },
+ {
   "id": "cushion-xmas-cream",
   "cat": "decor",
   "name": "🎄 Cream & gold 3D Christmas cushion covers",
@@ -6137,7 +6283,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Christmas cushion covers"
  },
  {
   "id": "cushion-xmas-plaid",
@@ -6177,7 +6324,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Christmas cushion covers"
  },
  {
   "id": "cushion-xmas-red",
@@ -6217,7 +6365,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Christmas cushion covers"
  },
  {
   "id": "cushion-xmas-santa",
@@ -6293,7 +6442,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Christmas cushion covers"
  },
  {
   "id": "bag-tortoise",
