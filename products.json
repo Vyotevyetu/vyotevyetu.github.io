@@ -5,7 +5,8 @@
   "name": "🍳 K.A.L M0451 granite cookware set",
   "detail": "Pots 20, 24, 28 and 34cm with glass lids, 28cm deep frying pan with lid, apron.",
   "price": 8990,
-  "unit": "11pc set"
+  "unit": "11pc set",
+  "sub": "Non-stick & granite sets"
  },
  {
   "id": "stainless-set",
@@ -13,7 +14,8 @@
   "name": "Stainless steel sufurias",
   "detail": "5 pots, 16 to 24cm, with lids",
   "price": 4490,
-  "unit": "10pc set"
+  "unit": "10pc set",
+  "sub": "Stainless steel cookware"
  },
  {
   "id": "marwa-30",
@@ -22,7 +24,8 @@
   "detail": "7 stainless sufurias 16 to 28cm with glass lids, frying pan with lid, steamer/colander, egg boiler, cooking utensils, knife set with block. Induction base: gas, charcoal jiko, firewood and induction. Boxed",
   "price": 9990,
   "unit": "30pc set",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Stainless steel cookware"
  },
  {
   "id": "marwa-72",
@@ -31,7 +34,8 @@
   "detail": "Stainless sufurias with blue glass lids, frying pan, steamer, cutlery set with tray, knives, grater, cutting board, food storage bowls, apron and more. Induction base, works on all stoves. Boxed",
   "price": 10990,
   "unit": "72pc set",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Stainless steel cookware"
  },
  {
   "id": "kalu-12",
@@ -55,7 +59,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Aluminium sufuria sets"
  },
  {
   "id": "kalu-1619",
@@ -79,7 +84,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Aluminium sufuria sets"
  },
  {
   "id": "kalu-55",
@@ -88,7 +94,8 @@
   "detail": "Lion Brand 36 Deluxe heavy aluminium sufuria, made in Kenya. 55 litres, 55cm wide, 27cm tall. Sturdy side handles and tight-fitting lid. For schools, hotels, catering, events and big family functions",
   "price": 5990,
   "unit": "1 pc",
-  "added": "2026-11-22"
+  "added": "2026-11-22",
+  "sub": "Big catering sufurias"
  },
  {
   "id": "premium-5",
@@ -97,7 +104,8 @@
   "detail": "Polished heavy-duty aluminium casseroles, 5 nesting sizes, each with its own steel lid and strong steel handles. Boxed. Home and commercial use",
   "price": 9490,
   "unit": "5pc set",
-  "added": "2026-11-22"
+  "added": "2026-11-22",
+  "sub": "Aluminium sufuria sets"
  },
  {
   "id": "freedom-big",
@@ -185,7 +193,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Big catering sufurias"
  },
  {
   "id": "suf-signature-belly5",
@@ -194,7 +203,8 @@
   "detail": "Signature by Tiba pure aluminium belly pots, made in Egypt. 5 big sizes 16 to 24, all with lids. Stack together to save space",
   "price": 5290,
   "unit": "5pc set",
-  "added": "2026-11-22"
+  "added": "2026-11-22",
+  "sub": "Aluminium sufuria sets"
  },
  {
   "id": "pardini-28",
@@ -203,7 +213,8 @@
   "detail": "Big 28cm casserole, 18cm deep, with aluminium lid and 2 steel side handles. Food-grade aluminium, made in Kenya",
   "price": 4890,
   "unit": "1 pc",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Casseroles"
  },
  {
   "id": "pardini-18",
@@ -212,7 +223,8 @@
   "detail": "Medium-height 18cm casserole with lid and 2 steel side handles. Food-grade aluminium, made in Kenya",
   "price": 1990,
   "unit": "1 pc",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Casseroles"
  },
  {
   "id": "freedom-belly4",
@@ -221,7 +233,8 @@
   "detail": "Stainless steel belly sufurias with matching steel lids: 21cm 2.3L, 23cm 3L, 24cm 3.5L, 25.5cm 4.3L. Gas, electric, induction",
   "price": 3890,
   "unit": "4pc set",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Stainless steel cookware"
  },
  {
   "id": "uken-big",
@@ -265,7 +278,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Big catering sufurias"
  },
  {
   "id": "srl-14",
@@ -274,7 +288,8 @@
   "detail": "Black speckled non-stick pots with glass lids and steel-rim handles, plus scourers and a soap-dispensing brush. Any 2 sets KES 8,490",
   "price": 4490,
   "unit": "14pc set",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Non-stick & granite sets"
  },
  {
   "id": "srl-k104",
@@ -283,7 +298,8 @@
   "detail": "5 stainless pots 16, 18, 20, 22 and 24cm with glass lids, including a saucepan with long handle. Boxed",
   "price": 3690,
   "unit": "10pc set",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Stainless steel cookware"
  },
  {
   "id": "tc-14",
@@ -292,7 +308,8 @@
   "detail": "5 non-stick casseroles 20 to 30cm with glass lids, 26cm frying pan, 2 cooking spoons and a sponge. Boxed",
   "price": 6790,
   "unit": "14pc set",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Non-stick & granite sets"
  },
  {
   "id": "suf-tornado7",
@@ -301,7 +318,8 @@
   "detail": "7 aluminium pots with matching lids and double handles: 16, 18, 20, 22, 24, 26 and 28cm. Boxed",
   "price": 5590,
   "unit": "7pc set",
-  "added": "2026-11-21"
+  "added": "2026-11-21",
+  "sub": "Aluminium sufuria sets"
  },
  {
   "id": "suf-redberry",
@@ -333,7 +351,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Aluminium sufuria sets"
  },
  {
   "id": "suf-signature8",
@@ -357,7 +376,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Aluminium sufuria sets"
  },
  {
   "id": "suf-uken12",
@@ -381,7 +401,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Aluminium sufuria sets"
  },
  {
   "id": "suf-oxford",
@@ -421,7 +442,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Aluminium sufuria sets"
  },
  {
   "id": "suf-bellypot",
@@ -461,7 +483,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Aluminium sufuria sets"
  },
  {
   "id": "suf-freedom8",
@@ -485,7 +508,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Aluminium sufuria sets"
  },
  {
   "id": "hotpot-set",
@@ -493,7 +517,8 @@
   "name": "🍲 Uken Flora hotpot set",
   "detail": "6 insulated stainless hotpots: 1L, 1.5L, 3.5L, 5L, 7.5L and 10L. Keeps food hot or cold.",
   "price": 6790,
-  "unit": "6pc set"
+  "unit": "6pc set",
+  "sub": "Insulated hotpots"
  },
  {
   "id": "hp-signature-tallboy",
@@ -502,7 +527,8 @@
   "detail": "Stainless steel insulated hotpots: 1000, 1500, 2500 and 3500ml. Keeps food hot or cold. Boxed",
   "price": 4490,
   "unit": "4pc set",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Insulated hotpots"
  },
  {
   "id": "hp-spectra-gold",
@@ -527,7 +553,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Insulated hotpots"
  },
  {
   "id": "hp-gen-g",
@@ -552,7 +579,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Insulated hotpots"
  },
  {
   "id": "hp-simpex6",
@@ -561,7 +589,8 @@
   "detail": "Stainless steel insulated casseroles: 1000, 1500, 3500, 5000, 7500 and 10000ml. Boxed",
   "price": 4690,
   "unit": "6pc set",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Stainless steel hotpots"
  },
  {
   "id": "hp-smartpot",
@@ -586,7 +615,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Insulated hotpots"
  },
  {
   "id": "hp-matrix6",
@@ -595,7 +625,8 @@
   "detail": "Made in Kenya, KEBS mark. Stainless insulated hotpots with locking lids: 1000, 1500, 3500, 5000, 7500 and 10000ml. Gift box",
   "price": 6490,
   "unit": "6pc set",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Stainless steel hotpots"
  },
  {
   "id": "hp-irish-selvel",
@@ -620,7 +651,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Insulated hotpots"
  },
  {
   "id": "hp-camry",
@@ -648,7 +680,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Insulated hotpots"
  },
  {
   "id": "hp-happyhome6",
@@ -657,7 +690,8 @@
   "detail": "Stainless steel insulated hotpots with locking lids, hot and cold: 500, 1500, 2500, 5000, 7500 and 10000ml. Gift box",
   "price": 5390,
   "unit": "6pc set",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Stainless steel hotpots"
  },
  {
   "id": "hp-turkish-brown",
@@ -666,7 +700,8 @@
   "detail": "Brown marble print with gold veins, gold handles and bands: 1000, 1500, 2500 and 3500ml. Boxed",
   "price": 4990,
   "unit": "4pc set",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Marble & designer hotpots"
  },
  {
   "id": "hp-turkish-white",
@@ -675,7 +710,8 @@
   "detail": "White marble print with gold veins, gold handles and bands: 1000, 1500, 2500 and 3500ml. Boxed",
   "price": 4990,
   "unit": "4pc set",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Marble & designer hotpots"
  },
  {
   "id": "hp-leatherite",
@@ -697,7 +733,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Marble & designer hotpots"
  },
  {
   "id": "hp-riona",
@@ -725,7 +762,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Marble & designer hotpots"
  },
  {
   "id": "hp-shahil",
@@ -747,7 +785,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Stainless steel hotpots"
  },
  {
   "id": "hp-desire",
@@ -772,7 +811,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Marble & designer hotpots"
  },
  {
   "id": "hp-taj",
@@ -794,7 +834,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Marble & designer hotpots"
  },
  {
   "id": "hp-goldstar",
@@ -822,7 +863,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Insulated hotpots"
  },
  {
   "id": "hp-milton-pearl",
@@ -847,7 +889,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Insulated hotpots"
  },
  {
   "id": "hp-turkish-glass",
@@ -869,7 +912,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Marble & designer hotpots"
  },
  {
   "id": "hp-redberry3",
@@ -878,7 +922,8 @@
   "detail": "Heavy-gauge stainless steel insulated hotpots for functions and big families: 10000, 15000 and 20000ml. Hot and cold. Boxed",
   "price": 10490,
   "unit": "3pc set",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Stainless steel hotpots"
  },
  {
   "id": "hp-santorini",
@@ -887,7 +932,8 @@
   "detail": "Quilted cream body with steel inner bowls: 800, 1200, 2000 and 3000ml. Comes with 2 free serving spoons",
   "price": 2290,
   "unit": "4pc set",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Insulated hotpots"
  },
  {
   "id": "hp-regalia",
@@ -896,7 +942,8 @@
   "detail": "White marble with gold geometric triangles and gold handles: 1200, 1800, 2500 and 3200ml. Steel inner casing, twist lock",
   "price": 4490,
   "unit": "4pc set",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Marble & designer hotpots"
  },
  {
   "id": "hp-cello-midas",
@@ -921,7 +968,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Insulated hotpots"
  },
  {
   "id": "hp-cello-wicker",
@@ -943,7 +991,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Marble & designer hotpots"
  },
  {
   "id": "hp-cello-ornetto",
@@ -968,7 +1017,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Insulated hotpots"
  },
  {
   "id": "hp-cello-jewel",
@@ -993,7 +1043,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Insulated hotpots"
  },
  {
   "id": "hp-cello-exotic",
@@ -1018,7 +1069,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Insulated hotpots"
  },
  {
   "id": "hp-selvel-classic-glass",
@@ -1040,7 +1092,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Insulated hotpots"
  },
  {
   "id": "hp-happyhome4",
@@ -1049,7 +1102,8 @@
   "detail": "Heavy-gauge stainless steel insulated hotpots: 1500, 2500, 3500 and 5000ml. Hot and cold",
   "price": 4090,
   "unit": "4pc set",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Stainless steel hotpots"
  },
  {
   "id": "hp-alfaline",
@@ -1058,7 +1112,8 @@
   "detail": "Shiny ribbed stainless steel insulated hotpots: 1500, 2500, 3500 and 5000ml. Boxed",
   "price": 4090,
   "unit": "4pc set",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Insulated hotpots"
  },
  {
   "id": "hp-matrix-gold4",
@@ -1067,7 +1122,8 @@
   "detail": "Stainless insulated hotpots with locking lids: 1200, 2400, 3600 and 4800ml. Gift box",
   "price": 3890,
   "unit": "4pc set",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Stainless steel hotpots"
  },
  {
   "id": "hp-silverlines",
@@ -1076,7 +1132,8 @@
   "detail": "Ribbed stainless steel insulated hotpots: 1000, 1500, 2500 and 3500ml. Boxed",
   "price": 3290,
   "unit": "4pc set",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Insulated hotpots"
  },
  {
   "id": "hp-happyhome3-small",
@@ -1085,7 +1142,8 @@
   "detail": "Stainless steel insulated hotpots in small sizes: 500, 1500 and 2500ml. Good add-on or starter set",
   "price": 1790,
   "unit": "3pc set",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Stainless steel hotpots"
  },
  {
   "id": "hp-happyhome-big3",
@@ -1094,7 +1152,8 @@
   "detail": "Heavy-gauge stainless steel insulated hotpots for functions and big families: 10000, 15000 and 20000ml. Boxed",
   "price": 10790,
   "unit": "3pc set",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Stainless steel hotpots"
  },
  {
   "id": "hp-univia",
@@ -1116,7 +1175,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Stainless steel hotpots"
  },
  {
   "id": "hp-nexus",
@@ -1141,7 +1201,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Insulated hotpots"
  },
  {
   "id": "hp-azuri",
@@ -1166,7 +1227,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Insulated hotpots"
  },
  {
   "id": "hp-florence",
@@ -1191,7 +1253,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Insulated hotpots"
  },
  {
   "id": "hp-goldstar-italian",
@@ -1216,7 +1279,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Insulated hotpots"
  },
  {
   "id": "hp-jumbo-silverstar",
@@ -1244,7 +1308,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Insulated hotpots"
  },
  {
   "id": "hp-tangent",
@@ -1269,7 +1334,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Insulated hotpots"
  },
  {
   "id": "hp-starwood",
@@ -1291,7 +1357,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Marble & designer hotpots"
  },
  {
   "id": "hp-selvel-matrixgold",
@@ -1316,7 +1383,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Insulated hotpots"
  },
  {
   "id": "hp-silvermax",
@@ -1338,7 +1406,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Stainless steel hotpots"
  },
  {
   "id": "hp-marilyn",
@@ -1363,7 +1432,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Marble & designer hotpots"
  },
  {
   "id": "marble-set",
@@ -1371,7 +1441,8 @@
   "name": "Marble gold dinner set",
   "detail": "6 dinner plates, 6 side plates, 6 bowls, 6 cups. Ceramic with gold rims. Stands not included",
   "price": 7490,
-  "unit": "24pc set"
+  "unit": "24pc set",
+  "sub": "Dinner sets"
  },
  {
   "id": "japanese-27",
@@ -1379,7 +1450,8 @@
   "name": "Japanese dinner set with casseroles",
   "detail": "6 dinner plates, 6 side plates, 6 bowls, 6 mugs, 3 casseroles with glass lids. Stands not included",
   "price": 6990,
-  "unit": "27pc set"
+  "unit": "27pc set",
+  "sub": "Dinner sets"
  },
  {
   "id": "japanese-18",
@@ -1387,7 +1459,8 @@
   "name": "Japanese dinner set",
   "detail": "6 big plates, 6 side plates, 6 bowls. White with black rim. Stands not included",
   "price": 3490,
-  "unit": "18pc set"
+  "unit": "18pc set",
+  "sub": "Dinner sets"
  },
  {
   "id": "black-combo",
@@ -1395,7 +1468,8 @@
   "name": "All-black dinner combo",
   "detail": "6 square 11 inch plates, 6 mugs, 2L flask. Stands not included",
   "price": 3690,
-  "unit": "13pc set"
+  "unit": "13pc set",
+  "sub": "Dinner sets"
  },
  {
   "id": "breakfast-geo",
@@ -1403,7 +1477,8 @@
   "name": "Breakfast set, geometric",
   "detail": "6 plates (10 inch) and 6 mugs. Stands not included",
   "price": 2890,
-  "unit": "12pc set"
+  "unit": "12pc set",
+  "sub": "Breakfast sets"
  },
  {
   "id": "breakfast-blue",
@@ -1411,7 +1486,8 @@
   "name": "Breakfast set, blue floral",
   "detail": "6 plates (10 inch) and 6 mugs. Stands not included",
   "price": 2890,
-  "unit": "12pc set"
+  "unit": "12pc set",
+  "sub": "Breakfast sets"
  },
  {
   "id": "black-breakfast",
@@ -1419,7 +1495,8 @@
   "name": "Black breakfast set",
   "detail": "6 mugs and a 2 litre flask. Stands not included",
   "price": 2190,
-  "unit": "7pc set"
+  "unit": "7pc set",
+  "sub": "Breakfast sets"
  },
  {
   "id": "gold-white-24",
@@ -1427,7 +1504,8 @@
   "name": "White and gold dinner set",
   "detail": "6 dinner plates, 6 side plates, 6 bowls, 6 cups. Gold rims. Stands not included",
   "price": 6490,
-  "unit": "24pc set"
+  "unit": "24pc set",
+  "sub": "Dinner sets"
  },
  {
   "id": "ribbed-19",
@@ -1435,7 +1513,8 @@
   "name": "Ribbed dinner set with flask",
   "detail": "6 plates, 6 bowls, 6 cups and a flask. Stands not included",
   "price": 3890,
-  "unit": "19pc set"
+  "unit": "19pc set",
+  "sub": "Dinner sets"
  },
  {
   "id": "marble-flask-13",
@@ -1443,7 +1522,8 @@
   "name": "Marble dinner set with flask",
   "detail": "6 plates, 6 tree mugs, 1 flask. 6 colour mixes. Stands not included",
   "price": 4290,
-  "unit": "13pc set"
+  "unit": "13pc set",
+  "sub": "Dinner sets"
  },
  {
   "id": "grey-marble-12",
@@ -1451,7 +1531,8 @@
   "name": "Grey marble breakfast set",
   "detail": "6 plates (10.5 inch) and 6 mugs. Stands not included",
   "price": 3290,
-  "unit": "12pc set"
+  "unit": "12pc set",
+  "sub": "Breakfast sets"
  },
  {
   "id": "black-tree-12",
@@ -1459,7 +1540,8 @@
   "name": "Black marble plates and tree mugs",
   "detail": "6 plates and 6 mugs. Stands not included",
   "price": 3290,
-  "unit": "12pc set"
+  "unit": "12pc set",
+  "sub": "Breakfast sets"
  },
  {
   "id": "tree-breakfast-12",
@@ -1467,7 +1549,8 @@
   "name": "Tree mugs and marble plates",
   "detail": "6 tree mugs and 6 grey marble plates. Stands not included",
   "price": 3290,
-  "unit": "12pc set"
+  "unit": "12pc set",
+  "sub": "Breakfast sets"
  },
  {
   "id": "gold-rain-30",
@@ -1475,7 +1558,8 @@
   "name": "Gold Rain dinner set",
   "detail": "6 plates, 6 side plates, 6 bowls, 6 cups, 3 casseroles with glass lids. Stands not included",
   "price": 8990,
-  "unit": "30pc set"
+  "unit": "30pc set",
+  "sub": "Dinner sets"
  },
  {
   "id": "swirl-30",
@@ -1483,7 +1567,8 @@
   "name": "White swirl dinner set",
   "detail": "6 plates, 6 side plates, 6 bowls, 6 cups (250ml), 6 saucers. Stands not included",
   "price": 6990,
-  "unit": "30pc set"
+  "unit": "30pc set",
+  "sub": "Dinner sets"
  },
  {
   "id": "powder-blue-24",
@@ -1491,7 +1576,8 @@
   "name": "Powder blue dinner set",
   "detail": "6 plates, 6 side plates, 6 bowls, 6 cups. Stands not included",
   "price": 6990,
-  "unit": "24pc set"
+  "unit": "24pc set",
+  "sub": "Dinner sets"
  },
  {
   "id": "ceramic-24",
@@ -1518,7 +1604,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Dinner sets"
  },
  {
   "id": "matte-black-24",
@@ -1526,7 +1613,8 @@
   "name": "Matte black dinner set",
   "detail": "6 plates, 6 side plates, 6 bowls, 6 cups. Stands not included",
   "price": 5790,
-  "unit": "24pc set"
+  "unit": "24pc set",
+  "sub": "Dinner sets"
  },
  {
   "id": "white-square-24",
@@ -1534,7 +1622,8 @@
   "name": "White square dinner set",
   "detail": "Textured. 6 plates, 6 side plates, 6 bowls, 6 cups. Stands not included",
   "price": 5490,
-  "unit": "24pc set"
+  "unit": "24pc set",
+  "sub": "Dinner sets"
  },
  {
   "id": "dinner-set",
@@ -1543,7 +1632,8 @@
   "detail": "58 pieces, serves 6: 6 dinner plates, 6 side plates, 6 soup plates, 6 bowls, 12 cups and 12 saucers, 2 oval platters, serving bowl, teapot, milk pot, sugar pot, casserole with glass lid. Opal glass, boxed. Stands not included",
   "price": 5490,
   "unit": "full set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "58pc dinner sets"
  },
  {
   "id": "ds58-8871",
@@ -1552,7 +1642,8 @@
   "detail": "58 pieces, serves 6: 6 dinner plates, 6 side plates, 6 soup plates, 6 bowls, 12 cups and 12 saucers, 2 oval platters, serving bowl, teapot, milk pot, sugar pot, casserole with glass lid. Opal glass, boxed. Stands not included",
   "price": 5490,
   "unit": "full set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "58pc dinner sets"
  },
  {
   "id": "ds58-5068",
@@ -1561,7 +1652,8 @@
   "detail": "58 pieces, serves 6: 6 dinner plates, 6 side plates, 6 soup plates, 6 bowls, 12 cups and 12 saucers, 2 oval platters, serving bowl, teapot, milk pot, sugar pot, casserole with glass lid. Opal glass, boxed. Stands not included",
   "price": 5490,
   "unit": "full set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "58pc dinner sets"
  },
  {
   "id": "ds58-8872",
@@ -1570,7 +1662,8 @@
   "detail": "58 pieces, serves 6: 6 dinner plates, 6 side plates, 6 soup plates, 6 bowls, 12 cups and 12 saucers, 2 oval platters, serving bowl, teapot, milk pot, sugar pot, casserole with glass lid. Opal glass, boxed. Stands not included",
   "price": 5490,
   "unit": "full set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "58pc dinner sets"
  },
  {
   "id": "ds58-5064",
@@ -1579,7 +1672,8 @@
   "detail": "58 pieces, serves 6: 6 dinner plates, 6 side plates, 6 soup plates, 6 bowls, 12 cups and 12 saucers, 2 oval platters, serving bowl, teapot, milk pot, sugar pot, casserole with glass lid. Opal glass, boxed. Stands not included",
   "price": 5490,
   "unit": "full set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "58pc dinner sets"
  },
  {
   "id": "ds58-lilac",
@@ -1588,7 +1682,8 @@
   "detail": "58 pieces, serves 6: 6 dinner plates, 6 side plates, 6 soup plates, 6 bowls, 12 cups and 12 saucers, 2 oval platters, serving bowl, teapot, milk pot, sugar pot, casserole with glass lid. Opal glass, boxed. Stands not included",
   "price": 5490,
   "unit": "full set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "58pc dinner sets"
  },
  {
   "id": "air-fryer",
@@ -1596,7 +1691,8 @@
   "name": "🍟 ElectroMate AF03 air fryer",
   "detail": "10 litres, stainless steel, timer and temperature dials. Chips, chicken and fish with little oil.",
   "price": 5990,
-  "unit": "each"
+  "unit": "each",
+  "sub": "Air fryers"
  },
  {
   "id": "pc-olelon",
@@ -1605,7 +1701,8 @@
   "detail": "6 litres, 1000W, 24-hour preset timer, 8 safety protections. Rice, beans, meat, soup, cake.",
   "price": 4990,
   "unit": "1 pc",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Electric pressure cookers"
  },
  {
   "id": "pc-epc03",
@@ -1614,7 +1711,8 @@
   "detail": "6 litres, rice, porridge, beef, chicken, soup, steam and reheat settings.",
   "price": 5490,
   "unit": "1 pc",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Electric pressure cookers"
  },
  {
   "id": "pc-dessini",
@@ -1623,7 +1721,8 @@
   "detail": "6 litres, 1000W, 10-in-1 settings, 12-month warranty on the box.",
   "price": 5990,
   "unit": "1 pc",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Electric pressure cookers"
  },
  {
   "id": "pc-globalstar",
@@ -1632,7 +1731,8 @@
   "detail": "6 litres, 1000W, removable non-stick pot, yoghurt setting, 1-year warranty.",
   "price": 5990,
   "unit": "1 pc",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Electric pressure cookers"
  },
  {
   "id": "pc-redberry",
@@ -1641,7 +1741,8 @@
   "detail": "6 litres, 1000W, push-button control, rice, soup, beans, cake, steam.",
   "price": 6490,
   "unit": "1 pc",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Electric pressure cookers"
  },
  {
   "id": "pc-ramtons582",
@@ -1650,7 +1751,8 @@
   "detail": "6 litres, 12 cooking settings, 1-year Ramtons warranty.",
   "price": 8990,
   "unit": "1 pc",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Electric pressure cookers"
  },
  {
   "id": "pc-signature",
@@ -1659,7 +1761,8 @@
   "detail": "6 litres, 1000W, non-stick aluminium inner pot, 1-year warranty.",
   "price": 8490,
   "unit": "1 pc",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Electric pressure cookers"
  },
  {
   "id": "pc-signature8",
@@ -1668,7 +1771,8 @@
   "detail": "8 litres for bigger families, non-stick inner pot, 1-year warranty.",
   "price": 9490,
   "unit": "1 pc",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Electric pressure cookers"
  },
  {
   "id": "infrared-cooker",
@@ -1676,7 +1780,8 @@
   "name": "Infrared gas cooker",
   "detail": "Ailyons, 2 burners, glass top",
   "price": 2990,
-  "unit": "each"
+  "unit": "each",
+  "sub": "Gas cookers"
  },
  {
   "id": "glass-cooker",
@@ -1684,7 +1789,8 @@
   "name": "Glass top gas cooker",
   "detail": "Ailyons, 2 burners, 3 designs",
   "price": 2290,
-  "unit": "each"
+  "unit": "each",
+  "sub": "Gas cookers"
  },
  {
   "id": "three-burner",
@@ -1692,7 +1798,8 @@
   "name": "3 burner gas cooker",
   "detail": "Ailyons, metal body",
   "price": 1990,
-  "unit": "each"
+  "unit": "each",
+  "sub": "Gas cookers"
  },
  {
   "id": "bbq-x",
@@ -1700,7 +1807,8 @@
   "name": "Foldable X-frame charcoal grill",
   "detail": "Grill area 44 x 27.5 cm. Folds flat to carry",
   "price": 3990,
-  "unit": "each"
+  "unit": "each",
+  "sub": "Charcoal grills & grill pans"
  },
  {
   "id": "bbq-fold",
@@ -1708,7 +1816,8 @@
   "name": "Portable suitcase charcoal grill",
   "detail": "34.8 x 27.7 x 19.5 cm open, folds to 6.3 cm with handle",
   "price": 2490,
-  "unit": "each"
+  "unit": "each",
+  "sub": "Charcoal grills & grill pans"
  },
  {
   "id": "grillpan-brown",
@@ -1716,7 +1825,8 @@
   "name": "Double grill pan 36cm, brown",
   "detail": "Non-stick, grill side + flat side, silicone seal",
   "price": 2790,
-  "unit": "each"
+  "unit": "each",
+  "sub": "Charcoal grills & grill pans"
  },
  {
   "id": "grillpan-black",
@@ -1724,7 +1834,8 @@
   "name": "Double grill pan 36cm, black",
   "detail": "Non-stick, grill side + flat side, silicone seal",
   "price": 2690,
-  "unit": "each"
+  "unit": "each",
+  "sub": "Charcoal grills & grill pans"
  },
  {
   "id": "flask-510g",
@@ -1752,7 +1863,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Tea flasks"
  },
  {
   "id": "flask-044g",
@@ -1774,7 +1886,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Tea flasks"
  },
  {
   "id": "flask-094g",
@@ -1813,7 +1926,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Tea flasks"
  },
  {
   "id": "flask-vfp007",
@@ -1838,7 +1952,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Tea flasks"
  },
  {
   "id": "flask-vfp092",
@@ -1863,7 +1978,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Tea flasks"
  },
  {
   "id": "flask-vfp017",
@@ -1891,7 +2007,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Tea flasks"
  },
  {
   "id": "flask-7753",
@@ -1900,7 +2017,8 @@
   "detail": "Stainless steel, push lid, no glass to break. Boxed.",
   "price": 1390,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Tea flasks"
  },
  {
   "id": "flask-7754",
@@ -1909,7 +2027,8 @@
   "detail": "Stainless steel, push lid, no glass to break. Boxed.",
   "price": 1550,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Tea flasks"
  },
  {
   "id": "flask-02789",
@@ -1918,7 +2037,8 @@
   "detail": "Tall jug shape, stainless steel. Boxed.",
   "price": 1650,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Tea flasks"
  },
  {
   "id": "flask-1825",
@@ -1927,7 +2047,8 @@
   "detail": "Big jug for family, office or church. Boxed.",
   "price": 1990,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Tea flasks"
  },
  {
   "id": "flask-always35",
@@ -1936,7 +2057,8 @@
   "detail": "Original Always brand, unbreakable stainless steel jug. Boxed.",
   "price": 2390,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Tea flasks"
  },
  {
   "id": "flask-18028",
@@ -1961,7 +2083,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Tea flasks"
  },
  {
   "id": "flask-18108",
@@ -1986,7 +2109,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Tea flasks"
  },
  {
   "id": "flask-10108",
@@ -2011,7 +2135,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Tea flasks"
  },
  {
   "id": "flask-10118",
@@ -2036,7 +2161,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Tea flasks"
  },
  {
   "id": "flask-32258",
@@ -2061,7 +2187,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Tea flasks"
  },
  {
   "id": "bottle-starry",
@@ -2089,7 +2216,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Water bottles"
  },
  {
   "id": "bottle-eiffel",
@@ -2117,7 +2245,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Water bottles"
  },
  {
   "id": "bottle-0218",
@@ -2145,7 +2274,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Water bottles"
  },
  {
   "id": "bottle-0647",
@@ -2154,7 +2284,8 @@
   "detail": "7 colours, carry strap, keeps hot or cold. Any 2 bottles KES 1,390",
   "price": 790,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Water bottles"
  },
  {
   "id": "bottle-0457",
@@ -2182,7 +2313,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Water bottles"
  },
  {
   "id": "bottle-0660",
@@ -2191,7 +2323,8 @@
   "detail": "Touch the lid to see the drink temperature. 6 colours. Any 2 bottles KES 1,390",
   "price": 850,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Water bottles"
  },
  {
   "id": "bottle-b123",
@@ -2219,7 +2352,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Water bottles"
  },
  {
   "id": "bottle-6443",
@@ -2247,7 +2381,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Water bottles"
  },
  {
   "id": "bottle-6444",
@@ -2275,7 +2410,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Water bottles"
  },
  {
   "id": "bottle-6448",
@@ -2303,7 +2439,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Water bottles"
  },
  {
   "id": "bottle-6447",
@@ -2331,7 +2468,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Water bottles"
  },
  {
   "id": "bottle-6445",
@@ -2359,7 +2497,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Water bottles"
  },
  {
   "id": "bottle-2290",
@@ -2384,7 +2523,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Water bottles"
  },
  {
   "id": "bottle-6396",
@@ -2409,7 +2549,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Water bottles"
  },
  {
   "id": "bottle-6320",
@@ -2437,7 +2578,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Water bottles"
  },
  {
   "id": "bottle-6394",
@@ -2468,7 +2610,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Water bottles"
  },
  {
   "id": "bottle-g6042",
@@ -2493,7 +2636,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Water bottles"
  },
  {
   "id": "bottle-6021b",
@@ -2521,7 +2665,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Water bottles"
  },
  {
   "id": "wd-afk103",
@@ -2530,7 +2675,8 @@
   "detail": "Hot & warm, 2 push taps, stainless steel hot tank. Sits on a counter. 1-year warranty.",
   "price": 2690,
   "unit": "each",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Standing & table top dispensers"
  },
  {
   "id": "wd-b3",
@@ -2539,7 +2685,8 @@
   "detail": "Standing, hot & normal, 2 taps, storage cabinet. 12-month warranty.",
   "price": 3190,
   "unit": "each",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Standing & table top dispensers"
  },
  {
   "id": "wd-c3",
@@ -2548,7 +2695,8 @@
   "detail": "Standing, hot & normal, 2 taps, storage cabinet. 12-month warranty.",
   "price": 3190,
   "unit": "each",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Standing & table top dispensers"
  },
  {
   "id": "wd-a7c",
@@ -2557,7 +2705,8 @@
   "detail": "Standing, 3 taps, white, electric cooling, storage cabinet.",
   "price": 4290,
   "unit": "each",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Standing & table top dispensers"
  },
  {
   "id": "wd-b7c",
@@ -2566,7 +2715,8 @@
   "detail": "Standing, 3 taps, black and gold, electric cooling, storage cabinet.",
   "price": 4290,
   "unit": "each",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Standing & table top dispensers"
  },
  {
   "id": "wd-l9c-black",
@@ -2575,7 +2725,8 @@
   "detail": "Top load, hot, normal & cold, big front panel, storage cabinet.",
   "price": 5690,
   "unit": "each",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Standing & table top dispensers"
  },
  {
   "id": "wd-l9c-white",
@@ -2584,7 +2735,8 @@
   "detail": "Top load, hot, normal & cold, storage cabinet.",
   "price": 5690,
   "unit": "each",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Standing & table top dispensers"
  },
  {
   "id": "wd-afk112",
@@ -2593,7 +2745,8 @@
   "detail": "Hot, normal & cold, silver with glass door, storage cabinet.",
   "price": 6990,
   "unit": "each",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Standing & table top dispensers"
  },
  {
   "id": "wd-afk114",
@@ -2602,7 +2755,8 @@
   "detail": "Hot, warm & cold. Bottle sits hidden at the bottom, no lifting. Made in Kenya, 1-year warranty.",
   "price": 7490,
   "unit": "each",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Bottom load dispensers"
  },
  {
   "id": "wd-afk1915",
@@ -2611,7 +2765,8 @@
   "detail": "Hot & cold, built-in kettle and tea pot, glass top, child lock. 1-year warranty.",
   "price": 7990,
   "unit": "each",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Bottom load dispensers"
  },
  {
   "id": "wd-wd08",
@@ -2620,7 +2775,8 @@
   "detail": "Hot & cold, digital touch panel, kettle and coffee pot. Home or office.",
   "price": 9990,
   "unit": "each",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Bottom load dispensers"
  },
  {
   "id": "wd-afk8848",
@@ -2629,7 +2785,8 @@
   "detail": "Hot & cold, 2 glass kettles, remote control, smoked glass body. 1-year warranty.",
   "price": 10490,
   "unit": "each",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Bottom load dispensers"
  },
  {
   "id": "ramtons-310",
@@ -2782,7 +2939,8 @@
   "detail": "Set of 3 suitcases, 63, 57 and 48 cm tall (Size 4). Hard fibre (ABS) shell, 360° spinner wheels, telescopic handle, zip closure, compression straps inside. Feng Tian Li",
   "price": 6990,
   "unit": "set of 3",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Suitcase sets"
  },
  {
   "id": "lug-rose-shell",
@@ -2791,7 +2949,8 @@
   "detail": "Set of 3 suitcases, 63, 57 and 48 cm tall (Size 4). Hard fibre (ABS) shell, 360° spinner wheels, telescopic handle, zip closure, compression straps inside. Feng Tian Li",
   "price": 6990,
   "unit": "set of 3",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Suitcase sets"
  },
  {
   "id": "lug-beige-chevron",
@@ -2800,7 +2959,8 @@
   "detail": "Set of 3 suitcases, 63, 57 and 48 cm tall (Size 4). Unbreakable polypropylene (PP) shell, flexes instead of cracking, 360° spinner wheels, telescopic handle, zip closure, compression straps inside. Feng Tian Li",
   "price": 7490,
   "unit": "set of 3",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Suitcase sets"
  },
  {
   "id": "lug-lilac-ribs",
@@ -2809,7 +2969,8 @@
   "detail": "Set of 3 suitcases, 63, 57 and 48 cm tall (Size 4). Hard fibre (ABS) shell, 360° spinner wheels, telescopic handle, zip closure, compression straps inside. Feng Tian Li",
   "price": 6990,
   "unit": "set of 3",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Suitcase sets"
  },
  {
   "id": "lug-lilac-dotted",
@@ -2818,7 +2979,8 @@
   "detail": "Set of 3 suitcases, 63, 57 and 48 cm tall (Size 4). Hard fibre (ABS) shell, 360° spinner wheels, telescopic handle, zip closure, compression straps inside. Feng Tian Li",
   "price": 6990,
   "unit": "set of 3",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Suitcase sets"
  },
  {
   "id": "lug-blue-dotted",
@@ -2827,7 +2989,8 @@
   "detail": "Set of 3 suitcases, 63, 57 and 48 cm tall (Size 4). Hard fibre (ABS) shell, 360° spinner wheels, telescopic handle, zip closure, compression straps inside. Feng Tian Li",
   "price": 6990,
   "unit": "set of 3",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Suitcase sets"
  },
  {
   "id": "lug-teal-stripe",
@@ -2836,7 +2999,8 @@
   "detail": "Set of 3 suitcases, 63, 57 and 48 cm tall (Size 4). Hard fibre (ABS) shell, 360° spinner wheels, telescopic handle, zip closure, compression straps inside. Feng Tian Li",
   "price": 6990,
   "unit": "set of 3",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Suitcase sets"
  },
  {
   "id": "lug-champagne-ribs",
@@ -2845,7 +3009,8 @@
   "detail": "Set of 3 suitcases, 63, 57 and 48 cm tall (Size 4). Hard fibre (ABS) shell, 360° spinner wheels, telescopic handle, zip closure, compression straps inside. Feng Tian Li",
   "price": 6990,
   "unit": "set of 3",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Suitcase sets"
  },
  {
   "id": "lug-rubber-3in1",
@@ -2900,7 +3065,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Suitcase sets"
  },
  {
   "id": "lug-gp-4in1",
@@ -2955,7 +3121,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Suitcase sets"
  },
  {
   "id": "lug-gp-5in1",
@@ -2964,7 +3131,8 @@
   "detail": "4 unbreakable PP suitcases plus a matching vanity case, 360° spinner wheels, telescopic handle. The whole family packed in one set",
   "price": 10490,
   "unit": "set of 5",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Suitcase sets"
  },
  {
   "id": "lug-gp-single",
@@ -3016,7 +3184,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Single suitcases"
  },
  {
   "id": "lug-carryon-tsa",
@@ -3044,7 +3213,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Single suitcases"
  },
  {
   "id": "lug-2in1",
@@ -3075,7 +3245,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Suitcase sets"
  },
  {
   "id": "lug-front-open-2pc",
@@ -3112,7 +3283,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Suitcase sets"
  },
  {
   "id": "lug-duffle-purple",
@@ -3121,7 +3293,8 @@
   "detail": "Large fabric weekend and gym bag, two handles plus a shoulder strap. Any 2 duffle bags KES 2,690",
   "price": 1490,
   "unit": "1 pc",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Duffle bags"
  },
  {
   "id": "lug-duffle-leather",
@@ -3130,7 +3303,8 @@
   "detail": "Large PU leather-look weekend bag, front zip pocket, handles plus a shoulder strap. Any 2 duffle bags KES 2,690",
   "price": 1490,
   "unit": "1 pc",
-  "added": "2026-11-20"
+  "added": "2026-11-20",
+  "sub": "Duffle bags"
  },
  {
   "id": "bear-mug",
@@ -3138,7 +3312,8 @@
   "name": "Bear lid glass mug",
   "detail": "400ml textured glass, bear lid and spoon. 2 for KES 1,190",
   "price": 650,
-  "unit": "each"
+  "unit": "each",
+  "sub": "Printed & coloured mugs"
  },
  {
   "id": "mug-sawa",
@@ -3147,7 +3322,8 @@
   "detail": "White ribbed body, black handle. Any 2 sets (12 mugs) KES 1,990",
   "price": 1090,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Black mugs"
  },
  {
   "id": "mug-7007",
@@ -3156,7 +3332,8 @@
   "detail": "Textured wave pattern, all white. Any 2 sets (12 mugs) KES 1,990",
   "price": 1090,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "White & embossed mugs"
  },
  {
   "id": "mug-7028",
@@ -3165,7 +3342,8 @@
   "detail": "Diamond cable pattern, all white. Any 2 sets (12 mugs) KES 1,990",
   "price": 1090,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "White & embossed mugs"
  },
  {
   "id": "mug-7026",
@@ -3174,7 +3352,8 @@
   "detail": "Raindrop and dot pattern, all white. Any 2 sets (12 mugs) KES 1,990",
   "price": 1090,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "White & embossed mugs"
  },
  {
   "id": "mug-a009",
@@ -3183,7 +3362,8 @@
   "detail": "Embossed chevron, thin black rim. Any 2 sets (12 mugs) KES 1,990",
   "price": 1090,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Black mugs"
  },
  {
   "id": "mug-a016",
@@ -3192,7 +3372,8 @@
   "detail": "Raised basketweave pattern, all white, tapered.",
   "price": 990,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "White & embossed mugs"
  },
  {
   "id": "mug-109",
@@ -3201,7 +3382,8 @@
   "detail": "White with blue and purple flowers. Any 2 sets (12 mugs) KES 1,990",
   "price": 1090,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Printed & coloured mugs"
  },
  {
   "id": "mug-5992",
@@ -3210,7 +3392,8 @@
   "detail": "White with blue and gold geometric print. Any 2 sets (12 mugs) KES 1,990",
   "price": 1190,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Printed & coloured mugs"
  },
  {
   "id": "mug-5990",
@@ -3219,7 +3402,8 @@
   "detail": "Fun blue cat print. Any 2 sets (12 mugs) KES 1,990",
   "price": 1190,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Printed & coloured mugs"
  },
  {
   "id": "mug-5991",
@@ -3228,7 +3412,8 @@
   "detail": "Bold black, teal and white diamond print. Any 2 sets (12 mugs) KES 1,990",
   "price": 1190,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Black mugs"
  },
  {
   "id": "mug-5989",
@@ -3237,7 +3422,8 @@
   "detail": "White with a cat on a branch, gold rims. Any 2 sets (12 mugs) KES 1,990",
   "price": 1190,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Printed & coloured mugs"
  },
  {
   "id": "mug-1832",
@@ -3246,7 +3432,8 @@
   "detail": "Sunny yellow, white flowers, green leaves. Any 2 sets (12 mugs) KES 1,990",
   "price": 1190,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Printed & coloured mugs"
  },
  {
   "id": "mug-1831",
@@ -3255,7 +3442,8 @@
   "detail": "Mint green with orange palm and teal leaves. Any 2 sets (12 mugs) KES 1,990",
   "price": 1190,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Printed & coloured mugs"
  },
  {
   "id": "mug-1830",
@@ -3264,7 +3452,8 @@
   "detail": "Deep blue with white flowers and teal leaves. Any 2 sets (12 mugs) KES 1,990",
   "price": 1190,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Printed & coloured mugs"
  },
  {
   "id": "mug-1833",
@@ -3273,7 +3462,8 @@
   "detail": "Watercolour fruit and ferns, green rims. Any 2 sets (12 mugs) KES 1,990",
   "price": 1190,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Printed & coloured mugs"
  },
  {
   "id": "mug-1828",
@@ -3282,7 +3472,8 @@
   "detail": "Red, yellow, black and blue leaves all round. Any 2 sets (12 mugs) KES 1,990",
   "price": 1190,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Printed & coloured mugs"
  },
  {
   "id": "mug-1834",
@@ -3291,7 +3482,8 @@
   "detail": "Teal monstera and gold palm, gold rims. Any 2 sets (12 mugs) KES 1,990",
   "price": 1190,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Printed & coloured mugs"
  },
  {
   "id": "mug-1836",
@@ -3300,7 +3492,8 @@
   "detail": "Green monstera leaf, boxed. Ready to gift. Any 2 sets (12 mugs) KES 1,990",
   "price": 1190,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Gift box mugs"
  },
  {
   "id": "mug-1837",
@@ -3309,7 +3502,8 @@
   "detail": "Yellow Happy Day banner, boxed. Ready to gift. Any 2 sets (12 mugs) KES 1,990",
   "price": 1190,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Gift box mugs"
  },
  {
   "id": "mug-8304",
@@ -3318,7 +3512,8 @@
   "detail": "Tall Big Boss shape, blue flowers, boxed. Any 2 sets (12 mugs) KES 1,990",
   "price": 1190,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Gift box mugs"
  },
  {
   "id": "mug-3418",
@@ -3327,7 +3522,8 @@
   "detail": "White with a gold lattice and gold handles. Any 2 gold sets (12 mugs) KES 2,590",
   "price": 1490,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Gold mugs"
  },
  {
   "id": "mug-3406",
@@ -3336,7 +3532,8 @@
   "detail": "Polka dot coffee print, gold rims and handles. Any 2 gold sets (12 mugs) KES 2,590",
   "price": 1390,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Gold mugs"
  },
  {
   "id": "mug-3412",
@@ -3345,7 +3542,8 @@
   "detail": "Brown and gold shapes, gold rims and handles. Any 2 gold sets (12 mugs) KES 2,590",
   "price": 1390,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Gold mugs"
  },
  {
   "id": "mug-5707",
@@ -3354,7 +3552,8 @@
   "detail": "Tall black latte mugs with a white tree print.",
   "price": 1990,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Black mugs"
  },
  {
   "id": "mug-5708",
@@ -3363,7 +3562,8 @@
   "detail": "Tall grey latte mugs with a black tree print.",
   "price": 1990,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Printed & coloured mugs"
  },
  {
   "id": "mug-yb26",
@@ -3372,7 +3572,8 @@
   "detail": "Black swirls with a yellow Coffee script. Any 2 sets (12 mugs) KES 1,990",
   "price": 1190,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Printed & coloured mugs"
  },
  {
   "id": "mug-yb16",
@@ -3381,7 +3582,8 @@
   "detail": "White with a black coffee pot print. Any 2 sets (12 mugs) KES 1,990",
   "price": 1190,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Printed & coloured mugs"
  },
  {
   "id": "mug-7020",
@@ -3390,7 +3592,8 @@
   "detail": "Raised geometric lines, all white. Any 2 sets (12 mugs) KES 1,990",
   "price": 1090,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "White & embossed mugs"
  },
  {
   "id": "mug-7021",
@@ -3399,7 +3602,8 @@
   "detail": "Raised lines with a dotted band, all white. Any 2 sets (12 mugs) KES 1,990",
   "price": 1090,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "White & embossed mugs"
  },
  {
   "id": "mug-7027",
@@ -3408,7 +3612,8 @@
   "detail": "Raised grid squares, all white. Any 2 sets (12 mugs) KES 1,990",
   "price": 1090,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "White & embossed mugs"
  },
  {
   "id": "mug-6013h",
@@ -3430,7 +3635,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Gold mugs"
  },
  {
   "id": "mug-6001",
@@ -3439,7 +3645,8 @@
   "detail": "Gold Y shapes, gold rims and handles. Any 2 gold sets (12 mugs) KES 2,590",
   "price": 1590,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Gold mugs"
  },
  {
   "id": "mug-2293",
@@ -3448,7 +3655,8 @@
   "detail": "Black mugs with white branches and birds. Any 2 sets (12 mugs) KES 1,990",
   "price": 1190,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Black mugs"
  },
  {
   "id": "mug-2292",
@@ -3457,7 +3665,8 @@
   "detail": "White mugs with black branches and a crow. Any 2 sets (12 mugs) KES 1,990",
   "price": 1190,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "White & embossed mugs"
  },
  {
   "id": "mug-5891",
@@ -3466,7 +3675,8 @@
   "detail": "Bold black brush dashes all round. Any 2 sets (12 mugs) KES 1,990",
   "price": 1190,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Black mugs"
  },
  {
   "id": "mug-a024",
@@ -3475,7 +3685,8 @@
   "detail": "Eight-sided white cups with black rims. Stand not included. Any 2 sets (12 mugs) KES 1,990",
   "price": 1190,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Black mugs"
  },
  {
   "id": "mug-a012",
@@ -3484,7 +3695,8 @@
   "detail": "White ribbed body, black rim, square handle. Any 2 sets (12 mugs) KES 1,990",
   "price": 1090,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "White & embossed mugs"
  },
  {
   "id": "mug-a011",
@@ -3493,7 +3705,8 @@
   "detail": "Deep green with a hammered texture.",
   "price": 990,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Printed & coloured mugs"
  },
  {
   "id": "mug-7553",
@@ -3502,7 +3715,8 @@
   "detail": "Opal glass cups with a blue rose band. Set of 6.",
   "price": 1790,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Printed & coloured mugs"
  },
  {
   "id": "mug-j0425",
@@ -3511,7 +3725,8 @@
   "detail": "White, sage, peach and red with gold dots and gold handles. Any 2 gold sets (12 mugs) KES 2,590",
   "price": 1390,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Gold mugs"
  },
  {
   "id": "mug-3875",
@@ -3520,7 +3735,8 @@
   "detail": "Opal glass mugs with a blue vine band.",
   "price": 1790,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Printed & coloured mugs"
  },
  {
   "id": "mug-3877",
@@ -3529,7 +3745,8 @@
   "detail": "Opal glass mugs with red and black squares.",
   "price": 1790,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Printed & coloured mugs"
  },
  {
   "id": "mug-25001b",
@@ -3538,7 +3755,8 @@
   "detail": "All black ribbed Japanese-style mugs. Stand not included. Any 2 sets (12 mugs) KES 1,990",
   "price": 1090,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Black mugs"
  },
  {
   "id": "mug-25003",
@@ -3547,7 +3765,8 @@
   "detail": "Plain glossy black ceramic mugs.",
   "price": 990,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Black mugs"
  },
  {
   "id": "mug-25002",
@@ -3556,7 +3775,8 @@
   "detail": "Glossy brown, white rim, 230ml.",
   "price": 790,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Printed & coloured mugs"
  },
  {
   "id": "mug-5881",
@@ -3565,7 +3785,8 @@
   "detail": "Blue and orange roses, boxed. Ready to gift. Any 2 sets (12 mugs) KES 1,990",
   "price": 1190,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Gift box mugs"
  },
  {
   "id": "mug-22036",
@@ -3574,7 +3795,8 @@
   "detail": "Raised weave pattern, matte white. Any 2 sets (12 mugs) KES 1,990",
   "price": 1090,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "White & embossed mugs"
  },
  {
   "id": "mug-9541",
@@ -3583,7 +3805,8 @@
   "detail": "Glossy black outside, white inside. Any 2 sets (12 mugs) KES 1,990",
   "price": 1090,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Black mugs"
  },
  {
   "id": "mug-a011r",
@@ -3592,7 +3815,8 @@
   "detail": "Hammered white body, red rim and handle.",
   "price": 990,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "White & embossed mugs"
  },
  {
   "id": "mug-26003",
@@ -3601,7 +3825,8 @@
   "detail": "Glossy black with a faceted diamond shape.",
   "price": 990,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Black mugs"
  },
  {
   "id": "mug-26006",
@@ -3610,7 +3835,8 @@
   "detail": "Glossy black with a thin white rim.",
   "price": 990,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Black mugs"
  },
  {
   "id": "mug-21824",
@@ -3619,7 +3845,8 @@
   "detail": "Big blue flower print all round. Any 2 sets (12 mugs) KES 1,990",
   "price": 1190,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Printed & coloured mugs"
  },
  {
   "id": "mug-21826",
@@ -3628,7 +3855,8 @@
   "detail": "Blue palm leaves with a red band. Any 2 sets (12 mugs) KES 1,990",
   "price": 1190,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Printed & coloured mugs"
  },
  {
   "id": "mug-a012r",
@@ -3637,7 +3865,8 @@
   "detail": "White ribbed body, red rim and square handle. Any 2 sets (12 mugs) KES 1,990",
   "price": 1090,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "White & embossed mugs"
  },
  {
   "id": "mug-a012g",
@@ -3646,7 +3875,8 @@
   "detail": "White ribbed body, green rim and square handle. Any 2 sets (12 mugs) KES 1,990",
   "price": 1090,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "White & embossed mugs"
  },
  {
   "id": "mug-a013",
@@ -3655,7 +3885,8 @@
   "detail": "White with a Macchiato coffee print.",
   "price": 990,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "White & embossed mugs"
  },
  {
   "id": "mug-a011b",
@@ -3664,7 +3895,8 @@
   "detail": "Sky blue hammered texture, black rim.",
   "price": 990,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Printed & coloured mugs"
  },
  {
   "id": "mug-25003w",
@@ -3673,7 +3905,8 @@
   "detail": "Glossy black outside, white inside.",
   "price": 990,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Black mugs"
  },
  {
   "id": "mug-a005",
@@ -3682,7 +3915,8 @@
   "detail": "Tall tapered teal mugs, white inside. Any 2 sets (12 mugs) KES 1,990",
   "price": 1190,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Printed & coloured mugs"
  },
  {
   "id": "mug-4396",
@@ -3691,7 +3925,8 @@
   "detail": "Glossy green all over.",
   "price": 990,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Printed & coloured mugs"
  },
  {
   "id": "mug-21573",
@@ -3700,7 +3935,8 @@
   "detail": "Plain glossy cream, curved handle.",
   "price": 990,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "White & embossed mugs"
  },
  {
   "id": "mug-a011m",
@@ -3709,7 +3945,8 @@
   "detail": "Mint green hammered texture, black rim.",
   "price": 990,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Printed & coloured mugs"
  },
  {
   "id": "mug-25002y",
@@ -3718,7 +3955,8 @@
   "detail": "Yellow and white dipped look, 230ml.",
   "price": 790,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Printed & coloured mugs"
  },
  {
   "id": "mug-25002b",
@@ -3727,7 +3965,8 @@
   "detail": "Blue and white dipped look, 230ml.",
   "price": 790,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Printed & coloured mugs"
  },
  {
   "id": "mug-25002g",
@@ -3736,7 +3975,8 @@
   "detail": "Mint and white dipped look, 230ml.",
   "price": 790,
   "unit": "6pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Printed & coloured mugs"
  },
  {
   "id": "water-set",
@@ -3744,7 +3984,8 @@
   "name": "7pc water set",
   "detail": "1.8L glass jug and 6 cut glasses",
   "price": 1190,
-  "unit": "7pc set"
+  "unit": "7pc set",
+  "sub": "Water sets"
  },
  {
   "id": "ribbed-set",
@@ -3752,7 +3993,8 @@
   "name": "Ribbed water set",
   "detail": "1.8L ribbed jug and 6 ribbed cups",
   "price": 1590,
-  "unit": "7pc set"
+  "unit": "7pc set",
+  "sub": "Water sets"
  },
  {
   "id": "boro-set",
@@ -3760,7 +4002,8 @@
   "name": "Borosilicate water set",
   "detail": "Glass jug and 4 glasses",
   "price": 1590,
-  "unit": "5pc set"
+  "unit": "5pc set",
+  "sub": "Water sets"
  },
  {
   "id": "champagne",
@@ -3768,7 +4011,8 @@
   "name": "Champagne glasses",
   "detail": "190ml",
   "price": 1290,
-  "unit": "6pc set"
+  "unit": "6pc set",
+  "sub": "Wine & party glasses"
  },
  {
   "id": "martini",
@@ -3776,7 +4020,8 @@
   "name": "Martini glasses",
   "detail": "300ml",
   "price": 1190,
-  "unit": "6pc set"
+  "unit": "6pc set",
+  "sub": "Wine & party glasses"
  },
  {
   "id": "ribbed-cups",
@@ -3784,7 +4029,8 @@
   "name": "Ribbed glass cups",
   "detail": "345ml, with handle",
   "price": 1050,
-  "unit": "6pc set"
+  "unit": "6pc set",
+  "sub": "Drinking glasses"
  },
  {
   "id": "dawa-mugs",
@@ -3792,7 +4038,8 @@
   "name": "Dawa mugs",
   "detail": "345ml glass mugs",
   "price": 1050,
-  "unit": "6pc set"
+  "unit": "6pc set",
+  "sub": "Drinking glasses"
  },
  {
   "id": "milkshake",
@@ -3800,7 +4047,8 @@
   "name": "Milkshake glasses",
   "detail": "360ml",
   "price": 890,
-  "unit": "6pc set"
+  "unit": "6pc set",
+  "sub": "Wine & party glasses"
  },
  {
   "id": "cut-glasses",
@@ -3808,7 +4056,8 @@
   "name": "Cut glasses",
   "detail": "330ml, 4 designs",
   "price": 690,
-  "unit": "6pc set"
+  "unit": "6pc set",
+  "sub": "Drinking glasses"
  },
  {
   "id": "twisted",
@@ -3816,7 +4065,8 @@
   "name": "Twisted glasses",
   "detail": "335ml",
   "price": 690,
-  "unit": "6pc set"
+  "unit": "6pc set",
+  "sub": "Drinking glasses"
  },
  {
   "id": "gl-25003",
@@ -3824,7 +4074,8 @@
   "name": "Diamond-cut tall glasses",
   "detail": "330ml crystal-look. Sold by the dozen",
   "price": 1590,
-  "unit": "12pcs"
+  "unit": "12pcs",
+  "sub": "Drinking glasses"
  },
  {
   "id": "gl-25006",
@@ -3832,7 +4083,8 @@
   "name": "Starburst-cut tall glasses",
   "detail": "Crystal-look. Sold by the dozen",
   "price": 1590,
-  "unit": "12pcs"
+  "unit": "12pcs",
+  "sub": "Drinking glasses"
  },
  {
   "id": "gl-25002",
@@ -3840,7 +4092,8 @@
   "name": "Leaf-cut glasses",
   "detail": "Crystal-look. Sold by the dozen",
   "price": 1590,
-  "unit": "12pcs"
+  "unit": "12pcs",
+  "sub": "Drinking glasses"
  },
  {
   "id": "gl-25007",
@@ -3848,7 +4101,8 @@
   "name": "Star-cut glasses",
   "detail": "330ml crystal-look",
   "price": 890,
-  "unit": "6pc set"
+  "unit": "6pc set",
+  "sub": "Drinking glasses"
  },
  {
   "id": "gl-25004",
@@ -3856,7 +4110,8 @@
   "name": "Cross-cut glasses",
   "detail": "330ml crystal-look",
   "price": 890,
-  "unit": "6pc set"
+  "unit": "6pc set",
+  "sub": "Drinking glasses"
  },
  {
   "id": "gl-25011",
@@ -3864,7 +4119,8 @@
   "name": "Hexagon-base glasses",
   "detail": "Water and juice",
   "price": 790,
-  "unit": "6pc set"
+  "unit": "6pc set",
+  "sub": "Drinking glasses"
  },
  {
   "id": "gl-25017",
@@ -3872,7 +4128,8 @@
   "name": "Twisted glasses",
   "detail": "335ml water and juice",
   "price": 690,
-  "unit": "6pc set"
+  "unit": "6pc set",
+  "sub": "Drinking glasses"
  },
  {
   "id": "gl-25018",
@@ -3880,7 +4137,8 @@
   "name": "Chopper glasses 335ml",
   "detail": "Ribbed, heavy base",
   "price": 690,
-  "unit": "6pc set"
+  "unit": "6pc set",
+  "sub": "Drinking glasses"
  },
  {
   "id": "gl-0026",
@@ -3888,7 +4146,8 @@
   "name": "Chopper glasses 270ml",
   "detail": "Ribbed, heavy base",
   "price": 690,
-  "unit": "6pc set"
+  "unit": "6pc set",
+  "sub": "Drinking glasses"
  },
  {
   "id": "gl-25010",
@@ -3896,7 +4155,8 @@
   "name": "Long horn glasses",
   "detail": "360ml tall tumbler",
   "price": 690,
-  "unit": "6pc set"
+  "unit": "6pc set",
+  "sub": "Wine & party glasses"
  },
  {
   "id": "glass-holder-heart",
@@ -3905,7 +4165,8 @@
   "detail": "Holds 6 cups, stainless steel, drip tray included.",
   "price": 790,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Drinking glasses"
  },
  {
   "id": "blue-plates",
@@ -3913,7 +4174,8 @@
   "name": "Blue dinner plates",
   "detail": "Ceramic, 10.5 inch",
   "price": 1490,
-  "unit": "6pc set"
+  "unit": "6pc set",
+  "sub": "Ceramic & opal plates"
  },
  {
   "id": "rim-plates",
@@ -3921,7 +4183,8 @@
   "name": "Grey white-rim plates",
   "detail": "Ceramic, 10.5 inch",
   "price": 1290,
-  "unit": "6pc set"
+  "unit": "6pc set",
+  "sub": "Ceramic & opal plates"
  },
  {
   "id": "green-plates",
@@ -3929,7 +4192,8 @@
   "name": "Matte green plates",
   "detail": "Ceramic, 10.5 inch",
   "price": 1490,
-  "unit": "6pc set"
+  "unit": "6pc set",
+  "sub": "Ceramic & opal plates"
  },
  {
   "id": "ring-plates",
@@ -3937,7 +4201,8 @@
   "name": "Japanese ring plates",
   "detail": "Ceramic, 10.5 inch",
   "price": 1490,
-  "unit": "6pc set"
+  "unit": "6pc set",
+  "sub": "Ceramic & opal plates"
  },
  {
   "id": "marble-plates",
@@ -3945,7 +4210,8 @@
   "name": "Marble grey plates",
   "detail": "Ceramic, glazed",
   "price": 1490,
-  "unit": "6pc set"
+  "unit": "6pc set",
+  "sub": "Ceramic & opal plates"
  },
  {
   "id": "side-plates",
@@ -3953,7 +4219,8 @@
   "name": "Blue side plates",
   "detail": "Ceramic, 8 inch",
   "price": 790,
-  "unit": "6pc set"
+  "unit": "6pc set",
+  "sub": "Ceramic & opal plates"
  },
  {
   "id": "gold-melamine",
@@ -3961,7 +4228,8 @@
   "name": "Gold border melamine plates",
   "detail": "Unbreakable, honeycomb centre",
   "price": 1090,
-  "unit": "6pc set"
+  "unit": "6pc set",
+  "sub": "Melamine plates"
  },
  {
   "id": "blue-melamine",
@@ -3969,7 +4237,8 @@
   "name": "Blue border melamine plates",
   "detail": "Unbreakable, deep plate",
   "price": 1090,
-  "unit": "6pc set"
+  "unit": "6pc set",
+  "sub": "Melamine plates"
  },
  {
   "id": "tree-melamine",
@@ -3977,7 +4246,8 @@
   "name": "Black tree melamine plates",
   "detail": "Unbreakable, fluted edge",
   "price": 1090,
-  "unit": "6pc set"
+  "unit": "6pc set",
+  "sub": "Melamine plates"
  },
  {
   "id": "mel-p2232",
@@ -3986,7 +4256,8 @@
   "detail": "White with grey and gold flower, fluted edge. Unbreakable.",
   "price": 1090,
   "unit": "6pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Melamine plates"
  },
  {
   "id": "mel-p2226",
@@ -4008,7 +4279,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Melamine plates"
  },
  {
   "id": "mel-p2215",
@@ -4030,7 +4302,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Melamine plates"
  },
  {
   "id": "mel-p2233",
@@ -4039,7 +4312,8 @@
   "detail": "White with purple rose. Unbreakable. Stand not included.",
   "price": 990,
   "unit": "6pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Melamine plates"
  },
  {
   "id": "mel-p2212",
@@ -4048,7 +4322,8 @@
   "detail": "Plain white, wavy edge. Unbreakable. White only.",
   "price": 890,
   "unit": "6pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Melamine plates"
  },
  {
   "id": "mel-p2210",
@@ -4057,7 +4332,8 @@
   "detail": "Gold sunburst rim, deep plate. Unbreakable.",
   "price": 790,
   "unit": "6pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Melamine plates"
  },
  {
   "id": "musembi-black-flower",
@@ -4066,7 +4342,8 @@
   "detail": "White swirl edge with black flower. Unbreakable.",
   "price": 1090,
   "unit": "6pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Melamine plates"
  },
  {
   "id": "musembi-cream-ring",
@@ -4075,7 +4352,8 @@
   "detail": "Cream with raised rings, wide rim. Unbreakable.",
   "price": 990,
   "unit": "6pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Melamine plates"
  },
  {
   "id": "musembi-plain-white",
@@ -4084,7 +4362,8 @@
   "detail": "Flat modern coupe shape. Unbreakable.",
   "price": 990,
   "unit": "6pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Melamine plates"
  },
  {
   "id": "musembi-pink-rose",
@@ -4093,7 +4372,8 @@
   "detail": "White with pink roses, deep. Unbreakable.",
   "price": 790,
   "unit": "6pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Melamine plates"
  },
  {
   "id": "musembi-cream-swirl",
@@ -4102,7 +4382,8 @@
   "detail": "Cream swirl edge, pink flower centre. Unbreakable.",
   "price": 790,
   "unit": "6pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Melamine plates"
  },
  {
   "id": "musembi-orange-square",
@@ -4111,7 +4392,8 @@
   "detail": "Bright orange, wavy square edge. Unbreakable.",
   "price": 790,
   "unit": "6pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Melamine plates"
  },
  {
   "id": "musembi-wide-rim",
@@ -4120,7 +4402,8 @@
   "detail": "Hotel-style plate with wide flat rim. Unbreakable.",
   "price": 1090,
   "unit": "6pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Melamine plates"
  },
  {
   "id": "musembi-square-wave",
@@ -4129,7 +4412,8 @@
   "detail": "Square plate with wave texture. Unbreakable.",
   "price": 1190,
   "unit": "6pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Melamine plates"
  },
  {
   "id": "stone-cream",
@@ -4138,7 +4422,8 @@
   "detail": "Cream with raised leaf rim and dark edge. Ceramic stoneware, sold as 6. Mix designs in one set. Any 2 sets KES 3,790. Stands not included.",
   "price": 1990,
   "unit": "6pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Stoneware plates"
  },
  {
   "id": "stone-midnight",
@@ -4147,7 +4432,8 @@
   "detail": "Deep blue reactive glaze, raised rim. Ceramic stoneware, sold as 6. Mix designs in one set. Any 2 sets KES 3,790. Stands not included.",
   "price": 1990,
   "unit": "6pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Stoneware plates"
  },
  {
   "id": "stone-amber-ring",
@@ -4156,7 +4442,8 @@
   "detail": "Grey speckled centre, amber glaze ring. Ceramic stoneware, sold as 6. Mix designs in one set. Any 2 sets KES 3,790. Stands not included.",
   "price": 1990,
   "unit": "6pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Stoneware plates"
  },
  {
   "id": "stone-blue-sand",
@@ -4165,7 +4452,8 @@
   "detail": "Sand speckled centre, bright blue rim. Ceramic stoneware, sold as 6. Mix designs in one set. Any 2 sets KES 3,790. Stands not included.",
   "price": 1990,
   "unit": "6pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Stoneware plates"
  },
  {
   "id": "stone-teal",
@@ -4174,7 +4462,8 @@
   "detail": "Hammered texture, teal-blue glaze. Ceramic stoneware, sold as 6. Mix designs in one set. Any 2 sets KES 3,790. Stands not included.",
   "price": 1990,
   "unit": "6pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Stoneware plates"
  },
  {
   "id": "stone-sage",
@@ -4183,7 +4472,8 @@
   "detail": "Soft sage speckled glaze, white rim. Ceramic stoneware, sold as 6. Mix designs in one set. Any 2 sets KES 3,790. Stands not included.",
   "price": 1990,
   "unit": "6pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Stoneware plates"
  },
  {
   "id": "stone-watercolour",
@@ -4192,7 +4482,8 @@
   "detail": "Grey with blue and teal brush strokes. Ceramic stoneware, sold as 6. Mix designs in one set. Any 2 sets KES 3,790. Stands not included.",
   "price": 1990,
   "unit": "6pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Stoneware plates"
  },
  {
   "id": "stone-navy-ribbed",
@@ -4201,7 +4492,8 @@
   "detail": "Navy glaze with ribbed rim. Ceramic stoneware, sold as 6. Mix designs in one set. Any 2 sets KES 3,790. Stands not included.",
   "price": 1990,
   "unit": "6pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Stoneware plates"
  },
  {
   "id": "stone-grey-ribbed",
@@ -4210,7 +4502,8 @@
   "detail": "Grey speckled glaze, ribbed rim, black edge. Ceramic stoneware, sold as 6. Mix designs in one set. Any 2 sets KES 3,790. Stands not included.",
   "price": 1990,
   "unit": "6pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Stoneware plates"
  },
  {
   "id": "stone-amber-square",
@@ -4219,7 +4512,8 @@
   "detail": "Square, honey amber glaze, black edge. Ceramic stoneware, sold as 6. Mix designs in one set. Any 2 sets KES 3,790. Stands not included.",
   "price": 1990,
   "unit": "6pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Stoneware plates"
  },
  {
   "id": "opal-7861",
@@ -4228,7 +4522,8 @@
   "detail": "Blue, pink and black flowers, fluted edge. Stand not included",
   "price": 1390,
   "unit": "6pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Ceramic & opal plates"
  },
  {
   "id": "opal-8318",
@@ -4237,7 +4532,8 @@
   "detail": "Gold and grey wave, fluted edge. Stand not included",
   "price": 1390,
   "unit": "6pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Ceramic & opal plates"
  },
  {
   "id": "tray-wood-3",
@@ -4245,7 +4541,8 @@
   "name": "Wooden serving trays, gold handles",
   "detail": "3-piece set, nesting sizes",
   "price": 2490,
-  "unit": "3pc set"
+  "unit": "3pc set",
+  "sub": "Tray sets"
  },
  {
   "id": "tray-oval-steel",
@@ -4268,7 +4565,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Steel trays & sinia plates"
  },
  {
   "id": "tray-round-steel",
@@ -4276,7 +4574,8 @@
   "name": "Round steel trays",
   "detail": "35cm, 40cm and 45cm",
   "price": 1190,
-  "unit": "3pc set"
+  "unit": "3pc set",
+  "sub": "Steel trays & sinia plates"
  },
  {
   "id": "tray-mel-18",
@@ -4284,7 +4583,8 @@
   "name": "Melamine tray with handles",
   "detail": "18 inch, blue diamond pattern",
   "price": 690,
-  "unit": "each"
+  "unit": "each",
+  "sub": "Melamine & plastic trays"
  },
  {
   "id": "tray-printed-17",
@@ -4305,7 +4605,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Melamine & plastic trays"
  },
  {
   "id": "tray-floral-17",
@@ -4313,7 +4614,8 @@
   "name": "Floral melamine tray",
   "detail": "17 inch, 2 designs",
   "price": 550,
-  "unit": "each"
+  "unit": "each",
+  "sub": "Melamine & plastic trays"
  },
  {
   "id": "tray-plain-17",
@@ -4334,7 +4636,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Melamine & plastic trays"
  },
  {
   "id": "tray-mel-rect",
@@ -4342,7 +4645,8 @@
   "name": "White melamine platters",
   "detail": "Rectangular, set of 2",
   "price": 890,
-  "unit": "pair"
+  "unit": "pair",
+  "sub": "Melamine & plastic trays"
  },
  {
   "id": "tray-mel-oval",
@@ -4350,7 +4654,8 @@
   "name": "Oval melamine platters",
   "detail": "Marble rim, 2 sizes",
   "price": 850,
-  "unit": "pair"
+  "unit": "pair",
+  "sub": "Melamine & plastic trays"
  },
  {
   "id": "tray-peony-mel",
@@ -4359,7 +4664,8 @@
   "detail": "Single tray with handles, pink peony border. Unbreakable.",
   "price": 690,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Melamine & plastic trays"
  },
  {
   "id": "tray-acr-oval-pink",
@@ -4368,7 +4674,8 @@
   "detail": "Gold bead handles, 3 nesting sizes. Any 2 acrylic or House tray sets KES 3,990",
   "price": 2190,
   "unit": "3pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Acrylic trays"
  },
  {
   "id": "tray-acr-oval-yellow",
@@ -4377,7 +4684,8 @@
   "detail": "Gold bead handles, 3 nesting sizes. Any 2 acrylic or House tray sets KES 3,990",
   "price": 2190,
   "unit": "3pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Acrylic trays"
  },
  {
   "id": "tray-acr-round-yellow",
@@ -4386,7 +4694,8 @@
   "detail": "Gold bead handles, 3 nesting sizes. Any 2 acrylic or House tray sets KES 3,990",
   "price": 2190,
   "unit": "3pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Acrylic trays"
  },
  {
   "id": "tray-acr-round-pink",
@@ -4395,7 +4704,8 @@
   "detail": "Gold bead handles, 3 nesting sizes. Any 2 acrylic or House tray sets KES 3,990",
   "price": 2190,
   "unit": "3pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Acrylic trays"
  },
  {
   "id": "tray-acr-rect",
@@ -4417,7 +4727,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Acrylic trays"
  },
  {
   "id": "tray-karuri-48",
@@ -4426,7 +4737,8 @@
   "detail": "Gold and grey marble print, gold handles, 3 nesting sizes.",
   "price": 2490,
   "unit": "3pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Tray sets"
  },
  {
   "id": "tray-karuri-22",
@@ -4435,7 +4747,8 @@
   "detail": "Gold vase art print, gold frame and handles, 3 nesting sizes.",
   "price": 2490,
   "unit": "3pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Tray sets"
  },
  {
   "id": "tray-karuri-24",
@@ -4444,7 +4757,8 @@
   "detail": "Blue and silver marble print, silver handles, 3 nesting sizes.",
   "price": 2490,
   "unit": "3pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Tray sets"
  },
  {
   "id": "tray-karuri-36",
@@ -4453,7 +4767,8 @@
   "detail": "White and black swirl with gold flecks, black marble frame, gold handles.",
   "price": 2490,
   "unit": "3pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Tray sets"
  },
  {
   "id": "tray-karuri-7",
@@ -4462,7 +4777,8 @@
   "detail": "Rainbow rose art print, gold frame and handles.",
   "price": 2490,
   "unit": "3pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Tray sets"
  },
  {
   "id": "tray-karuri-12",
@@ -4471,7 +4787,8 @@
   "detail": "Black and gold marble print, gold handles.",
   "price": 2490,
   "unit": "3pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Tray sets"
  },
  {
   "id": "tray-karuri-52",
@@ -4480,7 +4797,8 @@
   "detail": "Feather and butterfly art print, wood frame, gold handles.",
   "price": 2490,
   "unit": "3pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Tray sets"
  },
  {
   "id": "tray-house-black",
@@ -4489,7 +4807,8 @@
   "detail": "Black gloss with gold trim and handles. 3 nesting sizes. Any 2 acrylic or House tray sets KES 3,990",
   "price": 2190,
   "unit": "3pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Tray sets"
  },
  {
   "id": "tray-house-wave",
@@ -4498,7 +4817,8 @@
   "detail": "White wavy shape, gold rim and handles. 3 nesting sizes. Any 2 acrylic or House tray sets KES 3,990",
   "price": 2190,
   "unit": "3pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Tray sets"
  },
  {
   "id": "tray-house-round",
@@ -4507,7 +4827,8 @@
   "detail": "Round, white with gold rim and handles. 3 nesting sizes. Any 2 acrylic or House tray sets KES 3,990",
   "price": 2190,
   "unit": "3pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Tray sets"
  },
  {
   "id": "tray-house-gold",
@@ -4516,7 +4837,8 @@
   "detail": "Rectangular, white with gold rim and handles. 3 nesting sizes. Any 2 acrylic or House tray sets KES 3,990",
   "price": 2190,
   "unit": "3pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Tray sets"
  },
  {
   "id": "tray-house-silver",
@@ -4525,7 +4847,8 @@
   "detail": "Rectangular, cream with silver rim and handles. 3 nesting sizes. Any 2 acrylic or House tray sets KES 3,990",
   "price": 2190,
   "unit": "3pc set",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Tray sets"
  },
  {
   "id": "tray-nonslip-round",
@@ -4534,7 +4857,8 @@
   "detail": "Rubber grip, glasses don't slide. 40cm KES 1,190 · 45cm KES 1,290. Bars, hotels and home.",
   "price": 1090,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Melamine & plastic trays"
  },
  {
   "id": "tray-nonslip-rect",
@@ -4543,7 +4867,8 @@
   "detail": "Rubber grip surface. 50x38cm KES 1,350 · 56x40cm KES 1,490.",
   "price": 1190,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Melamine & plastic trays"
  },
  {
   "id": "tray-steel-embossed",
@@ -4552,7 +4877,8 @@
   "detail": "Stainless steel, palm tree design, cut-out handles.",
   "price": 690,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Steel trays & sinia plates"
  },
  {
   "id": "tray-clear-round",
@@ -4561,7 +4887,8 @@
   "detail": "Ribbed clear acrylic, gold rim and handles, 29.5 x 27cm. Any 2 clear trays KES 990",
   "price": 590,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Acrylic trays"
  },
  {
   "id": "tray-clear-rect",
@@ -4570,7 +4897,8 @@
   "detail": "Ribbed clear acrylic, gold handles. Any 2 clear trays KES 990",
   "price": 590,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Acrylic trays"
  },
  {
   "id": "tray-oval-heavy",
@@ -4598,7 +4926,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Steel trays & sinia plates"
  },
  {
   "id": "tray-oval-light",
@@ -4630,7 +4959,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Steel trays & sinia plates"
  },
  {
   "id": "jug-crown928",
@@ -4828,7 +5158,8 @@
   "name": "White and gold marble sugar dish",
   "detail": "Glass lid and spoon",
   "price": 790,
-  "unit": "each"
+  "unit": "each",
+  "sub": "Sugar dishes"
  },
  {
   "id": "sugar-bamboo",
@@ -4836,7 +5167,8 @@
   "name": "Bamboo sugar dish",
   "detail": "320ml, bamboo lid and spoon. Unbreakable",
   "price": 790,
-  "unit": "each"
+  "unit": "each",
+  "sub": "Sugar dishes"
  },
  {
   "id": "sugar-white",
@@ -4844,7 +5176,8 @@
   "name": "White sugar pot",
   "detail": "Glass lid with steel knob, steel spoon",
   "price": 690,
-  "unit": "each"
+  "unit": "each",
+  "sub": "Sugar dishes"
  },
  {
   "id": "sugar-steel",
@@ -4852,7 +5185,8 @@
   "name": "Steel sugar dish",
   "detail": "Stainless steel, glass lid and spoon",
   "price": 690,
-  "unit": "each"
+  "unit": "each",
+  "sub": "Sugar dishes"
  },
  {
   "id": "jar-acrylic-ribbed",
@@ -4861,7 +5195,8 @@
   "detail": "Ribbed clear jar with lid, for sugar, spices or biscuits.",
   "price": 890,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Storage jars & containers"
  },
  {
   "id": "jar-acrylic-gold",
@@ -4870,7 +5205,8 @@
   "detail": "Gold cut-out sleeve, gold handle lid, gift box. Nuts, dates, sweets.",
   "price": 1190,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Storage jars & containers"
  },
  {
   "id": "jar-square-crystal",
@@ -4879,7 +5215,8 @@
   "detail": "Crystal-cut acrylic, airtight lid. Rice, pasta, sugar, snacks.",
   "price": 1090,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Storage jars & containers"
  },
  {
   "id": "jar-bamboo-canister",
@@ -4888,7 +5225,8 @@
   "detail": "Glass jar, bamboo-look band, airtight lid. Tea, coffee, sugar, spices.",
   "price": 690,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Storage jars & containers"
  },
  {
   "id": "jar-bamboo-spice4",
@@ -4897,7 +5235,8 @@
   "detail": "Glass with bamboo-look lid and gold ring. Salt, pepper, sugar, tea.",
   "price": 1290,
   "unit": "set of 4",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Spice jars & shakers"
  },
  {
   "id": "cereal-dispenser",
@@ -4906,7 +5245,8 @@
   "detail": "Airtight with pour spout and measuring cup. 2L KES 1,590 · 2.5L KES 1,890.",
   "price": 1390,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Storage jars & containers"
  },
  {
   "id": "salt-shaker-acrylic",
@@ -4915,7 +5255,8 @@
   "detail": "Clear, small size. Large set of 4 KES 850.",
   "price": 690,
   "unit": "set of 4",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Spice jars & shakers"
  },
  {
   "id": "sugar-steel-polished",
@@ -4924,7 +5265,8 @@
   "detail": "Stainless steel, 8.5cm, lid with knob and spoon.",
   "price": 890,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Sugar dishes"
  },
  {
   "id": "sugar-steel-brushed",
@@ -4933,7 +5275,8 @@
   "detail": "Stainless steel, 8.5cm, slotted lid and spoon.",
   "price": 790,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Sugar dishes"
  },
  {
   "id": "jam-jar-acrylic",
@@ -4942,7 +5285,8 @@
   "detail": "Heavy clear acrylic with lid and spoon, boxed.",
   "price": 650,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Storage jars & containers"
  },
  {
   "id": "shakers-ribbed-pair",
@@ -4951,7 +5295,8 @@
   "detail": "Heavy clear acrylic, boxed. 2 shakers.",
   "price": 690,
   "unit": "pair",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Spice jars & shakers"
  },
  {
   "id": "dish-rack",
@@ -4959,7 +5304,8 @@
   "name": "🍽️ Above-sink dish rack 85cm (2469)",
   "detail": "All black, 85cm. Plate and bowl racks, knife and spoon holders, fruit and sponge baskets, board stand.",
   "price": 4290,
-  "unit": "85cm"
+  "unit": "85cm",
+  "sub": "Dish racks"
  },
  {
   "id": "dish-rack-95",
@@ -4968,7 +5314,8 @@
   "detail": "All black, 95cm for wider sinks. Plate and bowl racks, knife and spoon holders, fruit and sponge baskets, board stand.",
   "price": 4590,
   "unit": "95cm",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Dish racks"
  },
  {
   "id": "boro-jugs",
@@ -4976,7 +5323,8 @@
   "name": "Glass measuring jugs, both sizes",
   "detail": "350ml and 500ml borosilicate glass, bamboo lids",
   "price": 2390,
-  "unit": "pair"
+  "unit": "pair",
+  "sub": "Measuring jugs & scoops"
  },
  {
   "id": "boro-500",
@@ -4984,7 +5332,8 @@
   "name": "Glass measuring jug 500ml",
   "detail": "Borosilicate glass, bamboo lid, heat resistant",
   "price": 1350,
-  "unit": "each"
+  "unit": "each",
+  "sub": "Measuring jugs & scoops"
  },
  {
   "id": "boro-350",
@@ -4992,7 +5341,8 @@
   "name": "Glass measuring jug 350ml",
   "detail": "Borosilicate glass, bamboo lid, heat resistant",
   "price": 1190,
-  "unit": "each"
+  "unit": "each",
+  "sub": "Measuring jugs & scoops"
  },
  {
   "id": "stallion-jug",
@@ -5000,7 +5350,8 @@
   "name": "Stallion measuring jug 1.5L",
   "detail": "Plastic, ml, oz, cups and pints. Made in Kenya. Add-on to any order",
   "price": 250,
-  "unit": "each"
+  "unit": "each",
+  "sub": "Measuring jugs & scoops"
  },
  {
   "id": "scoop-ice-small",
@@ -5024,7 +5375,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Measuring jugs & scoops"
  },
  {
   "id": "soap-acrylic",
@@ -5032,7 +5384,8 @@
   "name": "Acrylic soap pump and sponge caddy",
   "detail": "Press the sponge, soap comes up. White with clear base. 2 for KES 1,390",
   "price": 790,
-  "unit": "each"
+  "unit": "each",
+  "sub": "Soap pumps"
  },
  {
   "id": "soap-pump",
@@ -5040,7 +5393,8 @@
   "name": "Soap pump with sponge",
   "detail": "Press-down dish soap dispenser. 2 for KES 890",
   "price": 490,
-  "unit": "each"
+  "unit": "each",
+  "sub": "Soap pumps"
  },
  {
   "id": "towel-cotton",
@@ -5048,7 +5402,8 @@
   "name": "Cotton kitchen towels, pack of 3",
   "detail": "100% cotton, 40 x 60 cm, checked. 6 for KES 1,790",
   "price": 990,
-  "unit": "3 pcs"
+  "unit": "3 pcs",
+  "sub": "Kitchen towels & holders"
  },
  {
   "id": "towel-hanging",
@@ -5056,7 +5411,8 @@
   "name": "Hanging kitchen towels, pack of 4",
   "detail": "Soft striped hand towels with loop, assorted colours. 6 for KES 790",
   "price": 590,
-  "unit": "4 pcs"
+  "unit": "4 pcs",
+  "sub": "Kitchen towels & holders"
  },
  {
   "id": "towel-combo",
@@ -5064,7 +5420,8 @@
   "name": "Kitchen towel combo",
   "detail": "3 cotton towels + 3 hanging towels",
   "price": 1290,
-  "unit": "6 pcs"
+  "unit": "6 pcs",
+  "sub": "Kitchen towels & holders"
  },
  {
   "id": "hold-gold-set",
@@ -5072,7 +5429,8 @@
   "name": "Gold kitchen pair",
   "detail": "Gold mug tree and gold tissue holder together",
   "price": 1490,
-  "unit": "2pc set"
+  "unit": "2pc set",
+  "sub": "Kitchen towels & holders"
  },
  {
   "id": "hold-mug-gold",
@@ -5080,7 +5438,8 @@
   "name": "Gold mug tree",
   "detail": "Holds 6 mugs. Tall gold stand",
   "price": 990,
-  "unit": "each"
+  "unit": "each",
+  "sub": "Kitchen towels & holders"
  },
  {
   "id": "hold-double",
@@ -5088,7 +5447,8 @@
   "name": "Under-shelf double roll holder",
   "detail": "Hangs under a cabinet shelf, no drilling. White",
   "price": 690,
-  "unit": "each"
+  "unit": "each",
+  "sub": "Kitchen towels & holders"
  },
  {
   "id": "hold-tissue-gold",
@@ -5096,7 +5456,8 @@
   "name": "Gold kitchen towel holder",
   "detail": "Standing roll holder, gold ring base",
   "price": 590,
-  "unit": "each"
+  "unit": "each",
+  "sub": "Kitchen towels & holders"
  },
  {
   "id": "hold-tissue-steel",
@@ -5104,7 +5465,8 @@
   "name": "Steel kitchen towel holder",
   "detail": "Standing roll holder, S-scroll design",
   "price": 490,
-  "unit": "each"
+  "unit": "each",
+  "sub": "Kitchen towels & holders"
  },
  {
   "id": "organizer",
@@ -5160,7 +5522,8 @@
   "name": "Touchless soap dispenser",
   "detail": "700ml, wall mounted, soap or sanitizer",
   "price": 1690,
-  "unit": "each"
+  "unit": "each",
+  "sub": "Bathroom accessories"
  },
  {
   "id": "mat-love",
@@ -5169,7 +5532,8 @@
   "detail": "3 pieces: door mat 75x45cm, floor mat 45x37.5cm, seat cover 35x37.5cm. Any 2 sets KES 2,190",
   "price": 1190,
   "unit": "3pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Toilet mat sets"
  },
  {
   "id": "mat-lion",
@@ -5178,7 +5542,8 @@
   "detail": "3 pieces: door mat 75x45cm, floor mat 45x37.5cm, seat cover 35x37.5cm. Any 2 sets KES 2,190",
   "price": 1190,
   "unit": "3pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Toilet mat sets"
  },
  {
   "id": "mat-sunflower",
@@ -5187,7 +5552,8 @@
   "detail": "3 pieces: door mat 75x45cm, floor mat 45x37.5cm, seat cover 35x37.5cm. Any 2 sets KES 2,190",
   "price": 1190,
   "unit": "3pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Toilet mat sets"
  },
  {
   "id": "mat-basket",
@@ -5196,7 +5562,8 @@
   "detail": "3 pieces: door mat 75x45cm, floor mat 45x37.5cm, seat cover 35x37.5cm. Any 2 sets KES 2,190",
   "price": 1190,
   "unit": "3pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Toilet mat sets"
  },
  {
   "id": "mat-purple",
@@ -5205,7 +5572,8 @@
   "detail": "3 pieces: door mat 75x45cm, floor mat 45x37.5cm, seat cover 35x37.5cm. Any 2 sets KES 2,190",
   "price": 1190,
   "unit": "3pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Toilet mat sets"
  },
  {
   "id": "mat-queen",
@@ -5214,7 +5582,8 @@
   "detail": "3 pieces: door mat 75x45cm, floor mat 45x37.5cm, seat cover 35x37.5cm. Any 2 sets KES 2,190",
   "price": 1190,
   "unit": "3pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Toilet mat sets"
  },
  {
   "id": "mat-curly",
@@ -5223,7 +5592,8 @@
   "detail": "3 pieces: door mat 75x45cm, floor mat 45x37.5cm, seat cover 35x37.5cm. Any 2 sets KES 2,190",
   "price": 1190,
   "unit": "3pc set",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Toilet mat sets"
  },
  {
   "id": "shelf-rotating",
@@ -5232,7 +5602,8 @@
   "detail": "Grey, 60 x 10.3cm, turns 180° to fit any corner or wall. No drilling, sticks on. Any 2 for KES 1,790",
   "price": 990,
   "unit": "each",
-  "added": "2026-11-18"
+  "added": "2026-11-18",
+  "sub": "Bathroom accessories"
  },
  {
   "id": "mat-bath-scrub",
@@ -5260,7 +5631,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Bathroom accessories"
  },
  {
   "id": "mat-kitchen-2pc",
