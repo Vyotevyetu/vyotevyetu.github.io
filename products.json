@@ -6294,6 +6294,45 @@
   "sub": "Christmas trees"
  },
  {
+  "id": "tree-pe-pine",
+  "cat": "decor",
+  "name": "🌲 PE pine-needle Christmas tree, 4ft to 6ft",
+  "detail": "High quality PE pine tree with long soft needles in bushy clusters, looks like a real pine. Fuller and more natural than standard green trees. Foldable metal stand included",
+  "price": 2590,
+  "unit": "1 tree",
+  "added": "2026-11-22",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "4ft · 120cm",
+      2590
+     ],
+     [
+      "5ft · 150cm",
+      4490
+     ],
+     [
+      "6ft · 180cm",
+      5190
+     ]
+    ]
+   }
+  ],
+  "sub": "Christmas trees"
+ },
+ {
+  "id": "garland-prelit",
+  "cat": "decor",
+  "name": "✨ Pre-lit snowy Christmas garland, 2.7m",
+  "detail": "Heavily flocked snowy white garland with built-in warm white lights, just plug in and glow. 2.7 metres long. Drape over a TV stand, mantel, staircase, doorway, window or round your tree. Looks full on its own",
+  "price": 4290,
+  "unit": "1 garland",
+  "added": "2026-11-22",
+  "sub": "Garlands & lights"
+ },
+ {
   "id": "tree-mini-lit",
   "cat": "decor",
   "name": "🌲 Mini snowy Christmas tree with lights, 30cm",
