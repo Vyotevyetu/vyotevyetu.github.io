@@ -6759,6 +6759,114 @@
   "sub": "Bows, stockings & ornaments"
  },
  {
+  "id": "ornament-star-cejay",
+  "cat": "decor",
+  "name": "⭐ Glitter star tree topper, small or big",
+  "detail": "Plastic glitter star that slips onto the top of your tree. Small layered star in gold or pink-silver, or a big 3D gold star. Add-on",
+  "price": 290,
+  "unit": "1 star",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Style",
+    "v": [
+     [
+      "Small gold",
+      290
+     ],
+     [
+      "Small pink-silver",
+      290
+     ],
+     [
+      "Big 3D gold",
+      390
+     ]
+    ]
+   }
+  ],
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "ornament-bells",
+  "cat": "decor",
+  "name": "🔔 Christmas bells hanging decor",
+  "detail": "Shiny double bells with red bow, hang on the door, wall or tree. Small pair in gold or silver, or big gold bells with Merry Christmas and pine sprig. Add-on",
+  "price": 290,
+  "unit": "1 pack",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Style",
+    "v": [
+     [
+      "Small pair, gold",
+      290
+     ],
+     [
+      "Small pair, silver",
+      290
+     ],
+     [
+      "Big Merry Christmas bells",
+      390
+     ]
+    ]
+   }
+  ],
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "ornament-candy-6",
+  "cat": "decor",
+  "name": "🍬 Candy sweet ornaments, set of 6",
+  "detail": "Shiny red and white striped candy-shaped baubles with gold hangers, boxed. Fun on the tree or a kids' party table",
+  "price": 790,
+  "unit": "set of 6",
+  "added": "2026-11-23",
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "ornament-balls-12",
+  "cat": "decor",
+  "name": "🎄 Shiny mini Christmas balls, 12 pcs",
+  "detail": "12 small shiny baubles in mixed colours: red, blue, silver, gold, green and purple, with hangers. Add-on",
+  "price": 490,
+  "unit": "12 pcs",
+  "added": "2026-11-23",
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "ornament-mix-santa",
+  "cat": "decor",
+  "name": "🎅 Mini decor pack with Santa & candy cane",
+  "detail": "Small tree decor pack: 2 glitter balls, 2 drums, 2 gift boxes, a bell, a Santa figure and a candy cane. Add-on",
+  "price": 450,
+  "unit": "1 pack",
+  "added": "2026-11-23",
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "ornament-assorted",
+  "cat": "decor",
+  "name": "🎁 Assorted Christmas decor bag",
+  "detail": "Mixed bag of tree decorations: glitter balls, bells, stars, gift boxes, bows and more. Designs and colours vary per bag. Quick way to fill a small tree",
+  "price": 690,
+  "unit": "1 bag",
+  "added": "2026-11-23",
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "hat-santa",
+  "cat": "decor",
+  "name": "🎅 Santa hats, red with white trim",
+  "detail": "Classic felt Santa hat with fluffy pompom, fits adults and kids. Christmas parties, office events, schools and photos. Any 4 Santa hats KES 790",
+  "price": 250,
+  "unit": "1 hat",
+  "added": "2026-11-23",
+  "sub": "Table runners, banners & party"
+ },
+ {
   "id": "cushion-xmas-cream",
   "cat": "decor",
   "name": "🎄 Cream & gold 3D Christmas cushion covers",
