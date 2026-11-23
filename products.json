@@ -8576,5 +8576,173 @@
    }
   ],
   "sub": "Kitchen tools & gadgets"
+ },
+ {
+  "id": "ladle-ornate-short",
+  "cat": "cutlery",
+  "name": "🌸 Short serving spoon with flower-carved handle",
+  "detail": "Deep mirror-polish stainless steel serving spoon with a raised flower-carved handle and hanging hole. For rice, pilau, githeri and stews. Any 3 steel serving spoons KES 1,290 (mix shiny, engraved and mirror)",
+  "price": 450,
+  "unit": "1 pc",
+  "added": "2026-11-23",
+  "sub": "Serving spoons & ladles"
+ },
+ {
+  "id": "ladle-wave",
+  "cat": "cutlery",
+  "name": "🥄 Wave-engraved serving spoon, ladle, turner, fork & spaghetti spoon",
+  "detail": "Long stainless steel kitchen tools with a wave-engraved flat handle and hanging hole: serving spoon, soup ladle, slotted turner, carving fork or spaghetti spoon. Any 3 steel serving spoons KES 1,290 (mix shiny, engraved and mirror)",
+  "price": 550,
+  "unit": "1 pc",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Type",
+    "v": [
+     [
+      "Serving spoon",
+      550
+     ],
+     [
+      "Soup ladle",
+      550
+     ],
+     [
+      "Slotted turner",
+      550
+     ],
+     [
+      "Carving fork",
+      550
+     ],
+     [
+      "Spaghetti spoon",
+      590
+     ]
+    ]
+   }
+  ],
+  "sub": "Serving spoons & ladles"
+ },
+ {
+  "id": "ladle-yachule-plain",
+  "cat": "cutlery",
+  "name": "✨ Yachule mirror skimmer, serving spoon & carving fork",
+  "detail": "Yachule Boutique heavy mirror-polish stainless steel with a smooth flat handle: slotted skimmer for mandazi and chips, long serving spoon, or carving fork for meat. Any 3 steel serving spoons KES 1,290 (mix shiny, engraved and mirror)",
+  "price": 550,
+  "unit": "1 pc",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Type",
+    "v": [
+     [
+      "Skimmer"
+     ],
+     [
+      "Serving spoon"
+     ],
+     [
+      "Carving fork"
+     ]
+    ]
+   }
+  ],
+  "sub": "Serving spoons & ladles"
+ },
+ {
+  "id": "ladle-mandazi-yellow",
+  "cat": "cutlery",
+  "name": "🟡 Stainless mandazi spoon (skimmer) with yellow tips, X5 to X8",
+  "detail": "Deep perforated stainless steel skimmer for mandazi, chips, samosas and bhajia, long handle with yellow grip caps. Size X5 (small) up to X8 (big). Any 3 steel serving spoons KES 1,290 (mix shiny, engraved and mirror)",
+  "price": 450,
+  "unit": "1 pc",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "X5",
+      450
+     ],
+     [
+      "X6",
+      490
+     ],
+     [
+      "X7",
+      550
+     ],
+     [
+      "X8",
+      650
+     ]
+    ]
+   }
+  ],
+  "sub": "Serving spoons & ladles"
+ },
+ {
+  "id": "cutlery-0232",
+  "cat": "cutlery",
+  "name": "🍴 24pc silver cutlery set with stand (0232)",
+  "detail": "Stainless steel cutlery for 6: 6 dinner knives, 6 dinner forks, 6 dinner spoons and 6 tea spoons, with a matching wire stand that keeps them neat on the counter. Gift box with handle",
+  "price": 2290,
+  "unit": "24pc set",
+  "added": "2026-11-23",
+  "sub": "Cutlery sets"
+ },
+ {
+  "id": "cutlery-egg-24",
+  "cat": "cutlery",
+  "name": "🥚 Executive egg-shaped cutlery set, 24pcs",
+  "detail": "Showpiece cutlery for 6 stored upright in a shiny egg-shaped case with a wood-look holder and lid: 6 knives, 6 forks, 6 table spoons and 6 tea spoons. A diamond-texture silver egg, B smooth silver egg, C gold egg. Boxed, a top wedding and Christmas gift",
+  "price": 3990,
+  "unit": "24pc set",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Style",
+    "v": [
+     [
+      "A Diamond silver",
+      4490
+     ],
+     [
+      "B Smooth silver",
+      3990
+     ],
+     [
+      "C Gold",
+      4190
+     ]
+    ]
+   }
+  ],
+  "sub": "Cutlery sets"
+ },
+ {
+  "id": "cutlery-marble-gold",
+  "cat": "cutlery",
+  "name": "✨ Heavy marble gold cutlery set with stand, 24pcs",
+  "detail": "Heavy gold stainless steel cutlery with marble-look ceramic handles on a gold hanging stand: 6 forks, 6 table spoons, 6 tea spoons and 6 butter knives. Black or white marble",
+  "price": 2490,
+  "unit": "24pc set",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Black marble"
+     ],
+     [
+      "White marble"
+     ]
+    ]
+   }
+  ],
+  "sub": "Cutlery sets"
  }
 ]
