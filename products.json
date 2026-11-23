@@ -7221,5 +7221,107 @@
   "unit": "1 headband",
   "added": "2026-11-23",
   "sub": "Table runners, banners & party"
+ },
+ {
+  "id": "ornament-balls-big6",
+  "cat": "decor",
+  "name": "🔴 Big shiny Christmas balls, 6 pcs",
+  "detail": "6 big shiny baubles with textured swirl stripes: silver, red, green, blue, gold and pink. Boxed, with hangers. Any 2 bauble boxes KES 1,290",
+  "price": 690,
+  "unit": "6 pcs",
+  "added": "2026-11-23",
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "ornament-balls-crystal6",
+  "cat": "decor",
+  "name": "❤️ Red crystal sequin Christmas balls, 6 pcs",
+  "detail": "6 red balls covered in sparkly sequins and white beads, gold caps and hangers. Boxed. Any 2 bauble boxes KES 1,290",
+  "price": 690,
+  "unit": "6 pcs",
+  "added": "2026-11-23",
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "ornament-balls-drums-box",
+  "cat": "decor",
+  "name": "🎄 Christmas balls & drums box, 12 pcs",
+  "detail": "Boxed mix of 12: pink glitter balls, gold drums, green faceted balls and red glitter balls with snowflake box print. Any 2 bauble boxes KES 1,290",
+  "price": 790,
+  "unit": "12 pcs",
+  "added": "2026-11-23",
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "bow-glitter-mesh",
+  "cat": "decor",
+  "name": "🎀 Big glitter mesh Christmas bow",
+  "detail": "Large stiff bow with a gold glitter diamond pattern, holds its shape. For the tree top, door, gate, wreath or gifts. Any 2 glitter bows KES 890",
+  "price": 490,
+  "unit": "1 bow",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Red"
+     ],
+     [
+      "Gold"
+     ]
+    ]
+   }
+  ],
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "lights-led-10m",
+  "cat": "decor",
+  "name": "💡 LED Christmas fairy lights, 10m",
+  "detail": "10 metre LED string lights, plug-in with multi-function flashing modes. Indoor and outdoor: tree, windows, walls, gate, events. Any 2 LED lights KES 1,090",
+  "price": 590,
+  "unit": "1 set",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Warm white"
+     ],
+     [
+      "Cool white"
+     ],
+     [
+      "Multicolour"
+     ]
+    ]
+   }
+  ],
+  "sub": "Garlands, wreaths & lights"
+ },
+ {
+  "id": "ornament-santa-head",
+  "cat": "decor",
+  "name": "🎅 Santa head hanging decoration",
+  "detail": "Santa face with fluffy white beard and tall hat, hanging cord. Red hat or gold-patterned hat. Tree, door or car mirror. Any 4 Santa heads KES 790",
+  "price": 250,
+  "unit": "1 pc",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Hat",
+    "v": [
+     [
+      "Red"
+     ],
+     [
+      "Gold pattern"
+     ]
+    ]
+   }
+  ],
+  "sub": "Bows, stockings & ornaments"
  }
 ]
