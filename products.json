@@ -8109,7 +8109,7 @@
   "id": "spoon-kzh-6",
   "cat": "cutlery",
   "name": "🥄 KZH stainless table spoons & forks, 6 pcs",
-  "detail": "KZH stainless steel table spoons or forks, set of 6. Pick a design: A scale-pattern spoons, B scale-pattern forks, C flower-engraved spoons, D leaf-engraved spoons. Everyday use at home, hotels, schools and restaurants. Any 4 KZH sets KES 890 (mix designs). Bulk dozens for hotels on request",
+  "detail": "KZH stainless steel table spoons or forks, set of 6. Pick a design: A scale-pattern spoons, B scale-pattern forks, C flower-engraved spoons, D leaf-engraved spoons, E plain classic spoons, F heart-handle spoons. Everyday use at home, hotels, schools and restaurants. Any 4 KZH sets KES 890 (mix designs). Bulk dozens for hotels on request",
   "price": 290,
   "unit": "6 pcs",
   "added": "2026-11-23",
@@ -8128,6 +8128,12 @@
      ],
      [
       "D Leaf spoons"
+     ],
+     [
+      "E Plain spoons"
+     ],
+     [
+      "F Heart-handle spoons"
      ]
     ]
    }
@@ -8257,5 +8263,87 @@
   "unit": "1 pc",
   "added": "2026-11-23",
   "sub": "Spoon & cutlery holders"
+ },
+ {
+  "id": "cutlery-gold-24",
+  "cat": "cutlery",
+  "name": "✨ 24pc gold cutlery set with hanging stand",
+  "detail": "Shiny gold stainless steel cutlery for 6: 6 dinner knives, 6 forks, 6 table spoons and 6 tea spoons, hung on a matching gold wire stand. Rust-free, a showpiece for the dining table and a top wedding or Christmas gift",
+  "price": 2490,
+  "unit": "24pc set",
+  "added": "2026-11-23",
+  "sub": "Cutlery sets"
+ },
+ {
+  "id": "knife-feng",
+  "cat": "cutlery",
+  "name": "🔪 Feng & Feng kitchen knives no.7 and no.8",
+  "detail": "Sharp stainless steel blade with a croc-texture handle and chrome bolster. No.7 (1785) long slicing knife or No.8 (1876) 8 inch knife. Black, white or brown handle. Any 3 knives KES 590 (mix with other knives)",
+  "price": 250,
+  "unit": "1 knife",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Type",
+    "v": [
+     [
+      "No.7 slicing knife (1785)"
+     ],
+     [
+      "No.8 8 inch knife (1876)"
+     ]
+    ]
+   },
+   {
+    "n": "Handle",
+    "v": [
+     [
+      "Black"
+     ],
+     [
+      "White"
+     ],
+     [
+      "Brown"
+     ]
+    ]
+   }
+  ],
+  "sub": "Kitchen & butcher knives"
+ },
+ {
+  "id": "spoon-serving-plain",
+  "cat": "cutlery",
+  "name": "🥄 Plain stainless serving spoons",
+  "detail": "Short stainless steel serving spoons with a hanging hole. A heavy-gauge mirror finish, or B light satin finish in its own bag. For rice, githeri, stews and hotels. Any 4 plain serving spoons KES 690",
+  "price": 290,
+  "unit": "1 pc",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Type",
+    "v": [
+     [
+      "A Heavy",
+      290
+     ],
+     [
+      "B Light",
+      190
+     ]
+    ]
+   }
+  ],
+  "sub": "Serving spoons & ladles"
+ },
+ {
+  "id": "spoon-gold-6",
+  "cat": "cutlery",
+  "name": "✨ Gold table spoons, 6 pcs",
+  "detail": "Shiny gold stainless steel table spoons, set of 6. Matches gold mugs and dinner sets. Any 2 gold spoon sets KES 1,190",
+  "price": 690,
+  "unit": "6 pcs",
+  "added": "2026-11-23",
+  "sub": "Spoons & forks"
  }
 ]
