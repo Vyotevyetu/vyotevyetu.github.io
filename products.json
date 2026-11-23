@@ -8147,7 +8147,7 @@
   "id": "ladle-shiny",
   "cat": "cutlery",
   "name": "✨ Shiny stainless serving spoons: soup ladle, rice spoon, egg turner",
-  "detail": "Mirror-shine heavy stainless steel with a thick tube handle and hanging hole. A soup ladle (mwiko wa supu), B rice serving spoon, C slotted egg and chapati turner. Any 3 steel serving spoons KES 1,290 (mix shiny and engraved)",
+  "detail": "Mirror-shine heavy stainless steel with a thick tube handle and hanging hole. A soup ladle (mwiko wa supu), B rice serving spoon, C slotted egg and chapati turner. Any 3 steel serving spoons KES 1,290 (mix shiny, engraved and mirror)",
   "price": 490,
   "unit": "1 pc",
   "added": "2026-11-23",
@@ -8172,8 +8172,8 @@
  {
   "id": "ladle-engraved",
   "cat": "cutlery",
-  "name": "🥄 Engraved stainless serving spoons & spaghetti spoon",
-  "detail": "Long stainless steel serving spoons with a swirl-engraved handle and hanging hole: short serving spoon, soup ladle, rice spoon or spaghetti spoon. Any 3 steel serving spoons KES 1,290 (mix shiny and engraved)",
+  "name": "🥄 Engraved stainless serving spoons, ladle, turner & spaghetti spoon",
+  "detail": "Yachule Boutique long stainless steel serving tools with a swirl-engraved handle and hanging hole: rice spoon, serving spoon, soup ladle, slotted turner, carving fork or heavy spaghetti spoon. Any 3 steel serving spoons KES 1,290 (mix shiny, engraved and mirror)",
   "price": 550,
   "unit": "1 pc",
   "added": "2026-11-23",
@@ -8182,7 +8182,11 @@
     "n": "Type",
     "v": [
      [
-      "Short serving spoon",
+      "Rice spoon",
+      550
+     ],
+     [
+      "Serving spoon",
       550
      ],
      [
@@ -8190,7 +8194,11 @@
       550
      ],
      [
-      "Rice spoon",
+      "Slotted turner",
+      550
+     ],
+     [
+      "Carving fork",
       550
      ],
      [
@@ -8206,7 +8214,7 @@
   "id": "ladle-floral",
   "cat": "cutlery",
   "name": "🥄 Budget stainless cooking spoons: rice, soup, egg & mandazi",
-  "detail": "Light stainless steel cooking and serving spoons with flower-pressed handles: short rice serving spoon, long rice spoon, long soup ladle, long egg turner, or long mandazi spoon (slotted, for frying and draining). Any 4 budget spoons KES 890",
+  "detail": "Light stainless steel cooking and serving tools with flower-pressed handles: short rice serving spoon, long rice spoon, long soup ladle, long egg turner, long mandazi spoon (slotted, for frying and draining) or carving fork. Any 4 budget spoons KES 890",
   "price": 290,
   "unit": "1 pc",
   "added": "2026-11-23",
@@ -8228,6 +8236,9 @@
      ],
      [
       "Long mandazi spoon"
+     ],
+     [
+      "Carving fork"
      ]
     ]
    }
@@ -8452,6 +8463,118 @@
   "price": 450,
   "unit": "6pc set",
   "added": "2026-11-23",
+  "sub": "Kitchen tools & gadgets"
+ },
+ {
+  "id": "ladle-table-mirror",
+  "cat": "cutlery",
+  "name": "✨ Mirror-polish table serving spoon & sauce ladle",
+  "detail": "Heavy mirror-polish stainless steel for serving at the table: A serving spoon for rice, pilau and salads, B round sauce and soup ladle. Matches mirror cutlery sets. Any 3 steel serving spoons KES 1,290 (mix shiny, engraved and mirror)",
+  "price": 490,
+  "unit": "1 pc",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Type",
+    "v": [
+     [
+      "A Serving spoon"
+     ],
+     [
+      "B Sauce ladle"
+     ]
+    ]
+   }
+  ],
+  "sub": "Serving spoons & ladles"
+ },
+ {
+  "id": "ladle-big-plain",
+  "cat": "cutlery",
+  "name": "🍲 Big stainless soup ladle, long handle",
+  "detail": "Large deep stainless steel ladle with a long round handle for big sufurias, soup, stew, porridge and tea urns. For hotels, schools, catering and big families",
+  "price": 890,
+  "unit": "1 pc",
+  "added": "2026-11-23",
+  "sub": "Serving spoons & ladles"
+ },
+ {
+  "id": "ladle-web-wood",
+  "cat": "cutlery",
+  "name": "🕸️ Big wire mandazi skimmer with wooden handle, 20cm to 26cm",
+  "detail": "Big spiral wire skimmer with a long wooden handle that stays cool. Lifts mandazi, chips, samosas, chicken and fish out of deep oil in one scoop. Sizes 20cm, 22cm, 24cm or 26cm, for home and hotel kitchens",
+  "price": 650,
+  "unit": "1 pc",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "20cm",
+      650
+     ],
+     [
+      "22cm",
+      790
+     ],
+     [
+      "24cm",
+      890
+     ],
+     [
+      "26cm",
+      990
+     ]
+    ]
+   }
+  ],
+  "sub": "Serving spoons & ladles"
+ },
+ {
+  "id": "spoonholder-steel",
+  "cat": "cutlery",
+  "name": "🥄 Heavy stainless spoon holder",
+  "detail": "Heavy-duty polished stainless steel cutlery cylinder with drain holes so spoons dry fast. Stands on the counter or in a dish rack. For homes, hotels and food kiosks",
+  "price": 590,
+  "unit": "1 pc",
+  "added": "2026-11-23",
+  "sub": "Spoon & cutlery holders"
+ },
+ {
+  "id": "cutlery-mirror-24",
+  "cat": "cutlery",
+  "name": "🍴 24pc mirror-polish cutlery set (no stand)",
+  "detail": "Heavy mirror-polish stainless steel cutlery for 6: 6 table spoons, 6 forks, 6 table knives and 6 tea spoons. Modern straight handles. Stand not included",
+  "price": 2890,
+  "unit": "24pc set",
+  "added": "2026-11-23",
+  "sub": "Cutlery sets"
+ },
+ {
+  "id": "cake-piping-8",
+  "cat": "kitchen",
+  "name": "🎂 Cake decorating nozzles & piping bag set, 8pcs",
+  "detail": "Stainless steel icing nozzles with coupler and reusable piping bag for cakes, cupcakes and cookies. Blue, pink or white bag. Any 2 sets KES 790",
+  "price": 450,
+  "unit": "8pc set",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Bag colour",
+    "v": [
+     [
+      "Blue"
+     ],
+     [
+      "Pink"
+     ],
+     [
+      "White"
+     ]
+    ]
+   }
+  ],
   "sub": "Kitchen tools & gadgets"
  }
 ]
