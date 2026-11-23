@@ -7323,5 +7323,155 @@
    }
   ],
   "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "ornament-merry-bag16",
+  "cat": "decor",
+  "name": "🎁 Christmas decor bag, 16 pcs + Merry Christmas sign",
+  "detail": "Bag of 16 tree decorations plus a Merry Christmas sign. Red & gold: gold balls, pink star drums, red gift boxes, red bows. Silver: glitter balls, disco balls, tinsel and silver gift boxes. Gold: rose-gold balls, gold drums, ribbed balls and gold gift boxes. Dresses a whole small tree",
+  "price": 990,
+  "unit": "17 pcs",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Red & gold"
+     ],
+     [
+      "Silver"
+     ],
+     [
+      "Gold"
+     ]
+    ]
+   }
+  ],
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "ornament-tube-gold-red",
+  "cat": "decor",
+  "name": "🥁 Gold & red decor tube: balls, gift boxes & drums",
+  "detail": "Clear tube of assorted gold glitter balls, red gift boxes and red drums with gold cords. Ready to hang",
+  "price": 990,
+  "unit": "1 tube",
+  "added": "2026-11-23",
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "ornament-balls-20",
+  "cat": "decor",
+  "name": "🎄 Glitter Christmas balls, 20 pcs",
+  "detail": "20 glitter baubles in a gift box with snowman print, with hangers. Pick blue, red & pink or gold & pink. Enough for a 5ft to 6ft tree",
+  "price": 1490,
+  "unit": "20 pcs",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Colours",
+    "v": [
+     [
+      "Blue, red & pink"
+     ],
+     [
+      "Gold & pink"
+     ]
+    ]
+   }
+  ],
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "ornament-doves-4",
+  "cat": "decor",
+  "name": "🕊️ White glitter dove clip-on ornaments, 4 pcs",
+  "detail": "4 snowy white doves with silver glitter and feather tails, clip on to branches. Elegant on green or white trees, wreaths and garlands",
+  "price": 790,
+  "unit": "4 pcs",
+  "added": "2026-11-23",
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "wreath-merry-30",
+  "cat": "decor",
+  "name": "💐 Merry Christmas door wreath, 30cm",
+  "detail": "30cm green wreath with a gold Merry Christmas sign. Gold & cream: cream poinsettias, gold balls and bows. Red: red poinsettias, berries, baubles and pine cones. For the door, wall or gate",
+  "price": 1290,
+  "unit": "1 wreath",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "Gold & cream"
+     ],
+     [
+      "Red poinsettia"
+     ]
+    ]
+   }
+  ],
+  "sub": "Garlands, wreaths & lights"
+ },
+ {
+  "id": "ribbon-xmas-27",
+  "cat": "decor",
+  "name": "🎀 Christmas gift wrap ribbon, 2.7m",
+  "detail": "Wired 5.5cm wide ribbon with metallic star and snowflake pattern, 2.7m roll. Holds its shape for bows on gifts, trees, wreaths and doors. Any 4 ribbons KES 790",
+  "price": 250,
+  "unit": "1 roll",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Gold"
+     ],
+     [
+      "Red"
+     ],
+     [
+      "Silver"
+     ],
+     [
+      "Green"
+     ],
+     [
+      "Blue"
+     ]
+    ]
+   }
+  ],
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "lights-3d-paper-lamp",
+  "cat": "decor",
+  "name": "🏡 3D paper carving Christmas lamp",
+  "detail": "LED shadow box lamp with layered paper-cut Christmas scene that glows from inside. Table lamp, bedroom night light and a lovely Christmas or birthday gift",
+  "price": 2490,
+  "unit": "1 lamp",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Scene",
+    "v": [
+     [
+      "A: Santa sleigh village"
+     ],
+     [
+      "B: Windmill village"
+     ],
+     [
+      "C: Forest cottage"
+     ]
+    ]
+   }
+  ],
+  "sub": "Garlands, wreaths & lights"
  }
 ]
