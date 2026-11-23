@@ -7885,7 +7885,7 @@
   "id": "fork-heavy-m0490",
   "cat": "cutlery",
   "name": "🍴 Heavy stainless table forks, 6 pcs (M0490)",
-  "detail": "Heavy-gauge stainless steel dinner forks that do not bend, mirror shine. Home, hotels and restaurants. Set of 6. Any 2 fork sets KES 990. Bulk boxes for hotels on request",
+  "detail": "Heavy-gauge stainless steel dinner forks that do not bend, mirror shine. Home, hotels and restaurants. Set of 6. Any 2 heavy spoon or fork sets KES 990. Bulk boxes for hotels on request",
   "price": 590,
   "unit": "6 pcs",
   "added": "2026-11-23",
@@ -8109,7 +8109,7 @@
   "id": "spoon-kzh-6",
   "cat": "cutlery",
   "name": "🥄 KZH stainless table spoons & forks, 6 pcs",
-  "detail": "KZH stainless steel table spoons or forks, set of 6. Pick a design: A scale-pattern spoons, B scale-pattern forks, C flower-engraved spoons, D leaf-engraved spoons, E plain classic spoons, F heart-handle spoons. Everyday use at home, hotels, schools and restaurants. Any 4 KZH sets KES 890 (mix designs). Bulk dozens for hotels on request",
+  "detail": "KZH stainless steel table spoons or forks, set of 6. Pick a design: A scale-pattern spoons, B scale-pattern forks, C flower-engraved spoons, D leaf-engraved spoons, E plain classic spoons, F heart-handle spoons, G ornate medium spoons (283-1). Everyday use at home, hotels, schools and restaurants. Any 4 KZH sets KES 890 (mix designs). Bulk dozens for hotels on request",
   "price": 290,
   "unit": "6 pcs",
   "added": "2026-11-23",
@@ -8134,6 +8134,9 @@
      ],
      [
       "F Heart-handle spoons"
+     ],
+     [
+      "G Ornate spoons (283-1)"
      ]
     ]
    }
@@ -8345,5 +8348,110 @@
   "unit": "6 pcs",
   "added": "2026-11-23",
   "sub": "Spoons & forks"
+ },
+ {
+  "id": "ladle-web",
+  "cat": "cutlery",
+  "name": "🕸️ Stainless wire web spoons (skimmers)",
+  "detail": "Spiral wire mesh skimmer with a steel tube handle and hanging loop. Lifts chips, mandazi, samosas, fish and noodles out of hot oil or water and drains them fast. 14cm, 16cm or 18cm. Any 3 web spoons KES 990",
+  "price": 350,
+  "unit": "1 pc",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "14cm",
+      350
+     ],
+     [
+      "16cm",
+      390
+     ],
+     [
+      "18cm",
+      450
+     ]
+    ]
+   }
+  ],
+  "sub": "Serving spoons & ladles"
+ },
+ {
+  "id": "knife-aifel",
+  "cat": "cutlery",
+  "name": "🔪 AIFEL 8 inch professional wooden handle knife (KH-868)",
+  "detail": "Heavy 8 inch stainless steel butcher and chef knife with a riveted wood-look handle and hanging loop. For meat, chicken, fish and big vegetables. Any 2 big knives KES 690 (mix with bread knife)",
+  "price": 390,
+  "unit": "1 knife",
+  "added": "2026-11-23",
+  "sub": "Kitchen & butcher knives"
+ },
+ {
+  "id": "knife-bread",
+  "cat": "cutlery",
+  "name": "🍞 Serrated bread & cake knife",
+  "detail": "Long serrated stainless steel blade that slices bread, cake and tomatoes without squashing. Riveted wooden or plastic handle. Any 2 big knives KES 690 (mix with AIFEL knife)",
+  "price": 390,
+  "unit": "1 knife",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Handle",
+    "v": [
+     [
+      "Wooden"
+     ],
+     [
+      "Plastic"
+     ]
+    ]
+   }
+  ],
+  "sub": "Kitchen & butcher knives"
+ },
+ {
+  "id": "knife-set-kunsion",
+  "cat": "cutlery",
+  "name": "🖤 Kunsion marble knife set with rotating stand, 9pcs",
+  "detail": "Marble-pattern non-stick knives with rose-gold bolsters: chef, slicing, bread, utility and paring knives, plus kitchen scissors, peeler and sharpening rod on a clear 360° rotating stand. White or black marble. A top kitchen gift",
+  "price": 2990,
+  "unit": "9pc set",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "White marble"
+     ],
+     [
+      "Black marble"
+     ]
+    ]
+   }
+  ],
+  "sub": "Kitchen & butcher knives"
+ },
+ {
+  "id": "spoon-heavy-6",
+  "cat": "cutlery",
+  "name": "🥄 Heavy stainless table spoons, 6 pcs",
+  "detail": "Heavy-gauge mirror-polish stainless steel table spoons that do not bend. Home, hotels and restaurants. Set of 6. Any 2 heavy spoon or fork sets KES 990. Bulk boxes for hotels on request",
+  "price": 590,
+  "unit": "6 pcs",
+  "added": "2026-11-23",
+  "sub": "Spoons & forks"
+ },
+ {
+  "id": "measure-rainbow-6",
+  "cat": "kitchen",
+  "name": "🌈 Rainbow measuring cups & spoons, 6pcs",
+  "detail": "6 nesting plastic measuring cups and spoons in rainbow colours for baking and cooking: flour, sugar, rice, milk and spices. Stack into one for storage. Any 2 sets KES 790",
+  "price": 450,
+  "unit": "6pc set",
+  "added": "2026-11-23",
+  "sub": "Kitchen tools & gadgets"
  }
 ]
