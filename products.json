@@ -6860,7 +6860,7 @@
   "id": "hat-santa",
   "cat": "decor",
   "name": "🎅 Santa hats, red with white trim",
-  "detail": "Classic felt Santa hat with fluffy pompom, fits adults and kids. Christmas parties, office events, schools and photos. Any 4 Santa hats KES 790",
+  "detail": "Classic felt Santa hat with fluffy pompom, fits adults and kids. Christmas parties, office events, schools and photos. Any 4 Santa hats or headbands KES 790",
   "price": 250,
   "unit": "1 hat",
   "added": "2026-11-23",
@@ -7142,5 +7142,84 @@
   "price": 2490,
   "unit": "1 pc",
   "added": "2026-11-18"
+ },
+ {
+  "id": "tree-snow-fir",
+  "cat": "decor",
+  "name": "❄️ Snow-flocked fir Christmas tree, 4ft to 6ft",
+  "detail": "Thick white snow-flocked fir tree, looks like it has just snowed. Full bushy branches, great with gold, red or silver baubles. Metal stand included. Early bird prices",
+  "price": 5490,
+  "unit": "1 tree",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "4ft · 120cm",
+      5490
+     ],
+     [
+      "5ft · 150cm",
+      7490
+     ],
+     [
+      "6ft · 180cm",
+      11490
+     ]
+    ]
+   }
+  ],
+  "sub": "Christmas trees"
+ },
+ {
+  "id": "ornament-drums-6",
+  "cat": "decor",
+  "name": "🥁 Glitter drum ornaments, 6 pcs",
+  "detail": "6 mini glitter drums with gold cords and hanging loops: green, red, gold, silver, pink and blue. Any 3 ornament packs KES 990 (drums, apples or boots)",
+  "price": 390,
+  "unit": "6 pcs",
+  "added": "2026-11-23",
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "ornament-apples-6",
+  "cat": "decor",
+  "name": "🍎 Red velvet apple ornaments, 6 pcs",
+  "detail": "6 soft red velvet apples with green leaves and gold hanging loops. Classic Christmas tree look. Any 3 ornament packs KES 990 (drums, apples or boots)",
+  "price": 390,
+  "unit": "6 pcs",
+  "added": "2026-11-23",
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "ornament-boots-6",
+  "cat": "decor",
+  "name": "👢 Glitter Santa boot ornaments, 6 pcs",
+  "detail": "6 glitter Santa boots with hanging loops, gold, silver and red. Any 3 ornament packs KES 990 (drums, apples or boots)",
+  "price": 390,
+  "unit": "6 pcs",
+  "added": "2026-11-23",
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "garland-tinsel",
+  "cat": "decor",
+  "name": "🌲 Snow-tipped tinsel garland, 2m",
+  "detail": "Fluffy dark green tinsel with white snowy tips, 2 metres. Wrap round the tree, staircase, doorway, mirror or windows. Any 3 tinsel garlands KES 890",
+  "price": 350,
+  "unit": "1 garland",
+  "added": "2026-11-23",
+  "sub": "Garlands, wreaths & lights"
+ },
+ {
+  "id": "hat-headband-santa",
+  "cat": "decor",
+  "name": "🎅 Santa Christmas headband",
+  "detail": "Red headband with 2 bouncy Santa faces on springs. Fits kids and adults. Parties, school events, office and photos. Any 4 Santa hats or headbands KES 790",
+  "price": 250,
+  "unit": "1 headband",
+  "added": "2026-11-23",
+  "sub": "Table runners, banners & party"
  }
 ]
