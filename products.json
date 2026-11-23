@@ -8291,8 +8291,8 @@
  {
   "id": "knife-feng",
   "cat": "cutlery",
-  "name": "🔪 Feng & Feng kitchen knives no.7 and no.8",
-  "detail": "Sharp stainless steel blade with a croc-texture handle and chrome bolster. No.7 (1785) long slicing knife or No.8 (1876) 8 inch knife. Black, white or brown handle. Any 3 knives KES 590 (mix with other knives)",
+  "name": "🔪 Feng kitchen knives 6, 7 or 8 inch, croc handle",
+  "detail": "Jin Feng Li Zuo boxed stainless steel kitchen knife with a croc-texture handle and chrome bolster. 6 inch (9906), 7 inch (9907) or 8 inch (9908). Black, white or brown handle. Any 3 knives KES 590 (mix with other knives)",
   "price": 250,
   "unit": "1 knife",
   "added": "2026-11-23",
@@ -8301,10 +8301,13 @@
     "n": "Type",
     "v": [
      [
-      "No.7 slicing knife (1785)"
+      "6 inch (9906)"
      ],
      [
-      "No.8 8 inch knife (1876)"
+      "7 inch (9907)"
+     ],
+     [
+      "8 inch (9908)"
      ]
     ]
    },
@@ -8817,5 +8820,45 @@
    }
   ],
   "sub": "Kitchen towels & holders"
+ },
+ {
+  "id": "knife-colour",
+  "cat": "cutlery",
+  "name": "🌈 Coloured handle kitchen knives 6, 7 or 8 inch",
+  "detail": "Jin Feng Li Zuo stainless steel kitchen knife with a bright pearl-look handle: green, pink or blue. 6 inch (9916), 7 inch (9917) or 8 inch (9918). For vegetables, fruit, meat and onions. Any 3 knives KES 590 (mix with other knives)",
+  "price": 250,
+  "unit": "1 knife",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "6 inch (9916)"
+     ],
+     [
+      "7 inch (9917)"
+     ],
+     [
+      "8 inch (9918)"
+     ]
+    ]
+   },
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Green"
+     ],
+     [
+      "Pink"
+     ],
+     [
+      "Blue"
+     ]
+    ]
+   }
+  ],
+  "sub": "Kitchen & butcher knives"
  }
 ]
