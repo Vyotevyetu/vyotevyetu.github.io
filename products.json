@@ -5903,7 +5903,8 @@
   "name": "Clothes organizer",
   "detail": "Foldable, 50 x 35 x 24 cm. 2 for KES 1,490",
   "price": 790,
-  "unit": "each"
+  "unit": "each",
+  "sub": "Storage & organisers"
  },
  {
   "id": "duvet-bags",
@@ -5911,7 +5912,8 @@
   "name": "Duvet storage bags",
   "detail": "3 sizes, largest 65 x 50 x 30 cm",
   "price": 2290,
-  "unit": "3pc set"
+  "unit": "3pc set",
+  "sub": "Storage & organisers"
  },
  {
   "id": "mosquito-lamp",
@@ -5919,7 +5921,8 @@
   "name": "Mosquito killer lamp",
   "detail": "14 cm, one room. 2 for KES 1,750",
   "price": 950,
-  "unit": "each"
+  "unit": "each",
+  "sub": "Storage & organisers"
  },
  {
   "id": "bag-storage-houndstooth",
@@ -5943,7 +5946,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Storage & organisers"
  },
  {
   "id": "soap-dispenser",
@@ -8060,5 +8064,45 @@
   "unit": "6pc set",
   "added": "2026-11-23",
   "sub": "Gold mugs"
+ },
+ {
+  "id": "hose-magic",
+  "cat": "home",
+  "name": "💦 Magic expandable hose pipe, 30m, 45m or 60m",
+  "detail": "Expandable garden hose that stretches up to 3x with water pressure and shrinks back for easy storage. No kinks, light and flexible. Comes with a 7-pattern spray gun (shower, flat, centre, cone, full, mist, jet) and tap connector. For gardens, car washing, compound cleaning and pets. Blue or green",
+  "price": 1290,
+  "unit": "1 hose",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Length",
+    "v": [
+     [
+      "30m",
+      1290
+     ],
+     [
+      "45m",
+      1590
+     ],
+     [
+      "60m",
+      2190
+     ]
+    ]
+   },
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Blue"
+     ],
+     [
+      "Green"
+     ]
+    ]
+   }
+  ],
+  "sub": "Garden & outdoor"
  }
 ]
