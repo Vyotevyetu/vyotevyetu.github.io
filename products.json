@@ -7473,5 +7473,130 @@
    }
   ],
   "sub": "Garlands, wreaths & lights"
+ },
+ {
+  "id": "giftbox-xmas",
+  "cat": "decor",
+  "name": "🎁 Christmas gift box with big bow, 10cm to 30cm",
+  "detail": "Sturdy decorative gift box with lid and a big glitter bow. Put real gifts inside or stack 3 sizes under the tree as decor. Colours: A purple & silver, B gold & red, C blue & silver, D silver, E red & gold",
+  "price": 390,
+  "unit": "1 box",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "10cm",
+      390
+     ],
+     [
+      "15cm",
+      590
+     ],
+     [
+      "20cm",
+      690
+     ],
+     [
+      "25cm",
+      1090
+     ],
+     [
+      "30cm",
+      1290
+     ]
+    ]
+   },
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "A: Purple & silver"
+     ],
+     [
+      "B: Gold & red"
+     ],
+     [
+      "C: Blue & silver"
+     ],
+     [
+      "D: Silver"
+     ],
+     [
+      "E: Red & gold"
+     ]
+    ]
+   }
+  ],
+  "sub": "Table runners, banners & party"
+ },
+ {
+  "id": "ornament-doll-string",
+  "cat": "decor",
+  "name": "🦌 Climbing reindeer doll string",
+  "detail": "3 soft reindeer dolls in red Santa suits climbing a rope ladder with jingle bells. Hang on the tree, door, window or wall",
+  "price": 790,
+  "unit": "1 string",
+  "added": "2026-11-23",
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "mat-xmas-kitchen-2pc",
+  "cat": "decor",
+  "name": "🎄 Christmas kitchen mats, 2 pcs",
+  "detail": "Set of 2: small mat and long runner with Christmas prints and red trim. Soft, non-slip back. Designs: 1 gold reindeer, 2 Christmas garland, 3 Santa, 4 baubles. Any 2 sets KES 2,190",
+  "price": 1190,
+  "unit": "2pc set",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "1: Gold reindeer"
+     ],
+     [
+      "2: Christmas garland"
+     ],
+     [
+      "3: Santa"
+     ],
+     [
+      "4: Baubles"
+     ]
+    ]
+   }
+  ],
+  "sub": "Christmas mats"
+ },
+ {
+  "id": "mat-xmas-door",
+  "cat": "decor",
+  "name": "🎅 Christmas door mat, 40x60cm",
+  "detail": "Bright Christmas print door mat, 40 x 60cm, red trim and non-slip back. Designs: 1 Felices Fiestas, 2 knitted mittens, 3 & 4 snowy red, 5 Santa Merry Christmas. Any 3 door mats KES 1,290",
+  "price": 490,
+  "unit": "1 mat",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "1: Felices Fiestas"
+     ],
+     [
+      "2: Knitted mittens"
+     ],
+     [
+      "3: Snowy red"
+     ],
+     [
+      "5: Santa Merry Christmas"
+     ]
+    ]
+   }
+  ],
+  "sub": "Christmas mats"
  }
 ]
