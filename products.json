@@ -1712,7 +1712,8 @@
   "detail": "Stainless steel cutlery for 6: 6 butter knives, 6 forks, 6 table spoons and 6 tea spoons, with engraved handles. Comes with a matching steel stand that holds them all. Boxed, a great gift",
   "price": 2990,
   "unit": "24pc set",
-  "added": "2026-11-22"
+  "added": "2026-11-22",
+  "sub": "Cutlery sets"
  },
  {
   "id": "air-fryer",
@@ -7875,5 +7876,89 @@
    }
   ],
   "sub": "Table runners, banners & party"
+ },
+ {
+  "id": "fork-heavy-m0490",
+  "cat": "cutlery",
+  "name": "🍴 Heavy stainless table forks, 6 pcs (M0490)",
+  "detail": "Heavy-gauge stainless steel dinner forks that do not bend, mirror shine. Home, hotels and restaurants. Set of 6. Any 2 fork sets KES 990. Bulk boxes for hotels on request",
+  "price": 590,
+  "unit": "6 pcs",
+  "added": "2026-11-23",
+  "sub": "Forks & spoons"
+ },
+ {
+  "id": "knife-kitchen",
+  "cat": "cutlery",
+  "name": "🔪 Stainless kitchen & butcher knives",
+  "detail": "Sharp stainless steel knives in a sheath. Feng & Feng kitchen knife with plastic handle (KJ7631, pink, green or red), Feng & Feng wooden handle knife (KM8035), or Oubaili butcher knife (RD-8025, black, red or teal). Any 3 knives KES 590",
+  "price": 250,
+  "unit": "1 knife",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Type",
+    "v": [
+     [
+      "Kitchen knife, plastic handle (KJ7631)"
+     ],
+     [
+      "Wooden handle knife (KM8035)"
+     ],
+     [
+      "Butcher knife (RD-8025)"
+     ]
+    ]
+   }
+  ],
+  "sub": "Kitchen & butcher knives"
+ },
+ {
+  "id": "dish-rack-sunda-3",
+  "cat": "kitchen",
+  "name": "🍽️ Sunda 3-layer stainless dish rack (1850)",
+  "detail": "3-tier chrome stainless dish rack with plate racks, cup and cutlery holders and a drip tray. Stands on the counter and holds a full family load of dishes",
+  "price": 2790,
+  "unit": "1 rack",
+  "added": "2026-11-23",
+  "sub": "Dish racks"
+ },
+ {
+  "id": "iron-steam-hd200a",
+  "cat": "irons",
+  "name": "💨 Ailyons steam iron box (HD200A-K)",
+  "detail": "Ailyons steam iron with non-stick soleplate, steam, spray and dry functions and easy temperature dial. 1 year warranty. Boxed",
+  "price": 1690,
+  "unit": "1 iron",
+  "added": "2026-11-23"
+ },
+ {
+  "id": "iron-dry-hd199a",
+  "cat": "irons",
+  "name": "🔥 Ailyons heavy dry iron box (HD199A)",
+  "detail": "Classic heavy steel dry iron box with non-stick soleplate and temperature dial. Fast and long lasting, presses school uniforms and suits perfectly. 1 year warranty. Boxed",
+  "price": 1290,
+  "unit": "1 iron",
+  "added": "2026-11-23"
+ },
+ {
+  "id": "mug-3407",
+  "cat": "mugs",
+  "name": "Gold Coffee swirl mugs (3407)",
+  "detail": "White mugs with gold and black swirl lines, Coffee print and shiny gold handles. Any 2 gold sets (12 mugs) KES 2,590",
+  "price": 1390,
+  "unit": "6pc set",
+  "added": "2026-11-23",
+  "sub": "Gold mugs"
+ },
+ {
+  "id": "mug-3420",
+  "cat": "mugs",
+  "name": "Gold geometric cube mugs (3420)",
+  "detail": "White mugs with a gold geometric cube pattern, gold rims and gold handles. Any 2 gold sets (12 mugs) KES 2,590",
+  "price": 1390,
+  "unit": "6pc set",
+  "added": "2026-11-23",
+  "sub": "Gold mugs"
  }
 ]
