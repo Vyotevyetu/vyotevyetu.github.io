@@ -7598,5 +7598,90 @@
    }
   ],
   "sub": "Christmas mats"
+ },
+ {
+  "id": "pj-family-xmas",
+  "cat": "decor",
+  "name": "🎅 Family matching Christmas pajamas",
+  "detail": "Long-sleeve top and pants set in soft poly cotton, normal fit. Adults S to 3XL (men and women) KES 1,990, kids 3 to 12 years KES 1,890. Kids 13+ take adult sizes. Designs: red Christmas tree, white reindeer, green Santa (adults only). Match the whole family for Christmas photos. Any 4 pajama sets KES 7,290",
+  "price": 1890,
+  "unit": "1 set",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "Adult S",
+      1990
+     ],
+     [
+      "Adult M",
+      1990
+     ],
+     [
+      "Adult L",
+      1990
+     ],
+     [
+      "Adult XL",
+      1990
+     ],
+     [
+      "Adult 2XL",
+      1990
+     ],
+     [
+      "Adult 3XL",
+      1990
+     ],
+     [
+      "Kids 3-4 yrs",
+      1890
+     ],
+     [
+      "Kids 5-6 yrs",
+      1890
+     ],
+     [
+      "Kids 7-8 yrs",
+      1890
+     ],
+     [
+      "Kids 9-10 yrs",
+      1890
+     ],
+     [
+      "Kids 11-12 yrs",
+      1890
+     ]
+    ]
+   },
+   {
+    "n": "Design",
+    "v": [
+     [
+      "Red Christmas tree"
+     ],
+     [
+      "White reindeer"
+     ],
+     [
+      "Green Santa (adults)"
+     ]
+    ]
+   }
+  ],
+  "sub": "Christmas pajamas"
+ },
+ {
+  "id": "lights-curtain-3x3",
+  "cat": "decor",
+  "name": "✨ LED curtain fairy lights, 3m x 3m",
+  "detail": "Warm white waterfall curtain lights, 3 x 3 metres. Hang on windows, walls, doors, gazebos, stages and wedding backdrops. Indoor and outdoor. Any 2 curtain lights KES 2,590",
+  "price": 1390,
+  "unit": "1 set",
+  "added": "2026-11-23",
+  "sub": "Garlands, wreaths & lights"
  }
 ]
