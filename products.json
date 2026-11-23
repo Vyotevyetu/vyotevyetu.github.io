@@ -6448,7 +6448,7 @@
   "id": "runner-xmas",
   "cat": "decor",
   "name": "🍽️ Christmas table runner, 33 x 200cm",
-  "detail": "Linen-look Christmas table runner for dining tables and parties: reindeer, Merry Christmas, snowman, gnomes, plaid trees or snowflakes. Pick design A to H",
+  "detail": "Linen-look Christmas table runner for dining tables and parties: reindeer, Merry Christmas, snowman, gnomes, plaid trees or snowflakes. Pick design A to H. Want matching placemats? See the runner + 4 table mats set",
   "price": 1190,
   "unit": "1 runner",
   "added": "2026-11-22",
@@ -7849,5 +7849,31 @@
    }
   ],
   "sub": "Table mats & placemats"
+ },
+ {
+  "id": "runner-mat-set-5",
+  "cat": "decor",
+  "name": "🎄 Christmas table runner + 4 table mats, 5 pcs",
+  "detail": "Matching Christmas table set: 1 runner 33 x 180cm and 4 placemats. A red plaid with snowflakes, B red Merry Christmas with Santa and trees, C cream with red plaid border and Merry Christmas trees. Dresses the whole dining table for Christmas lunch. Any 2 runner sets KES 2,690",
+  "price": 1490,
+  "unit": "5pc set",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "A: Red plaid snowflakes"
+     ],
+     [
+      "B: Red Merry Christmas"
+     ],
+     [
+      "C: Cream plaid trees"
+     ]
+    ]
+   }
+  ],
+  "sub": "Table runners, banners & party"
  }
 ]
