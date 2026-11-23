@@ -7685,39 +7685,6 @@
   "sub": "Garlands, wreaths & lights"
  },
  {
-  "id": "gl-acrylic-tumbler",
-  "cat": "glass",
-  "name": "💎 Unbreakable acrylic tumblers, 230ml or 330ml",
-  "detail": "Crystal-clear acrylic drinking tumblers that look like glass but do not break. Light, stackable and safe for kids, outdoor, picnics, hotels, restaurants and events. 230ml or 330ml, sold in 6s or 12s. Bulk dozens available for businesses",
-  "price": 690,
-  "unit": "6pc set",
-  "added": "2026-11-23",
-  "opts": [
-   {
-    "n": "Size",
-    "v": [
-     [
-      "230ml, 6 pcs",
-      690
-     ],
-     [
-      "230ml, 12 pcs",
-      1190
-     ],
-     [
-      "330ml, 6 pcs",
-      890
-     ],
-     [
-      "330ml, 12 pcs",
-      1590
-     ]
-    ]
-   }
-  ],
-  "sub": "Unbreakable acrylic glasses"
- },
- {
   "id": "bottle-milk-carton",
   "cat": "flasks",
   "name": "🥛 Milk carton water bottle, 300ml",
@@ -7794,8 +7761,8 @@
   "id": "gl-kenstar-500",
   "cat": "glass",
   "name": "🥤 Kenstar acrylic ice tumbler, 500ml",
-  "detail": "Big crystal-cut acrylic ice tumbler by Kenstar, 500ml. Classy cut-glass look, light and unbreakable. Soda, juice, milkshakes and iced drinks. Set of 6",
-  "price": 2490,
+  "detail": "Big crystal-cut acrylic ice tumbler by Kenstar, 500ml. Classy cut-glass look, light and unbreakable. Soda, juice, milkshakes and iced drinks. Set of 6. Any 2 Kenstar sets KES 1,690",
+  "price": 890,
   "unit": "6pc set",
   "added": "2026-11-23",
   "sub": "Unbreakable acrylic glasses"
