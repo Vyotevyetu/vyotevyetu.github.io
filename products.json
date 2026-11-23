@@ -8744,5 +8744,78 @@
    }
   ],
   "sub": "Cutlery sets"
+ },
+ {
+  "id": "spoonholder-cylinder",
+  "cat": "cutlery",
+  "name": "🥄 Cutlery holder cylinder, brushed steel or black",
+  "detail": "Tall cutlery holder with drain slots so spoons, forks and knives dry fast and stand upright. A brushed stainless steel (1549), B black coated (2194). Counter, dish rack or hotel table. Any 2 cutlery cylinders KES 1,290",
+  "price": 690,
+  "unit": "1 pc",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Type",
+    "v": [
+     [
+      "A Brushed steel (1549)",
+      690
+     ],
+     [
+      "B Black (2194)",
+      790
+     ]
+    ]
+   }
+  ],
+  "sub": "Spoon & cutlery holders"
+ },
+ {
+  "id": "ladle-jiaminc",
+  "cat": "cutlery",
+  "name": "🥄 JiaMinc serving spoon & long kitchen fork, grey grip",
+  "detail": "Mirror stainless steel head with a comfortable grey grip handle and hanging hole. A short serving spoon (S-4) for rice and stews, B long kitchen fork (S-6) for meat and nyama choma. Any 3 steel serving spoons KES 1,290 (mix shiny, engraved and mirror)",
+  "price": 390,
+  "unit": "1 pc",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Type",
+    "v": [
+     [
+      "A Serving spoon (S-4)",
+      390
+     ],
+     [
+      "B Kitchen fork (S-6)",
+      450
+     ]
+    ]
+   }
+  ],
+  "sub": "Serving spoons & ladles"
+ },
+ {
+  "id": "serviette-holder",
+  "cat": "kitchen",
+  "name": "🧻 Serviette holder, clear acrylic or steel",
+  "detail": "Napkin and serviette holder for the dining table, hotels and cafés. A clear acrylic with swirl pattern (6-2), B brushed stainless steel with flower cut-out (6-1). Any 2 serviette holders KES 790",
+  "price": 450,
+  "unit": "1 pc",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Type",
+    "v": [
+     [
+      "A Clear acrylic (6-2)"
+     ],
+     [
+      "B Steel flower (6-1)"
+     ]
+    ]
+   }
+  ],
+  "sub": "Kitchen towels & holders"
  }
 ]
