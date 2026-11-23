@@ -8860,5 +8860,99 @@
    }
   ],
   "sub": "Kitchen & butcher knives"
+ },
+ {
+  "id": "knife-steel-pro",
+  "cat": "cutlery",
+  "name": "🔪 All-steel professional knife, 6 to 9 inch (DH)",
+  "detail": "One-piece brushed stainless steel knife, blade and handle in one, so it never loosens or rots. Hong Cheng Profesional series, for butchers, hotels and home. 6, 7, 8 or 9 inch. Any 2 big knives KES 690 (mix with AIFEL, bread and all-steel knives)",
+  "price": 450,
+  "unit": "1 knife",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "6 inch",
+      450
+     ],
+     [
+      "7 inch",
+      450
+     ],
+     [
+      "8 inch",
+      490
+     ],
+     [
+      "9 inch",
+      490
+     ]
+    ]
+   }
+  ],
+  "sub": "Kitchen & butcher knives"
+ },
+ {
+  "id": "knife-tramontina",
+  "cat": "cutlery",
+  "name": "🔪 Tramontina Professional Master white knife, 6, 7 or 8 inch",
+  "detail": "Tramontina Professional Master stainless steel kitchen knife with a riveted white handle and steel end cap. 6 inch (T-1066), 7 inch (T-1067) or 8 inch (T-1068). Any 3 knives KES 590 (mix with other knives)",
+  "price": 290,
+  "unit": "1 knife",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "6 inch (T-1066)"
+     ],
+     [
+      "7 inch (T-1067)"
+     ],
+     [
+      "8 inch (T-1068)"
+     ]
+    ]
+   }
+  ],
+  "sub": "Kitchen & butcher knives"
+ },
+ {
+  "id": "knife-jiayuan",
+  "cat": "cutlery",
+  "name": "🔪 Jia Yuan 7 inch wood-look knife",
+  "detail": "Jia Yuan 7 inch stainless steel kitchen and butcher knife with a curved wood-look handle and black collar. For meat, chicken, fish and vegetables. Any 3 knives KES 590 (mix with other knives)",
+  "price": 350,
+  "unit": "1 knife",
+  "added": "2026-11-23",
+  "sub": "Kitchen & butcher knives"
+ },
+ {
+  "id": "knife-358",
+  "cat": "cutlery",
+  "name": "🔪 Riveted kitchen knives: A wood santoku, B blue vintage",
+  "detail": "Sharp stainless steel blades with riveted handles. A wood-look santoku chef knife with chrome bolster (358-2) for chopping meat and vegetables, B blue grip vintage kitchen knife (358-1). Any 2 big knives KES 690 (mix with AIFEL, bread and all-steel knives)",
+  "price": 390,
+  "unit": "1 knife",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Type",
+    "v": [
+     [
+      "A Wood santoku (358-2)",
+      450
+     ],
+     [
+      "B Blue vintage (358-1)",
+      390
+     ]
+    ]
+   }
+  ],
+  "sub": "Kitchen & butcher knives"
  }
 ]
