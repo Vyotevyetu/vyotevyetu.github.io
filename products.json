@@ -6088,7 +6088,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Door, floor & kitchen mats"
  },
  {
   "id": "mat-geometric",
@@ -6113,7 +6114,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "sub": "Door, floor & kitchen mats"
  },
  {
   "id": "mat-mesh-3d",
@@ -6122,7 +6124,8 @@
   "detail": "Mesh weave traps mud, sand and dust. Shake or hose clean. Indoor or outdoor. 5 colours.",
   "price": 1290,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Door, floor & kitchen mats"
  },
  {
   "id": "mat-welcome-rubber",
@@ -6131,7 +6134,8 @@
   "detail": "Muddy-shoe mat, 60 x 90cm, heavy rubber. 5 colours.",
   "price": 1690,
   "unit": "each",
-  "added": "2026-11-19"
+  "added": "2026-11-19",
+  "sub": "Door, floor & kitchen mats"
  },
  {
   "id": "velvet-duvet",
@@ -7813,5 +7817,37 @@
   "unit": "1 box",
   "added": "2026-11-23",
   "sub": "Storage jars & containers"
+ },
+ {
+  "id": "tablemat-woven-6",
+  "cat": "mats",
+  "name": "🍽️ Woven table mats (placemats), 6 pcs",
+  "detail": "Set of 6 woven placemats for the dining table. Designs: A cream round with fringe, B navy round with white fringe, C jute mandala with white or navy pompom edge, D oval jute with white fringe. Protects the table and makes every meal look classy. Any 2 sets KES 3,290",
+  "price": 1790,
+  "unit": "6pc set",
+  "added": "2026-11-23",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "A: Cream fringe round"
+     ],
+     [
+      "B: Navy fringe round"
+     ],
+     [
+      "C: Mandala, white pompom"
+     ],
+     [
+      "C: Mandala, navy pompom"
+     ],
+     [
+      "D: Oval jute, white fringe"
+     ]
+    ]
+   }
+  ],
+  "sub": "Table mats & placemats"
  }
 ]
