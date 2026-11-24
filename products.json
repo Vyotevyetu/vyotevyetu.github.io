@@ -6514,6 +6514,11 @@
     ]
    }
   ],
+  "vi": {
+   "A snowy Merry Christmas": "banner-door-xmas-1",
+   "B red Merry Christmas": "banner-door-xmas-2",
+   "C Santa & snowman": "banner-door-xmas-3"
+  },
   "sub": "Table runners, banners & party"
  },
  {
@@ -7481,6 +7486,11 @@
     ]
    }
   ],
+  "vi": {
+   "A: Santa sleigh village": "lights-3d-paper-lamp-1",
+   "B: Windmill village": "lights-3d-paper-lamp-2",
+   "C: Forest cottage": "lights-3d-paper-lamp-3"
+  },
   "sub": "Garlands, wreaths & lights"
  },
  {
@@ -7853,6 +7863,12 @@
     ]
    }
   ],
+  "vi": {
+   "A: Cream fringe round": "tablemat-woven-6-1",
+   "B: Navy fringe round": "tablemat-woven-6-2",
+   "C: Mandala, navy pompom": "tablemat-woven-6-3",
+   "D: Oval jute, white fringe": "tablemat-woven-6-4"
+  },
   "sub": "Table mats & placemats"
  },
  {
@@ -8141,6 +8157,15 @@
     ]
    }
   ],
+  "vi": {
+   "A Scale spoons": "spoon-kzh-6-1",
+   "B Scale forks": "spoon-kzh-6-2",
+   "C Flower spoons": "spoon-kzh-6-3",
+   "D Leaf spoons": "spoon-kzh-6-4",
+   "E Plain spoons": "spoon-kzh-6-5",
+   "F Heart-handle spoons": "spoon-kzh-6-6",
+   "G Ornate spoons (283-1)": "spoon-kzh-6-7"
+  },
   "sub": "Spoons & forks"
  },
  {
@@ -8167,6 +8192,11 @@
     ]
    }
   ],
+  "vi": {
+   "A Soup ladle": "ladle-shiny-1",
+   "B Rice spoon": "ladle-shiny-2",
+   "C Egg turner": "ladle-shiny-3"
+  },
   "sub": "Serving spoons & ladles"
  },
  {
@@ -8351,6 +8381,10 @@
     ]
    }
   ],
+  "vi": {
+   "A Heavy": "spoon-serving-plain-1",
+   "B Light": "spoon-serving-plain-2"
+  },
   "sub": "Serving spoons & ladles"
  },
  {
@@ -8489,6 +8523,10 @@
     ]
    }
   ],
+  "vi": {
+   "A Serving spoon": "ladle-table-mirror-1",
+   "B Sauce ladle": "ladle-table-mirror-2"
+  },
   "sub": "Serving spoons & ladles"
  },
  {
@@ -8723,6 +8761,11 @@
     ]
    }
   ],
+  "vi": {
+   "A Diamond silver": "cutlery-egg-24-1",
+   "B Smooth silver": "cutlery-egg-24-2",
+   "C Gold": "cutlery-egg-24-3"
+  },
   "sub": "Cutlery sets"
  },
  {
@@ -8771,6 +8814,10 @@
     ]
    }
   ],
+  "vi": {
+   "A Brushed steel (1549)": "spoonholder-cylinder-1",
+   "B Black (2194)": "spoonholder-cylinder-2"
+  },
   "sub": "Spoon & cutlery holders"
  },
  {
@@ -8796,6 +8843,10 @@
     ]
    }
   ],
+  "vi": {
+   "A Serving spoon (S-4)": "ladle-jiaminc-1",
+   "B Kitchen fork (S-6)": "ladle-jiaminc-2"
+  },
   "sub": "Serving spoons & ladles"
  },
  {
@@ -8819,6 +8870,10 @@
     ]
    }
   ],
+  "vi": {
+   "A Clear acrylic (6-2)": "serviette-holder-1",
+   "B Steel flower (6-1)": "serviette-holder-2"
+  },
   "sub": "Kitchen towels & holders"
  },
  {
@@ -8953,6 +9008,10 @@
     ]
    }
   ],
+  "vi": {
+   "A Wood santoku (358-2)": "knife-358-1",
+   "B Blue vintage (358-1)": "knife-358-2"
+  },
   "sub": "Kitchen & butcher knives"
  },
  {
@@ -9024,6 +9083,26 @@
     ]
    }
   ],
+  "vi": {
+   "A Geometric grey": "mat-kitchen-rubber-2pc-1",
+   "B Cooking gold": "mat-kitchen-rubber-2pc-2",
+   "C Welcome gold": "mat-kitchen-rubber-2pc-3",
+   "D Blue marble Greek key": "mat-kitchen-rubber-2pc-4",
+   "E Starfish beach": "mat-kitchen-rubber-2pc-5",
+   "F Yellow & grey art": "mat-kitchen-rubber-2pc-6",
+   "G Gold marble Greek key": "mat-kitchen-rubber-2pc-7",
+   "H Emerald & gold": "mat-kitchen-rubber-2pc-8",
+   "I Home white marble": "mat-kitchen-rubber-2pc-9",
+   "J Home black & gold": "mat-kitchen-rubber-2pc-10",
+   "K Black & gold marble": "mat-kitchen-rubber-2pc-11",
+   "L Palm beach": "mat-kitchen-rubber-2pc-12",
+   "M Kitchen knife": "mat-kitchen-rubber-2pc-13",
+   "N Kitchen carpet gold wave": "mat-kitchen-rubber-2pc-14",
+   "O Cooking grey & black": "mat-kitchen-rubber-2pc-15",
+   "P Kitchen, seasoned with love": "mat-kitchen-rubber-2pc-16",
+   "Q Cutlery gold & silver": "mat-kitchen-rubber-2pc-17",
+   "R Home black marble": "mat-kitchen-rubber-2pc-18"
+  },
   "sub": "Door, floor & kitchen mats"
  },
  {
@@ -9092,6 +9171,25 @@
     ]
    }
   ],
+  "vi": {
+   "A Red & grey frame": "carpet-3d-5x8-1",
+   "B Black & gold geometric": "carpet-3d-5x8-2",
+   "C Orange & green frame": "carpet-3d-5x8-3",
+   "D Grey & green waves": "carpet-3d-5x8-4",
+   "E Yellow circle": "carpet-3d-5x8-5",
+   "F Beige retro": "carpet-3d-5x8-6",
+   "G Purple frame": "carpet-3d-5x8-7",
+   "H Black & white lines": "carpet-3d-5x8-8",
+   "I Pink & grey angles": "carpet-3d-5x8-9",
+   "J Navy & lilac": "carpet-3d-5x8-10",
+   "K Tree rings": "carpet-3d-5x8-11",
+   "L Blue & yellow swirl": "carpet-3d-5x8-12",
+   "M Navy & gold moon": "carpet-3d-5x8-13",
+   "N Royal blue damask": "carpet-3d-5x8-14",
+   "O Black & grey blocks": "carpet-3d-5x8-15",
+   "P Lilac triangles": "carpet-3d-5x8-16",
+   "Q Blue & gold Greek key": "carpet-3d-5x8-17"
+  },
   "sub": "Carpets & rugs"
  },
  {
