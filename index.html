@@ -794,7 +794,7 @@ function caption(p, plat) {
   L.push("");
   if (plat === "wa") L.push("🚚 Delivery in Nairobi & worldwide (at customer's cost)", "🛒 " + link);
   if (plat === "ch") L.push("🚚 Delivery in Nairobi & worldwide (at customer's cost)", "📲 Order: https://wa.me/254114308114", "🛒 " + link);
-  if (plat === "fb") L.push("🆕 New items added every week!", "🚚 Delivery in Nairobi & worldwide (at customer's cost)", "📲 WhatsApp 0114 308 114", "🛒 Shop online: " + link, "🛍️ Catalogue: https://wa.me/c/254114308114", "", tags.join(" "));
+  if (plat === "fb") L.push("⚡ In stock now · same-day delivery in Nairobi", "🚚 Countrywide & worldwide delivery (at customer's cost)", "💳 Pay by M-Pesa after we confirm your order", "", "👉 ORDER NOW on WhatsApp: https://wa.me/254114308114", "🛒 See all sizes & designs: " + link, "💬 Or comment \"ORDER\" and we'll inbox you", "", tags.slice(0, 4).join(" "));
   if (plat === "ig") L.push("🚚 Delivery in Nairobi & worldwide", "📲 DM us or WhatsApp 0114 308 114", "🛒 Shop link in bio", "", [...tags, "#KitchenGoals", "#HomeDecorKenya", "#NairobiHomes"].join(" "));
   if (plat === "tt") L.push("📲 WhatsApp 0114 308 114 to order", "🛒 Shop link in bio", "", [...tags.slice(0, 4), "#fyp", "#TikTokKenya"].join(" "));
   return L.join("\n");
@@ -810,7 +810,7 @@ async function shareFile(p, text) {
 const PL = { wa: ["WhatsApp", "Send on WhatsApp", "Opens WhatsApp with the caption. The link shows the product photo and price."],
   ch: ["My WhatsApp Channel", "Share photo + caption", "Pick WhatsApp, then your channel Vyetu Vyote under Channels. If it isn't listed, use Open my channel, attach the photo and paste the caption."],
   st: ["WhatsApp Status", "Share photo + caption", "Shares the photo with the caption copied. Pick WhatsApp, then My status."],
-  fb: ["Facebook", "Post on Facebook", "Caption is copied. Paste it into the post when Facebook opens."],
+  fb: ["Facebook", "Share photo + caption", "The caption is copied. Pick Facebook (or Facebook Pages / Marketplace), then long-press the text box and Paste. Facebook doesn't let websites fill the text in for you."],
   ig: ["Instagram", "Share to Instagram", "Shares the photo. The caption is copied, paste it in Instagram."],
   tt: ["TikTok", "Share to TikTok", "Shares the photo. The caption is copied, paste it in TikTok."],
   x: ["X", "Post on X", "Opens X with a short post and the link."] };
@@ -830,7 +830,7 @@ $("vshb").addEventListener("click", async e => {
   if (PLAT === "wa") { open("https://wa.me/?text=" + encodeURIComponent(t), "_blank", "noopener"); return; }
   if (PLAT === "x") { open("https://x.com/intent/post?text=" + encodeURIComponent(t), "_blank", "noopener"); return; }
   await copyTxt(t);
-  if (PLAT === "fb") { toast("Caption copied, paste it in your post"); open("https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(link), "_blank", "noopener"); return; }
+  if (PLAT === "fb") { toast("Caption copied. Pick Facebook, then paste"); if (!(await shareFile(p, t))) { const a = document.createElement("a"); a.href = shareImg(p); a.download = p.id + ".jpg"; document.body.appendChild(a); a.click(); a.remove(); toast("Photo saved, caption copied. Opening Facebook"); setTimeout(() => open("https://www.facebook.com/", "_blank", "noopener"), 900); } return; }
   toast("Caption copied, paste it after picking the app");
   if (!(await shareFile(p, t))) { const a = document.createElement("a"); a.href = shareImg(p); a.download = p.id + ".jpg"; document.body.appendChild(a); a.click(); a.remove(); toast("Photo saved and caption copied"); }
 });
