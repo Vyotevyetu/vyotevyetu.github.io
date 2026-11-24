@@ -9253,7 +9253,7 @@
   "id": "carpet-pvc-30m",
   "cat": "mats",
   "name": "🧻 PVC floor carpet (mkeka), full 30m roll",
-  "detail": "Glossy PVC floor carpet, full 30 metre roll. Waterproof, wipe clean, for homes, rentals, churches, shops and halls. Sold as a full roll, not cut. Designs: 2430 Red ornate, 2206 White & blue, 2204 Red & black dots",
+  "detail": "Glossy PVC floor carpet, full 30 metre roll. Waterproof, wipe clean, for homes, rentals, churches, shops and halls. Sold as a full roll, not cut. Designs: 2430 Red ornate, 2206 White & blue, 2204 Red & black dots, 2453 White & black diamonds",
   "price": 5490,
   "unit": "30m roll",
   "added": "2026-11-24",
@@ -9269,6 +9269,9 @@
      ],
      [
       "2204 Red & black dots"
+     ],
+     [
+      "2453 White & black diamonds"
      ]
     ]
    }
@@ -9276,7 +9279,8 @@
   "vi": {
    "2430 Red ornate": "carpet-pvc-30m-1",
    "2206 White & blue": "carpet-pvc-30m-2",
-   "2204 Red & black dots": "carpet-pvc-30m-3"
+   "2204 Red & black dots": "carpet-pvc-30m-3",
+   "2453 White & black diamonds": "carpet-pvc-30m-4"
   },
   "sub": "Carpets & rugs"
  },
@@ -9373,5 +9377,59 @@
    }
   ],
   "sub": "Cleaning"
+ },
+ {
+  "id": "bottle-sport",
+  "cat": "flasks",
+  "name": "💧 Sports water bottle 800ml & 1L, leak-proof",
+  "detail": "Leak-proof sports water bottle with a secure lock lid, silicone seal and carry loop. BPA free, light and tough, with time markers to remind you to drink. For school, gym, work and travel. 7 designs: 800ml Work/Play hard, Go the extra mile or Happy sport; 1L straw, rainbow pastel, twist band or sport with shoulder strap. Any 3 sports bottles KES 1,490",
+  "price": 550,
+  "unit": "1 bottle",
+  "added": "2026-11-24",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "096-10 800ml Work / Play hard",
+      550
+     ],
+     [
+      "096-4 800ml Go the extra mile",
+      550
+     ],
+     [
+      "096-2 800ml Happy sport",
+      550
+     ],
+     [
+      "096-12 1000ml Straw, black rainbow",
+      590
+     ],
+     [
+      "096-11 1000ml Rainbow pastel",
+      590
+     ],
+     [
+      "096-16 1000ml Twist band",
+      590
+     ],
+     [
+      "096-15 1000ml Sport with shoulder strap",
+      650
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "096-10 800ml Work / Play hard": "bottle-sport-1",
+   "096-4 800ml Go the extra mile": "bottle-sport-2",
+   "096-2 800ml Happy sport": "bottle-sport-3",
+   "096-12 1000ml Straw, black rainbow": "bottle-sport-4",
+   "096-11 1000ml Rainbow pastel": "bottle-sport-5",
+   "096-16 1000ml Twist band": "bottle-sport-6",
+   "096-15 1000ml Sport with shoulder strap": "bottle-sport-7"
+  },
+  "sub": "Water bottles"
  }
 ]
