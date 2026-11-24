@@ -8954,5 +8954,76 @@
    }
   ],
   "sub": "Kitchen & butcher knives"
+ },
+ {
+  "id": "mat-kitchen-rubber-2pc",
+  "cat": "mats",
+  "name": "🧡 Printed kitchen mat set, 2pc, heavy rubber grip",
+  "detail": "Set of 2 printed kitchen floor mats: a 40 x 120cm runner for the sink and cooker plus a 40 x 60cm mat. 4mm thick with a heavy rubber non-slip underside, wipe clean, does not curl. 18 prints: A Geometric grey, B Cooking gold, C Welcome gold, D Blue marble Greek key, E Starfish beach, F Yellow & grey art, G Gold marble Greek key, H Emerald & gold, I Home white marble, J Home black & gold, K Black & gold marble, L Palm beach, M Kitchen knife, N Kitchen carpet gold wave, O Cooking grey & black, P Kitchen, seasoned with love, Q Cutlery gold & silver, R Home black marble. Any 2 kitchen mat sets KES 2,590",
+  "price": 1390,
+  "unit": "2pc set",
+  "added": "2026-11-24",
+  "opts": [
+   {
+    "n": "Print",
+    "v": [
+     [
+      "A Geometric grey"
+     ],
+     [
+      "B Cooking gold"
+     ],
+     [
+      "C Welcome gold"
+     ],
+     [
+      "D Blue marble Greek key"
+     ],
+     [
+      "E Starfish beach"
+     ],
+     [
+      "F Yellow & grey art"
+     ],
+     [
+      "G Gold marble Greek key"
+     ],
+     [
+      "H Emerald & gold"
+     ],
+     [
+      "I Home white marble"
+     ],
+     [
+      "J Home black & gold"
+     ],
+     [
+      "K Black & gold marble"
+     ],
+     [
+      "L Palm beach"
+     ],
+     [
+      "M Kitchen knife"
+     ],
+     [
+      "N Kitchen carpet gold wave"
+     ],
+     [
+      "O Cooking grey & black"
+     ],
+     [
+      "P Kitchen, seasoned with love"
+     ],
+     [
+      "Q Cutlery gold & silver"
+     ],
+     [
+      "R Home black marble"
+     ]
+    ]
+   }
+  ],
+  "sub": "Door, floor & kitchen mats"
  }
 ]
