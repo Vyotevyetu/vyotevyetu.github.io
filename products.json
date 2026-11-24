@@ -9201,5 +9201,177 @@
   "unit": "2pc set",
   "added": "2026-11-24",
   "sub": "Door, floor & kitchen mats"
+ },
+ {
+  "id": "carpet-light-3d",
+  "cat": "mats",
+  "name": "🛋️ Light 3D carpet, 180 x 270cm",
+  "detail": "Lightweight 3D-printed carpet, 180 x 270cm (about 6 x 9 ft), easy to lift, wash and move. Modern prints for the sitting room or bedroom. 7 designs in stock: No. 3 Beige & black blocks, No. 4 Red & cream retro, No. 6 Taupe with gold frame, No. 7 Black marble, gold stripes, No. 8 Grey with ornate border, No. 11 Black & grey frame, No. 16 Grey striped border. Any 2 light carpets KES 5,490",
+  "price": 2990,
+  "unit": "1 carpet",
+  "added": "2026-11-24",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "No. 3 Beige & black blocks"
+     ],
+     [
+      "No. 4 Red & cream retro"
+     ],
+     [
+      "No. 6 Taupe with gold frame"
+     ],
+     [
+      "No. 7 Black marble, gold stripes"
+     ],
+     [
+      "No. 8 Grey with ornate border"
+     ],
+     [
+      "No. 11 Black & grey frame"
+     ],
+     [
+      "No. 16 Grey striped border"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "No. 3 Beige & black blocks": "carpet-light-3d-1",
+   "No. 4 Red & cream retro": "carpet-light-3d-2",
+   "No. 6 Taupe with gold frame": "carpet-light-3d-3",
+   "No. 7 Black marble, gold stripes": "carpet-light-3d-4",
+   "No. 8 Grey with ornate border": "carpet-light-3d-5",
+   "No. 11 Black & grey frame": "carpet-light-3d-6",
+   "No. 16 Grey striped border": "carpet-light-3d-7"
+  },
+  "sub": "Carpets & rugs"
+ },
+ {
+  "id": "carpet-pvc-30m",
+  "cat": "mats",
+  "name": "🧻 PVC floor carpet (mkeka), full 30m roll",
+  "detail": "Glossy PVC floor carpet, full 30 metre roll. Waterproof, wipe clean, for homes, rentals, churches, shops and halls. Sold as a full roll, not cut. Designs: 2430 Red ornate, 2206 White & blue, 2204 Red & black dots",
+  "price": 5490,
+  "unit": "30m roll",
+  "added": "2026-11-24",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "2430 Red ornate"
+     ],
+     [
+      "2206 White & blue"
+     ],
+     [
+      "2204 Red & black dots"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "2430 Red ornate": "carpet-pvc-30m-1",
+   "2206 White & blue": "carpet-pvc-30m-2",
+   "2204 Red & black dots": "carpet-pvc-30m-3"
+  },
+  "sub": "Carpets & rugs"
+ },
+ {
+  "id": "blender-ailyons-tyb201",
+  "cat": "blenders",
+  "name": "🥤 Ailyons 2-in-1 blender & grinder TYB-201",
+  "detail": "Ailyons TYB-201 2-in-1 blender with a 1.5 to 1.6L unbreakable jar plus a grinder cup for spices, nuts and coffee. 350W, 4 speeds plus pulse, stainless steel blades, safety lock. White (TYB-201-A) or black (TYB-201)",
+  "price": 1990,
+  "unit": "1 blender",
+  "added": "2026-11-24",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "White"
+     ],
+     [
+      "Black"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "White": "blender-ailyons-tyb201-1",
+   "Black": "blender-ailyons-tyb201-2"
+  }
+ },
+ {
+  "id": "gl-cognac-24705",
+  "cat": "glass",
+  "name": "🥃 King Dealay cognac glasses 350ml, 6 pcs",
+  "detail": "King Dealay Exquisite 350ml balloon cognac and brandy glasses on a short stem, clear glass, boxed set of 6 (24705). For brandy, whisky, cocktails and gifts",
+  "price": 1490,
+  "unit": "6pc set",
+  "added": "2026-11-24",
+  "sub": "Drinking glasses"
+ },
+ {
+  "id": "foil-sticker-wall",
+  "cat": "kitchen",
+  "name": "✨ Aluminium foil kitchen wall sticker, 61cm x 2m",
+  "detail": "Self-adhesive aluminium foil sticker, 61cm x 2m roll. Moisture-proof, oil-proof and heat-resistant, wipes clean. Covers the wall behind the cooker and sink, shelves, drawers and cabinets. 6 finishes: 1 Gold hexagon, 2 Silver pattern, 3 Silver hexagon, 4 Gold crinkle, 5 Silver crinkle, 6 Silver diamond. Any 3 foil rolls KES 1,090",
+  "price": 450,
+  "unit": "1 roll",
+  "added": "2026-11-24",
+  "opts": [
+   {
+    "n": "Finish",
+    "v": [
+     [
+      "1 Gold hexagon"
+     ],
+     [
+      "2 Silver pattern"
+     ],
+     [
+      "3 Silver hexagon"
+     ],
+     [
+      "4 Gold crinkle"
+     ],
+     [
+      "5 Silver crinkle"
+     ],
+     [
+      "6 Silver diamond"
+     ]
+    ]
+   }
+  ],
+  "sub": "Wall & shelf foil stickers"
+ },
+ {
+  "id": "sweeper-carpet",
+  "cat": "home",
+  "name": "🧹 Manual carpet sweeper brush, 2 rollers",
+  "detail": "Push-along carpet sweeper with 2 rolling brushes that pick up crumbs, dust, hair and pet fur from carpets and sofas, no electricity needed. Opens to empty. Blue or pink. Any 2 sweepers KES 990",
+  "price": 590,
+  "unit": "1 pc",
+  "added": "2026-11-24",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Blue"
+     ],
+     [
+      "Pink"
+     ]
+    ]
+   }
+  ],
+  "sub": "Cleaning"
  }
 ]
