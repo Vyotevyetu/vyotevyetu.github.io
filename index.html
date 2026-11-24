@@ -786,13 +786,14 @@ function caption(p, plat) {
   const tags = ["#VyetuVyote", ...(TAGS[p.cat] || "#HomeEssentials").split(" "), "#Nairobi", "#KenyaShopping"];
   const nm = p.name.match(/^([^\p{L}\p{N}]*)(.*)$/u), emo = nm[1].trim(), base = nm[2].replace(/\s*\((?=[^)]*\d)[A-Z0-9][A-Za-z0-9 .\-\/]*\)\s*$/, "").trim();
   const qn = parseInt(p.unit, 10), qty = qn > 1 && !/\b\d+\s*(pcs?|pieces)\b/i.test(base) ? qn + "Pcs " : "";
-  const name = `${emo ? emo + " " : ""}${qty}${base}${sel ? " (" + sel + ")" : ""} @${fmt(it.price)}`, bold = plat === "wa" ? `*${name}*` : name;
+  const name = `${emo ? emo + " " : ""}${qty}${base}${sel ? " (" + sel + ")" : ""} @${fmt(it.price)}`, bold = plat === "wa" || plat === "ch" ? `*${name}*` : name;
   const L = [];
   if (plat === "x") { let t = `${name} 🛒 Order on WhatsApp 0114 308 114 ${tags.slice(0, 3).join(" ")}`; return t.slice(0, 250) + "\n" + link; }
   L.push(bold); f.forEach(x => L.push("✅ " + x)); L.push(prices);
   ds.forEach(d => L.push(`🔥 ${d.label}: ${fmt(d.price)}`));
   L.push("");
   if (plat === "wa") L.push("🚚 Delivery in Nairobi & worldwide (at customer's cost)", "🛒 " + link);
+  if (plat === "ch") L.push("🚚 Delivery in Nairobi & worldwide (at customer's cost)", "📲 Order: https://wa.me/254114308114", "🛒 " + link);
   if (plat === "fb") L.push("🆕 New items added every week!", "🚚 Delivery in Nairobi & worldwide (at customer's cost)", "📲 WhatsApp 0114 308 114", "🛒 Shop online: " + link, "🛍️ Catalogue: https://wa.me/c/254114308114", "", tags.join(" "));
   if (plat === "ig") L.push("🚚 Delivery in Nairobi & worldwide", "📲 DM us or WhatsApp 0114 308 114", "🛒 Shop link in bio", "", [...tags, "#KitchenGoals", "#HomeDecorKenya", "#NairobiHomes"].join(" "));
   if (plat === "tt") L.push("📲 WhatsApp 0114 308 114 to order", "🛒 Shop link in bio", "", [...tags.slice(0, 4), "#fyp", "#TikTokKenya"].join(" "));
@@ -807,6 +808,7 @@ async function shareFile(p, text) {
   try { await navigator.share({ text }); return true; } catch (e) { return e && e.name === "AbortError"; }
 }
 const PL = { wa: ["WhatsApp", "Send on WhatsApp", "Opens WhatsApp with the caption. The link shows the product photo and price."],
+  ch: ["My WhatsApp Channel", "Share photo + caption", "Pick WhatsApp, then your channel Vyetu Vyote under Channels. If it isn't listed, use Open my channel, attach the photo and paste the caption."],
   st: ["WhatsApp Status", "Share photo + caption", "Shares the photo with the caption copied. Pick WhatsApp, then My status."],
   fb: ["Facebook", "Post on Facebook", "Caption is copied. Paste it into the post when Facebook opens."],
   ig: ["Instagram", "Share to Instagram", "Shares the photo. The caption is copied, paste it in Instagram."],
@@ -815,12 +817,13 @@ const PL = { wa: ["WhatsApp", "Send on WhatsApp", "Opens WhatsApp with the capti
 function renderShare() {
   const p = byId[vid];
   openSheet("Share " + nameOf(p), `<div class="plats">${Object.entries(PL).map(([k, v]) => `<button type="button" data-pl="${k}" aria-pressed="${k === PLAT}">${v[0]}</button>`).join("")}</div>
-  <textarea id="shtxt" aria-label="Caption">${esc(caption(p, PLAT === "st" ? "wa" : PLAT))}</textarea>
+  <textarea id="shtxt" aria-label="Caption">${esc(caption(p, PLAT === "st" ? "wa" : PLAT))}</textarea>${PLAT === "ch" ? `<a class="wa" href="https://whatsapp.com/channel/0029Vb7b4x2K5cDA0J3oNU3e" target="_blank" rel="noopener" id="shch" style="display:flex;width:100%;box-sizing:border-box;margin:10px 0 0;background:#1fa855">📢 Open my channel</a>` : ""}
   <div class="shrow"><button type="button" class="shgo" id="shgo">${PL[PLAT][1]}</button><button type="button" class="shcp" id="shcp">Copy caption</button></div><p class="shnote">${PL[PLAT][2]} You can edit the caption first.</p>`);
 }
 $("vshb").addEventListener("click", async e => {
   const pb = e.target.closest("[data-pl]"); if (pb) { PLAT = pb.dataset.pl; renderShare(); return; }
   const p = byId[vid], t = $("shtxt") ? $("shtxt").value : "", link = SITE + "p/" + p.id + ".html";
+  if (e.target.closest("#shch")) { await copyTxt(t); toast("Caption copied. Attach the photo, then paste"); return; }
   if (e.target.id === "shcp") { toast(await copyTxt(t) ? "Caption copied" : "Copy failed"); return; }
   if (e.target.id !== "shgo") return;
   gc("share/" + PLAT + "/" + vid, "Shared " + PLAT + ": " + p.name);
