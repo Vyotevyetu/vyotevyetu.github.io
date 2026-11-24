@@ -277,6 +277,28 @@ input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-sea
 @media (prefers-reduced-motion:reduce){.cat .ci{animation:none}}
 .vall{position:absolute;left:12px;top:12px;z-index:3;border:0;border-radius:99px;padding:8px 14px;background:rgba(0,0,0,.62);color:#fff;font:600 13px/1 inherit;backdrop-filter:blur(4px)}
 .vstage{position:relative}
+
+#vdetail{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.vinfo{display:flex;width:100%;align-items:center;justify-content:space-between;margin:0 0 10px;padding:9px 12px;border-radius:12px;border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.1);color:#fff;font:700 .86rem var(--body);cursor:pointer}
+.vsheet{position:absolute;inset:0;z-index:20;background:rgba(0,0,0,.55);display:flex;align-items:flex-end}
+.vsheet[hidden]{display:none}
+.vsh{width:100%;max-height:86%;display:flex;flex-direction:column;background:#fff;color:#14231c;border-radius:20px 20px 0 0;animation:vup .22s ease-out}
+@keyframes vup{from{transform:translateY(40px);opacity:0}}
+.vshd{display:flex;align-items:center;justify-content:space-between;padding:14px 16px 10px;border-bottom:1px solid #e7e5dc;font:700 1rem var(--display)}
+.vshd button{border:0;background:#efede5;width:34px;height:34px;border-radius:50%;font-size:15px;cursor:pointer}
+.vshb{overflow-y:auto;padding:4px 16px calc(18px + env(safe-area-inset-bottom));font:400 .9rem/1.5 var(--body)}
+.vshb h4{margin:16px 0 6px;font:800 .74rem var(--body);letter-spacing:.05em;text-transform:uppercase;color:#5f6e66}
+.vshb ul{margin:0;padding-left:18px}.vshb li{margin:3px 0}
+.vshb table{width:100%;border-collapse:collapse;font-size:.88rem}.vshb td{padding:7px 0;border-bottom:1px solid #efede5;vertical-align:top}.vshb td:last-child{text-align:right;font-weight:700;white-space:nowrap;padding-left:10px}
+.vshb td.k{color:#5f6e66;font-weight:400;text-align:left}.vshb tr.on td{color:#0f3d2e;font-weight:800}.vshb tr.on td:first-child:before{content:"✓ "}
+.vshb .chips{display:flex;flex-wrap:wrap;gap:6px}.vshb .chips span{background:#efede5;border-radius:99px;padding:4px 10px;font-size:.82rem}.vshb .chips span.on{background:#f2b544;font-weight:800}
+.vshb .deal{background:#fff6df;border-radius:10px;padding:8px 10px;margin:4px 0;font-weight:600}
+.vshb .wa{display:flex;justify-content:center;gap:8px;margin:16px 0 4px;padding:13px;border-radius:14px;background:#1fa855;color:#fff;font-weight:800;text-decoration:none}
+.plats{display:flex;gap:6px;overflow-x:auto;padding:10px 0 4px;scrollbar-width:none}.plats::-webkit-scrollbar{display:none}
+.plats button{flex:none;border:1px solid #d9d6ca;background:#fff;border-radius:99px;padding:8px 13px;font:700 .84rem var(--body);cursor:pointer}.plats button[aria-pressed=true]{background:#0f3d2e;border-color:#0f3d2e;color:#fff}
+.vshb textarea{width:100%;min-height:210px;border:1px solid #d9d6ca;border-radius:12px;padding:10px;font:400 .86rem/1.45 var(--body);resize:vertical;margin-top:8px;box-sizing:border-box}
+.shrow{display:flex;gap:8px;margin-top:10px}.shrow button{flex:1;padding:12px;border-radius:12px;border:0;font:800 .9rem var(--body);cursor:pointer}.shgo{background:#0f3d2e;color:#fff}.shcp{background:#efede5;color:#14231c}
+.shnote{font-size:.8rem;color:#5f6e66;margin:8px 0 0}
 </style>
 </head>
 <body>
@@ -345,7 +367,8 @@ input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-sea
   <div class="vstage" id="vstage"><img id="vimg" alt="" style="transition:opacity .2s"><button type="button" id="vall" class="vall" hidden>◀ All designs</button></div>
   <button class="vnav prev" id="vprev" type="button" aria-label="Previous product">‹</button>
   <button class="vnav next" id="vnext" type="button" aria-label="Next product">›</button>
-  <div class="vbot"><h3 id="vname"></h3><p id="vdetail"></p><div class="vopts" id="vopts"></div><div class="vacts"><a id="vask" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2z"/></svg>Ask about this</a><button type="button" id="vshare"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg>Share</button></div><div class="vrow"><div class="price" id="vprice"></div><div id="vbuy"></div></div><div class="vhint">Swipe for next · double-tap or pinch to zoom</div></div>
+  <div class="vbot"><h3 id="vname"></h3><p id="vdetail"></p><button type="button" id="vinfo" class="vinfo">📋 Full details, sizes &amp; prices <b>›</b></button><div class="vopts" id="vopts"></div><div class="vacts"><a id="vask" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2z"/></svg>Ask about this</a><button type="button" id="vshare"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg>Share</button></div><div class="vrow"><div class="price" id="vprice"></div><div id="vbuy"></div></div><div class="vhint">Swipe for next · double-tap or pinch to zoom</div></div>
+  <div class="vsheet" id="vsheet" hidden><div class="vsh" role="dialog" aria-modal="true" aria-labelledby="vsht"><div class="vshd"><b id="vsht"></b><button type="button" id="vshx" aria-label="Close">✕</button></div><div class="vshb" id="vshb"></div></div></div>
 </div>
 
 <script>
@@ -699,7 +722,7 @@ function varPic(k) { const [id, o] = String(k).split(SEP); const p = byId[id]; i
 function showV(id) {
   vid = id; const p = byId[id]; gc("view/" + id, "Viewed: " + p.name); const i = vlist.indexOf(id);
   vstage.classList.remove("zoom"); $("vzoom").textContent = "Zoom";
-  vimg.src = "img/" + id + ".jpg"; vimg.alt = p.name; vimg.style.opacity = "1"; $("vall").hidden = true;
+  closeSheet(); vimg.src = "img/" + id + ".jpg"; vimg.alt = p.name; vimg.style.opacity = "1"; $("vall").hidden = true;
   $("vname").textContent = p.name; $("vdetail").textContent = p.detail;
   renderVOpts(); renderVBuy(); renderVCat();
   $("vcount").textContent = vlist.length > 1 ? `${i + 1} / ${vlist.length}` : "";
@@ -726,20 +749,86 @@ $("vclose").addEventListener("click", () => closeV(false));
 $("vprev").addEventListener("click", () => stepV(-1));
 $("vnext").addEventListener("click", () => stepV(1));
 $("vzoom").addEventListener("click", zoomV);
-$("vshare").addEventListener("click", async () => {
-  const p = byId[vid], link = SITE + "p/" + vid + ".html", text = `${p.name}: ${fmt(p.price)} at Vyetu Vyote 🛒\n${link}`;
-  const btn = $("vshare"); btn.disabled = true; gc("share/" + vid, "Shared: " + p.name);
-  try {
-    if (navigator.share) {
-      try {
-        const r = await fetch("img/" + vid + ".jpg"); const blob = await r.blob();
-        const file = new File([blob], vid + ".jpg", { type: blob.type || "image/jpeg" });
-        if (navigator.canShare && navigator.canShare({ files: [file] })) { await navigator.share({ files: [file], title: p.name, text }); return; }
-      } catch (e) { if (e && e.name === "AbortError") return; }
-      try { await navigator.share({ title: p.name, text, url: link }); return; } catch (e) { if (e && e.name === "AbortError") return; }
-    }
-    open("https://wa.me/?text=" + encodeURIComponent(text), "_blank", "noopener");
-  } finally { btn.disabled = false; }
+$("vshare").addEventListener("click", () => { gc("share/" + vid, "Share opened: " + byId[vid].name); renderShare(); });
+
+/* product details + platform share */
+const feats = p => p.detail.split(/(?<=[.!])\s+/).map(x => x.trim().replace(/\.$/, "")).filter(x => x && !/^Any \d/i.test(x) && !/^\d+ (designs|prints|colours|styles)\b|^(Designs|Prints|Colours?)\b/i.test(x));
+const dealsOf = p => DEALS.filter(d => { try { return d.test(p); } catch (e) { return false; } });
+const nameOf = p => p.name.replace(/^[^\p{L}\p{N}]+/u, "").trim();
+function priceRange(p) { const ps = [p.price]; (p.opts || []).forEach(o => o.v.forEach(v => v[1] && ps.push(v[1]))); const lo = Math.min(...ps), hi = Math.max(...ps); return lo === hi ? fmt(lo) : fmt(lo) + " – " + fmt(hi); }
+function openSheet(title, html) { $("vsht").textContent = title; $("vshb").innerHTML = html; $("vsheet").hidden = false; $("vshb").scrollTop = 0; }
+function closeSheet() { $("vsheet").hidden = true; }
+$("vshx").addEventListener("click", closeSheet);
+$("vsheet").addEventListener("click", e => { if (e.target.id === "vsheet") closeSheet(); });
+$("vinfo").addEventListener("click", () => {
+  const p = byId[vid], sel = VSEL[vid] || [], it = item(vkey()) || p;
+  let h = `<h4>Price</h4><table><tr><td class="k">Price</td><td>${priceRange(p)}</td></tr><tr><td class="k">Sold as</td><td>${esc(p.unit)}</td></tr>${p.opts ? `<tr><td class="k">Your choice</td><td>${esc(sel.join(", "))} · ${fmt(it.price)}</td></tr>` : ""}</table>`;
+  const f = feats(p); if (f.length) h += `<h4>Key features</h4><ul>${f.map(x => `<li>${esc(x)}</li>`).join("")}</ul>`;
+  (p.opts || []).forEach((o, i) => {
+    const priced = o.v.some(v => v[1]);
+    h += `<h4>${esc(o.n)} (${o.v.length} options)</h4>` + (priced
+      ? `<table>${o.v.map(v => `<tr class="${sel[i] === v[0] ? "on" : ""}"><td>${esc(v[0])}</td><td>${fmt(v[1] || p.price)}</td></tr>`).join("")}</table>`
+      : `<div class="chips">${o.v.map(v => `<span class="${sel[i] === v[0] ? "on" : ""}">${esc(v[0])}</span>`).join("")}</div>`);
+  });
+  const ds = dealsOf(p); if (ds.length) h += `<h4>Deals</h4>${ds.map(d => `<div class="deal">🎁 ${esc(d.label)}: ${fmt(d.price)}</div>`).join("")}`;
+  h += `<h4>Specifications</h4><table><tr><td class="k">Category</td><td>${esc(CATNAME[p.cat] || p.cat)}</td></tr>${p.sub ? `<tr><td class="k">Type</td><td>${esc(p.sub)}</td></tr>` : ""}<tr><td class="k">Condition</td><td>Brand new</td></tr><tr><td class="k">Availability</td><td>${p.soldout ? "Sold out" : "In stock"}</td></tr><tr><td class="k">Product code</td><td>${esc(p.id)}</td></tr></table>`;
+  h += `<h4>Delivery & payment</h4><ul><li>Delivery in Nairobi by rider, same or next day</li><li>Countrywide and worldwide delivery available</li><li>Delivery is at the customer's cost, quoted on WhatsApp</li><li>Pay by M-Pesa once your order is confirmed</li></ul>`;
+  h += `<a class="wa" href="${$("vask").href}" target="_blank" rel="noopener">Ask about this on WhatsApp</a>`;
+  openSheet(nameOf(p), h);
+});
+const TAGS = { cookware: "#Sufuria #Cookware", hotpots: "#Hotpots", sets: "#DinnerSet", cutlery: "#Cutlery #KitchenKnives", glass: "#Glassware", mugs: "#Mugs", decor: "#ChristmasDecor #ChristmasKenya", mats: "#Carpets #KitchenMats #HomeDecor", flasks: "#Flasks", storage: "#KitchenStorage", kitchen: "#KitchenGadgets", plates: "#Plates", trays: "#ServingTrays", jugs: "#WaterJugs", luggage: "#Suitcases", bags: "#SchoolBags", bedding: "#Bedding", bathroom: "#BathroomMats", irons: "#IronBox", home: "#HomeEssentials" };
+let PLAT = "wa";
+function caption(p, plat) {
+  const k = vkey(), it = item(k) || p, sel = p.opts ? (VSEL[vid] || []).join(", ") : "", link = SITE + "p/" + p.id + ".html";
+  const f = feats(p).slice(0, plat === "x" ? 0 : 3), ds = dealsOf(p).slice(0, 2);
+  const po = (p.opts || []).find(o => o.v.some(v => v[1]));
+  const prices = po ? "📏 " + po.v.slice(0, 6).map(v => `${v[0]} ${fmt(v[1] || p.price)}`).join(" · ") : `💰 ${fmt(p.price)} (${p.unit})`;
+  const tags = ["#VyetuVyote", ...(TAGS[p.cat] || "#HomeEssentials").split(" "), "#Nairobi", "#KenyaShopping"];
+  const name = p.name, bold = plat === "wa" ? `*${name}*` : name;
+  const L = [];
+  if (plat === "x") { let t = `${name} ${po ? "from " + priceRange(p).split(" – ")[0] : fmt(p.price)} 🛒 Order on WhatsApp 0114 308 114 ${tags.slice(0, 3).join(" ")}`; return t.slice(0, 250) + "\n" + link; }
+  L.push(bold); f.forEach(x => L.push("✅ " + x)); L.push(prices);
+  if (sel) L.push(`🎨 ${p.opts.map(o => o.n).join("/")}: ${sel} (${fmt(it.price)})`);
+  ds.forEach(d => L.push(`🔥 ${d.label}: ${fmt(d.price)}`));
+  L.push("");
+  if (plat === "wa") L.push("🚚 Delivery in Nairobi & worldwide (at customer's cost)", "📲 Order: WhatsApp 0114 308 114", "🛒 " + link);
+  if (plat === "fb") L.push("🆕 New items added every week!", "🚚 Delivery in Nairobi & worldwide (at customer's cost)", "📲 WhatsApp 0114 308 114", "🛒 Shop online: " + link, "🛍️ Catalogue: https://wa.me/c/254114308114", "", tags.join(" "));
+  if (plat === "ig") L.push("🚚 Delivery in Nairobi & worldwide", "📲 DM us or WhatsApp 0114 308 114", "🛒 Shop link in bio", "", [...tags, "#KitchenGoals", "#HomeDecorKenya", "#NairobiHomes"].join(" "));
+  if (plat === "tt") L.push("📲 WhatsApp 0114 308 114 to order", "🛒 Shop link in bio", "", [...tags.slice(0, 4), "#fyp", "#TikTokKenya"].join(" "));
+  return L.join("\n");
+}
+function shareImg(p) { const sel = VSEL[p.id] || [], hit = p.vi ? sel.map(c => p.vi[c]).filter(Boolean).pop() : null; return hit ? "img/v/" + hit + ".jpg" : "img/" + p.id + ".jpg"; }
+async function copyTxt(t) { try { await navigator.clipboard.writeText(t); return true; } catch (e) { const a = document.createElement("textarea"); a.value = t; document.body.appendChild(a); a.select(); let ok = false; try { ok = document.execCommand("copy"); } catch (e2) {} a.remove(); return ok; } }
+async function shareFile(p, text) {
+  if (!navigator.share) return false;
+  try { const r = await fetch(shareImg(p)); const b = await r.blob(); const file = new File([b], p.id + ".jpg", { type: b.type || "image/jpeg" });
+    if (navigator.canShare && navigator.canShare({ files: [file] })) { await navigator.share({ files: [file], text }); return true; } } catch (e) { if (e && e.name === "AbortError") return true; }
+  try { await navigator.share({ text }); return true; } catch (e) { return e && e.name === "AbortError"; }
+}
+const PL = { wa: ["WhatsApp", "Send on WhatsApp", "Opens WhatsApp with the caption. The link shows the product photo and price."],
+  st: ["WhatsApp Status", "Share photo + caption", "Shares the photo with the caption copied. Pick WhatsApp, then My status."],
+  fb: ["Facebook", "Post on Facebook", "Caption is copied. Paste it into the post when Facebook opens."],
+  ig: ["Instagram", "Share to Instagram", "Shares the photo. The caption is copied, paste it in Instagram."],
+  tt: ["TikTok", "Share to TikTok", "Shares the photo. The caption is copied, paste it in TikTok."],
+  x: ["X", "Post on X", "Opens X with a short post and the link."] };
+function renderShare() {
+  const p = byId[vid];
+  openSheet("Share " + nameOf(p), `<div class="plats">${Object.entries(PL).map(([k, v]) => `<button type="button" data-pl="${k}" aria-pressed="${k === PLAT}">${v[0]}</button>`).join("")}</div>
+  <textarea id="shtxt" aria-label="Caption">${esc(caption(p, PLAT === "st" ? "wa" : PLAT))}</textarea>
+  <div class="shrow"><button type="button" class="shgo" id="shgo">${PL[PLAT][1]}</button><button type="button" class="shcp" id="shcp">Copy caption</button></div><p class="shnote">${PL[PLAT][2]} You can edit the caption first.</p>`);
+}
+$("vshb").addEventListener("click", async e => {
+  const pb = e.target.closest("[data-pl]"); if (pb) { PLAT = pb.dataset.pl; renderShare(); return; }
+  const p = byId[vid], t = $("shtxt") ? $("shtxt").value : "", link = SITE + "p/" + p.id + ".html";
+  if (e.target.id === "shcp") { toast(await copyTxt(t) ? "Caption copied" : "Copy failed"); return; }
+  if (e.target.id !== "shgo") return;
+  gc("share/" + PLAT + "/" + vid, "Shared " + PLAT + ": " + p.name);
+  if (PLAT === "wa") { open("https://wa.me/?text=" + encodeURIComponent(t), "_blank", "noopener"); return; }
+  if (PLAT === "x") { open("https://x.com/intent/post?text=" + encodeURIComponent(t), "_blank", "noopener"); return; }
+  await copyTxt(t);
+  if (PLAT === "fb") { toast("Caption copied, paste it in your post"); open("https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(link), "_blank", "noopener"); return; }
+  toast("Caption copied, paste it after picking the app");
+  if (!(await shareFile(p, t))) { const a = document.createElement("a"); a.href = shareImg(p); a.download = p.id + ".jpg"; document.body.appendChild(a); a.click(); a.remove(); toast("Photo saved and caption copied"); }
 });
 vimg.addEventListener("dblclick", zoomV);
 let lastTap = 0, sx = 0, sy = 0, multi = false;
