@@ -9025,5 +9025,83 @@
    }
   ],
   "sub": "Door, floor & kitchen mats"
+ },
+ {
+  "id": "carpet-3d-5x8",
+  "cat": "mats",
+  "name": "🛋️ Heavy 3D living room carpet, 5 x 8 ft",
+  "detail": "Heavy, soft 3D-printed carpet, 5 x 8 feet (about 150 x 240cm), plush underfoot with a fringe edge. For the sitting room, bedroom or office. 17 designs: A Red & grey frame, B Black & gold geometric, C Orange & green frame, D Grey & green waves, E Yellow circle, F Beige retro, G Purple frame, H Black & white lines, I Pink & grey angles, J Navy & lilac, K Tree rings, L Blue & yellow swirl, M Navy & gold moon, N Royal blue damask, O Black & grey blocks, P Lilac triangles, Q Blue & gold Greek key. Any 2 carpets KES 7,490",
+  "price": 3990,
+  "unit": "1 carpet",
+  "added": "2026-11-24",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "A Red & grey frame"
+     ],
+     [
+      "B Black & gold geometric"
+     ],
+     [
+      "C Orange & green frame"
+     ],
+     [
+      "D Grey & green waves"
+     ],
+     [
+      "E Yellow circle"
+     ],
+     [
+      "F Beige retro"
+     ],
+     [
+      "G Purple frame"
+     ],
+     [
+      "H Black & white lines"
+     ],
+     [
+      "I Pink & grey angles"
+     ],
+     [
+      "J Navy & lilac"
+     ],
+     [
+      "K Tree rings"
+     ],
+     [
+      "L Blue & yellow swirl"
+     ],
+     [
+      "M Navy & gold moon"
+     ],
+     [
+      "N Royal blue damask"
+     ],
+     [
+      "O Black & grey blocks"
+     ],
+     [
+      "P Lilac triangles"
+     ],
+     [
+      "Q Blue & gold Greek key"
+     ]
+    ]
+   }
+  ],
+  "sub": "Carpets & rugs"
+ },
+ {
+  "id": "mat-kitchen-home-wood",
+  "cat": "mats",
+  "name": "🏠 HOME wood-look kitchen mat set, 2pc",
+  "detail": "2pc anti-slip kitchen mat set in a beige wood-plank print with white HOME letters and a heart: 120 x 40cm runner plus 60 x 40cm mat. Any 2 kitchen mat sets KES 2,590 (mix with the 18 printed sets)",
+  "price": 1490,
+  "unit": "2pc set",
+  "added": "2026-11-24",
+  "sub": "Door, floor & kitchen mats"
  }
 ]
