@@ -784,14 +784,15 @@ function caption(p, plat) {
   const po = (p.opts || []).find(o => o.v.some(v => v[1]));
   const prices = po ? "📏 " + po.v.slice(0, 6).map(v => `${v[0]} ${fmt(v[1] || p.price)}`).join(" · ") : `💰 ${fmt(p.price)} (${p.unit})`;
   const tags = ["#VyetuVyote", ...(TAGS[p.cat] || "#HomeEssentials").split(" "), "#Nairobi", "#KenyaShopping"];
-  const name = p.name, bold = plat === "wa" ? `*${name}*` : name;
+  const nm = p.name.match(/^([^\p{L}\p{N}]*)(.*)$/u), emo = nm[1].trim(), base = nm[2].replace(/\s*\((?=[^)]*\d)[A-Z0-9][A-Za-z0-9 .\-\/]*\)\s*$/, "").trim();
+  const qn = parseInt(p.unit, 10), qty = qn > 1 && !/\b\d+\s*(pcs?|pieces)\b/i.test(base) ? qn + "Pcs " : "";
+  const name = `${emo ? emo + " " : ""}${qty}${base}${sel ? " (" + sel + ")" : ""} @${fmt(it.price)}`, bold = plat === "wa" ? `*${name}*` : name;
   const L = [];
-  if (plat === "x") { let t = `${name} ${po ? "from " + priceRange(p).split(" – ")[0] : fmt(p.price)} 🛒 Order on WhatsApp 0114 308 114 ${tags.slice(0, 3).join(" ")}`; return t.slice(0, 250) + "\n" + link; }
+  if (plat === "x") { let t = `${name} 🛒 Order on WhatsApp 0114 308 114 ${tags.slice(0, 3).join(" ")}`; return t.slice(0, 250) + "\n" + link; }
   L.push(bold); f.forEach(x => L.push("✅ " + x)); L.push(prices);
-  if (sel) L.push(`🎨 ${p.opts.map(o => o.n).join("/")}: ${sel} (${fmt(it.price)})`);
   ds.forEach(d => L.push(`🔥 ${d.label}: ${fmt(d.price)}`));
   L.push("");
-  if (plat === "wa") L.push("🚚 Delivery in Nairobi & worldwide (at customer's cost)", "📲 Order: WhatsApp 0114 308 114", "🛒 " + link);
+  if (plat === "wa") L.push("🚚 Delivery in Nairobi & worldwide (at customer's cost)", "🛒 " + link);
   if (plat === "fb") L.push("🆕 New items added every week!", "🚚 Delivery in Nairobi & worldwide (at customer's cost)", "📲 WhatsApp 0114 308 114", "🛒 Shop online: " + link, "🛍️ Catalogue: https://wa.me/c/254114308114", "", tags.join(" "));
   if (plat === "ig") L.push("🚚 Delivery in Nairobi & worldwide", "📲 DM us or WhatsApp 0114 308 114", "🛒 Shop link in bio", "", [...tags, "#KitchenGoals", "#HomeDecorKenya", "#NairobiHomes"].join(" "));
   if (plat === "tt") L.push("📲 WhatsApp 0114 308 114 to order", "🛒 Shop link in bio", "", [...tags.slice(0, 4), "#fyp", "#TikTokKenya"].join(" "));
