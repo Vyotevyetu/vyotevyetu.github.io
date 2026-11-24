@@ -9431,5 +9431,74 @@
    "096-15 1000ml Sport with shoulder strap": "bottle-sport-7"
   },
   "sub": "Water bottles"
+ },
+ {
+  "id": "bottle-plastic",
+  "cat": "flasks",
+  "name": "🥤 Clear plastic water bottles 800ml & 1L",
+  "detail": "Light, clear BPA-free plastic water bottles with a flip-top leak-proof lid and carry loop or strap, many with a straw. For school, office, gym and travel. 8 designs: 800ml time marker, cartoon, gold Greek key, Leisure or grip sleeve; 1L sport with argyle strap, cartoon with shoulder strap, or Hello time marker. 4 colours per design",
+  "price": 390,
+  "unit": "1 bottle",
+  "added": "2026-11-24",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "405-4 800ml Time marker with straw",
+      390
+     ],
+     [
+      "405-3 800ml Cartoon with straw",
+      390
+     ],
+     [
+      "405-1 800ml Gold Greek key with straw",
+      450
+     ],
+     [
+      "6879-2 800ml Leisure",
+      450
+     ],
+     [
+      "405-2 800ml Grip sleeve",
+      450
+     ],
+     [
+      "6879-1 1L Sport with argyle strap",
+      590
+     ],
+     [
+      "SJ181-6688 1L Cartoon with shoulder strap",
+      650
+     ],
+     [
+      "SJ181-2405 1L Hello time marker with straw",
+      650
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "405-4 800ml Time marker with straw": "bottle-plastic-1",
+   "405-3 800ml Cartoon with straw": "bottle-plastic-2",
+   "405-1 800ml Gold Greek key with straw": "bottle-plastic-3",
+   "6879-2 800ml Leisure": "bottle-plastic-4",
+   "405-2 800ml Grip sleeve": "bottle-plastic-5",
+   "6879-1 1L Sport with argyle strap": "bottle-plastic-6",
+   "SJ181-6688 1L Cartoon with shoulder strap": "bottle-plastic-7",
+   "SJ181-2405 1L Hello time marker with straw": "bottle-plastic-8"
+  },
+  "sub": "Water bottles"
+ },
+ {
+  "id": "storage-boro-1030",
+  "cat": "storage",
+  "name": "🍱 Borosilicate glass food container 1030ml with lock lid",
+  "detail": "High-quality borosilicate glass food container, 1030ml, with a 4-clip airtight lock lid. Microwave, oven and freezer safe (-20°C to 400°C, glass only), stain and odour resistant, BPA free. For meal prep, lunch boxes and leftovers. Any 2 glass containers KES 1,790",
+  "price": 990,
+  "unit": "1 container",
+  "added": "2026-11-24",
+  "sub": "Storage jars & containers"
  }
 ]
