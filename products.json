@@ -4862,6 +4862,213 @@
   "sub": "Melamine plates"
  },
  {
+  "id": "mel-p2222",
+  "name": "🍂 Gold print melamine platters P2222, 11 inch",
+  "price": 1290,
+  "unit": "6pc set",
+  "detail": "Big 11 inch rounded-square melamine platters with glossy gold prints: gold leaves on white marble, or gold and black wave lines. Unbreakable and light, great for pilau, nyama choma and chapati. Set of 6. Stand not included. Any 2 big melamine sets KES 1,990",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "Gold leaf marble"
+     ],
+     [
+      "Gold line wave"
+     ]
+    ]
+   }
+  ],
+  "cat": "plates",
+  "added": "2026-11-25",
+  "vi": {
+   "Gold leaf marble": "mel-p2222-1",
+   "Gold line wave": "mel-p2222-2"
+  },
+  "sub": "Melamine plates"
+ },
+ {
+  "id": "mel-p2205",
+  "name": "🍱 3-section melamine plates P2205, 11 inch",
+  "price": 990,
+  "unit": "6pc set",
+  "detail": "Big round divided plates with 3 sections, so rice, stew and greens stay apart. Pink magnolia or blue peony print. Unbreakable melamine, great for kids, schools and hotels. Set of 6. Stands not included. Any 2 big melamine sets KES 1,990",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "Pink magnolia"
+     ],
+     [
+      "Blue peony"
+     ]
+    ]
+   }
+  ],
+  "cat": "plates",
+  "added": "2026-11-25",
+  "vi": {
+   "Pink magnolia": "mel-p2205-1",
+   "Blue peony": "mel-p2205-2"
+  },
+  "sub": "Melamine plates"
+ },
+ {
+  "id": "mel-p2209",
+  "name": "💙 Square melamine plates P2209, 10 inch",
+  "price": 890,
+  "unit": "6pc set",
+  "detail": "Rounded-square deep plates. Blue flower deco KES 990, or plain white or cream KES 890. Unbreakable melamine. Set of 6. Stand not included. Any 2 big melamine sets KES 1,990",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "Blue flower deco",
+      990
+     ],
+     [
+      "White plain",
+      890
+     ],
+     [
+      "Cream plain",
+      890
+     ]
+    ]
+   }
+  ],
+  "cat": "plates",
+  "added": "2026-11-25",
+  "vi": {
+   "Blue flower deco": "mel-p2209-1",
+   "Cream plain": "mel-p2209-2",
+   "White plain": "mel-p2209-3"
+  },
+  "sub": "Melamine plates"
+ },
+ {
+  "id": "mel-p2208",
+  "name": "🌸 Flower melamine plates P2208, 10 & 9 inch",
+  "price": 690,
+  "unit": "6pc set",
+  "detail": "Round deep plates with a woven rim. 10 inch pink rose KES 890, or 9 inch orange flower in cream or white KES 690. Unbreakable melamine. Set of 6. Any 2 small melamine sets KES 1,290",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "10 inch pink rose",
+      890
+     ],
+     [
+      "9 inch flower, cream",
+      690
+     ],
+     [
+      "9 inch flower, white",
+      690
+     ]
+    ]
+   }
+  ],
+  "cat": "plates",
+  "added": "2026-11-25",
+  "vi": {
+   "10 inch pink rose": "mel-p2208-1",
+   "9 inch flower, cream": "mel-p2208-2",
+   "9 inch flower, white": "mel-p2208-3"
+  },
+  "sub": "Melamine plates"
+ },
+ {
+  "id": "mel-p2220",
+  "name": "🍓 Round melamine plates P2220, 9 inch",
+  "price": 790,
+  "unit": "6pc set",
+  "detail": "Deep round plates with a fan rim. Deco: white with fruit or cream with red rose. Plain: white, cream, black, green, pink, red or blue. Unbreakable melamine. Set of 6. Any 2 small melamine sets KES 1,290",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "White fruit deco"
+     ],
+     [
+      "Cream rose deco"
+     ],
+     [
+      "White plain"
+     ],
+     [
+      "Cream plain"
+     ],
+     [
+      "Black plain"
+     ],
+     [
+      "Green plain"
+     ],
+     [
+      "Pink plain"
+     ],
+     [
+      "Red plain"
+     ],
+     [
+      "Blue plain"
+     ]
+    ]
+   }
+  ],
+  "cat": "plates",
+  "added": "2026-11-25",
+  "vi": {
+   "White fruit deco": "mel-p2220-1",
+   "Cream rose deco": "mel-p2220-2",
+   "White plain": "mel-p2220-3",
+   "Blue plain": "mel-p2220-4"
+  },
+  "sub": "Melamine plates"
+ },
+ {
+  "id": "mel-p2211",
+  "name": "🌺 Petal melamine plates P2211, 8.5 inch",
+  "price": 690,
+  "unit": "6pc set",
+  "detail": "Deep bowl-style plates with a petal shape, good for ugali, githeri and soup. White or cream, with pink rose deco or plain. Unbreakable melamine. Set of 6. Any 2 small melamine sets KES 1,290",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Cream rose deco"
+     ],
+     [
+      "White rose deco"
+     ],
+     [
+      "White plain"
+     ],
+     [
+      "Cream plain"
+     ]
+    ]
+   }
+  ],
+  "cat": "plates",
+  "added": "2026-11-25",
+  "vi": {
+   "Cream rose deco": "mel-p2211-1",
+   "White rose deco": "mel-p2211-2",
+   "White plain": "mel-p2211-3",
+   "Cream plain": "mel-p2211-4"
+  },
+  "sub": "Melamine plates"
+ },
+ {
   "id": "bowl-w2210",
   "cat": "plates",
   "name": "🍲 Pumpkin serving bowl with lid, 10 inch (W2210)",
