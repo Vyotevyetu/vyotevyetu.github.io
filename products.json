@@ -669,11 +669,35 @@
  {
   "id": "hp-matrix6",
   "cat": "hotpots",
-  "name": "🍲 Matrix Classic stainless hotpots, 6pcs",
-  "detail": "Made in Kenya, KEBS mark. Stainless insulated hotpots with locking lids: 1000, 1500, 3500, 5000, 7500 and 10000ml. Gift box",
-  "price": 6490,
-  "unit": "6pc set",
+  "name": "🍲 Matrix Classic stainless hotpots",
+  "detail": "Kenyan-made Matrix Classic double-walled stainless steel insulated hotpots with the unique stainless locking lid. Keeps ugali, chapati, pilau and stews hot for hours. KEBS marked, gift boxed. Pick the 4pc small set (1, 1.5, 2.5 and 3.5L), the 3pc big set (5, 7.5 and 10L) or the full 6pc set (1 to 10L)",
+  "price": 2790,
+  "unit": "1 set",
   "added": "2026-11-20",
+  "opts": [
+   {
+    "n": "Set size",
+    "v": [
+     [
+      "4pcs small (1–3.5L)",
+      2790
+     ],
+     [
+      "3pcs big (5, 7.5, 10L)",
+      4990
+     ],
+     [
+      "6pcs full (1–10L)",
+      5490
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "4pcs small (1–3.5L)": "hp-matrix6-1",
+   "3pcs big (5, 7.5, 10L)": "hp-matrix6-2",
+   "6pcs full (1–10L)": "hp-matrix6-3"
+  },
   "sub": "Stainless steel hotpots"
  },
  {
@@ -12164,5 +12188,59 @@
   "unit": "24pc set",
   "added": "2026-11-26",
   "sub": "Cutlery sets"
+ },
+ {
+  "id": "oil-pour-spray-600",
+  "name": "🫒 2-in-1 pour & spray glass oil bottle, 600ml",
+  "detail": "Glass oil bottle that both pours and sprays: fine mist for air fryers, grills and salads, or a steady pour for cooking. Thick handle, built-in silicone seal, leak-proof and drip-proof, easy to clean. Any 2 oil bottles KES 1,290",
+  "price": 890,
+  "cat": "kitchen",
+  "unit": "1 pc",
+  "added": "2026-11-26",
+  "imgs": [
+   "oil-pour-spray-600-g1"
+  ],
+  "sub": "Oil bottles & sprayers"
+ },
+ {
+  "id": "oil-auto-630",
+  "name": "🫗 Automatic flip-top glass oil dispenser, 630ml",
+  "detail": "Glass oil jar with a lid that opens by itself when you tilt it and closes when you set it down. Automatic return flow, so no drips or oily residue. Measurement marks on the glass, comfortable handle. Any 2 oil bottles KES 1,290",
+  "price": 690,
+  "cat": "kitchen",
+  "unit": "1 pc",
+  "added": "2026-11-26",
+  "imgs": [
+   "oil-auto-630-g1"
+  ],
+  "sub": "Oil bottles & sprayers"
+ },
+ {
+  "id": "oil-bottle-500",
+  "name": "🍶 Borosilicate glass oil bottle with drip-free pourer, 500ml",
+  "detail": "Tall square borosilicate glass bottle with a stainless steel flip pourer for oil, vinegar or soy sauce. Controlled, drip-free pouring. Any 2 oil bottles KES 1,290",
+  "price": 690,
+  "cat": "kitchen",
+  "unit": "1 pc",
+  "added": "2026-11-26",
+  "imgs": [
+   "oil-bottle-500-g1",
+   "oil-bottle-500-g2",
+   "oil-bottle-500-g3"
+  ],
+  "sub": "Oil bottles & sprayers"
+ },
+ {
+  "id": "oil-spray-100",
+  "name": "💨 Oil spray bottle 100ml, stainless top",
+  "detail": "Fine-mist glass oil sprayer with a brushed stainless steel top. Use less oil on air-fryer chips, chicken, salads and baking. Works with vinegar and soy sauce too. Any 3 oil sprays KES 890",
+  "price": 350,
+  "cat": "kitchen",
+  "unit": "1 pc",
+  "added": "2026-11-26",
+  "imgs": [
+   "oil-spray-100-g1"
+  ],
+  "sub": "Oil bottles & sprayers"
  }
 ]
