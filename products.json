@@ -13257,5 +13257,159 @@
    "White": "cup-coffee-510-4"
   },
   "sub": "Tumblers & travel cups"
+ },
+ {
+  "id": "lights-twig-tree",
+  "cat": "decor",
+  "name": "🌟 LED twig tree light, 1.5m",
+  "detail": "Standing silver branch tree covered in LED bulbs, 1.5m tall on a steady tripod base. Plug in for a glowing Christmas corner in the sitting room, shop, office or wedding venue. Warm white or multicolour",
+  "price": 990,
+  "unit": "1 pc",
+  "added": "2026-11-26",
+  "opts": [
+   {
+    "n": "Light",
+    "v": [
+     [
+      "Multicolour"
+     ],
+     [
+      "White"
+     ]
+    ]
+   }
+  ],
+  "sub": "Garlands, wreaths & lights"
+ },
+ {
+  "id": "balloon-pack-100",
+  "cat": "decor",
+  "name": "🎈 Latex party balloons, pack of 100",
+  "detail": "100 shiny latex balloons for birthdays, garlands, arches, weddings, baby showers and church events. Pick one colour, mixed colours or the happy birthday print. Any 2 packs KES 850",
+  "price": 490,
+  "unit": "100pc pack",
+  "added": "2026-11-26",
+  "opts": [
+   {
+    "n": "Type",
+    "v": [
+     [
+      "Single colour"
+     ],
+     [
+      "Mixed colours"
+     ],
+     [
+      "Happy birthday print"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Single colour": "balloon-pack-100-1",
+   "Mixed colours": "balloon-pack-100-2"
+  },
+  "sub": "Table runners, banners & party"
+ },
+ {
+  "id": "clean-mop-twist",
+  "cat": "home",
+  "name": "🧽 Self-wringing twist mop",
+  "detail": "Twist the green handle to squeeze the mop head dry: no bucket wringer, no wet hands. Microfibre head reaches under sofas and beds. Long steel handle with hanging hook. Any 2 mops KES 1,350",
+  "price": 750,
+  "unit": "1 pc",
+  "added": "2026-11-26",
+  "sub": "Cleaning supplies"
+ },
+ {
+  "id": "kit-cake-turntable",
+  "cat": "kitchen",
+  "name": "🎂 Rotating cake decorating turntable",
+  "detail": "Smooth-spinning cake stand for icing, piping and decorating cakes evenly. Light plastic, easy to wash. Great with the piping nozzle set",
+  "price": 790,
+  "unit": "1 pc",
+  "added": "2026-11-26",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Pink"
+     ],
+     [
+      "Blue"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Pink": "kit-cake-turntable-1",
+   "Blue": "kit-cake-turntable-2"
+  },
+  "sub": "Baking & pastry tools"
+ },
+ {
+  "id": "mug-colour-6stand",
+  "cat": "mugs",
+  "name": "☕ Coloured ceramic mugs, 6pcs",
+  "detail": "6 plain glossy ceramic mugs in one colour. 3 shapes: straight, round and tapered, in about 10 colours. Tea, coffee, uji. Any 2 sets KES 1,790",
+  "price": 990,
+  "unit": "6pc set",
+  "added": "2026-11-26",
+  "opts": [
+   {
+    "n": "Style",
+    "v": [
+     [
+      "Pink straight"
+     ],
+     [
+      "Orange round"
+     ],
+     [
+      "Mint tapered"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Pink straight": "mug-colour-6stand-1",
+   "Orange round": "mug-colour-6stand-2",
+   "Mint tapered": "mug-colour-6stand-3"
+  },
+  "sub": "Printed & coloured mugs"
+ },
+ {
+  "id": "storage-drain-4",
+  "cat": "storage",
+  "name": "🥬 Fridge storage containers with drain baskets, 4pcs",
+  "detail": "4 clear airtight boxes with clip-lock lids and a removable white drain basket inside each. Wash fruit, sukuma, dhania and berries, drain and store in the fridge so they stay fresh longer. 4 sizes that stack",
+  "price": 1990,
+  "unit": "4pc set",
+  "added": "2026-11-26",
+  "imgs": [
+   "storage-drain-4-g1"
+  ],
+  "sub": "Storage jars & containers"
+ },
+ {
+  "id": "jar-black-gold-3",
+  "cat": "storage",
+  "name": "🖤 Black & gold canisters, 3pcs",
+  "detail": "3 black canisters with raised gold crackle pattern and gold crown lids, in 3 heights. Sugar, tea, coffee, cotton or as decor. Gift boxed",
+  "price": 1890,
+  "unit": "3pc set",
+  "added": "2026-11-26",
+  "sub": "Storage jars & containers"
+ },
+ {
+  "id": "ladle-colour-4",
+  "cat": "cutlery",
+  "name": "🥄 Stainless serving spoons with colour handles, 4pcs",
+  "detail": "Slotted turner, serving spoon, skimmer and soup ladle. Stainless steel heads with green and pink grip handles. Any 2 sets KES 1,190",
+  "price": 690,
+  "unit": "4pc set",
+  "added": "2026-11-26",
+  "sub": "Serving spoons & ladles"
  }
 ]
