@@ -7008,6 +7008,100 @@
   "sub": "Duvet sets"
  },
  {
+  "id": "duvet-set-print-binded",
+  "name": "🛏️ Printed binded duvet set, Honey G 6x7",
+  "price": 3490,
+  "unit": "4pc set",
+  "detail": "Thick binded Honey G duvet with a matching bedsheet and 2 pillowcases. Big 6 x 7 size, soft and warm. 10 prints: medallion, feathers, tree roots, diamonds, hydrangea, hexagons, peacock, stripes, circles and leaves. Any 2 binded duvet sets KES 6,790",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "Pink medallion"
+     ],
+     [
+      "Teal feathers"
+     ],
+     [
+      "Navy tree roots"
+     ],
+     [
+      "Beige & blue diamonds"
+     ],
+     [
+      "Grey leaf branches"
+     ],
+     [
+      "Cream hydrangea"
+     ],
+     [
+      "Blue hexagons"
+     ],
+     [
+      "Grey peacock feathers"
+     ],
+     [
+      "Navy & grey stripes"
+     ],
+     [
+      "Grey & yellow circles"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Pink medallion": "duvet-set-print-binded-1",
+   "Teal feathers": "duvet-set-print-binded-2",
+   "Navy tree roots": "duvet-set-print-binded-3",
+   "Beige & blue diamonds": "duvet-set-print-binded-4",
+   "Grey leaf branches": "duvet-set-print-binded-5",
+   "Cream hydrangea": "duvet-set-print-binded-6",
+   "Blue hexagons": "duvet-set-print-binded-7",
+   "Grey peacock feathers": "duvet-set-print-binded-8",
+   "Navy & grey stripes": "duvet-set-print-binded-9",
+   "Grey & yellow circles": "duvet-set-print-binded-10"
+  },
+  "cat": "bedding",
+  "added": "2026-11-26",
+  "sub": "Duvet sets"
+ },
+ {
+  "id": "duvet-set-colour-binded",
+  "name": "🛏️ Plain colour binded duvet set, Honey G 6x7",
+  "price": 3590,
+  "unit": "4pc set",
+  "detail": "Hotel-style striped satin-look binded Honey G duvet with a matching bedsheet and 2 pillowcases. Big 6 x 7 size. Pink, sky blue, navy blue or grey. Any 2 binded duvet sets KES 6,790",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Pink"
+     ],
+     [
+      "Sky blue"
+     ],
+     [
+      "Navy blue"
+     ],
+     [
+      "Grey"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Pink": "duvet-set-colour-binded-1",
+   "Sky blue": "duvet-set-colour-binded-2",
+   "Navy blue": "duvet-set-colour-binded-3",
+   "Grey": "duvet-set-colour-binded-4"
+  },
+  "cat": "bedding",
+  "added": "2026-11-26",
+  "sub": "Duvet sets"
+ },
+ {
   "id": "tree-green",
   "cat": "decor",
   "name": "🎄 Green artificial Christmas tree, 3ft to 9ft",
