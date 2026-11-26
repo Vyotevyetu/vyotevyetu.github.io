@@ -12934,5 +12934,147 @@
   ],
   "added": "2026-11-26",
   "sub": "Cleaning supplies"
+ },
+ {
+  "id": "pan-granite-wood",
+  "cat": "cookware",
+  "name": "🍳 Heavy granite frying pan with wood-look handle",
+  "detail": "Thick black granite stone non-stick coating, heavy base with steel heat-spreading disc, stay-cool wood-look handle with hanging loop. Fry eggs, sausages, fish and stir-fry with little oil. 24cm (1424) KES 1,190, 26cm (1426) KES 1,290. Any 2 pans KES 2,290",
+  "price": 1190,
+  "unit": "1 pc",
+  "added": "2026-11-26",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "24cm (1424)",
+      1190
+     ],
+     [
+      "26cm (1426)",
+      1290
+     ]
+    ]
+   }
+  ],
+  "dupmain": "pan-granite-wood-2",
+  "vi": {
+   "24cm (1424)": "pan-granite-wood-1",
+   "26cm (1426)": "pan-granite-wood-2"
+  },
+  "sub": "Chapati pans & frying pans"
+ },
+ {
+  "id": "bottle-set-3in1",
+  "cat": "flasks",
+  "name": "🌈 3-in-1 motivational water bottle set",
+  "detail": "3 gradient bottles in one set: big bottle with carry handle and straw, medium bottle and small pocket bottle. Time markers remind you to keep drinking water through the day. Leak-proof lids. For gym, school, office and travel",
+  "price": 1190,
+  "unit": "3pc set",
+  "added": "2026-11-26",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Teal & purple"
+     ],
+     [
+      "Purple & blue"
+     ],
+     [
+      "Pink & blue"
+     ],
+     [
+      "Blue & orange"
+     ]
+    ]
+   }
+  ],
+  "sub": "Water bottles"
+ },
+ {
+  "id": "flask-coffee-20177",
+  "cat": "flasks",
+  "name": "☕ Stainless vacuum coffee pot 2L (20177)",
+  "detail": "Double-wall stainless steel vacuum flask shaped like a coffee jug, with press-button pour lid and big handle. Keeps tea, coffee or hot water hot for hours. Unbreakable, no glass inside. Boxed, a good gift",
+  "price": 1290,
+  "unit": "1 pc",
+  "added": "2026-11-26",
+  "sub": "Tea flasks"
+ },
+ {
+  "id": "bowl-ceramic-55",
+  "cat": "plates",
+  "name": "🥣 Ceramic bowls 5.5 inch, 6pcs",
+  "detail": "Sundabest ceramic bowls for soup, rice, uji, cereal and fruit. Blue flower (8112): white with blue flowers and lucky symbol, KES 690. Two-tone colours (0704): cream, grey and brown outside with white inside, KES 750. Any 2 sets KES 1,290",
+  "price": 690,
+  "unit": "6pc set",
+  "added": "2026-11-26",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "Blue flower (8112)",
+      690
+     ],
+     [
+      "Two-tone colours (0704)",
+      750
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Blue flower (8112)": "bowl-ceramic-55-1",
+   "Two-tone colours (0704)": "bowl-ceramic-55-2"
+  },
+  "sub": "Bowls"
+ },
+ {
+  "id": "oil-bottle-marble",
+  "cat": "kitchen",
+  "name": "🖤 Marble glass oil & vinegar bottle, 320ml",
+  "detail": "Glass bottle with white-and-gold or black-and-gold marble sleeve, gold drip-free pourer with flip cap. For cooking oil, vinegar and soy sauce. Any 2 oil bottles KES 1,290",
+  "price": 690,
+  "unit": "1 pc",
+  "added": "2026-11-26",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "White marble"
+     ],
+     [
+      "Black marble"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "White marble": "oil-bottle-marble-1",
+   "Black marble": "oil-bottle-marble-2"
+  },
+  "imgs": [
+   "oil-bottle-marble-g1"
+  ],
+  "sub": "Oil bottles & sprayers"
+ },
+ {
+  "id": "oil-jar-bamboo",
+  "cat": "kitchen",
+  "name": "🫙 Glass oil jug with bamboo lid, 580ml",
+  "detail": "Clear glass oil jug with handle, side spout with cap, measuring marks and bamboo lid. Fill from the top, pour from the spout. Oil, vinegar, soy sauce or syrup",
+  "price": 1190,
+  "unit": "1 pc",
+  "added": "2026-11-26",
+  "imgs": [
+   "oil-jar-bamboo-g1",
+   "oil-jar-bamboo-g2"
+  ],
+  "sub": "Oil bottles & sprayers"
  }
 ]
