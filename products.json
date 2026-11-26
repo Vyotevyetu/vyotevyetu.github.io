@@ -7157,6 +7157,107 @@
   "sub": "Duvet sets"
  },
  {
+  "id": "blanket-glow",
+  "name": "🌙 Glow in the dark fleece blanket, 180x200",
+  "price": 1490,
+  "unit": "1 pc",
+  "detail": "Soft plush fleece blanket printed with shapes that glow green in the dark: charge it under light, switch off and watch it shine. Size 180 x 200 cm. Great gift for kids, bedtime and movie nights. Blue dinosaurs, pink moon & stars, rainbow unicorns or grey moon & stars. Any 2 glow blankets KES 2,690",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "Blue dinosaurs"
+     ],
+     [
+      "Pink moon & stars"
+     ],
+     [
+      "Rainbow unicorns"
+     ],
+     [
+      "Grey moon & stars"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Blue dinosaurs": "blanket-glow-1",
+   "Pink moon & stars": "blanket-glow-2",
+   "Rainbow unicorns": "blanket-glow-3",
+   "Grey moon & stars": "blanket-glow-4"
+  },
+  "imgs": [
+   "blanket-glow-g1"
+  ],
+  "vids": [
+   "glow-blanket-1",
+   "glow-blanket-2"
+  ],
+  "cat": "bedding",
+  "added": "2026-11-26",
+  "sub": "Blankets"
+ },
+ {
+  "id": "blanket-sherpa",
+  "name": "🧶 Sherpa fleece blanket, cable-knit, 200x230",
+  "price": 2490,
+  "unit": "1 pc",
+  "detail": "Thick cable-knit textured fleece on top with a cosy white sherpa lining underneath. Big 200 x 230 cm, fits a 6x6 bed. Very warm for cold nights, sofas and gifts. 10 colours. Any 2 sherpa blankets KES 4,690",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Cream"
+     ],
+     [
+      "White"
+     ],
+     [
+      "Pink"
+     ],
+     [
+      "Mustard yellow"
+     ],
+     [
+      "Mocha brown"
+     ],
+     [
+      "Denim blue"
+     ],
+     [
+      "Lilac purple"
+     ],
+     [
+      "Olive green"
+     ],
+     [
+      "Charcoal grey"
+     ],
+     [
+      "Terracotta star print"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Cream": "blanket-sherpa-1",
+   "White": "blanket-sherpa-2",
+   "Pink": "blanket-sherpa-3",
+   "Mustard yellow": "blanket-sherpa-4",
+   "Mocha brown": "blanket-sherpa-5",
+   "Denim blue": "blanket-sherpa-6",
+   "Lilac purple": "blanket-sherpa-7",
+   "Olive green": "blanket-sherpa-8",
+   "Charcoal grey": "blanket-sherpa-9",
+   "Terracotta star print": "blanket-sherpa-10"
+  },
+  "cat": "bedding",
+  "added": "2026-11-26",
+  "sub": "Blankets"
+ },
+ {
   "id": "tree-green",
   "cat": "decor",
   "name": "🎄 Green artificial Christmas tree, 3ft to 9ft",
