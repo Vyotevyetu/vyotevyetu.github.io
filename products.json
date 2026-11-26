@@ -6090,15 +6090,22 @@
   "detail": "Press the sponge, soap comes up. White with clear base. 2 for KES 1,390",
   "price": 790,
   "unit": "each",
+  "imgs": [
+   "soap-acrylic-g1"
+  ],
   "sub": "Soap pumps"
  },
  {
   "id": "soap-pump",
   "cat": "kitchen",
   "name": "Soap pump with sponge",
-  "detail": "Press-down dish soap dispenser. 2 for KES 890",
+  "detail": "Press the sponge down and dish soap comes up. Clear tank, grey top, sponge included. Saves soap at the sink. 2 for KES 890",
   "price": 490,
   "unit": "each",
+  "imgs": [
+   "soap-pump-g1",
+   "soap-pump-g2"
+  ],
   "sub": "Soap pumps"
  },
  {
@@ -6507,6 +6514,87 @@
    "Beige": "bathset-6-bamboo-4"
   },
   "sub": "Bathroom sets"
+ },
+ {
+  "id": "disp-mason-marble",
+  "name": "🧴 Mason jar marble soap dispenser, 300ml",
+  "price": 990,
+  "unit": "1 pc",
+  "detail": "Ceramic mason jar shape with rose gold marble veins and a black metal pump. Refillable for hand wash, lotion or shampoo. White or black. Any 2 soap dispensers KES 1,390",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "White"
+     ],
+     [
+      "Black"
+     ]
+    ]
+   }
+  ],
+  "added": "2026-11-26",
+  "vi": {
+   "White": "disp-mason-marble-1",
+   "Black": "disp-mason-marble-2"
+  },
+  "cat": "bathroom",
+  "sub": "Soap dispensers"
+ },
+ {
+  "id": "disp-geo-marble",
+  "name": "🧴 Geometric marble soap dispenser, gold pump",
+  "price": 890,
+  "unit": "1 pc",
+  "detail": "Tall ceramic bottle with a marble finish, gold geometric lines and a shiny gold pump. For hand wash, shampoo or body lotion. White or black. Any 2 soap dispensers KES 1,390",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "White"
+     ],
+     [
+      "Black"
+     ]
+    ]
+   }
+  ],
+  "added": "2026-11-26",
+  "vi": {
+   "White": "disp-geo-marble-1",
+   "Black": "disp-geo-marble-2"
+  },
+  "cat": "bathroom",
+  "sub": "Soap dispensers"
+ },
+ {
+  "id": "disp-herevin",
+  "name": "🧼 Herevin kids liquid soap dispenser 470ml",
+  "price": 350,
+  "unit": "1 pc",
+  "detail": "Light, strong plastic dispenser with a smooth pump. 470ml for liquid soap, hand wash, sanitizer or lotion. Fun prints kids love, for home, school and office. Code 161926. Pink bear or blue fire truck. Any 3 kids soap dispensers KES 790",
+  "opts": [
+   {
+    "n": "Print",
+    "v": [
+     [
+      "Pink bear"
+     ],
+     [
+      "Blue fire truck"
+     ]
+    ]
+   }
+  ],
+  "added": "2026-11-26",
+  "vi": {
+   "Pink bear": "disp-herevin-1",
+   "Blue fire truck": "disp-herevin-2"
+  },
+  "cat": "bathroom",
+  "sub": "Soap dispensers"
  },
  {
   "id": "mat-kitchen-2pc",
@@ -9971,6 +10059,72 @@
    }
   ],
   "sub": "Wall & shelf foil stickers"
+ },
+ {
+  "id": "caddy-hand-dish",
+  "name": "🧽 Hand & dish soap dispenser set with sponge holder",
+  "price": 1290,
+  "unit": "1 set",
+  "detail": "Black caddy with two refillable pump bottles marked HANDS and DISHES, plus slots for a sponge and scrubber. Keeps the sink tidy. Plastic, easy to clean",
+  "added": "2026-11-26",
+  "cat": "kitchen",
+  "sub": "Soap pumps"
+ },
+ {
+  "id": "disp-pair-dishes-hands",
+  "name": "🫧 DISHES & HANDS dispenser pair with bamboo tray",
+  "price": 1290,
+  "unit": "2pc set",
+  "detail": "Two refillable bottles labelled DISHES and HANDS on a bamboo tray, with bamboo pump collars. Round matte bottles in black and white KES 1,290, or square ceramic bottles in white and navy KES 1,690. Great kitchen gift",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "Round bottles, black & white",
+      1290
+     ],
+     [
+      "Square bottles, white & navy",
+      1690
+     ]
+    ]
+   }
+  ],
+  "added": "2026-11-26",
+  "vi": {
+   "Round bottles, black & white": "disp-pair-dishes-hands-1",
+   "Square bottles, white & navy": "disp-pair-dishes-hands-2"
+  },
+  "cat": "kitchen",
+  "sub": "Soap pumps"
+ },
+ {
+  "id": "disp-sponge-ceramic",
+  "name": "🧽 Marble ceramic soap dispenser with sponge holder, 500ml",
+  "price": 890,
+  "unit": "1 pc",
+  "detail": "Glossy ceramic 500ml dispenser with gold marble veins, a matte gold pump and a built-in sponge holder. Sponge included. White or black. Any 2 soap dispensers KES 1,390",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "White"
+     ],
+     [
+      "Black"
+     ]
+    ]
+   }
+  ],
+  "added": "2026-11-26",
+  "vi": {
+   "White": "disp-sponge-ceramic-1",
+   "Black": "disp-sponge-ceramic-2"
+  },
+  "cat": "kitchen",
+  "sub": "Soap pumps"
  },
  {
   "id": "sweeper-carpet",
