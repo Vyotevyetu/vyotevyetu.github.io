@@ -277,6 +277,7 @@ input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-sea
 @media (prefers-reduced-motion:reduce){.cat .ci{animation:none}}
 .vall{position:absolute;left:12px;top:12px;z-index:3;border:0;border-radius:99px;padding:8px 14px;background:rgba(0,0,0,.62);color:#fff;font:600 13px/1 inherit;backdrop-filter:blur(4px)}
 .vstage{position:relative}
+.shpk{margin:4px 0 10px}.shpk .shph{display:flex;justify-content:space-between;align-items:center;font:700 .82rem var(--body);color:#0f3d2e}.shpk .shph span{display:flex;gap:6px}.shpk .shph button{border:1px solid #0f3d2e;background:#fff;color:#0f3d2e;border-radius:99px;padding:5px 10px;font:700 .75rem var(--body)}.shpk .shph button.on{background:#0f3d2e;color:#fff}.shpics{display:flex;gap:6px;overflow-x:auto;margin-top:8px}.shpics button{position:relative;flex:0 0 auto;width:58px;height:58px;padding:0;border:2px solid #dfe7e2;border-radius:10px;overflow:hidden;background:#fff;opacity:.4}.shpics button.on{border-color:#0f3d2e;opacity:1}.shpics button.on:after{content:'✓';position:absolute;right:2px;top:2px;background:#0f3d2e;color:#fff;border-radius:50%;width:16px;height:16px;font:700 11px/16px sans-serif;text-align:center}.shpics img{width:100%;height:100%;object-fit:cover;display:block}
 .vthumbs{display:flex;gap:6px;overflow-x:auto;margin:0 0 10px;padding-bottom:2px;scrollbar-width:none}.vthumbs::-webkit-scrollbar{display:none}.vthumbs button{flex:0 0 auto;width:50px;height:50px;padding:0;border:2px solid rgba(255,255,255,.25);border-radius:10px;overflow:hidden;background:#222;cursor:pointer}.vthumbs button.on{border-color:#fff;box-shadow:0 0 0 2px var(--green-2,#2e7d5b)}.vthumbs img{width:100%;height:100%;object-fit:cover;display:block}
 
 #vdetail{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
@@ -768,7 +769,7 @@ $("vclose").addEventListener("click", () => closeV(false));
 $("vprev").addEventListener("click", () => stepV(-1));
 $("vnext").addEventListener("click", () => stepV(1));
 $("vzoom").addEventListener("click", zoomV);
-$("vshare").addEventListener("click", () => { gc("share/" + vid, "Share opened: " + byId[vid].name); renderShare(); });
+$("vshare").addEventListener("click", () => { SHPICS = gallery(byId[vid]); gc("share/" + vid, "Share opened: " + byId[vid].name); renderShare(); });
 
 /* product details + platform share */
 const feats = p => p.detail.split(/(?<=[.!])\s+/).map(x => x.trim().replace(/\.$/, "")).filter(x => x && !/^Any \d/i.test(x) && !/^\d+ (designs|prints|colours|styles)\b|^(Designs|Prints|Colours?)\b/i.test(x));
@@ -798,7 +799,8 @@ $("vinfo").addEventListener("click", () => {
 const TAGS = { cookware: "#Sufuria #Cookware", hotpots: "#Hotpots", sets: "#DinnerSet", cutlery: "#Cutlery #KitchenKnives", glass: "#Glassware", mugs: "#Mugs", decor: "#ChristmasDecor #ChristmasKenya", mats: "#Carpets #KitchenMats #HomeDecor", flasks: "#Flasks", storage: "#KitchenStorage", kitchen: "#KitchenGadgets", plates: "#Plates", trays: "#ServingTrays", jugs: "#WaterJugs", luggage: "#Suitcases", bags: "#SchoolBags", bedding: "#Bedding", bathroom: "#BathroomMats", irons: "#IronBox", home: "#HomeEssentials" };
 let PLAT = "wa";
 function caption(p, plat) {
-  const k = vkey(), it = item(k) || p, sel = p.opts ? (VSEL[vid] || []).join(", ") : "", link = SITE + "p/" + p.id + ".html";
+  const multi = plat !== "wa" && plat !== "x" && p.opts && (SHPICS || []).filter(u => gallery(p).includes(u)).length > 1;
+  const k = vkey(), it = multi ? { price: Math.min(p.price, ...p.opts.flatMap(o => o.v.map(v => v[1] || p.price))) } : (item(k) || p), sel = p.opts && !multi ? (VSEL[vid] || []).join(", ") : "", link = SITE + "p/" + p.id + ".html";
   const f = feats(p).slice(0, plat === "x" ? 0 : 3), ds = dealsOf(p).slice(0, 2);
   const po = (p.opts || []).find(o => o.v.some(v => v[1]));
   const prices = po ? "📏 " + po.v.slice(0, 6).map(v => `${v[0]} ${fmt(v[1] || p.price)}`).join(" · ") : `💰 ${fmt(p.price)} (${p.unit})`;
@@ -808,7 +810,7 @@ function caption(p, plat) {
   const name = `${emo ? emo + " " : ""}${qty}${base}${sel ? " (" + sel + ")" : ""} @${fmt(it.price)}`, bold = plat === "wa" || plat === "ch" ? `*${name}*` : name;
   const L = [];
   if (plat === "x") { let t = `${name} 🛒 Order on WhatsApp 0114 308 114 ${tags.slice(0, 3).join(" ")}`; return t.slice(0, 250) + "\n" + link; }
-  L.push(bold); f.forEach(x => L.push("✅ " + x)); L.push(prices);
+  L.push(bold); f.forEach(x => L.push("✅ " + x)); if (multi) p.opts.filter(o => !o.v.some(v => v[1])).forEach(o => L.push("🎨 " + o.n + ": " + o.v.map(v => v[0]).join(" · "))); L.push(prices);
   ds.forEach(d => L.push(`🔥 ${d.label}: ${fmt(d.price)}`));
   L.push("");
   if (plat === "wa") L.push("🚚 Delivery in Nairobi & worldwide (at customer's cost)", "🛒 " + link);
@@ -818,12 +820,18 @@ function caption(p, plat) {
   if (plat === "tt") L.push("📲 WhatsApp 0114 308 114 to order", "🛒 Shop link in bio", "", [...tags.slice(0, 4), "#fyp", "#TikTokKenya"].join(" "));
   return L.join("\n");
 }
+let SHPICS = null;
+const shPics = p => { const g = gallery(p); const sel = (SHPICS || []).filter(u => g.includes(u)); return sel.length ? g.filter(u => sel.includes(u)) : [shareImg(p)]; };
+function dlPics(p) { shPics(p).forEach((u, i) => setTimeout(() => { const a = document.createElement("a"); a.href = u; a.download = p.id + (i ? "-" + (i + 1) : "") + ".jpg"; document.body.appendChild(a); a.click(); a.remove(); }, i * 400)); }
+function picksHtml(p) { const g = gallery(p); if (g.length < 2) return ""; const sel = shPics(p), cur = vimg.getAttribute("src"), all = sel.length === g.length, one = sel.length === 1 && sel[0] === cur;
+  return `<div class="shpk"><div class="shph">Photos to send: ${sel.length} of ${g.length}<span><button type="button" id="spall" class="${all ? "on" : ""}">All photos</button><button type="button" id="spone" class="${one ? "on" : ""}">This photo</button></span></div><div class="shpics">${g.map((u, i) => `<button type="button" data-sp="${u}" class="${sel.includes(u) ? "on" : ""}" aria-label="Photo ${i + 1}"><img src="${u}" alt=""></button>`).join("")}</div></div>`; }
 function shareImg(p) { const sel = VSEL[p.id] || [], hit = p.vi ? sel.map(c => p.vi[c]).filter(Boolean).pop() : null; return hit ? "img/v/" + hit + ".jpg" : "img/" + p.id + ".jpg"; }
 async function copyTxt(t) { try { await navigator.clipboard.writeText(t); return true; } catch (e) { const a = document.createElement("textarea"); a.value = t; document.body.appendChild(a); a.select(); let ok = false; try { ok = document.execCommand("copy"); } catch (e2) {} a.remove(); return ok; } }
 async function shareFile(p, text) {
   if (!navigator.share) return false;
-  try { const r = await fetch(shareImg(p)); const b = await r.blob(); const file = new File([b], p.id + ".jpg", { type: b.type || "image/jpeg" });
-    if (navigator.canShare && navigator.canShare({ files: [file] })) { await navigator.share({ files: [file], text }); return true; } } catch (e) { if (e && e.name === "AbortError") return true; }
+  try { const files = await Promise.all(shPics(p).map(async (u, i) => { const b = await (await fetch(u)).blob(); return new File([b], p.id + (i ? "-" + (i + 1) : "") + ".jpg", { type: b.type || "image/jpeg" }); }));
+    if (navigator.canShare && navigator.canShare({ files })) { await navigator.share({ files, text }); return true; }
+    if (files.length > 1 && navigator.canShare && navigator.canShare({ files: [files[0]] })) { await navigator.share({ files: [files[0]], text }); return true; } } catch (e) { if (e && e.name === "AbortError") return true; }
   try { await navigator.share({ text }); return true; } catch (e) { return e && e.name === "AbortError"; }
 }
 const PL = { wa: ["WhatsApp", "Send on WhatsApp", "Opens WhatsApp with the caption. The link shows the product photo and price."],
@@ -836,22 +844,26 @@ const PL = { wa: ["WhatsApp", "Send on WhatsApp", "Opens WhatsApp with the capti
 function renderShare() {
   const p = byId[vid];
   openSheet("Share " + nameOf(p), `<div class="plats">${Object.entries(PL).map(([k, v]) => `<button type="button" data-pl="${k}" aria-pressed="${k === PLAT}">${v[0]}</button>`).join("")}</div>
-  <textarea id="shtxt" aria-label="Caption">${esc(caption(p, PLAT === "st" ? "wa" : PLAT))}</textarea>
+  ${PLAT === "wa" || PLAT === "x" ? "" : picksHtml(p)}<textarea id="shtxt" aria-label="Caption">${esc(caption(p, PLAT === "st" ? "wa" : PLAT))}</textarea>
   <div class="shrow"><button type="button" class="shgo" id="shgo"${PLAT === "ch" || PLAT === "st" ? ' style="background:#1fa855"' : ""}>${PL[PLAT][1]}</button><button type="button" class="shcp" id="shcp">Copy caption</button></div><p class="shnote">${PL[PLAT][2]} You can edit the caption first.</p>${PLAT === "ch" ? `<button type="button" id="shch" style="width:100%;margin-top:10px;padding:11px;border-radius:12px;border:1px dashed #0f3d2e;background:#fff;color:#0f3d2e;font:700 .85rem var(--body);cursor:pointer">Channel not in the list? Save photo, copy caption &amp; open channel</button>` : ""}`);
 }
 $("vshb").addEventListener("click", async e => {
   const pb = e.target.closest("[data-pl]"); if (pb) { PLAT = pb.dataset.pl; renderShare(); return; }
   const p = byId[vid], t = $("shtxt") ? $("shtxt").value : "", link = SITE + "p/" + p.id + ".html";
-  if (e.target.closest("#shch")) { await copyTxt(t); const a = document.createElement("a"); a.href = shareImg(p); a.download = p.id + ".jpg"; document.body.appendChild(a); a.click(); a.remove(); toast("Photo saved & caption copied. In the channel tap 📎, pick the photo, paste"); setTimeout(() => { location.href = "https://whatsapp.com/channel/0029Vb7b4x2K5cDA0J3oNU3e"; }, 1800); return; }
+  const sp = e.target.closest("[data-sp]"), keep = () => renderShare();
+  if (sp) { let sel = shPics(p); sel = sel.includes(sp.dataset.sp) ? sel.filter(u => u !== sp.dataset.sp) : sel.concat(sp.dataset.sp); if (!sel.length) { toast("Keep at least one photo"); return; } SHPICS = sel; keep(); return; }
+  if (e.target.id === "spall") { SHPICS = gallery(p); keep(); return; }
+  if (e.target.id === "spone") { SHPICS = [vimg.getAttribute("src")]; keep(); return; }
+  if (e.target.closest("#shch")) { await copyTxt(t); dlPics(p); toast("Photo saved & caption copied. In the channel tap 📎, pick the photo, paste"); setTimeout(() => { location.href = "https://whatsapp.com/channel/0029Vb7b4x2K5cDA0J3oNU3e"; }, 1800); return; }
   if (e.target.id === "shcp") { toast(await copyTxt(t) ? "Caption copied" : "Copy failed"); return; }
   if (e.target.id !== "shgo") return;
   gc("share/" + PLAT + "/" + vid, "Shared " + PLAT + ": " + p.name);
   if (PLAT === "wa") { open("https://wa.me/?text=" + encodeURIComponent(t), "_blank", "noopener"); return; }
   if (PLAT === "x") { open("https://x.com/intent/post?text=" + encodeURIComponent(t), "_blank", "noopener"); return; }
   await copyTxt(t);
-  if (PLAT === "fb") { toast("Caption copied. Pick Facebook, then paste"); if (!(await shareFile(p, t))) { const a = document.createElement("a"); a.href = shareImg(p); a.download = p.id + ".jpg"; document.body.appendChild(a); a.click(); a.remove(); toast("Photo saved, caption copied. Opening Facebook"); setTimeout(() => open("https://www.facebook.com/", "_blank", "noopener"), 900); } return; }
+  if (PLAT === "fb") { toast("Caption copied. Pick Facebook, then paste"); if (!(await shareFile(p, t))) { dlPics(p); toast("Photo saved, caption copied. Opening Facebook"); setTimeout(() => open("https://www.facebook.com/", "_blank", "noopener"), 900); } return; }
   toast(PLAT === "ch" || PLAT === "st" ? "Choose WhatsApp, then your channel or My status" : "Caption copied, paste it after picking the app");
-  if (!(await shareFile(p, t))) { const a = document.createElement("a"); a.href = shareImg(p); a.download = p.id + ".jpg"; document.body.appendChild(a); a.click(); a.remove(); toast("Photo saved and caption copied"); }
+  if (!(await shareFile(p, t))) { dlPics(p); toast("Photo saved and caption copied"); }
 });
 vimg.addEventListener("dblclick", zoomV);
 let lastTap = 0, sx = 0, sy = 0, multi = false;
