@@ -11543,7 +11543,7 @@
   "name": "🫧 DISHES & HANDS dispenser pair with bamboo tray",
   "price": 1290,
   "unit": "2pc set",
-  "detail": "Two refillable bottles labelled DISHES and HANDS on a bamboo tray, with bamboo pump collars. Round matte bottles in black and white KES 1,290, or square ceramic bottles in white and navy KES 1,690. Great kitchen gift",
+  "detail": "Two refillable bottles labelled DISHES and HANDS on a bamboo tray, with bamboo pump collars. Round matte bottles in black and white KES 1,290, tall black and white bottles (HANDS/DISHES or SOAP/LOTION, 500ml each) KES 1,390, or square ceramic bottles in white and navy KES 1,690. Packed in foam. Great kitchen gift",
   "opts": [
    {
     "n": "Design",
@@ -11555,6 +11555,10 @@
      [
       "Square bottles, white & navy",
       1690
+     ],
+     [
+      "Tall bottles, black & white (HANDS/DISHES or SOAP/LOTION)",
+      1390
      ]
     ]
    }
@@ -11562,9 +11566,14 @@
   "added": "2026-11-26",
   "vi": {
    "Round bottles, black & white": "disp-pair-dishes-hands-1",
-   "Square bottles, white & navy": "disp-pair-dishes-hands-2"
+   "Square bottles, white & navy": "disp-pair-dishes-hands-2",
+   "Tall bottles, black & white (HANDS/DISHES or SOAP/LOTION)": "disp-pair-dishes-hands-3"
   },
   "cat": "kitchen",
+  "imgs": [
+   "disp-pair-dishes-hands-g1",
+   "disp-pair-dishes-hands-g2"
+  ],
   "sub": "Dish soap pumps & caddies"
  },
  {
@@ -12837,5 +12846,93 @@
    "HOME letter blocks, wood": "mat-kitchen-rubber-2pc-b-18"
   },
   "sub": "Door, floor & kitchen mats"
+ },
+ {
+  "id": "rack-bucket-tap",
+  "cat": "dispensers",
+  "name": "🚰 Water bottle stand with tap, for 18–20L bottles",
+  "detail": "U-shaped steel rack that holds an 18.9L or 20L water bottle on its side, plus a push tap that screws on the bottle neck. Pour drinking water without lifting the bottle or a dispenser. White or black. Any 2 bottle stands KES 1,790",
+  "price": 990,
+  "unit": "1 set",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "White"
+     ],
+     [
+      "Black"
+     ]
+    ]
+   }
+  ],
+  "vids": [
+   "rack-bucket-tap-1"
+  ],
+  "vi": {
+   "White": "rack-bucket-tap-1",
+   "Black": "rack-bucket-tap-2"
+  },
+  "imgs": [
+   "rack-bucket-tap-g1"
+  ],
+  "added": "2026-11-26",
+  "sub": "Bottle stands & taps"
+ },
+ {
+  "id": "shoe-rack-7",
+  "cat": "storage",
+  "name": "👟 7-layer shoe rack, 60 x 30 x 127cm",
+  "detail": "Easy-to-assemble steel tube shoe rack with 7 shelves and black joints. Holds about 21 pairs. 60cm wide, 30cm deep, 127cm tall. No tools needed",
+  "price": 1690,
+  "unit": "1 rack",
+  "vids": [
+   "shoe-rack-7-1"
+  ],
+  "imgs": [
+   "shoe-rack-7-g1"
+  ],
+  "added": "2026-11-26",
+  "sub": "Shoe racks"
+ },
+ {
+  "id": "gloves-silicone-wash",
+  "cat": "home",
+  "name": "🧤 Silicone scrubbing dish gloves, pair",
+  "detail": "Reusable silicone gloves with scrubbing bristles on the palm: wash dishes, sufurias, fruit, clothes, the car and the toilet without a sponge. Heat resistant, rinse clean. 33.5cm long. Grey, pink, teal, purple or mint. Any 2 pairs KES 790",
+  "price": 450,
+  "unit": "1 pair",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Grey"
+     ],
+     [
+      "Pink"
+     ],
+     [
+      "Teal"
+     ],
+     [
+      "Purple"
+     ],
+     [
+      "Mint"
+     ]
+    ]
+   }
+  ],
+  "vids": [
+   "gloves-silicone-wash-1"
+  ],
+  "imgs": [
+   "gloves-silicone-wash-g1",
+   "gloves-silicone-wash-g2"
+  ],
+  "added": "2026-11-26",
+  "sub": "Cleaning supplies"
  }
 ]
