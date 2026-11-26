@@ -6851,6 +6851,53 @@
   "sub": "Duvet sets"
  },
  {
+  "id": "duvet-set-velvet",
+  "cat": "bedding",
+  "name": "🛏️ Velvet duvet set: duvet, bedsheet & 2 pillowcases, 6x7",
+  "price": 4490,
+  "unit": "4pc set",
+  "added": "2026-11-26",
+  "detail": "Plush ribbed velvet duvet with a matching velvet bedsheet and 2 pillowcases, grey contrast reverse. Big 6 x 7 size, super warm and soft. 7 colours. Any 2 velvet duvet sets KES 8,490",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Mustard yellow"
+     ],
+     [
+      "Charcoal grey"
+     ],
+     [
+      "Cream"
+     ],
+     [
+      "Camel"
+     ],
+     [
+      "Chocolate brown"
+     ],
+     [
+      "Maroon"
+     ],
+     [
+      "Emerald green"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Mustard yellow": "duvet-set-velvet-1",
+   "Charcoal grey": "duvet-set-velvet-2",
+   "Cream": "duvet-set-velvet-3",
+   "Camel": "duvet-set-velvet-4",
+   "Chocolate brown": "duvet-set-velvet-5",
+   "Maroon": "duvet-set-velvet-6",
+   "Emerald green": "duvet-set-velvet-7"
+  },
+  "sub": "Duvet sets"
+ },
+ {
   "id": "tree-green",
   "cat": "decor",
   "name": "🎄 Green artificial Christmas tree, 3ft to 9ft",
