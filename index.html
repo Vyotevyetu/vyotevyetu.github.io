@@ -628,7 +628,7 @@ const DEALS = [
   { label: "Any 2 mug sets", qty: 2, price: 1990, test: p => /Any 2 sets \(12 mugs\) KES 1,990/.test(p.detail) },
   { label: "Any 2 gold mug sets", qty: 2, price: 2590, test: p => /Any 2 gold sets/.test(p.detail) },
   { label: "Two-tone trio, 3 sets", qty: 3, price: 1990, test: p => /^mug-25002[ybg]$/.test(p.id) },
-  { label: "Any 2 toilet mat sets", qty: 2, price: 2190, test: p => p.id.startsWith("mat-") },
+  { label: "Any 2 toilet mat sets", qty: 2, price: 2190, test: p => p.id.startsWith("mat-") && /toilet mat set/i.test(p.name) },
   { label: "Any 2 corner shelves", qty: 2, price: 1790, test: p => p.id === "shelf-rotating" },
   { label: "Any 2 acrylic or House tray sets", qty: 2, price: 3990, test: p => /^tray-(acr|house)-/.test(p.id) },
   { label: "Any 2 clear acrylic trays", qty: 2, price: 990, test: p => p.id.startsWith("tray-clear-") },
