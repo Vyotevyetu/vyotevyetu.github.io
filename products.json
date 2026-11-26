@@ -1854,6 +1854,24 @@
   "added": "2026-11-22"
  },
  {
+  "id": "scale-acs40",
+  "cat": "business",
+  "name": "⚖️ ACS-40 digital price computing scale, 40kg",
+  "price": 3690,
+  "unit": "1 pc",
+  "detail": "Shop counter scale that shows weight, unit price and total price. Weighs up to 40 kg, from 200 g, in 2 g steps. Stainless steel tray, 4 memory keys, tare and zero. Mains power with backup battery. For mama mboga, butcheries, shops and supermarkets",
+  "added": "2026-11-26"
+ },
+ {
+  "id": "scale-acs40-arm",
+  "cat": "business",
+  "name": "⚖️ ACS-40 digital scale with customer display arm, 40kg",
+  "price": 4490,
+  "unit": "1 pc",
+  "detail": "Price computing counter scale with a raised display pole so customers see the weight, unit price and total. Up to 40 kg, from 200 g, 5 g steps. Stainless steel tray, memory keys, tare and zero. Great for butcheries, groceries and shops",
+  "added": "2026-11-26"
+ },
+ {
   "id": "infrared-cooker",
   "cat": "cookers",
   "name": "Infrared gas cooker",
@@ -3056,6 +3074,28 @@
   "detail": "2L, auto shut-off",
   "price": 790,
   "unit": "each"
+ },
+ {
+  "id": "toaster-bh002",
+  "cat": "kettles",
+  "name": "🍞 2-slice toaster BH-002",
+  "price": 1890,
+  "unit": "1 pc",
+  "detail": "Heavy duty 2-slice pop-up toaster with browning control and a stop button. Shiny stainless steel body, UK 3-pin plug. 1 year warranty. Black or white",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Black"
+     ],
+     [
+      "White"
+     ]
+    ]
+   }
+  ],
+  "added": "2026-11-26"
  },
  {
   "id": "lug-rosegold-stripe",
@@ -7258,6 +7298,124 @@
   "sub": "Blankets"
  },
  {
+  "id": "blanket-fleece-plain",
+  "cat": "bedding",
+  "name": "🛏️ Plain fleece blanket, 6x6",
+  "price": 1390,
+  "unit": "1 pc",
+  "detail": "Soft, light and warm plain flannel fleece blanket. Size 6 x 6. 13 colours: white, black, greys, browns, yellow, maroon, pink and four blues. Great for beds, sofas, schools and gifts. Any 2 plain fleece blankets KES 2,590",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "White"
+     ],
+     [
+      "Black"
+     ],
+     [
+      "Charcoal grey"
+     ],
+     [
+      "Silver grey"
+     ],
+     [
+      "Chocolate brown"
+     ],
+     [
+      "Yellow"
+     ],
+     [
+      "Maroon red"
+     ],
+     [
+      "Mocha brown"
+     ],
+     [
+      "Pink"
+     ],
+     [
+      "Sky blue"
+     ],
+     [
+      "Aqua blue"
+     ],
+     [
+      "Royal blue"
+     ],
+     [
+      "Navy blue"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "White": "blanket-fleece-plain-1",
+   "Black": "blanket-fleece-plain-2",
+   "Charcoal grey": "blanket-fleece-plain-3",
+   "Silver grey": "blanket-fleece-plain-4",
+   "Chocolate brown": "blanket-fleece-plain-5",
+   "Yellow": "blanket-fleece-plain-6",
+   "Maroon red": "blanket-fleece-plain-7",
+   "Mocha brown": "blanket-fleece-plain-8",
+   "Pink": "blanket-fleece-plain-9",
+   "Sky blue": "blanket-fleece-plain-10",
+   "Aqua blue": "blanket-fleece-plain-11",
+   "Royal blue": "blanket-fleece-plain-12",
+   "Navy blue": "blanket-fleece-plain-13"
+  },
+  "added": "2026-11-26",
+  "sub": "Blankets"
+ },
+ {
+  "id": "blanket-fleece-check",
+  "cat": "bedding",
+  "name": "🛏️ Check velvet fleece blanket, 6x6",
+  "price": 1590,
+  "unit": "1 pc",
+  "detail": "Fluffy ribbed velvet fleece blanket in bold check prints. Thick, soft and warm. Size 6 x 6. 7 prints. Any 2 check fleece blankets KES 2,890",
+  "opts": [
+   {
+    "n": "Print",
+    "v": [
+     [
+      "Brown & black check"
+     ],
+     [
+      "Green & navy check"
+     ],
+     [
+      "Red, yellow & grey check"
+     ],
+     [
+      "Black, grey & white check"
+     ],
+     [
+      "Blue & teal check"
+     ],
+     [
+      "Red, teal & tan check"
+     ],
+     [
+      "Navy, peach & grey check"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Brown & black check": "blanket-fleece-check-1",
+   "Green & navy check": "blanket-fleece-check-2",
+   "Red, yellow & grey check": "blanket-fleece-check-3",
+   "Black, grey & white check": "blanket-fleece-check-4",
+   "Blue & teal check": "blanket-fleece-check-5",
+   "Red, teal & tan check": "blanket-fleece-check-6",
+   "Navy, peach & grey check": "blanket-fleece-check-7"
+  },
+  "added": "2026-11-26",
+  "sub": "Blankets"
+ },
+ {
   "id": "tree-green",
   "cat": "decor",
   "name": "🎄 Green artificial Christmas tree, 3ft to 9ft",
@@ -10941,7 +11099,7 @@
   "detail": "Opens like an umbrella behind the windscreen and keeps the car cool and the dashboard safe from sun. Silver reflective front, black back. About 125 to 140cm wide, 79cm tall, fits most saloons and small SUVs. Folds into a small pouch for the door pocket or glovebox",
   "cat": "umbrellas",
   "added": "2026-11-25",
-  "sub": "Car sunshades"
+  "sub": "Car sunshades & covers"
  },
  {
   "id": "umb-shade",
@@ -10952,5 +11110,68 @@
   "cat": "umbrellas",
   "added": "2026-11-25",
   "sub": "Shade & garden umbrellas"
+ },
+ {
+  "id": "car-cover",
+  "cat": "umbrellas",
+  "name": "🚗 Waterproof car cover with fleece lining",
+  "price": 4490,
+  "unit": "1 pc",
+  "detail": "Universal silver-grey car cover with a soft fleece inner lining that protects the paint, and reflector strips on the sides. Waterproof, breathable and resists rain, sun, dust and scratches. L for Demio and Vitz, XL for Premio, XXL for Vanguard, X-Trail and Mercedes GLE, YXL for V8 and Prado",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "L (Demio, Vitz)",
+      4490
+     ],
+     [
+      "XL (Premio)",
+      4590
+     ],
+     [
+      "XXL (Vanguard, X-Trail, GLE)",
+      4890
+     ],
+     [
+      "YXL (V8, Prado)",
+      5190
+     ]
+    ]
+   }
+  ],
+  "added": "2026-11-26",
+  "sub": "Car sunshades & covers"
+ },
+ {
+  "id": "tv-stand-istanbul",
+  "cat": "furniture",
+  "name": "📺 Istanbul modern TV stand with LED lights",
+  "price": 5490,
+  "unit": "1 pc",
+  "detail": "Two-level white gloss TV stand with black cabinet doors, gold handles and feet, and warm LED strip lighting under the top. Open middle shelf for a decoder or woofer. Ask for dimensions. Delivery charged by distance",
+  "imgs": [
+   "tv-stand-istanbul-g1"
+  ],
+  "added": "2026-11-26"
+ },
+ {
+  "id": "tv-stand-sydney",
+  "cat": "furniture",
+  "name": "📺 Sydney executive laminated TV stand",
+  "price": 5990,
+  "unit": "1 pc",
+  "detail": "White laminated TV stand with wood-grain doors, gold knobs and gold tapered legs. Two closed cabinets and a two-tier open shelf in the middle. Ask for dimensions. Delivery charged by distance",
+  "added": "2026-11-26"
+ },
+ {
+  "id": "tv-stand-gobby",
+  "cat": "furniture",
+  "name": "📺 Gobby executive laminated TV stand",
+  "price": 7490,
+  "unit": "1 pc",
+  "detail": "Long mahogany-finish laminated TV stand with white grooved doors, black handles and black tapered legs. Two cabinets and an open middle compartment. Ask for dimensions. Delivery charged by distance",
+  "added": "2026-11-26"
  }
 ]
