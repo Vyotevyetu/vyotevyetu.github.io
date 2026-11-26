@@ -7974,6 +7974,9 @@
     ]
    }
   ],
+  "imgs": [
+   "tree-green-g9"
+  ],
   "sub": "Christmas trees"
  },
  {
@@ -12407,5 +12410,81 @@
   "unit": "1 pc",
   "added": "2026-11-26",
   "sub": "Door curtains"
+ },
+ {
+  "id": "bag-velvet-xmas",
+  "name": "🎁 Velvet Merry Christmas gift & candy bag",
+  "detail": "Soft velvet drawstring pouch with a red-and-green bow, little bell and gold \"Merry Christmas\" print. For sweets, chocolates, small gifts, party favours and church or office gift exchanges. Green or red. Any 4 velvet gift bags KES 990",
+  "price": 290,
+  "unit": "1 bag",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Green"
+     ],
+     [
+      "Red"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Green": "bag-velvet-xmas-1",
+   "Red": "bag-velvet-xmas-2"
+  },
+  "cat": "decor",
+  "added": "2026-11-26",
+  "sub": "Table runners, banners & party"
+ },
+ {
+  "id": "ornament-velvet-15",
+  "name": "🍷 Burgundy velvet Christmas ornaments, 6cm box of 15",
+  "detail": "Boxed set of 15 flocked velvet tree ornaments in rich burgundy: 6 flower stars, 3 quilted balls, 3 swirl balls and 3 plain balls, all 6cm with gold caps. Elegant, shatterproof, gift ready",
+  "price": 2290,
+  "unit": "box of 15",
+  "imgs": [
+   "ornament-velvet-15-g1"
+  ],
+  "cat": "decor",
+  "added": "2026-11-26",
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "sign-merry-berries",
+  "name": "❤️ Velvet Merry Christmas door hanger with berries",
+  "detail": "Red velvet \"Merry\" script sign with a Merry Christmas ribbon bow, red berries, pine cone and pine sprigs. Hang on doors, walls or windows. Any 2 door hangers KES 890",
+  "price": 490,
+  "unit": "1 pc",
+  "cat": "decor",
+  "added": "2026-11-26",
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "pick-glitter-red",
+  "name": "✨ Red glitter Christmas pick (fern spray)",
+  "detail": "Sparkly red glitter fern spray for Christmas trees, wreaths, vases, centrepieces and gift wrapping. Bendable stem. Any 3 glitter picks KES 1,590",
+  "price": 650,
+  "unit": "1 pc",
+  "cat": "decor",
+  "added": "2026-11-26",
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "lights-fireworks-led",
+  "name": "🎆 LED fireworks light with remote & music sync",
+  "detail": "Starburst LED light that animates like fireworks, with hundreds of colour and light modes, remote control and music sync. Sticks on walls for bedrooms, living rooms, parties, shops and Christmas. USB powered",
+  "price": 1690,
+  "unit": "1 set",
+  "vids": [
+   "lights-fireworks-led-1"
+  ],
+  "imgs": [
+   "lights-fireworks-led-g1"
+  ],
+  "cat": "decor",
+  "added": "2026-11-26",
+  "sub": "Garlands, wreaths & lights"
  }
 ]
