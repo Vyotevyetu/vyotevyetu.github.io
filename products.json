@@ -10216,53 +10216,6 @@
   "sub": "Garden & outdoor"
  },
  {
-  "id": "spoon-kzh-6",
-  "cat": "cutlery",
-  "name": "🥄 KZH stainless table spoons & forks, 6 pcs",
-  "detail": "KZH stainless steel table spoons or forks, set of 6. Pick a design: A scale-pattern spoons, B scale-pattern forks, C flower-engraved spoons, D leaf-engraved spoons, E plain classic spoons, F heart-handle spoons, G ornate medium spoons (283-1). Everyday use at home, hotels, schools and restaurants. Any 4 KZH sets KES 890 (mix designs). Bulk dozens for hotels on request",
-  "price": 290,
-  "unit": "6pc set",
-  "added": "2026-11-23",
-  "opts": [
-   {
-    "n": "Design",
-    "v": [
-     [
-      "A Scale spoons"
-     ],
-     [
-      "B Scale forks"
-     ],
-     [
-      "C Flower spoons"
-     ],
-     [
-      "D Leaf spoons"
-     ],
-     [
-      "E Plain spoons"
-     ],
-     [
-      "F Heart-handle spoons"
-     ],
-     [
-      "G Ornate spoons (283-1)"
-     ]
-    ]
-   }
-  ],
-  "vi": {
-   "A Scale spoons": "spoon-kzh-6-1",
-   "B Scale forks": "spoon-kzh-6-2",
-   "C Flower spoons": "spoon-kzh-6-3",
-   "D Leaf spoons": "spoon-kzh-6-4",
-   "E Plain spoons": "spoon-kzh-6-5",
-   "F Heart-handle spoons": "spoon-kzh-6-6",
-   "G Ornate spoons (283-1)": "spoon-kzh-6-7"
-  },
-  "sub": "Spoons & forks"
- },
- {
   "id": "ladle-shiny",
   "cat": "cutlery",
   "name": "✨ Shiny stainless serving spoons: soup ladle, rice spoon, egg turner",
