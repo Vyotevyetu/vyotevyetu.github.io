@@ -13411,5 +13411,223 @@
   "unit": "4pc set",
   "added": "2026-11-26",
   "sub": "Serving spoons & ladles"
+ },
+ {
+  "id": "basket-star-orbit",
+  "cat": "home",
+  "name": "🧺 Star Orbit basket with lid & handles",
+  "detail": "Strong Kenyan-made plastic basket with clip lid and 2 fold-down handles. Airy holes keep fruit, vegetables and laundry fresh. Shopping, picnics, storage and school snacks. Any 2 baskets KES 1,350",
+  "price": 750,
+  "unit": "1 pc",
+  "added": "2026-11-27",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Blue"
+     ],
+     [
+      "Green"
+     ],
+     [
+      "Pink"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Blue": "basket-star-orbit-1",
+   "Green": "basket-star-orbit-2",
+   "Pink": "basket-star-orbit-3"
+  },
+  "sub": "Storage & organisers"
+ },
+ {
+  "id": "kit-chapati-press",
+  "cat": "kitchen",
+  "name": "🫓 Round wooden chapati press, 11.5cm",
+  "detail": "Natural wood press with a comfortable handle. Flattens chapati, roti and dough balls into even rounds. Home or hotel kitchens. Any 2 for KES 790",
+  "price": 450,
+  "unit": "1 pc",
+  "added": "2026-11-27",
+  "sub": "Baking & pastry tools"
+ },
+ {
+  "id": "bottle-motion-800",
+  "cat": "flasks",
+  "name": "🥤 Motion water bottle 800ml with infuser",
+  "detail": "Clear BPA-free bottle with silicone grip band, carry loop lid and fruit or tea infuser basket. Gym, school and office. Any 2 Motion bottles KES 1,150",
+  "price": 650,
+  "unit": "1 pc",
+  "added": "2026-11-27",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Pink"
+     ],
+     [
+      "Black"
+     ],
+     [
+      "White"
+     ],
+     [
+      "Beige"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Pink": "bottle-motion-800-1",
+   "Black": "bottle-motion-800-2",
+   "White": "bottle-motion-800-3",
+   "Beige": "bottle-motion-800-4"
+  },
+  "sub": "Water bottles"
+ },
+ {
+  "id": "cup-coffee-mszm-500",
+  "cat": "flasks",
+  "name": "☕ Coffee travel cup 500ml, push-button lid",
+  "detail": "304 stainless steel vacuum cup with silicone grip and leak-proof push-button lid. Grey comes with a smart lid that shows the drink temperature. Hot or cold. Boxed. Any 2 coffee mugs KES 1,490",
+  "price": 950,
+  "unit": "1 pc",
+  "added": "2026-11-27",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Grey, temperature display lid"
+     ],
+     [
+      "Black"
+     ],
+     [
+      "Cream"
+     ],
+     [
+      "Olive green"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Grey, temperature display lid": "cup-coffee-mszm-500-1",
+   "Black": "cup-coffee-mszm-500-2",
+   "Cream": "cup-coffee-mszm-500-3",
+   "Olive green": "cup-coffee-mszm-500-4"
+  },
+  "sub": "Tumblers & travel cups"
+ },
+ {
+  "id": "mug-football-kenstar",
+  "cat": "mugs",
+  "name": "⚽ Kenstar football plastic mugs",
+  "detail": "Unbreakable black and white football-print plastic mugs by Kenstar, made in Kenya. Kids, schools, parties and fans. 6 mugs KES 590, 12 mugs KES 990",
+  "price": 590,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "opts": [
+   {
+    "n": "Pack",
+    "v": [
+     [
+      "6 mugs",
+      590
+     ],
+     [
+      "12 mugs",
+      990
+     ]
+    ]
+   }
+  ],
+  "sub": "Plastic & melamine mugs"
+ },
+ {
+  "id": "urn-niceone-idc1000",
+  "cat": "flasks",
+  "name": "🌸 Nice One flowered tea urn 9.5L (IDC-1000)",
+  "detail": "Insulated 9.5 litre tea urn with flower print, single tap, carry handle and 3 legs. Keeps tea hot for hours at home, office, church and events. No electricity needed",
+  "price": 2990,
+  "unit": "1 pc",
+  "added": "2026-11-27",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Blue roses"
+     ],
+     [
+      "Pink flowers"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Blue roses": "urn-niceone-idc1000-1",
+   "Pink flowers": "urn-niceone-idc1000-2"
+  },
+  "sub": "Tea urns"
+ },
+ {
+  "id": "mug-tree-281g",
+  "cat": "mugs",
+  "name": "🌳 Long tree mugs, 6pcs (281G)",
+  "detail": "Tall white ceramic mugs with black tree-branch print. Tea, coffee and uji. Any 2 sets (12 mugs) KES 1,990",
+  "price": 1290,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "sub": "Printed & coloured mugs"
+ },
+ {
+  "id": "mug-enamel-2108p",
+  "cat": "mugs",
+  "name": "🫖 Enamel mugs, cream with blue rim (2108P)",
+  "detail": "Classic metal enamel mugs, cream with blue rim. Strong, do not break, great for chai, schools, camping and homes. 6 mugs KES 750, 12 mugs KES 1,390",
+  "price": 750,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "opts": [
+   {
+    "n": "Pack",
+    "v": [
+     [
+      "6 mugs",
+      750
+     ],
+     [
+      "12 mugs",
+      1390
+     ]
+    ]
+   }
+  ],
+  "sub": "White & embossed mugs"
+ },
+ {
+  "id": "cooker-nunix-wld560go",
+  "cat": "cookers",
+  "name": "🔥 Nunix full gas standing cooker with oven (WLD-560-GO)",
+  "detail": "4 gas burners and a gas oven, 55 x 60cm. Auto ignition, rotisserie, oven lamp and steel splash lid. 1 year warranty. Delivery charged by distance",
+  "price": 18990,
+  "unit": "1 pc",
+  "added": "2026-11-27",
+  "sub": "Gas cookers"
+ },
+ {
+  "id": "cooker-euroken-65-3g1e",
+  "cat": "cookers",
+  "name": "🔥 Euroken 3 gas + 1 electric standing cooker, electric oven (EURO 65-3G-1E)",
+  "detail": "3 gas burners plus 1 electric hot plate, electric oven, glass top lid, blue body, 60 x 65cm. Cook with gas or power. 1 year warranty. Delivery charged by distance",
+  "price": 25990,
+  "unit": "1 pc",
+  "added": "2026-11-27",
+  "sub": "Gas cookers"
  }
 ]
