@@ -6674,10 +6674,55 @@
  {
   "id": "velvet-duvet",
   "cat": "bedding",
-  "name": "Velvet duvet",
-  "detail": "6 x 6, 9 colours. Duvet only, no sheets or pillowcases",
-  "price": 2690,
-  "unit": "each"
+  "name": "🛏️ Velvet corduroy duvet with sherpa back, 6x6",
+  "detail": "Thick ribbed velvet duvet with a soft grey sherpa fleece underside. Very warm for cold Nairobi nights. Size 6 x 6. Duvet only: no bedsheet, pillowcases or bag. Any 2 duvets KES 4,390",
+  "price": 2490,
+  "unit": "each",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Emerald green"
+     ],
+     [
+      "Navy blue"
+     ],
+     [
+      "Chocolate brown"
+     ],
+     [
+      "White"
+     ],
+     [
+      "Maroon"
+     ],
+     [
+      "Grey"
+     ],
+     [
+      "Cream"
+     ],
+     [
+      "Mustard yellow"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Emerald green": "velvet-duvet-1",
+   "Navy blue": "velvet-duvet-2",
+   "Chocolate brown": "velvet-duvet-3",
+   "White": "velvet-duvet-4",
+   "Maroon": "velvet-duvet-5",
+   "Grey": "velvet-duvet-6",
+   "Cream": "velvet-duvet-7",
+   "Mustard yellow": "velvet-duvet-8"
+  },
+  "imgs": [
+   "velvet-duvet-g1"
+  ],
+  "sub": "Duvets"
  },
  {
   "id": "print-sheets",
@@ -6685,7 +6730,8 @@
   "name": "Printed cotton bedsheet set",
   "detail": "Fitted and flat sheet, 4 pillowcases, 6 x 6",
   "price": 2890,
-  "unit": "6pc set"
+  "unit": "6pc set",
+  "sub": "Bedsheets"
  },
  {
   "id": "white-sheets",
@@ -6693,7 +6739,116 @@
   "name": "White striped bedsheet set",
   "detail": "Hotel style cotton. Fitted and flat sheet, 4 pillowcases, 6 x 6",
   "price": 2890,
-  "unit": "6pc set"
+  "unit": "6pc set",
+  "sub": "Bedsheets"
+ },
+ {
+  "id": "duvet-woollen-print",
+  "cat": "bedding",
+  "name": "🛏️ Printed woollen duvet with sherpa back, 6x6",
+  "price": 2190,
+  "unit": "1 pc",
+  "detail": "Soft printed flannel duvet with a warm sherpa fleece back. Size 6 x 6. Bold prints: red circles, navy horses, pink and purple petals, grey and black blocks, and more assorted designs. Duvet only: no bedsheet, pillowcases or bag. Any 2 duvets KES 4,390",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "Red circles"
+     ],
+     [
+      "Navy horses"
+     ],
+     [
+      "Pink & purple petals"
+     ],
+     [
+      "Grey & black blocks"
+     ],
+     [
+      "Assorted, ask for photos"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Red circles": "duvet-woollen-print-1",
+   "Navy horses": "duvet-woollen-print-2",
+   "Pink & purple petals": "duvet-woollen-print-3",
+   "Grey & black blocks": "duvet-woollen-print-4"
+  },
+  "imgs": [
+   "duvet-woollen-print-g1"
+  ],
+  "added": "2026-11-26",
+  "sub": "Duvets"
+ },
+ {
+  "id": "duvet-set-floral",
+  "cat": "bedding",
+  "name": "🛏️ 4pc duvet set: duvet, bedsheet & 2 pillowcases, 5x6",
+  "price": 1890,
+  "unit": "4pc set",
+  "detail": "Light quilted printed duvet that comes with a matching bedsheet and 2 pillowcases. Size 5 x 6. 13 designs including sunflower stripes, check, waves, stars, stripes and geometric prints. Any 2 duvet sets KES 3,490",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "Sunflower stripes"
+     ],
+     [
+      "Colour blocks"
+     ],
+     [
+      "Beige check"
+     ],
+     [
+      "Bubble stripes"
+     ],
+     [
+      "Blue dots"
+     ],
+     [
+      "Teal waves"
+     ],
+     [
+      "Red & navy squares"
+     ],
+     [
+      "Blue diamonds"
+     ],
+     [
+      "Grey maze"
+     ],
+     [
+      "Black stars"
+     ],
+     [
+      "Blue stripes"
+     ],
+     [
+      "Orange links"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Sunflower stripes": "duvet-set-floral-1",
+   "Colour blocks": "duvet-set-floral-2",
+   "Beige check": "duvet-set-floral-3",
+   "Bubble stripes": "duvet-set-floral-4",
+   "Blue dots": "duvet-set-floral-5",
+   "Teal waves": "duvet-set-floral-6",
+   "Red & navy squares": "duvet-set-floral-7",
+   "Blue diamonds": "duvet-set-floral-8",
+   "Grey maze": "duvet-set-floral-9",
+   "Black stars": "duvet-set-floral-10",
+   "Blue stripes": "duvet-set-floral-11",
+   "Orange links": "duvet-set-floral-12"
+  },
+  "added": "2026-11-26",
+  "sub": "Duvet sets"
  },
  {
   "id": "tree-green",
