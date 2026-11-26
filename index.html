@@ -271,6 +271,7 @@ input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-sea
 .cat .cin img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.12);transition:opacity .9s ease,transform 3s ease}
 .cat .cin img.on{opacity:1;transform:scale(1)}
 .cat .cin .all,.cat .cin .newt{position:absolute;inset:0;border-radius:50%}
+.cat[data-cat="deals"] .ci{background:conic-gradient(from var(--a,0deg),#f2b632,#d9412e,#f2b632);animation:ring 3s linear infinite}.dealt{font-size:.72em;line-height:1.15;text-align:center}
 .cat[data-cat="new"] .ci{background:conic-gradient(from var(--a,0deg),#d9412e,#f2b544,#ff7a59,#d9412e);animation:ring 3s linear infinite}
 .cat[aria-pressed="true"] .ci{transform:scale(1.06);background:var(--green-2);animation:none}
 .cat[aria-pressed="true"] .cin{border-color:var(--bg)}
@@ -490,6 +491,7 @@ function renderCats() {
     const inner = k === "all" ? `<div class="all">All</div>` : deptPics(k).map((id, i) => `<img src="${TH(id)}" alt="" ${i ? 'loading="lazy"' : ""} class="${i ? "" : "on"}">`).join("");
     return `<button class="cat" type="button" data-cat="${k}" aria-pressed="${k === act}"><span class="ci"><span class="cin">${inner}</span></span><span class="cn">${esc(n)}</span><span class="cc">${k === "all" ? PRODUCTS.length : DCOUNT(k)}</span></button>`;
   }).join("");
+  { const dn = PRODUCTS.filter(isDealP).length; if (dn) $("cats").firstElementChild.insertAdjacentHTML("afterend", `<button class="cat" type="button" data-cat="deals" aria-pressed="${cat === "deals"}"><span class="ci"><span class="cin"><div class="newt dealt">🔥<br>DEALS</div></span></span><span class="cn">Deals</span><span class="cc">${dn}</span></button>`); }
   if (NEWN) $("cats").firstElementChild.insertAdjacentHTML("afterend", `<button class="cat" type="button" data-cat="new" aria-pressed="${cat === "new"}"><span class="ci"><span class="cin"><div class="newt">NEW</div></span></span><span class="cn">New arrivals</span><span class="cc">${NEWN}</span></button>`);
 }
 function renderCatsOld() {
@@ -568,7 +570,7 @@ function buyHTML(p, key) {
 function visible(all) {
   const q = query.toLowerCase().trim().split(/\s+/).filter(Boolean);
   const qs = q.map(w => [w, SYN[w], w.length > 3 && w.endsWith("s") ? w.slice(0, -1) : null].filter(Boolean));
-  let list = PRODUCTS.filter(p => { if (!(q.length || cat === "all" || inCat(p, cat) || (cat === "new" && isNew(p))) || !(q.length || !sub || p.sub === sub)) return false; const t = (p.name + " " + p.detail + " " + CATNAME[p.cat] + " " + (p.sub || "") + " " + p.id).toLowerCase(); return qs.every(a => a.some(w => t.includes(w))); });
+  let list = PRODUCTS.filter(p => { if (!(q.length || cat === "all" || inCat(p, cat) || (cat === "new" && isNew(p)) || (cat === "deals" && isDealP(p))) || !(q.length || !sub || p.sub === sub)) return false; const t = (p.name + " " + p.detail + " " + CATNAME[p.cat] + " " + (p.sub || "") + " " + p.id).toLowerCase(); return qs.every(a => a.some(w => t.includes(w))); });
   if (!all) list = list.filter(p => inBud(p, bud));
   if (sort === "rec") list = [...list].sort((a, b) => REC[b.id] - REC[a.id]);
   if (sort === "lo") list = [...list].sort((a, b) => a.price - b.price);
@@ -583,12 +585,12 @@ function renderGrid(scroll) {
   renderSubs(); renderBud();
   const list = visible();
   $("season").textContent = sort === "rec" && !query.trim() ? "Sorted for now: " + SEASON.label : "";
-  $("count").innerHTML = `${query.trim() ? "Results for “" + esc(query.trim()) + "”" : cat === "all" ? "All products" : cat === "new" ? "New arrivals" : esc(sub || CATNAME[cat])}${bud ? " · " + BUD.find(x => x[0] === bud)[1] : ""}<small>${list.length}</small>`;
+  $("count").innerHTML = `${query.trim() ? "Results for “" + esc(query.trim()) + "”" : cat === "all" ? "All products" : cat === "new" ? "New arrivals" : cat === "deals" ? "🔥 Deals" : esc(sub || CATNAME[cat])}${bud ? " · " + BUD.find(x => x[0] === bud)[1] : ""}<small>${list.length}</small>`;
   $("grid").innerHTML = list.length ? list.map((p, i) => `
     <article class="card${p.soldout ? " out" : ""}" style="animation-delay:${Math.min(i, 12) * 30}ms">
       <button class="ph" type="button" data-view="${p.id}" aria-label="View photo of ${esc(p.name)}">
         <img src="${TH(p.id)}" alt="${esc(p.name)}" loading="lazy" decoding="async" width="520" height="520" onload="this.parentNode.classList.add('ok')" onerror="this.parentNode.classList.add('ok')">
-        ${(cat === "all" || cat === "new" || query.trim()) ? `<span class="tag">${esc(CATNAME[p.cat])}</span>` : ""}
+        ${(cat === "all" || cat === "new" || cat === "deals" || query.trim()) ? `<span class="tag">${esc(CATNAME[p.cat])}</span>` : ""}
         ${p.soldout ? '<span class="soldtag">SOLD OUT</span>' : isNew(p) ? '<span class="new">NEW</span>' : ""}<span class="zoom">${ZOOM}</span>
       </button>
       <div class="body">
@@ -830,6 +832,7 @@ $("vshare").addEventListener("click", () => { SHPICS = gallery(byId[vid]); gc("s
 
 /* product details + platform share */
 const feats = p => p.detail.split(/(?<=[.!])\s+/).map(x => x.trim().replace(/\.$/, "")).filter(x => x && !/^Any \d/i.test(x) && !/^\d+ (designs|prints|colours|styles)\b|^(Designs|Prints|Colours?)\b/i.test(x));
+const isDealP = p => !p.soldout && dealsOf(p).length > 0;
 const dealsOf = p => DEALS.filter(d => { try { return d.test(p); } catch (e) { return false; } });
 const nameOf = p => p.name.replace(/^[^\p{L}\p{N}]+/u, "").trim();
 function priceRange(p) { const ps = [p.price]; (p.opts || []).forEach(o => o.v.forEach(v => v[1] && ps.push(v[1]))); const lo = Math.min(...ps), hi = Math.max(...ps); return lo === hi ? fmt(lo) : fmt(lo) + " – " + fmt(hi); }
@@ -994,7 +997,7 @@ function fromHash() {
   const m = location.hash.match(/^#(p|c)=([\w-]+)(?:&s=([\w-]+))?(?:&b=([\w-]+))?/); if (!m) return;
   if (m[4] && BUD.some(x => x[0] === m[4])) bud = m[4];
   try { history.replaceState(null, "", location.pathname + location.search); } catch (e) {}
-  if (m[1] === "c" && (counts[m[2]] || m[2] === "new" || m[2] === "all" || DMAP[m[2]])) { cat = m[2]; sub = (m[3] && (SUBS[cat] || []).find(s => slug(s) === m[3])) || ""; renderCats(); renderGrid(true); }
+  if (m[1] === "c" && (counts[m[2]] || m[2] === "new" || m[2] === "deals" || m[2] === "all" || DMAP[m[2]])) { cat = m[2]; sub = (m[3] && (SUBS[cat] || []).find(s => slug(s) === m[3])) || ""; renderCats(); renderGrid(true); }
   const pid = REDIR[m[2]] || m[2]; if (m[1] === "p" && byId[pid]) openV(pid);
 }
 fromHash(); addEventListener("hashchange", fromHash);
