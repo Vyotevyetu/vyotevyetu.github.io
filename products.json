@@ -12634,5 +12634,117 @@
   "unit": "1 pc",
   "added": "2026-11-26",
   "sub": "Pill organisers"
+ },
+ {
+  "id": "bbq-gloves-800",
+  "cat": "kitchen",
+  "name": "🔥 Heat-resistant BBQ & oven gloves, pair",
+  "detail": "Long-cuff fireproof gloves rated to 800°C with silicone grip dots. For nyama choma, grills, jikos, ovens, hot sufurias and fireplaces. Washable, one size fits most",
+  "price": 1190,
+  "unit": "1 pair",
+  "added": "2026-11-26",
+  "sub": "Kitchen gadgets"
+ },
+ {
+  "id": "bath-caddy-5",
+  "cat": "bathroom",
+  "name": "🧴 Shower caddy set with hooks, 5pcs, black, no drilling",
+  "detail": "Rust-proof black shower organiser: 2 long shelves (one with 5 hooks) plus 3 small baskets for soap, sponges and bottles. Sticks on tiles, no drilling",
+  "price": 2590,
+  "unit": "5pc set",
+  "added": "2026-11-26",
+  "sub": "Shower caddies & organisers"
+ },
+ {
+  "id": "trek-pole",
+  "cat": "home",
+  "name": "🥾 Anti-shock trekking pole / walking stick",
+  "detail": "Lightweight aluminium telescopic walking stick with T-grip handle, wrist strap and anti-shock spring. Adjusts to your height. For hiking, Ngong Hills, travel and elderly support. 6 colours. Any 2 trekking poles KES 2,490",
+  "price": 1390,
+  "unit": "1 pole",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Purple"
+     ],
+     [
+      "Silver"
+     ],
+     [
+      "Blue"
+     ],
+     [
+      "Black"
+     ],
+     [
+      "Gold"
+     ],
+     [
+      "Red"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Purple": "trek-pole-1",
+   "Silver": "trek-pole-2",
+   "Blue": "trek-pole-3",
+   "Black": "trek-pole-4",
+   "Gold": "trek-pole-5",
+   "Red": "trek-pole-6"
+  },
+  "added": "2026-11-26",
+  "sub": "Garden & outdoor"
+ },
+ {
+  "id": "solar-ball-6",
+  "cat": "home",
+  "name": "🌕 Solar garden ball lights, 6pcs",
+  "detail": "Set of 6 white globe solar lights on ground stakes for lawns, paths, driveways and compounds. Charge in the sun, light up automatically at night, no wiring. 10cm ball, 38cm tall",
+  "price": 3990,
+  "unit": "6pc set",
+  "imgs": [
+   "solar-ball-6-g1",
+   "solar-ball-6-g2",
+   "solar-ball-6-g3",
+   "solar-ball-6-g4"
+  ],
+  "added": "2026-11-26",
+  "sub": "Garden & outdoor"
+ },
+ {
+  "id": "desk-mousepad-excel",
+  "cat": "home",
+  "name": "🖱️ Excel shortcuts desk mat / mouse pad, 30x60cm",
+  "detail": "Large desk mat printed with spreadsheet shortcuts and common formulas: SUM, VLOOKUP, IF, COUNTIF and more. Smooth surface, non-slip rubber base. Great for students, accountants and office workers. Any 2 desk mats KES 1,390",
+  "price": 790,
+  "unit": "1 pc",
+  "vids": [
+   "mousepad-excel-1"
+  ],
+  "added": "2026-11-26",
+  "sub": "Office & desk"
+ },
+ {
+  "id": "desk-organizer-boho",
+  "cat": "home",
+  "name": "🗂️ Desktop letter & file organiser, boho jute front",
+  "detail": "White wooden 2-slot organiser for letters, files, envelopes, notebooks and mail, with a jute front and gold trim. Neat for offices, reception desks and homes",
+  "price": 1090,
+  "unit": "1 pc",
+  "added": "2026-11-26",
+  "sub": "Office & desk"
+ },
+ {
+  "id": "kit-jar-opener",
+  "cat": "kitchen",
+  "name": "🫙 4-in-1 jar & bottle opener",
+  "detail": "Grip opener with 4 sizes for stubborn jar lids, bottle caps and soda tops. Non-slip, easy for elderly and arthritic hands. Colours vary. Any 2 jar openers KES 790",
+  "price": 490,
+  "unit": "1 pc",
+  "added": "2026-11-26",
+  "sub": "Kitchen gadgets"
  }
 ]
