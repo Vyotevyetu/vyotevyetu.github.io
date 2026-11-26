@@ -85,6 +85,7 @@ button{font-family:inherit}
 .cats::-webkit-scrollbar{display:none}
 .subs{display:flex;gap:8px;overflow-x:auto;padding:4px 2px 10px;scrollbar-width:none}.subs::-webkit-scrollbar{display:none}.subs:empty{display:none}.dsubs .sub[aria-pressed="true"]{background:var(--ink);border-color:var(--ink)}#dsubs+#subs{padding-top:0}
 .sub{flex:none;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:8px 14px;font:700 .82rem var(--body);color:var(--ink);cursor:pointer}.sub[aria-pressed="true"]{background:var(--green);color:#fff;border-color:var(--green)}.sub small{opacity:.65;margin-left:5px;font-weight:600}
+.bud{align-items:center;padding-top:0}.bud b{flex:none;font:800 .78rem var(--body);color:#5f6e66;margin-right:2px}.bud .sub{padding:6px 12px;font-size:.78rem}.bud .sub[aria-pressed="true"]{background:#f2b632;border-color:#f2b632;color:#14231c}
 .cat{flex:none;width:86px;scroll-snap-align:start;border:0;background:none;padding:0;cursor:pointer;color:var(--ink);text-align:center}
 .cat .ci{display:block;width:86px;height:86px;border-radius:22px;overflow:hidden;background:var(--chip);border:2px solid transparent;transition:border-color .2s, transform .2s;box-shadow:var(--shadow)}
 .cat .ci img{width:100%;height:100%;object-fit:cover}
@@ -323,6 +324,7 @@ input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-sea
   <nav class="cats" id="cats" aria-label="Categories"></nav>
   <nav class="subs dsubs" id="dsubs" aria-label="Categories in this department"></nav>
   <nav class="subs" id="subs" aria-label="Sections"></nav>
+  <nav class="subs bud" id="bud" aria-label="Shop by budget"></nav>
 
   <div class="tools"><div class="row">
     <div><div class="count" id="count"></div><div class="season" id="season"></div></div>
@@ -391,7 +393,9 @@ const fmt = n => "KES " + n.toLocaleString("en-US");
 const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const PLUS = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>';
 const ZOOM = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>';
-let cat = "all", sub = "", query = "", sort = "rec";
+let cat = "all", sub = "", query = "", sort = "rec", bud = "";
+const BUD = [["", "Any price", 0, 1e9], ["u500", "Under 500", 0, 499], ["500", "500 – 1,000", 500, 1000], ["1k", "1,000 – 3,000", 1001, 3000], ["3k", "3,000 – 10,000", 3001, 10000], ["10k", "Over 10,000", 10001, 1e9]];
+const inBud = (p, k) => { const b = BUD.find(x => x[0] === k) || BUD[0]; return p.price >= b[2] && p.price <= b[3]; };
 const slug = s => String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 let cart = {};
 try { cart = JSON.parse(localStorage.getItem("vv-cart") || "{}") || {}; } catch (e) { cart = {}; }
@@ -505,6 +509,11 @@ function renderSubs() {
   const n = s => PRODUCTS.filter(p => p.cat === cat && (!s || p.sub === s)).length;
   $("subs").innerHTML = [["", "All " + CATNAME[cat].toLowerCase()], ...L.map(s => [s, s])].map(([s, t]) => `<button class="sub" type="button" data-sub="${esc(s)}" aria-pressed="${s === sub}">${esc(t)}<small>${n(s)}</small></button>`).join("");
 }
+$("bud").addEventListener("click", e => {
+  const b = e.target.closest("[data-bud]"); if (!b) return;
+  bud = b.dataset.bud; if (bud) gc("budget/" + bud, "Budget: " + b.firstChild.textContent);
+  renderGrid(false);
+});
 $("subs").addEventListener("click", e => {
   const b = e.target.closest(".sub"); if (!b) return;
   sub = b.dataset.sub; if (sub) gc("subcategory/" + cat + "/" + slug(sub), "Subcategory: " + sub);
@@ -556,20 +565,25 @@ function buyHTML(p, key) {
   return q ? `<div class="step"><button type="button" data-act="dec" data-id="${esc(k)}" aria-label="One less">−</button><output>${q}</output><button type="button" data-act="inc" data-id="${esc(k)}" aria-label="One more">+</button></div>`
            : `<button class="add" type="button" data-act="inc" data-id="${esc(k)}" aria-label="Add ${esc(p.name)}">${PLUS}</button>`;
 }
-function visible() {
+function visible(all) {
   const q = query.toLowerCase().trim().split(/\s+/).filter(Boolean);
   const qs = q.map(w => [w, SYN[w], w.length > 3 && w.endsWith("s") ? w.slice(0, -1) : null].filter(Boolean));
   let list = PRODUCTS.filter(p => { if (!(q.length || cat === "all" || inCat(p, cat) || (cat === "new" && isNew(p))) || !(q.length || !sub || p.sub === sub)) return false; const t = (p.name + " " + p.detail + " " + CATNAME[p.cat] + " " + (p.sub || "") + " " + p.id).toLowerCase(); return qs.every(a => a.some(w => t.includes(w))); });
+  if (!all) list = list.filter(p => inBud(p, bud));
   if (sort === "rec") list = [...list].sort((a, b) => REC[b.id] - REC[a.id]);
   if (sort === "lo") list = [...list].sort((a, b) => a.price - b.price);
   if (sort === "hi") list = [...list].sort((a, b) => b.price - a.price);
   return [...list.filter(p => !p.soldout), ...list.filter(p => p.soldout)];
 }
+function renderBud() {
+  const base = visible(true);
+  $("bud").innerHTML = "<b>💰 Budget</b>" + BUD.map(([k, t]) => { const n = base.filter(p => inBud(p, k)).length; return n || k === bud ? `<button class="sub" type="button" data-bud="${k}" aria-pressed="${k === bud}">${t}${k ? `<small>${n}</small>` : ""}</button>` : ""; }).join("");
+}
 function renderGrid(scroll) {
-  renderSubs();
+  renderSubs(); renderBud();
   const list = visible();
   $("season").textContent = sort === "rec" && !query.trim() ? "Sorted for now: " + SEASON.label : "";
-  $("count").innerHTML = `${query.trim() ? "Results for “" + esc(query.trim()) + "”" : cat === "all" ? "All products" : cat === "new" ? "New arrivals" : esc(sub || CATNAME[cat])}<small>${list.length}</small>`;
+  $("count").innerHTML = `${query.trim() ? "Results for “" + esc(query.trim()) + "”" : cat === "all" ? "All products" : cat === "new" ? "New arrivals" : esc(sub || CATNAME[cat])}${bud ? " · " + BUD.find(x => x[0] === bud)[1] : ""}<small>${list.length}</small>`;
   $("grid").innerHTML = list.length ? list.map((p, i) => `
     <article class="card${p.soldout ? " out" : ""}" style="animation-delay:${Math.min(i, 12) * 30}ms">
       <button class="ph" type="button" data-view="${p.id}" aria-label="View photo of ${esc(p.name)}">
@@ -586,7 +600,7 @@ function renderGrid(scroll) {
     : `<div class="empty"><b>Nothing found</b>Try another word, like “mug”, “cooker” or “set”.<br><button type="button" id="reset">Show all products</button></div>`;
   if (scroll) { const t = document.querySelector(".tools"); window.scrollTo({ top: t.getBoundingClientRect().top + scrollY - 62 + 1, behavior: "smooth" }); }
 }
-$("grid").addEventListener("click", e => { if (e.target.id === "reset") { query = ""; $("q").value = ""; $("searchbox").classList.remove("has"); cat = "all"; renderCats(); renderGrid(); } });
+$("grid").addEventListener("click", e => { if (e.target.id === "reset") { query = ""; bud = ""; $("q").value = ""; $("searchbox").classList.remove("has"); cat = "all"; renderCats(); renderGrid(); } });
 let qt; $("q").addEventListener("input", e => { clearTimeout(qt); $("searchbox").classList.toggle("has", !!e.target.value); qt = setTimeout(() => { query = e.target.value; const t = document.querySelector(".tools"); renderGrid(t.getBoundingClientRect().top > 70 || t.getBoundingClientRect().top < 0); }, 220); });
 $("q").addEventListener("keydown", e => { if (e.key === "Enter") { e.target.blur(); renderGrid(true); } });
 $("qclr").addEventListener("click", () => { $("q").value = ""; query = ""; $("searchbox").classList.remove("has"); renderGrid(); $("q").focus(); });
@@ -940,9 +954,10 @@ renderCats(); renderGrid(); renderCart();
   setTimeout(() => requestAnimationFrame(drift), 1500);
 })();
 function fromHash() {
-  const m = location.hash.match(/^#(p|c)=([\w-]+)(?:&s=([\w-]+))?/); if (!m) return;
+  const m = location.hash.match(/^#(p|c)=([\w-]+)(?:&s=([\w-]+))?(?:&b=([\w-]+))?/); if (!m) return;
+  if (m[4] && BUD.some(x => x[0] === m[4])) bud = m[4];
   try { history.replaceState(null, "", location.pathname + location.search); } catch (e) {}
-  if (m[1] === "c" && (counts[m[2]] || m[2] === "new" || DMAP[m[2]])) { cat = m[2]; sub = (m[3] && (SUBS[cat] || []).find(s => slug(s) === m[3])) || ""; renderCats(); renderGrid(true); }
+  if (m[1] === "c" && (counts[m[2]] || m[2] === "new" || m[2] === "all" || DMAP[m[2]])) { cat = m[2]; sub = (m[3] && (SUBS[cat] || []).find(s => slug(s) === m[3])) || ""; renderCats(); renderGrid(true); }
   const pid = REDIR[m[2]] || m[2]; if (m[1] === "p" && byId[pid]) openV(pid);
 }
 fromHash(); addEventListener("hashchange", fromHash);
