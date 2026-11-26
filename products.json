@@ -12486,5 +12486,153 @@
   "cat": "decor",
   "added": "2026-11-26",
   "sub": "Garlands, wreaths & lights"
+ },
+ {
+  "id": "bath-caddy-6",
+  "cat": "bathroom",
+  "name": "🧴 Shower caddy set, 6pcs, black, no drilling",
+  "detail": "Six-piece black stainless steel shower organiser: 3 big shelves with hooks, a toothbrush & toothpaste holder, a soap dish and a towel/sponge basket. Sticks on tiles with strong adhesive, no drilling. Rust-resistant, easy to move",
+  "price": 2990,
+  "unit": "6pc set",
+  "added": "2026-11-26",
+  "sub": "Shower caddies & organisers"
+ },
+ {
+  "id": "bath-tissue-shelf",
+  "cat": "bathroom",
+  "name": "🧻 Punch-free toilet tissue holder with phone shelf",
+  "detail": "Bear-ear tissue roll holder with a top shelf for your phone. Sticks on the wall with a strong adhesive plate, no drilling. 21 x 11 x 10cm. Grey, white or black. Any 2 tissue holders KES 1,690",
+  "price": 990,
+  "unit": "1 pc",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Grey"
+     ],
+     [
+      "White"
+     ],
+     [
+      "Black"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Grey": "bath-tissue-shelf-1",
+   "White": "bath-tissue-shelf-2"
+  },
+  "added": "2026-11-26",
+  "sub": "Shower caddies & organisers"
+ },
+ {
+  "id": "bath-wall-box-2",
+  "cat": "bathroom",
+  "name": "🗃️ Wall-mounted flip storage boxes, set of 2",
+  "detail": "Dustproof self-adhesive boxes with tilt-out clear fronts for cotton buds, cotton pads, sponges, jewellery and small items. No drilling. Any 3 sets KES 990",
+  "price": 390,
+  "unit": "2pc set",
+  "added": "2026-11-26",
+  "sub": "Shower caddies & organisers"
+ },
+ {
+  "id": "kit-shelf-raiser",
+  "cat": "kitchen",
+  "name": "🗄️ Expandable shelf raiser, 32 to 57cm",
+  "detail": "Carbon steel wire shelf that doubles cupboard space for plates, bowls, spices and containers. Expands from 32cm to 57cm, 14.5cm high, 24.3cm deep. White or black",
+  "price": 1190,
+  "unit": "1 pc",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Black"
+     ],
+     [
+      "White"
+     ]
+    ]
+   }
+  ],
+  "added": "2026-11-26",
+  "sub": "Cupboard organisers"
+ },
+ {
+  "id": "kit-dumpling-4",
+  "cat": "kitchen",
+  "name": "🥟 Dumpling & samosa pie maker, 4 moulds",
+  "detail": "Press-and-seal moulds for samosas, dumplings, empanadas, meat pies and mandazi-style pastries. 4 sizes on one tray. Easy to clean. Any 2 dumpling makers KES 990",
+  "price": 590,
+  "unit": "4pc set",
+  "added": "2026-11-26",
+  "sub": "Baking & pastry tools"
+ },
+ {
+  "id": "clean-gloves-100",
+  "cat": "home",
+  "name": "🧤 Black disposable kitchen gloves, 100pcs",
+  "detail": "Box of 100 black disposable gloves for cooking, cleaning, salons, hair dye and food handling. Stretchy, comfortable fit",
+  "price": 1390,
+  "unit": "box of 100",
+  "added": "2026-11-26",
+  "sub": "Cleaning supplies"
+ },
+ {
+  "id": "clean-magic-sponge",
+  "cat": "home",
+  "name": "🧽 Magic sponge pot cleaner with handle",
+  "detail": "Emery melamine sponge on a grip handle that scrubs rust, burnt stains and grease off sufurias and pans without chemicals. Any 5 magic sponges KES 590",
+  "price": 190,
+  "unit": "1 pc",
+  "added": "2026-11-26",
+  "sub": "Cleaning supplies"
+ },
+ {
+  "id": "clean-pink-paste",
+  "cat": "home",
+  "name": "🩷 Pink Stuff miracle cleaning paste",
+  "detail": "Pink cleaning paste that lifts burnt stains, rust and grease from sufurias, gas cooker tops, sinks, tiles, ovens and taps. 100g or 500g tub",
+  "price": 590,
+  "unit": "1 tub",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "100g",
+      590
+     ],
+     [
+      "500g",
+      1390
+     ]
+    ]
+   }
+  ],
+  "added": "2026-11-26",
+  "sub": "Cleaning supplies"
+ },
+ {
+  "id": "clean-mop-holder",
+  "cat": "home",
+  "name": "🧹 Wall-mounted mop & broom holder",
+  "detail": "Punch-free wall bracket that grips mops and brooms by the handle and keeps them off the floor. Strong adhesive. Any 2 mop holders KES 990",
+  "price": 650,
+  "unit": "1 pc",
+  "added": "2026-11-26",
+  "sub": "Cleaning supplies"
+ },
+ {
+  "id": "pill-planner-21",
+  "cat": "home",
+  "name": "💊 Weekly pill planner, 7 days x 3 slots",
+  "detail": "Detachable rainbow pill box with 21 compartments: morning, noon and night for each day of the week. Each day snaps out to carry. Clear lid case",
+  "price": 690,
+  "unit": "1 pc",
+  "added": "2026-11-26",
+  "sub": "Pill organisers"
  }
 ]
