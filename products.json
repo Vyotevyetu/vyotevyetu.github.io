@@ -12746,5 +12746,96 @@
   "unit": "1 pc",
   "added": "2026-11-26",
   "sub": "Kitchen gadgets"
+ },
+ {
+  "id": "mat-kitchen-rubber-2pc-b",
+  "cat": "mats",
+  "name": "🧡 Printed kitchen mat set, 2pc, collection 2",
+  "detail": "Set of 2 printed kitchen floor mats: a 120 x 40cm runner for the sink and cooker plus a 60 x 40cm mat. Super non-slip rubber underside, wipe clean, does not curl. 18 designs: kitchen words, cutlery, spices, coffee, borders and stripes. Any 2 kitchen mat sets KES 2,590 (mix with all printed sets)",
+  "price": 1490,
+  "unit": "2pc set",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "Kitchen script, black"
+     ],
+     [
+      "Kitchen cutlery bouquet, navy"
+     ],
+     [
+      "Let's Cook, black"
+     ],
+     [
+      "Black check border, beige"
+     ],
+     [
+      "Elegant Cutlery, tan"
+     ],
+     [
+      "Maroon border, beige"
+     ],
+     [
+      "Brown stripes"
+     ],
+     [
+      "Coffee, black & tan"
+     ],
+     [
+      "The Kitchen Happy Life"
+     ],
+     [
+      "Kitchen is the Heart of the Home"
+     ],
+     [
+      "Brown check border"
+     ],
+     [
+      "Gold & silver cutlery, black"
+     ],
+     [
+      "Spices KITCHEN, black"
+     ],
+     [
+      "Wooden spoons & spices"
+     ],
+     [
+      "KITCHEN jute look"
+     ],
+     [
+      "Beige abstract waves"
+     ],
+     [
+      "Cook Meals KITCHEN whisk"
+     ],
+     [
+      "HOME letter blocks, wood"
+     ]
+    ]
+   }
+  ],
+  "added": "2026-11-26",
+  "vi": {
+   "Kitchen script, black": "mat-kitchen-rubber-2pc-b-1",
+   "Kitchen cutlery bouquet, navy": "mat-kitchen-rubber-2pc-b-2",
+   "Let's Cook, black": "mat-kitchen-rubber-2pc-b-3",
+   "Black check border, beige": "mat-kitchen-rubber-2pc-b-4",
+   "Elegant Cutlery, tan": "mat-kitchen-rubber-2pc-b-5",
+   "Maroon border, beige": "mat-kitchen-rubber-2pc-b-6",
+   "Brown stripes": "mat-kitchen-rubber-2pc-b-7",
+   "Coffee, black & tan": "mat-kitchen-rubber-2pc-b-8",
+   "The Kitchen Happy Life": "mat-kitchen-rubber-2pc-b-9",
+   "Kitchen is the Heart of the Home": "mat-kitchen-rubber-2pc-b-10",
+   "Brown check border": "mat-kitchen-rubber-2pc-b-11",
+   "Gold & silver cutlery, black": "mat-kitchen-rubber-2pc-b-12",
+   "Spices KITCHEN, black": "mat-kitchen-rubber-2pc-b-13",
+   "Wooden spoons & spices": "mat-kitchen-rubber-2pc-b-14",
+   "KITCHEN jute look": "mat-kitchen-rubber-2pc-b-15",
+   "Beige abstract waves": "mat-kitchen-rubber-2pc-b-16",
+   "Cook Meals KITCHEN whisk": "mat-kitchen-rubber-2pc-b-17",
+   "HOME letter blocks, wood": "mat-kitchen-rubber-2pc-b-18"
+  },
+  "sub": "Door, floor & kitchen mats"
  }
 ]
