@@ -13037,7 +13037,7 @@
   "id": "oil-bottle-marble",
   "cat": "kitchen",
   "name": "🖤 Marble glass oil & vinegar bottle, 320ml",
-  "detail": "Glass bottle with white-and-gold or black-and-gold marble sleeve, gold drip-free pourer with flip cap. For cooking oil, vinegar and soy sauce. Any 2 oil bottles KES 1,290",
+  "detail": "Glass bottle with white-and-gold or black-and-gold marble sleeve, gold drip-free pourer with flip cap. For cooking oil, vinegar and soy sauce. Vein pattern may vary slightly. Any 2 oil bottles KES 1,290",
   "price": 690,
   "unit": "1 pc",
   "added": "2026-11-26",
@@ -13059,7 +13059,8 @@
    "Black marble": "oil-bottle-marble-2"
   },
   "imgs": [
-   "oil-bottle-marble-g1"
+   "oil-bottle-marble-g1",
+   "oil-bottle-marble-g2"
   ],
   "sub": "Oil bottles & sprayers"
  },
@@ -13076,5 +13077,185 @@
    "oil-jar-bamboo-g2"
   ],
   "sub": "Oil bottles & sprayers"
+ },
+ {
+  "id": "dish-rack-3tier-black",
+  "cat": "kitchen",
+  "name": "🍽️ 3-tier black dish rack with drip trays",
+  "detail": "Black carbon steel dish rack: plate rack on top, 2 bowl and cup tiers below, each with a white drip tray. Side cutlery cup, chopping board holder and hooks for cups and utensils. Stands on the counter, no drilling",
+  "price": 2690,
+  "unit": "1 pc",
+  "added": "2026-11-26",
+  "sub": "Dish racks"
+ },
+ {
+  "id": "kit-drawer-organizer",
+  "cat": "kitchen",
+  "name": "🗄️ Expandable drawer & cutlery organiser",
+  "detail": "Cream tray with grey sliding tray that pulls out to fit wider drawers. Long slots for spoons, forks and knives plus small boxes for peelers, openers, pens or makeup. Kitchen, office or dressing table",
+  "price": 1390,
+  "unit": "1 pc",
+  "added": "2026-11-26",
+  "sub": "Cupboard organisers"
+ },
+ {
+  "id": "mixer-scarlett-7",
+  "cat": "blenders",
+  "name": "🎂 Scarlett 7-speed hand mixer",
+  "detail": "Scarlett Super Hand Mixer, 7 speeds with turbo. Comes with 2 beaters for eggs, cream and cake batter and 2 dough hooks for light dough. Eject button, lightweight easy-grip handle. Boxed",
+  "price": 990,
+  "unit": "1 pc",
+  "added": "2026-11-26",
+  "sub": "Blenders & grinders"
+ },
+ {
+  "id": "chopper-ur560",
+  "cat": "blenders",
+  "name": "🥩 Unique Rock 3L stainless steel electric chopper (UR-560)",
+  "detail": "3 litre stainless steel bowl with 4 sharp blades. Minces meat, chops onions, tomatoes, garlic, dhania and pepper, crushes nuts. 250W, 2 speeds, removable parts for easy washing. Boxed",
+  "price": 2290,
+  "unit": "1 pc",
+  "added": "2026-11-26",
+  "sub": "Blenders & grinders"
+ },
+ {
+  "id": "tumbler-kids-860",
+  "cat": "flasks",
+  "name": "🧸 Twinkle kids vacuum flask with handle, 860ml",
+  "detail": "Stainless steel vacuum cup with cute cartoon print, chunky handle, straw lid plus a second drinking spout. Keeps drinks warm or cold. Great for school and as a gift. Any 2 travel cups or tumblers KES 2,190",
+  "price": 1190,
+  "unit": "1 pc",
+  "added": "2026-11-26",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "Green sunbath"
+     ],
+     [
+      "Blue travel"
+     ],
+     [
+      "Pink rainbow"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Green sunbath": "tumbler-kids-860-1",
+   "Blue travel": "tumbler-kids-860-2",
+   "Pink rainbow": "tumbler-kids-860-3"
+  },
+  "sub": "Tumblers & travel cups"
+ },
+ {
+  "id": "tumbler-1200",
+  "cat": "flasks",
+  "name": "🥤 1200ml stainless steel tumbler with handle & straw",
+  "detail": "Big 40oz double-wall stainless tumbler, unbranded. Keeps drinks icy cold or hot for hours. Handle, straw and slide lid, fits most car cup holders. Any 2 travel cups or tumblers KES 2,190",
+  "price": 1190,
+  "unit": "1 pc",
+  "added": "2026-11-26",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Coral"
+     ],
+     [
+      "White"
+     ],
+     [
+      "Hot pink"
+     ],
+     [
+      "Black"
+     ],
+     [
+      "Baby blue"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Coral": "tumbler-1200-1",
+   "White": "tumbler-1200-2",
+   "Hot pink": "tumbler-1200-3",
+   "Black": "tumbler-1200-4",
+   "Baby blue": "tumbler-1200-5"
+  },
+  "sub": "Tumblers & travel cups"
+ },
+ {
+  "id": "tumbler-thermal-800",
+  "cat": "flasks",
+  "name": "🧋 Ribbed thermal cup 800ml with handle & straw",
+  "detail": "Ribbed stainless vacuum cup with colourful silicone handle sleeve, steel straw with silicone tip and clear lid. Hot or cold drinks. Boxed. Any 2 travel cups or tumblers KES 2,190",
+  "price": 1190,
+  "unit": "1 pc",
+  "added": "2026-11-26",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Black & pink"
+     ],
+     [
+      "White & lilac"
+     ],
+     [
+      "Lilac & teal"
+     ],
+     [
+      "Pink & yellow"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Black & pink": "tumbler-thermal-800-1",
+   "White & lilac": "tumbler-thermal-800-2",
+   "Lilac & teal": "tumbler-thermal-800-3",
+   "Pink & yellow": "tumbler-thermal-800-4"
+  },
+  "sub": "Tumblers & travel cups"
+ },
+ {
+  "id": "cup-coffee-510",
+  "cat": "flasks",
+  "name": "☕ Coffee travel mug 510ml, leak-proof",
+  "detail": "Stainless steel vacuum coffee cup with ribbed silicone grip and flip-lock lid. Tea or coffee stays hot on the way to work. Boxed. Any 2 coffee mugs KES 1,490",
+  "price": 850,
+  "unit": "1 pc",
+  "added": "2026-11-26",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Teal blue"
+     ],
+     [
+      "Black"
+     ],
+     [
+      "Olive green"
+     ],
+     [
+      "White"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Teal blue": "cup-coffee-510-1",
+   "Black": "cup-coffee-510-2",
+   "Olive green": "cup-coffee-510-3",
+   "White": "cup-coffee-510-4"
+  },
+  "sub": "Tumblers & travel cups"
  }
 ]
