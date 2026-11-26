@@ -10898,6 +10898,9 @@
    "B Smooth silver": "cutlery-egg-24-2",
    "C Gold": "cutlery-egg-24-3"
   },
+  "imgs": [
+   "cutlery-egg-24-g1"
+  ],
   "sub": "Cutlery sets"
  },
  {
@@ -12063,5 +12066,103 @@
   ],
   "added": "2026-11-26",
   "sub": "Lunch boxes"
+ },
+ {
+  "id": "spice-royal-3",
+  "cat": "storage",
+  "name": "🧂 Star Royal salt, pepper & sugar shakers set, 3pcs",
+  "detail": "Kenyan-made Star Royal multipurpose set: salt shaker, pepper shaker and a sugar or spice pot with lid in a gold basket stand. Clear jars, boxed. Great gift and table set. Any 3 multipurpose sets KES 1,590",
+  "price": 590,
+  "unit": "3pc set",
+  "added": "2026-11-26",
+  "sub": "Spice jars & shakers"
+ },
+ {
+  "id": "spice-classic-4",
+  "cat": "storage",
+  "name": "🧂 Star Classic multipurpose spice & shakers set, 4 jars",
+  "detail": "Kenyan-made Star Classic multipurpose set: 2 lidded jars for sugar or spices and 2 salt and pepper shakers on a brown tray stand, with 2 teaspoons. Boxed. Any 3 multipurpose sets KES 1,590",
+  "price": 750,
+  "unit": "1 set",
+  "added": "2026-11-26",
+  "sub": "Spice jars & shakers"
+ },
+ {
+  "id": "spice-rack-rotating",
+  "cat": "storage",
+  "name": "🔄 Rotating stainless steel spice rack with 12 glass jars",
+  "detail": "360° rotating stainless steel spice carousel with 12 clear glass spice jars and steel lids. Keeps pilau masala, curry, paprika, herbs and more tidy on the counter. Easy to refill and clean",
+  "price": 2790,
+  "unit": "1 set",
+  "added": "2026-11-26",
+  "sub": "Spice jars & shakers"
+ },
+ {
+  "id": "tree-popup-tinsel",
+  "cat": "decor",
+  "name": "🎄 Pop-up tinsel pencil Christmas tree, green",
+  "detail": "Collapsible pop-up tinsel Christmas tree with little berry decorations. Slim pencil shape that fits small spaces, sets up in seconds and folds flat to store",
+  "price": 5490,
+  "unit": "1 tree",
+  "added": "2026-11-26",
+  "sub": "Christmas trees"
+ },
+ {
+  "id": "bp-monitor-arm",
+  "cat": "home",
+  "name": "❤️ Digital upper-arm blood pressure monitor",
+  "detail": "Automatic digital blood pressure monitor with upper-arm cuff (22–42cm). One-button reading of systolic, diastolic and pulse on a clear LCD screen. Battery powered, for home use. Type ACMNP-1",
+  "price": 2190,
+  "unit": "1 pc",
+  "added": "2026-11-26",
+  "sub": "Health & personal care"
+ },
+ {
+  "id": "footpad-universal-4",
+  "cat": "home",
+  "name": "🧺 Universal anti-vibration foot pads, 4pcs",
+  "detail": "Non-slip shock-absorbing foot pads for washing machines, fridges and dining tables. Cuts noise and stops the machine walking. Raises the appliance slightly and protects floors. Set of 4, boxed",
+  "price": 790,
+  "unit": "4pc set",
+  "added": "2026-11-26",
+  "sub": "Appliance accessories"
+ },
+ {
+  "id": "cutlery-pearl-24",
+  "cat": "cutlery",
+  "name": "🍴 Gold cutlery set with pearl bead handles, 24pcs + stand",
+  "detail": "Shiny gold stainless steel cutlery with pearl bead handles on a gold hanging stand: 6 knives, 6 forks, 6 spoons and 6 teaspoons. White or black pearl. A showpiece for the dining table and a great gift",
+  "price": 2790,
+  "unit": "24pc set",
+  "opts": [
+   {
+    "n": "Handle colour",
+    "v": [
+     [
+      "White pearl"
+     ],
+     [
+      "Black pearl"
+     ]
+    ]
+   }
+  ],
+  "dupmain": "cutlery-pearl-24-1",
+  "vi": {
+   "White pearl": "cutlery-pearl-24-1",
+   "Black pearl": "cutlery-pearl-24-2"
+  },
+  "added": "2026-11-26",
+  "sub": "Cutlery sets"
+ },
+ {
+  "id": "cutlery-diamond-24",
+  "cat": "cutlery",
+  "name": "💎 Rotating diamond cutlery set, 24pcs, TITM0617",
+  "detail": "24 silver stainless steel pieces (6 knives, 6 forks, 6 spoons, 6 teaspoons) in a diamond-shaped rotating holder with a clear dust cover. Gift boxed",
+  "price": 4490,
+  "unit": "24pc set",
+  "added": "2026-11-26",
+  "sub": "Cutlery sets"
  }
 ]
