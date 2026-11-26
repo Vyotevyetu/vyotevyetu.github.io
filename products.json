@@ -6857,7 +6857,7 @@
   "price": 4490,
   "unit": "4pc set",
   "added": "2026-11-26",
-  "detail": "Plush ribbed velvet duvet with a matching velvet bedsheet and 2 pillowcases, grey contrast reverse. Big 6 x 7 size, super warm and soft. 7 colours. Any 2 velvet duvet sets KES 8,490",
+  "detail": "Plush ribbed velvet duvet with a matching fleece bedsheet and 2 pillowcases, grey contrast reverse. Big 6 x 7 size, super warm and soft. 11 colours. Any 2 velvet duvet sets KES 8,490",
   "opts": [
    {
     "n": "Colour",
@@ -6882,6 +6882,18 @@
      ],
      [
       "Emerald green"
+     ],
+     [
+      "Navy blue"
+     ],
+     [
+      "Pink"
+     ],
+     [
+      "White"
+     ],
+     [
+      "Lilac purple"
      ]
     ]
    }
@@ -6893,7 +6905,11 @@
    "Camel": "duvet-set-velvet-4",
    "Chocolate brown": "duvet-set-velvet-5",
    "Maroon": "duvet-set-velvet-6",
-   "Emerald green": "duvet-set-velvet-7"
+   "Emerald green": "duvet-set-velvet-7",
+   "Navy blue": "duvet-set-velvet-8",
+   "Pink": "duvet-set-velvet-9",
+   "White": "duvet-set-velvet-10",
+   "Lilac purple": "duvet-set-velvet-11"
   },
   "sub": "Duvet sets"
  },
@@ -7099,6 +7115,45 @@
   },
   "cat": "bedding",
   "added": "2026-11-26",
+  "sub": "Duvet sets"
+ },
+ {
+  "id": "duvet-set-silk",
+  "cat": "bedding",
+  "added": "2026-11-26",
+  "name": "✨ Silk jacquard duvet set, HG 6x7",
+  "price": 5490,
+  "unit": "6pc set",
+  "detail": "Shiny silk-touch jacquard duvet with a raised damask pattern and a soft grey fleece reverse. Comes with 1 fleece bedsheet, 2 pillowcases and 2 throw pillowcases. HG brand, size 6 x 7. White, cream, champagne gold, grey & gold, or purple. Any 2 luxury duvet sets KES 9,490",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "White"
+     ],
+     [
+      "Cream"
+     ],
+     [
+      "Champagne gold"
+     ],
+     [
+      "Grey & gold jacquard"
+     ],
+     [
+      "Purple"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "White": "duvet-set-silk-1",
+   "Cream": "duvet-set-silk-2",
+   "Champagne gold": "duvet-set-silk-3",
+   "Grey & gold jacquard": "duvet-set-silk-4",
+   "Purple": "duvet-set-silk-5"
+  },
   "sub": "Duvet sets"
  },
  {
