@@ -6262,7 +6262,7 @@
   "detail": "700ml, wall mounted, soap or sanitizer",
   "price": 1690,
   "unit": "each",
-  "sub": "Bathroom accessories"
+  "sub": "Soap dispensers"
  },
  {
   "id": "mat-love",
@@ -6372,6 +6372,141 @@
    }
   ],
   "sub": "Bathroom accessories"
+ },
+ {
+  "id": "disp-ceramic-400",
+  "name": "🧴 Ceramic soap dispenser 400ml",
+  "price": 790,
+  "unit": "1 pc",
+  "detail": "Heavy ceramic bottle for hand wash, shampoo, conditioner, body wash or lotion. 400ml, refillable. Ribbed with a bamboo collar and black pump, Greek key band with a gold pump, or gold marble veins with a gold pump. Black or white. Any 2 soap dispensers KES 1,390",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "Ribbed bamboo, black"
+     ],
+     [
+      "Ribbed bamboo, white"
+     ],
+     [
+      "Greek key gold, black"
+     ],
+     [
+      "Greek key gold, white"
+     ],
+     [
+      "Gold marble, black"
+     ],
+     [
+      "Gold marble, white"
+     ]
+    ]
+   }
+  ],
+  "cat": "bathroom",
+  "added": "2026-11-26",
+  "vi": {
+   "Ribbed bamboo, black": "disp-ceramic-400-1",
+   "Ribbed bamboo, white": "disp-ceramic-400-2",
+   "Greek key gold, black": "disp-ceramic-400-3",
+   "Greek key gold, white": "disp-ceramic-400-4",
+   "Gold marble, black": "disp-ceramic-400-5",
+   "Gold marble, white": "disp-ceramic-400-6"
+  },
+  "imgs": [
+   "disp-ceramic-400-g1",
+   "disp-ceramic-400-g2",
+   "disp-ceramic-400-g3",
+   "disp-ceramic-400-g4"
+  ],
+  "sub": "Soap dispensers"
+ },
+ {
+  "id": "disp-ribbed-500",
+  "name": "🧴 Ribbed soap dispenser with bamboo pump, 500ml",
+  "price": 590,
+  "unit": "1 pc",
+  "detail": "Glossy ribbed 500ml refillable bottle with a bamboo collar. For hand wash, shampoo, conditioner, body wash and lotion in the bathroom or kitchen. Black or white. Any 2 soap dispensers KES 1,390",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Black"
+     ],
+     [
+      "White"
+     ]
+    ]
+   }
+  ],
+  "cat": "bathroom",
+  "added": "2026-11-26",
+  "vi": {
+   "Black": "disp-ribbed-500-1",
+   "White": "disp-ribbed-500-2"
+  },
+  "sub": "Soap dispensers"
+ },
+ {
+  "id": "disp-rhinestone",
+  "name": "✨ Rhinestone soap dispenser, rose gold pump",
+  "price": 890,
+  "unit": "1 pc",
+  "detail": "Smooth grey refillable dispenser with a sparkling rhinestone band and an electroplated rose gold pump. For soap, shampoo or hand wash. Any 2 soap dispensers KES 1,390",
+  "cat": "bathroom",
+  "added": "2026-11-26",
+  "sub": "Soap dispensers"
+ },
+ {
+  "id": "bathset-8-ribbed",
+  "name": "🛁 8pc ribbed bathroom set with bamboo lids",
+  "price": 3490,
+  "unit": "8pc set",
+  "detail": "Matching taupe set with a ribbed finish and bamboo lids: dustbin with lid, toilet brush and holder, toothbrush holder, toothbrush cup, soap dish, hand wash dispenser, cotton jar and vanity tray. Any 2 bathroom sets KES 5,790",
+  "cat": "bathroom",
+  "added": "2026-11-26",
+  "imgs": [
+   "bathset-8-ribbed-g1",
+   "bathset-8-ribbed-g2"
+  ],
+  "sub": "Bathroom sets"
+ },
+ {
+  "id": "bathset-6-bamboo",
+  "name": "🛁 6pc bathroom set with bamboo lids",
+  "price": 2990,
+  "unit": "6pc set",
+  "detail": "Smooth matte set with bamboo lids: dustbin with rope handle lid, toilet brush and holder, soap dispenser, toothbrush holder, toothbrush cup and soap dish. Black, white, grey or beige. Square shape also available on request. Any 2 bathroom sets KES 5,790",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Black"
+     ],
+     [
+      "White"
+     ],
+     [
+      "Grey"
+     ],
+     [
+      "Beige"
+     ]
+    ]
+   }
+  ],
+  "cat": "bathroom",
+  "added": "2026-11-26",
+  "vi": {
+   "Black": "bathset-6-bamboo-1",
+   "White": "bathset-6-bamboo-2",
+   "Grey": "bathset-6-bamboo-3",
+   "Beige": "bathset-6-bamboo-4"
+  },
+  "sub": "Bathroom sets"
  },
  {
   "id": "mat-kitchen-2pc",
