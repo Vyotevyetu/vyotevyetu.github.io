@@ -6898,6 +6898,116 @@
   "sub": "Duvet sets"
  },
  {
+  "id": "duvet-set-lace",
+  "name": "🛏️ Executive luxury lace duvet set, 6x7",
+  "price": 5490,
+  "unit": "6pc set",
+  "detail": "Rich velvet-touch quilted duvet with lace embroidery along the edge. Comes with 1 bedsheet, 2 pillowcases and 2 throw pillowcases, all lace-trimmed. Size 6 x 7. Maroon, cream, grey or navy blue. Any 2 luxury duvet sets KES 9,490",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Maroon"
+     ],
+     [
+      "Cream"
+     ],
+     [
+      "Grey"
+     ],
+     [
+      "Navy blue"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Maroon": "duvet-set-lace-1",
+   "Cream": "duvet-set-lace-2",
+   "Grey": "duvet-set-lace-3",
+   "Navy blue": "duvet-set-lace-4"
+  },
+  "cat": "bedding",
+  "added": "2026-11-26",
+  "sub": "Duvet sets"
+ },
+ {
+  "id": "duvet-set-white",
+  "name": "🤍 White hotel duvet set: duvet, bedsheet & 2 pillowcases",
+  "price": 1990,
+  "unit": "4pc set",
+  "detail": "Crisp white hotel-style duvet with a matching white bedsheet and 2 pillowcases. Unbinded (soft quilted) in 4x6, 5x6 or 6x6, or binded TC 6x7 and thick Honey G 7x8 for big beds. Great for homes, Airbnbs and guest rooms",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "4x6 unbinded",
+      1990
+     ],
+     [
+      "5x6 unbinded",
+      2190
+     ],
+     [
+      "6x6 unbinded",
+      2290
+     ],
+     [
+      "6x7 binded TC",
+      3490
+     ],
+     [
+      "7x8 binded Honey G",
+      4490
+     ]
+    ]
+   }
+  ],
+  "imgs": [
+   "duvet-set-white-g1",
+   "duvet-set-white-g2",
+   "duvet-set-white-g3",
+   "duvet-set-white-g4",
+   "duvet-set-white-g5"
+  ],
+  "cat": "bedding",
+  "added": "2026-11-26",
+  "sub": "Duvet sets"
+ },
+ {
+  "id": "duvet-set-fluffy",
+  "name": "🩷 Fluffy shaggy duvet set, 6x7",
+  "price": 4790,
+  "unit": "6pc set",
+  "detail": "Super soft long-pile fluffy duvet with 1 bedsheet, 2 pillowcases and 2 fluffy throw pillowcases. Size 6 x 7. Pink, hot pink or black. Any 2 luxury duvet sets KES 9,490",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Pink"
+     ],
+     [
+      "Hot pink"
+     ],
+     [
+      "Black"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Pink": "duvet-set-fluffy-1",
+   "Hot pink": "duvet-set-fluffy-2",
+   "Black": "duvet-set-fluffy-3"
+  },
+  "cat": "bedding",
+  "added": "2026-11-26",
+  "sub": "Duvet sets"
+ },
+ {
   "id": "tree-green",
   "cat": "decor",
   "name": "🎄 Green artificial Christmas tree, 3ft to 9ft",
