@@ -851,16 +851,49 @@ $("vinfo").addEventListener("click", () => {
 });
 const TAGS = { cookware: "#Sufuria #Cookware", hotpots: "#Hotpots", sets: "#DinnerSet", cutlery: "#Cutlery #KitchenKnives", glass: "#Glassware", mugs: "#Mugs", decor: "#ChristmasDecor #ChristmasKenya", mats: "#Carpets #KitchenMats #HomeDecor", flasks: "#Flasks", storage: "#KitchenStorage", kitchen: "#KitchenGadgets", plates: "#Plates", trays: "#ServingTrays", jugs: "#WaterJugs", luggage: "#Suitcases", bags: "#SchoolBags", bedding: "#Bedding", bathroom: "#BathroomMats", irons: "#IronBox", home: "#HomeEssentials", furniture: "#TVStand #Furniture", umbrellas: "#Umbrella #CarAccessories", kettles: "#Kettle #Toaster", business: "#ShopScale #Business" };
 let PLAT = "wa";
+const COLOURISH = /colou?r|design|print|pattern|shade|finish|style|handle/i;
+function pickedVals(p) { /* option values whose own photo is among the photos chosen to send */
+  if (!p.vi || !SHPICS) return null; const g = gallery(p), sel = SHPICS.filter(u => g.includes(u)); if (sel.length < 2 || sel.includes("img/" + p.id + ".jpg")) return null;
+  const out = []; (p.opts || []).forEach(o => o.v.forEach(v => { const st = p.vi[v[0]]; if (st && sel.includes("img/v/" + st + ".jpg")) out.push([o, v]); })); return out.length ? out : null;
+}
+function itemTitle(p, base, chosen) { /* chosen: [[opt, val]] → name only those items, not the whole list */
+  if (!chosen.length) return base;
+  const SIZEO = /size|capacity|length|pack|qty|quantity|litre/i;
+  const W = new Set((p.opts || []).filter(o => !COLOURISH.test(o.n) && !SIZEO.test(o.n)).flatMap(o => o.v.flatMap(v => v[0].toLowerCase().split(/[^\p{L}\p{N}-]+/u))).filter(w => w.length > 2));
+  const toks = base.split(/(\s*,\s*|\s+&\s+|\s+or\s+|\s+and\s+|\s+)/), keep = []; let cut = 0;
+  if (chosen.some(([o]) => SIZEO.test(o.n))) base = base.replace(/,?\s*\d[\w.]*\s+to\s+\d[\w.]*/g, "");
+  toks.length = 0; toks.push(...base.split(/(\s*,\s*|\s+&\s+|\s+or\s+|\s+and\s+|\s+)/));
+  toks.forEach(t => { const w = t.trim().toLowerCase(); if (!w) { keep.push(t); return; } if (W.has(w) || (w.length > 4 && w.endsWith("s") && W.has(w.slice(0, -1)))) { cut++; return; } if (/^(,|&|or|and)$/.test(w)) return; keep.push(t); });
+  let desc = keep.join("").replace(/\s+/g, " ").replace(/[\s,&-]+$/, "").trim();
+  const typed = chosen.filter(([o]) => !COLOURISH.test(o.n) && !SIZEO.test(o.n)), rest = chosen.filter(([o]) => COLOURISH.test(o.n) || SIZEO.test(o.n));
+  const lc = t => /^[A-Z][a-z]/.test(t) && !/^[A-Z]:/.test(t) ? t[0].toLowerCase() + t.slice(1) : t;
+  let n;
+  if (typed.length && cut >= 2) { const items = [...new Set(typed.map(([, v]) => v[0]))];
+    if (items.every(t => t.split(/\s+/).length >= 3) || !desc) n = items.join(" & ");
+    else if (desc.includes(":")) n = items.join(" & ") + " – " + desc.split(":")[0].trim();
+    else n = desc + " " + items.map(lc).join(" & ");
+    n = n[0].toUpperCase() + n.slice(1); }
+  else n = (cut >= 2 && desc ? desc : base) + (typed.length ? " (" + typed.map(([, v]) => v[0]).join(", ") + ")" : "");
+  if (rest.length) n += " (" + [...new Set(rest.map(([, v]) => v[0].replace(/\s*\((.*)\)/, " – $1")))].join(", ") + ")";
+  return n;
+}
 function caption(p, plat) {
-  const multi = plat !== "wa" && plat !== "x" && p.opts && (SHPICS || []).filter(u => gallery(p).includes(u)).length > 1;
-  const k = vkey(), it = multi ? { price: Math.min(p.price, ...p.opts.flatMap(o => o.v.map(v => v[1] || p.price))) } : (item(k) || p), sel = p.opts && !multi ? (VSEL[vid] || []).join(", ") : "", link = SITE + "p/" + p.id + ".html";
-  const f = feats(p).slice(0, plat === "x" ? 0 : 3), ds = dealsOf(p).slice(0, 2);
+  const picked = plat !== "wa" && plat !== "x" ? pickedVals(p) : null;
+  const multi = !picked && plat !== "wa" && plat !== "x" && p.opts && (SHPICS || []).filter(u => gallery(p).includes(u)).length > 1;
+  const k = vkey(), link = SITE + "p/" + p.id + ".html";
+  const chosen = picked || (p.opts && !multi ? (VSEL[vid] || []).map((v, i) => p.opts[i] && [p.opts[i], p.opts[i].v.find(x => x[0] === v)]).filter(x => x && x[1]) : []);
+  const cprice = ([, v]) => v[1] || p.price;
+  const it = multi ? { price: Math.min(p.price, ...p.opts.flatMap(o => o.v.map(v => v[1] || p.price))) } : picked ? { price: Math.min(...picked.map(cprice)) } : (item(k) || p);
+  const allVals = (p.opts || []).flatMap(o => o.v.map(v => v[0].toLowerCase())), mine = chosen.map(([, v]) => v[0].toLowerCase());
+  const f = feats(p).map(x => { if (!chosen.length) return x; const hits = allVals.filter(v => !mine.includes(v) && x.toLowerCase().includes(v)).length; if (hits < 2) return x; const c = x.indexOf(":"); return c > 15 ? x.slice(0, c) : null; }).filter(Boolean).slice(0, plat === "x" ? 0 : 3), ds = dealsOf(p).slice(0, 2);
   const po = (p.opts || []).find(o => o.v.some(v => v[1]));
-  const prices = po ? "📏 " + po.v.slice(0, 6).map(v => `${v[0]} ${fmt(v[1] || p.price)}`).join(" · ") : `💰 ${fmt(p.price)} (${p.unit})`;
+  const prices = picked ? "💰 " + picked.map(c => `${c[1][0]} ${fmt(cprice(c))}`).join(" · ") + ` (${p.unit} each)`
+    : po && multi ? "📏 " + po.v.slice(0, 6).map(v => `${v[0]} ${fmt(v[1] || p.price)}`).join(" · ") : `💰 ${fmt(it.price)} (${p.unit})`;
   const tags = ["#VyetuVyote", ...(TAGS[p.cat] || "#HomeEssentials").split(" "), "#Nairobi", "#KenyaShopping"];
   const nm = p.name.match(/^([^\p{L}\p{N}]*)(.*)$/u), emo = nm[1].trim(), base = nm[2].replace(/\s*\((?=[^)]*\d)[A-Z0-9][A-Za-z0-9 .\-\/]*\)\s*$/, "").trim();
-  const qn = parseInt(p.unit, 10), qty = qn > 1 && !/\b\d+\s*(pcs?|pieces)\b/i.test(base) ? qn + "Pcs " : "";
-  const name = `${emo ? emo + " " : ""}${qty}${base}${sel ? " (" + sel + ")" : ""} @${fmt(it.price)}`, bold = plat === "wa" || plat === "ch" ? `*${name}*` : name;
+  const title = multi ? base : itemTitle(p, base, chosen);
+  const qn = parseInt(p.unit, 10), qty = qn > 1 && !/\b\d+\s*(pcs?|pieces)\b/i.test(title) ? qn + "Pcs " : "";
+  const name = `${emo ? emo + " " : ""}${qty}${title} @${fmt(it.price)}${picked && new Set(picked.map(cprice)).size > 1 ? " – " + Math.max(...picked.map(cprice)).toLocaleString("en-US") : ""}`, bold = plat === "wa" || plat === "ch" ? `*${name}*` : name;
   const L = [];
   if (plat === "x") { let t = `${name} 🛒 Order on WhatsApp 0114 308 114 ${tags.slice(0, 3).join(" ")}`; return t.slice(0, 250) + "\n" + link; }
   L.push(bold); f.forEach(x => L.push("✅ " + x)); if (multi) p.opts.filter(o => !o.v.some(v => v[1])).forEach(o => L.push("🎨 " + o.n + ": " + o.v.map(v => v[0]).join(" · "))); L.push(prices);
