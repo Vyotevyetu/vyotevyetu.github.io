@@ -4540,26 +4540,6 @@
   "sub": "Printed & coloured mugs"
  },
  {
-  "id": "water-set",
-  "cat": "glass",
-  "name": "7pc water set",
-  "detail": "1.8L glass jug and 6 cut glasses",
-  "price": 1190,
-  "unit": "7pc set",
-  "added": "2026-11-01",
-  "sub": "Water sets"
- },
- {
-  "id": "ribbed-set",
-  "cat": "glass",
-  "name": "Ribbed water set",
-  "detail": "1.8L ribbed jug and 6 ribbed cups",
-  "price": 1590,
-  "unit": "7pc set",
-  "added": "2026-11-01",
-  "sub": "Water sets"
- },
- {
   "id": "boro-set",
   "cat": "glass",
   "name": "Borosilicate water set",
@@ -4573,10 +4553,13 @@
   "id": "champagne",
   "cat": "glass",
   "name": "Champagne glasses",
-  "detail": "190ml",
+  "detail": "Tall stemmed champagne flutes, 190ml, set of 6. Weddings, birthdays, toasts and New Year",
   "price": 1290,
   "unit": "6pc set",
   "added": "2026-11-01",
+  "imgs": [
+   "champagne-g1"
+  ],
   "sub": "Wine, whisky & party glasses"
  },
  {
@@ -13629,5 +13612,85 @@
   "unit": "1 pc",
   "added": "2026-11-27",
   "sub": "Gas cookers"
+ },
+ {
+  "id": "ws-halo-26001",
+  "cat": "glass",
+  "name": "🍋 Halo crystal-cut water set, 7pcs (DF-26001)",
+  "detail": "1.8L glass jug with lid plus 6 tall 330ml glasses, all with a diamond-cut crystal base. Water, juice and guests",
+  "price": 1490,
+  "unit": "7pc set",
+  "added": "2026-11-27",
+  "sub": "Water sets"
+ },
+ {
+  "id": "ws-golden-07339",
+  "cat": "glass",
+  "name": "✨ Golden goblet water set, 7pcs (DG-07339BK)",
+  "detail": "Frosted glass jug with gold collar and spout plus 6 gold-stem goblets with gold rims. Gift boxed in foam: a showpiece for visitors, weddings and Christmas",
+  "price": 2490,
+  "unit": "7pc set",
+  "added": "2026-11-27",
+  "sub": "Water sets"
+ },
+ {
+  "id": "ws-hammered-40003",
+  "cat": "glass",
+  "name": "🌿 Hammered glass water set, 7pcs (40003)",
+  "detail": "Lead-free hammered glass jug with steel lid plus 6 hammered tumblers in a soft amber tint. Gift boxed. Water, juice and gifts",
+  "price": 1990,
+  "unit": "7pc set",
+  "added": "2026-11-27",
+  "sub": "Water sets"
+ },
+ {
+  "id": "ws-delisoga-5",
+  "cat": "glass",
+  "name": "💛 Delisoga ribbed water set with gold handles, 5pcs",
+  "detail": "Heat-resistant borosilicate ribbed jug with lid plus 4 ribbed mugs with amber handles. Hot tea or cold juice, up to 120°C. Boxed",
+  "price": 1590,
+  "unit": "5pc set",
+  "added": "2026-11-27",
+  "sub": "Water sets"
+ },
+ {
+  "id": "gl-y6009",
+  "cat": "glass",
+  "name": "🥛 Ribbed tall glasses 330ml, 6pcs (Y6009)",
+  "detail": "Tall fluted water and juice glasses, 330ml, set of 6 in a box",
+  "price": 890,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "sub": "Drinking glasses"
+ },
+ {
+  "id": "gl-25008",
+  "cat": "glass",
+  "name": "💎 Block-cut tall glasses, 6pcs (DF-25008)",
+  "detail": "Crystal-look tall glasses with a chunky block-cut base. Water, juice and whisky. Set of 6",
+  "price": 890,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "sub": "Drinking glasses"
+ },
+ {
+  "id": "gl-25001",
+  "cat": "glass",
+  "name": "🥂 Plain tall glasses 275ml, 6pcs (DF-25001)",
+  "detail": "Simple clear Dongfang highball glasses, 275ml, set of 6. Everyday water, juice and soda",
+  "price": 790,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "sub": "Drinking glasses"
+ },
+ {
+  "id": "jug-glass-4508",
+  "cat": "jugs",
+  "name": "🫙 Small glass jug 500ml with lid (4508)",
+  "detail": "Octagon glass jug with white snap lid and handle, 500ml. Milk, juice, sauces and fridge door. Any 2 for KES 850",
+  "price": 490,
+  "unit": "1 pc",
+  "added": "2026-11-27",
+  "sub": "Glass jugs"
  }
 ]
