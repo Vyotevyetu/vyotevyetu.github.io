@@ -14190,5 +14190,110 @@
    "gl-kenstar-kt7-g1"
   ],
   "sub": "Unbreakable acrylic glasses"
+ },
+ {
+  "id": "plate-yb-85-crackle",
+  "cat": "plates",
+  "name": "🍽️ Crackle-glaze ceramic plates 8.5 inch, 6pcs (YB-plate-8.5-1)",
+  "detail": "Soft sage-grey ceramic plates with a crackle glaze and organic wavy rim. Restaurant-style look for breakfast, salads and side dishes. 6 plates KES 690, 12 plates KES 1,190",
+  "price": 690,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "opts": [
+   {
+    "n": "Pack",
+    "v": [
+     [
+      "6 plates",
+      690
+     ],
+     [
+      "12 plates",
+      1190
+     ]
+    ]
+   }
+  ],
+  "sub": "Ceramic & opal plates"
+ },
+ {
+  "id": "platter-yb-15-blue",
+  "cat": "plates",
+  "name": "🐟 Blue stoneware oval platter 15 inch (YB-BOWL-15-1)",
+  "detail": "Long 15 inch oval serving platter, matte blue inside with a white rim. Fish, nyama choma, pilau and party snacks. Any 2 platters KES 850",
+  "price": 490,
+  "unit": "1 pc",
+  "added": "2026-11-27",
+  "sub": "Soup plates & platters"
+ },
+ {
+  "id": "plate-ppjb-gold",
+  "cat": "plates",
+  "name": "✨ Gold rim ceramic dinner plates 10.5 inch, 6pcs (PPJB)",
+  "detail": "Classic white ceramic dinner plates with a wide shiny gold rim. Elegant for weddings, Christmas and visitors. Stand not included",
+  "price": 1990,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "sub": "Ceramic & opal plates"
+ },
+ {
+  "id": "bowl-21311-yellow",
+  "cat": "plates",
+  "name": "🥣 Yellow ceramic bowls 5 inch, 6pcs (21311)",
+  "detail": "Bright glossy yellow round bowls for soup, uji, cereal, rice and dessert. Any 2 sets KES 1,390",
+  "price": 790,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "sub": "Bowls"
+ },
+ {
+  "id": "opal-8321",
+  "cat": "plates",
+  "name": "🖤 Opal dinner plates 8321, 10.5 inch, 6pcs",
+  "detail": "White opal glass plates with wavy edge and navy paisley feather print. Light, strong and microwave safe. Stand not included",
+  "price": 1490,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "sub": "Ceramic & opal plates"
+ },
+ {
+  "id": "soup-23845-blue",
+  "cat": "plates",
+  "name": "💙 Blue opal soup plates 9.5 inch, 6pcs (23845)",
+  "detail": "Sky-blue opal glass deep plates with wavy edge and orange-and-navy wave print. Soup, stew, githeri, rice and pasta. Any 2 soup plate sets KES 2,390",
+  "price": 1290,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "sub": "Soup plates & platters"
+ },
+ {
+  "id": "soup-23844-floral",
+  "cat": "plates",
+  "name": "🌸 Floral opal soup plates 9.5 inch, 6pcs (23844)",
+  "detail": "White opal glass deep plates with wavy edge and pink and blue wildflower print. Soup, stew, githeri and rice. Any 2 soup plate sets KES 2,390",
+  "price": 1290,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "sub": "Soup plates & platters"
+ },
+ {
+  "id": "plate-0126-square",
+  "cat": "plates",
+  "name": "⬜ White square ceramic plates 11 inch, 6pcs (0126)",
+  "detail": "Large plain white soft-square dinner plates. Modern restaurant look for main meals and serving. Stand not included",
+  "price": 1290,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "sub": "Ceramic & opal plates"
+ },
+ {
+  "id": "soup-0403-squares",
+  "cat": "plates",
+  "name": "🟥 Geometric opal soup plates 9.5 inch, 6pcs (0403)",
+  "detail": "White opal glass deep plates with wavy edge and red, black and green square pattern. Soup, stew and rice. Any 2 soup plate sets KES 2,390",
+  "price": 1190,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "sub": "Soup plates & platters"
  }
 ]
