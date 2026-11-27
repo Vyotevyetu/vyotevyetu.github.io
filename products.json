@@ -14140,47 +14140,55 @@
   "sub": "Storage jars & containers"
  },
  {
-  "id": "gl-acrylic-mix",
+  "id": "gl-rok-bg2",
   "cat": "glass",
-  "name": "🥤 Unbreakable acrylic glasses, 6pcs: 5 styles",
-  "detail": "Crystal-clear acrylic glasses that look like glass but do not break. Great for kids, parties, hotels, picnics and outdoor use. A tall tumbler 330ml, B pint glass 330ml, C panel tumbler, D ribbed-base tumbler, E ROK bistro glass 300ml. Set of 6. Any 2 acrylic sets KES 1,290",
+  "name": "🥃 ROK unbreakable bistro glasses 300ml, 6pcs (BG-2)",
+  "detail": "Ribbed bistro-style acrylic glasses by ROK that look like glass but do not break. Food safe and dishwasher safe. Juice, water and parties. Any 2 acrylic glass sets KES 1,290",
   "price": 690,
   "unit": "6pc set",
   "added": "2026-11-27",
-  "opts": [
-   {
-    "n": "Style",
-    "v": [
-     [
-      "Tall tumbler 330ml",
-      890
-     ],
-     [
-      "Pint glass 330ml",
-      990
-     ],
-     [
-      "Panel tumbler (KT7)",
-      690
-     ],
-     [
-      "Ribbed-base tumbler (KT6)",
-      690
-     ],
-     [
-      "ROK bistro glass 300ml (BG-2)",
-      690
-     ]
-    ]
-   }
+  "imgs": [
+   "gl-rok-bg2-g1"
   ],
-  "vi": {
-   "Tall tumbler 330ml": "gl-acrylic-mix-1",
-   "Pint glass 330ml": "gl-acrylic-mix-2",
-   "Panel tumbler (KT7)": "gl-acrylic-mix-3",
-   "Ribbed-base tumbler (KT6)": "gl-acrylic-mix-4",
-   "ROK bistro glass 300ml (BG-2)": "gl-acrylic-mix-5"
-  },
   "sub": "Unbreakable acrylic glasses"
+ },
+ {
+  "id": "gl-stallion-kumi",
+  "cat": "glass",
+  "name": "🥛 Stallion Kumi Kumi tall tumblers 300ml, 6pcs",
+  "detail": "Tall crystal-clear acrylic tumblers, 300ml, shatter-proof and stackable. BPA free, top-rack dishwasher safe. Pool, picnics, kids and everyday use. Boxed. Any 2 acrylic glass sets KES 1,290",
+  "price": 890,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "imgs": [
+   "gl-stallion-kumi-g1"
+  ],
+  "sub": "Drinking glasses"
+ },
+ {
+  "id": "gl-kenstar-kt6",
+  "cat": "glass",
+  "name": "🧊 Kenstar unbreakable tumblers 270ml, 6pcs (KT6)",
+  "detail": "Made-in-Kenya acrylic cold drink tumblers with ribbed base, 270ml. Lightweight and strong for home, parties and outdoor. For cold drinks only. Any 2 acrylic glass sets KES 1,290",
+  "price": 690,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "imgs": [
+   "gl-kenstar-kt6-g1"
+  ],
+  "sub": "Unbreakable acrylic glasses"
+ },
+ {
+  "id": "gl-kenstar-kt7",
+  "cat": "glass",
+  "name": "🥤 Kenstar cold drink tumblers 330ml, 6pcs (KT7)",
+  "detail": "Panel-sided unbreakable acrylic tumblers by Kenstar, 330ml, stackable. Sodas, juice, water and iced drinks at home, events, hotels and restaurants. For cold drinks only. Any 2 acrylic glass sets KES 1,290",
+  "price": 690,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "imgs": [
+   "gl-kenstar-kt7-g1"
+  ],
+  "sub": "Drinking glasses"
  }
 ]
