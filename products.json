@@ -6721,11 +6721,39 @@
  {
   "id": "squeezer-767",
   "cat": "kitchen",
-  "name": "🍋 Stainless lemon squeezer (767)",
-  "detail": "Large stainless steel hand press for lemons and limes: juice without seeds. Boxed. Great add-on to any order",
+  "name": "🍋 Lemon squeezers: classic, extra heavy or coloured",
+  "detail": "Hand press for lemons and limes: all the juice, no seeds. A classic stainless KES 450, B extra heavy large stainless KES 1,090, C coloured aluminium (yellow or green) KES 690. Great add-on to any order",
   "price": 450,
   "unit": "1 pc",
   "added": "2026-11-22",
+  "opts": [
+   {
+    "n": "Type",
+    "v": [
+     [
+      "Classic stainless",
+      450
+     ],
+     [
+      "Extra heavy, large",
+      1090
+     ],
+     [
+      "Coloured aluminium",
+      690
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Classic stainless": "squeezer-767-1",
+   "Extra heavy, large": "squeezer-767-2",
+   "Coloured aluminium": "squeezer-767-3"
+  },
+  "imgs": [
+   "squeezer-767-g1",
+   "squeezer-767-g2"
+  ],
   "sub": "Kitchen tools & gadgets"
  },
  {
@@ -13882,5 +13910,70 @@
    "jug-df-18-g4"
   ],
   "sub": "Glass jugs"
+ },
+ {
+  "id": "garlic-tools",
+  "cat": "kitchen",
+  "name": "🧄 Garlic press, chopper & crusher",
+  "detail": "Crush garlic and ginger in seconds, no smelly fingers. A stainless squeeze press KES 590, B garlic chopper with 2 changeable blades and catch cup KES 450, C rocker crusher, assorted colour handles KES 390. Any 2 garlic tools KES 790",
+  "price": 390,
+  "unit": "1 pc",
+  "added": "2026-11-27",
+  "opts": [
+   {
+    "n": "Type",
+    "v": [
+     [
+      "Rocker garlic crusher",
+      390
+     ],
+     [
+      "Garlic chopper, 2 blades",
+      450
+     ],
+     [
+      "Squeeze garlic press",
+      590
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Squeeze garlic press": "garlic-tools-1",
+   "Garlic chopper, 2 blades": "garlic-tools-2",
+   "Rocker garlic crusher": "garlic-tools-3"
+  },
+  "imgs": [
+   "garlic-tools-g1",
+   "garlic-tools-g2",
+   "garlic-tools-g3",
+   "garlic-tools-g4"
+  ],
+  "sub": "Kitchen gadgets"
+ },
+ {
+  "id": "grater-cone",
+  "cat": "kitchen",
+  "name": "🥕 Cone grater with wooden handle",
+  "detail": "Strong stainless cone grater with wooden handle and non-slip base. Grate carrots, cabbage, cheese, ginger and garlic from all sides. 8cm KES 650, 9cm KES 690",
+  "price": 650,
+  "unit": "1 pc",
+  "added": "2026-11-27",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "8cm",
+      650
+     ],
+     [
+      "9cm",
+      690
+     ]
+    ]
+   }
+  ],
+  "sub": "Kitchen tools & gadgets"
  }
 ]
