@@ -13975,5 +13975,160 @@
    }
   ],
   "sub": "Kitchen tools & gadgets"
+ },
+ {
+  "id": "mug-glass-9001",
+  "cat": "glass",
+  "name": "☕ Leaf-pattern glass tea mugs, 6pcs (9001)",
+  "detail": "Clear glass tea mugs with embossed leaf design and handle, boxed. Chai, coffee and uji. 6 mugs KES 750, 12 mugs KES 1,390",
+  "price": 750,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "opts": [
+   {
+    "n": "Pack",
+    "v": [
+     [
+      "6 mugs",
+      750
+     ],
+     [
+      "12 mugs",
+      1390
+     ]
+    ]
+   }
+  ],
+  "sub": "Drinking glasses"
+ },
+ {
+  "id": "storage-foodmate-1000",
+  "cat": "storage",
+  "name": "🍲 Kenpoly Foodmate round containers 1000ml",
+  "detail": "Kenyan-made round food containers with snap lids, 1 litre. Food grade, BPA free, freezer and microwave safe. Leftovers, githeri, rice, snacks and school food. 6 for KES 550, 12 for KES 890",
+  "price": 550,
+  "unit": "6 pcs",
+  "added": "2026-11-27",
+  "opts": [
+   {
+    "n": "Pack",
+    "v": [
+     [
+      "6 containers",
+      550
+     ],
+     [
+      "12 containers",
+      890
+     ]
+    ]
+   }
+  ],
+  "sub": "Storage jars & containers"
+ },
+ {
+  "id": "gl-kig-ln11w",
+  "cat": "glass",
+  "name": "🥛 KiG classic glass tumblers 350ml, 6pcs (LN11W)",
+  "detail": "KiG Glassware tumblers with a thick cut base, about 350ml, boxed set of 6. Water, juice and everyday drinks",
+  "price": 990,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "sub": "Drinking glasses"
+ },
+ {
+  "id": "garden-watering-can",
+  "cat": "home",
+  "name": "🌱 Premier watering can, 5, 8 or 9 litres",
+  "detail": "Strong Kenyan-made Premier plastic watering can with rose spout for gentle watering. Gardens, kitchen gardens, flowers and nurseries. 5L KES 490, 8L KES 590, 9L with litre marks KES 650",
+  "price": 490,
+  "unit": "1 pc",
+  "added": "2026-11-27",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "5 litres",
+      490
+     ],
+     [
+      "8 litres",
+      590
+     ],
+     [
+      "9 litres",
+      650
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "5 litres": "garden-watering-can-1",
+   "8 litres": "garden-watering-can-2",
+   "9 litres": "garden-watering-can-3"
+  },
+  "sub": "Garden & outdoor"
+ },
+ {
+  "id": "garden-planter-7",
+  "cat": "home",
+  "name": "🪴 Kenpoly round planter No. 7, 2.3L",
+  "detail": "Plastic flower pot 15.5cm wide x 13.5cm tall with drainage feet. Flowers, herbs, succulents, indoor and outdoor. 3 pots KES 650, 6 pots KES 1,190. Mix colours",
+  "price": 650,
+  "unit": "3 pots",
+  "added": "2026-11-27",
+  "opts": [
+   {
+    "n": "Pack",
+    "v": [
+     [
+      "3 pots",
+      650
+     ],
+     [
+      "6 pots",
+      1190
+     ]
+    ]
+   },
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Terracotta"
+     ],
+     [
+      "Dark green"
+     ],
+     [
+      "Black"
+     ],
+     [
+      "White"
+     ],
+     [
+      "Mixed colours"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Terracotta": "garden-planter-7-1",
+   "Dark green": "garden-planter-7-2",
+   "Black": "garden-planter-7-3",
+   "White": "garden-planter-7-4"
+  },
+  "sub": "Garden & outdoor"
+ },
+ {
+  "id": "jar-heravin-bird",
+  "cat": "storage",
+  "name": "🐦 Heravin vintage bird glass jar 660ml",
+  "detail": "Made in Turkey glass jar with robin and roses print and airtight screw metal lid. Sugar, tea, coffee, cookies and spices. Any 3 jars KES 1,090",
+  "price": 450,
+  "unit": "1 pc",
+  "added": "2026-11-27",
+  "sub": "Storage jars & containers"
  }
 ]
