@@ -14648,5 +14648,104 @@
   "unit": "1 pc",
   "added": "2026-11-27",
   "sub": "Casseroles & stew pots"
+ },
+ {
+  "id": "mug-self-stir",
+  "cat": "mugs",
+  "name": "🌀 Self-stirring mug with lid, 400ml",
+  "detail": "Press the handle button and the hidden spinner stirs your tea, coffee, milo or protein shake for you. Stainless steel body with lid. Runs on 2 AAA batteries (not included). Any 2 mugs KES 1,590",
+  "price": 890,
+  "unit": "1 pc",
+  "added": "2026-11-27",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Black"
+     ],
+     [
+      "Red"
+     ],
+     [
+      "Blue"
+     ],
+     [
+      "Yellow"
+     ],
+     [
+      "Green"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Black": "mug-self-stir-1",
+   "Red": "mug-self-stir-2",
+   "Blue": "mug-self-stir-3",
+   "Yellow": "mug-self-stir-4",
+   "Green": "mug-self-stir-5"
+  },
+  "imgs": [
+   "mug-self-stir-g1",
+   "mug-self-stir-g2"
+  ],
+  "vids": [
+   "mug-self-stir-1"
+  ],
+  "sub": "Printed & coloured mugs"
+ },
+ {
+  "id": "splash-shield",
+  "cat": "kitchen",
+  "name": "🛡️ Foldable anti-splash cooker shield, 84 x 32.5cm",
+  "detail": "Aluminium foil splatter guard that folds around your gas cooker to stop oil splashing the wall and counter. Wipe or wash clean, folds flat to store. Black cactus, white leaf or silver. Any 3 for KES 890",
+  "price": 390,
+  "unit": "1 pc",
+  "added": "2026-11-27",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "Black cactus"
+     ],
+     [
+      "White leaf"
+     ],
+     [
+      "Silver"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Black cactus": "splash-shield-1",
+   "White leaf": "splash-shield-2",
+   "Silver": "splash-shield-3"
+  },
+  "imgs": [
+   "splash-shield-g1",
+   "splash-shield-g2"
+  ],
+  "sub": "Kitchen tools & gadgets"
+ },
+ {
+  "id": "laundry-bags-7",
+  "cat": "home",
+  "name": "🧺 Washing machine mesh laundry bags, 7pcs",
+  "detail": "7 zip mesh bags in different sizes: big ones for shirts, trousers and bedsheets, small ones for socks, underwear and bras, plus round bags for delicates. Protects clothes from tangling and stretching in the machine. Great for travel too",
+  "price": 1290,
+  "unit": "7pc set",
+  "added": "2026-11-27",
+  "imgs": [
+   "laundry-bags-7-g1",
+   "laundry-bags-7-g2"
+  ],
+  "vids": [
+   "laundry-bags-1",
+   "laundry-bags-2"
+  ],
+  "sub": "Cleaning supplies"
  }
 ]
