@@ -14295,5 +14295,135 @@
   "unit": "6pc set",
   "added": "2026-11-27",
   "sub": "Soup plates & platters"
+ },
+ {
+  "id": "opal-8316-sq",
+  "cat": "plates",
+  "name": "🌼 Wildflower square opal plates 11 inch, 6pcs (8316)",
+  "detail": "Soft-square white opal glass dinner plates with blue, pink and purple wildflower stems. Light, strong, microwave safe. Any 2 square plate sets KES 2,690. Stand not included",
+  "price": 1490,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "sub": "Ceramic & opal plates"
+ },
+ {
+  "id": "opal-8322-sq",
+  "cat": "plates",
+  "name": "🖤 Paisley square opal plates 11 inch, 6pcs (8322)",
+  "detail": "Soft-square white opal glass dinner plates with navy paisley feather print. Matches the 8321 round plates. Any 2 square plate sets KES 2,690. Stand not included",
+  "price": 1490,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "sub": "Ceramic & opal plates"
+ },
+ {
+  "id": "opal-2068-sq",
+  "cat": "plates",
+  "name": "💙 Blue vine square opal plates 11 inch, 6pcs (2068)",
+  "detail": "Soft-square white opal glass dinner plates with a delicate blue flower vine border. Any 2 square plate sets KES 2,690. Stand not included",
+  "price": 1490,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "sub": "Ceramic & opal plates"
+ },
+ {
+  "id": "plate-03775-black-sq",
+  "cat": "plates",
+  "name": "⬛ Black square glass plates 11 inch, 6pcs (03775)",
+  "detail": "Glossy black soft-square dinner plates. Bold modern look for parties, visitors and restaurants. Any 2 square plate sets KES 2,690. Stand not included",
+  "price": 1390,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "sub": "Ceramic & opal plates"
+ },
+ {
+  "id": "plate-0038-black",
+  "cat": "plates",
+  "name": "🖤 Black wavy dinner plates 10.5 inch, 6pcs (0038)",
+  "detail": "Glossy black round dinner plates with wavy fluted edge. Elegant on any table and great with gold cutlery. Stand not included",
+  "price": 1390,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "sub": "Ceramic & opal plates"
+ },
+ {
+  "id": "plate-cj-white",
+  "cat": "plates",
+  "name": "⚪ Plain white ceramic dinner plates 10.5 inch, 6pcs (CJ)",
+  "detail": "Classic all-white ceramic dinner plates with a wide rim. Everyday use, hotels, schools and events. 6 plates KES 1,090, 12 plates KES 1,990. Stand not included",
+  "price": 1090,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "opts": [
+   {
+    "n": "Pack",
+    "v": [
+     [
+      "6 plates",
+      1090
+     ],
+     [
+      "12 plates",
+      1990
+     ]
+    ]
+   }
+  ],
+  "sub": "Ceramic & opal plates"
+ },
+ {
+  "id": "plate-6715-pink",
+  "cat": "plates",
+  "name": "🩷 Blush pink ribbed-rim ceramic plates 9 inch, 6pcs (6715)",
+  "detail": "Matte blush pink ceramic plates with ribbed rings on the rim. Soft modern look for breakfast, salads and desserts. Stand not included",
+  "price": 1490,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "sub": "Ceramic & opal plates"
+ },
+ {
+  "id": "soup-1479-white",
+  "cat": "plates",
+  "name": "🤍 Plain white opal soup plates 9.5 inch, 6pcs (1479)",
+  "detail": "All-white opal glass deep plates with wavy edge. Soup, stew, githeri, rice and pasta. Any 2 soup plate sets KES 2,390. Stand not included",
+  "price": 1090,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "sub": "Soup plates & platters"
+ },
+ {
+  "id": "soup-4206-floral",
+  "cat": "plates",
+  "name": "🌺 Pink & blue leaf opal soup plates 9.5 inch, 6pcs (4206)",
+  "detail": "White opal glass deep plates with wavy edge and pink, blue and grey leaf print. Soup, stew and rice. Any 2 soup plate sets KES 2,390.",
+  "price": 1290,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "sub": "Soup plates & platters"
+ },
+ {
+  "id": "bowl-kaulo-sawa",
+  "cat": "plates",
+  "name": "🥣 Kaulo white ceramic bowls with black swirl, 6pcs (Sawa)",
+  "detail": "White ceramic bowls with a black scroll design. Soup, ugali-mboga, rice, uji and salads. 6 bowls KES 590, 12 bowls KES 990",
+  "price": 590,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "opts": [
+   {
+    "n": "Pack",
+    "v": [
+     [
+      "6 bowls",
+      590
+     ],
+     [
+      "12 bowls",
+      990
+     ]
+    ]
+   }
+  ],
+  "sub": "Bowls"
  }
 ]
