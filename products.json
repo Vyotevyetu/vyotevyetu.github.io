@@ -6523,7 +6523,7 @@
   "price": 2390,
   "unit": "2pc set",
   "added": "2026-11-01",
-  "sub": "Measuring jugs"
+  "sub": "Measuring cups & jugs"
  },
  {
   "id": "boro-500",
@@ -6553,7 +6553,7 @@
    "500ml": "boro-500-s2"
   },
   "dupmain": "boro-500-s2",
-  "sub": "Measuring jugs"
+  "sub": "Measuring cups & jugs"
  },
  {
   "id": "stallion-jug",
@@ -6563,7 +6563,7 @@
   "price": 250,
   "unit": "1 pc",
   "added": "2026-11-01",
-  "sub": "Measuring jugs"
+  "sub": "Measuring cups & jugs"
  },
  {
   "id": "scoop-ice-small",
@@ -10654,7 +10654,7 @@
   "price": 450,
   "unit": "6pc set",
   "added": "2026-11-23",
-  "sub": "Kitchen tools & gadgets"
+  "sub": "Measuring cups & jugs"
  },
  {
   "id": "ladle-table-mirror",
@@ -11537,7 +11537,7 @@
     ]
    }
   ],
-  "sub": "Wall & shelf foil stickers"
+  "sub": "Kitchen tools & gadgets"
  },
  {
   "id": "caddy-hand-dish",
@@ -12078,7 +12078,7 @@
    "Grey": "utensils-silicone-12-2"
   },
   "added": "2026-11-26",
-  "sub": "Cooking utensil sets"
+  "sub": "Kitchen tools & gadgets"
  },
  {
   "id": "kinu-marble",
@@ -12088,7 +12088,7 @@
   "price": 590,
   "unit": "1 pc",
   "added": "2026-11-26",
-  "sub": "Kinu & mortars"
+  "sub": "Kitchen tools & gadgets"
  },
  {
   "id": "lunchbox-qq",
@@ -12663,7 +12663,7 @@
   "price": 1190,
   "unit": "1 pair",
   "added": "2026-11-26",
-  "sub": "Kitchen gadgets"
+  "sub": "Kitchen tools & gadgets"
  },
  {
   "id": "bath-caddy-5",
@@ -12765,7 +12765,7 @@
   "price": 490,
   "unit": "1 pc",
   "added": "2026-11-26",
-  "sub": "Kitchen gadgets"
+  "sub": "Kitchen tools & gadgets"
  },
  {
   "id": "mat-kitchen-rubber-2pc-b",
@@ -13949,7 +13949,7 @@
    "garlic-tools-g3",
    "garlic-tools-g4"
   ],
-  "sub": "Kitchen gadgets"
+  "sub": "Kitchen tools & gadgets"
  },
  {
   "id": "grater-cone",
