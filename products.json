@@ -531,7 +531,7 @@
   "price": 790,
   "unit": "1 pc",
   "added": "2026-11-22",
-  "sub": "Chapati pans & frying pans"
+  "sub": "Chapati pans, frying pans & sizzlers"
  },
  {
   "id": "chapati-heavy",
@@ -541,7 +541,7 @@
   "price": 1090,
   "unit": "1 pc",
   "added": "2026-11-22",
-  "sub": "Chapati pans & frying pans"
+  "sub": "Chapati pans, frying pans & sizzlers"
  },
  {
   "id": "hotpot-set",
@@ -12980,7 +12980,7 @@
    "24cm (1424)": "pan-granite-wood-1",
    "26cm (1426)": "pan-granite-wood-2"
   },
-  "sub": "Chapati pans & frying pans"
+  "sub": "Chapati pans, frying pans & sizzlers"
  },
  {
   "id": "bottle-set-3in1",
@@ -14425,5 +14425,127 @@
    }
   ],
   "sub": "Bowls"
+ },
+ {
+  "id": "plate-23222-white-side",
+  "cat": "plates",
+  "name": "⚪ Plain white deep side plates 7 inch, 6pcs (23222)",
+  "detail": "All-white ceramic coupe side plates with a gentle deep curve. Snacks, fruit, salads, cake and small portions. 6 plates KES 690, 12 plates KES 1,190. Stand not included.",
+  "price": 690,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "opts": [
+   {
+    "n": "Pack",
+    "v": [
+     [
+      "6 plates",
+      690
+     ],
+     [
+      "12 plates",
+      1190
+     ]
+    ]
+   }
+  ],
+  "sub": "Ceramic & opal plates"
+ },
+ {
+  "id": "opal-7802-sq",
+  "cat": "plates",
+  "name": "🌸 Pink & blue leaf square opal plates 11 inch, 6pcs (7802)",
+  "detail": "Soft-square white opal glass dinner plates with pink, blue and grey leaf print. Matches our 4206 soup plates. Any 2 square plate sets KES 2,690. Stand not included.",
+  "price": 1490,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "sub": "Ceramic & opal plates"
+ },
+ {
+  "id": "side-yhy-bw",
+  "cat": "plates",
+  "name": "◼️ Black & white pattern side plates 7.5 inch, 6pcs (YHY)",
+  "detail": "Hand-painted look ceramic side plates with black rim. Starburst (7501) or geometric leaf (7503). Breakfast, snacks and cake. Any 2 sets KES 990. Stand not included.",
+  "price": 590,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "opts": [
+   {
+    "n": "Design",
+    "v": [
+     [
+      "Starburst (7501)"
+     ],
+     [
+      "Geometric leaf (7503)"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Starburst (7501)": "side-yhy-bw-1",
+   "Geometric leaf (7503)": "side-yhy-bw-2"
+  },
+  "sub": "Ceramic & opal plates"
+ },
+ {
+  "id": "plate-bw-brush-105",
+  "cat": "plates",
+  "name": "🦓 Black & white brushstroke dinner plates 10.5 inch, 6pcs",
+  "detail": "Bold black-and-white brush pattern ceramic dinner plates with black rim. Pairs with the YHY side plates. Stand not included.",
+  "price": 1390,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "sub": "Ceramic & opal plates"
+ },
+ {
+  "id": "plate-yb-10-grey",
+  "cat": "plates",
+  "name": "🩶 Matte grey stoneware dinner plates 10 inch, 6pcs (YB-plate-10-7)",
+  "detail": "Modern matte grey ceramic plates with a raised flat rim. Restaurant style for main meals. Stand not included.",
+  "price": 1590,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "sub": "Stoneware plates"
+ },
+ {
+  "id": "plate-yb-825-speckle",
+  "cat": "plates",
+  "name": "🍶 Speckled reactive-glaze plates 8.5 inch, 6pcs (YB-plate-8.25-1)",
+  "detail": "Cream speckled ceramic plates with a raised rim and brown-edged reactive glaze; each plate is slightly unique. Salads, breakfast and dessert. Stand not included.",
+  "price": 990,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "sub": "Ceramic & opal plates"
+ },
+ {
+  "id": "plate-yb-105-reactive",
+  "cat": "plates",
+  "name": "🐚 Shell-ribbed glaze dinner plates 10.5 inch, 6pcs (YB-plate 10.5-1)",
+  "detail": "White ceramic dinner plates with fluted shell edge and frosty reactive glaze. Elegant for visitors and events. Stand not included.",
+  "price": 1490,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "sub": "Ceramic & opal plates"
+ },
+ {
+  "id": "plate-wgp-diamond",
+  "cat": "plates",
+  "name": "💎 White diamond-rim side plates 8 inch, 6pcs (WGP 9-1)",
+  "detail": "All-white ceramic side plates with an embossed diamond pattern on the rim. Hotel style for breakfast, cake and starters. Stand not included.",
+  "price": 1090,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "sub": "Ceramic & opal plates"
+ },
+ {
+  "id": "sizzler-tc132",
+  "cat": "cookware",
+  "name": "🔥 Cast iron sizzling plate with wooden base (TC-132)",
+  "detail": "Oval cast iron sizzler on a wooden tray. Serve steak, fajitas, nyama choma and chicken hot and sizzling at the table. Restaurants, hotels and home. Any 2 for KES 3,990",
+  "price": 2190,
+  "unit": "1 pc",
+  "added": "2026-11-27",
+  "sub": "Chapati pans, frying pans & sizzlers"
  }
 ]
