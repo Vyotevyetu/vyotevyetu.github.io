@@ -10634,6 +10634,7 @@
    "White marble": "knife-set-kunsion-1",
    "Black marble": "knife-set-kunsion-2"
   },
+  "hero": 2490,
   "sub": "Kitchen & butcher knives"
  },
  {
@@ -10967,6 +10968,7 @@
    "Black marble": "cutlery-marble-gold-1",
    "White marble": "cutlery-marble-gold-2"
   },
+  "hero": 2090,
   "sub": "Cutlery sets"
  },
  {
@@ -12078,6 +12080,7 @@
    "Grey": "utensils-silicone-12-2"
   },
   "added": "2026-11-26",
+  "hero": 1390,
   "sub": "Kitchen tools & gadgets"
  },
  {
@@ -12143,6 +12146,7 @@
   "price": 2790,
   "unit": "1 set",
   "added": "2026-11-26",
+  "hero": 2390,
   "sub": "Spice jars & shakers"
  },
  {
@@ -12163,6 +12167,7 @@
   "price": 2190,
   "unit": "1 pc",
   "added": "2026-11-26",
+  "hero": 1790,
   "sub": "Health & personal care"
  },
  {
@@ -12201,6 +12206,7 @@
    "Black pearl": "cutlery-pearl-24-2"
   },
   "added": "2026-11-26",
+  "hero": 2390,
   "sub": "Cutlery sets"
  },
  {
@@ -13659,6 +13665,7 @@
   "price": 2490,
   "unit": "7pc set",
   "added": "2026-11-27",
+  "hero": 1990,
   "sub": "Water sets"
  },
  {
@@ -13669,6 +13676,7 @@
   "price": 1990,
   "unit": "7pc set",
   "added": "2026-11-27",
+  "hero": 1690,
   "sub": "Water sets"
  },
  {
