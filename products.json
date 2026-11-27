@@ -13692,5 +13692,141 @@
   "unit": "1 pc",
   "added": "2026-11-27",
   "sub": "Glass jugs"
+ },
+ {
+  "id": "gl-pt6-240",
+  "cat": "glass",
+  "name": "🥃 Original PT6 glasses 240ml, 6pcs (RYG8001)",
+  "detail": "Classic short cut-base glasses, 240ml. Tea, juice, water, hotels and kibandas. 6 glasses KES 490, 12 glasses KES 850",
+  "price": 490,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "opts": [
+   {
+    "n": "Pack",
+    "v": [
+     [
+      "6 glasses",
+      490
+     ],
+     [
+      "12 glasses",
+      850
+     ]
+    ]
+   }
+  ],
+  "sub": "Drinking glasses"
+ },
+ {
+  "id": "mug-glass-0298",
+  "cat": "glass",
+  "name": "☕ Clear glass tea mugs, 6pcs (0298)",
+  "detail": "Plain clear glass mugs with handle for chai, coffee and uji. 6 mugs KES 650, 12 mugs KES 1,150",
+  "price": 650,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "opts": [
+   {
+    "n": "Pack",
+    "v": [
+     [
+      "6 mugs",
+      650
+     ],
+     [
+      "12 mugs",
+      1150
+     ]
+    ]
+   }
+  ],
+  "sub": "Drinking glasses"
+ },
+ {
+  "id": "gl-orbit-300",
+  "cat": "glass",
+  "name": "🥃 Orbit whisky glasses 300ml, 6pcs",
+  "detail": "Smooth round tumblers with a thick base, 300ml. Whisky, juice or water. Set of 6",
+  "price": 790,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "sub": "Wine, whisky & party glasses"
+ },
+ {
+  "id": "gl-chopper-1089",
+  "cat": "glass",
+  "name": "🥛 Sundabests mini chopper glasses 320ml, 6pcs (1089)",
+  "detail": "Tall panel-cut glasses, 320ml, boxed set of 6. Water and juice. 6 glasses KES 650, 12 glasses KES 1,150",
+  "price": 650,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "opts": [
+   {
+    "n": "Pack",
+    "v": [
+     [
+      "6 glasses",
+      650
+     ],
+     [
+      "12 glasses",
+      1150
+     ]
+    ]
+   }
+  ],
+  "sub": "Drinking glasses"
+ },
+ {
+  "id": "gl-whisky-8707",
+  "cat": "glass",
+  "name": "💎 Diamond-cut whisky glasses 300ml, 6pcs (8707-11)",
+  "detail": "Tulip-shaped crystal-look tumblers with a diamond-cut base, 300ml. Whisky, cocktails and juice. Set of 6, a lovely gift",
+  "price": 990,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "sub": "Wine, whisky & party glasses"
+ },
+ {
+  "id": "mug-amber-zb398",
+  "cat": "glass",
+  "name": "🧡 Amber lustre glass mugs, 6pcs (ZB398)",
+  "detail": "Sundabests golden amber glass mugs with hexagon handles. Chai, coffee and hot chocolate. Set of 6",
+  "price": 1290,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "sub": "Drinking glasses"
+ },
+ {
+  "id": "cup-smoothie-fb1",
+  "cat": "glass",
+  "name": "🧋 Square glass smoothie cup 380ml with bamboo lid & glass straw (FB-1)",
+  "detail": "Square glass cup with colour handle, bamboo lid and matching glass straw, 380ml. Smoothies, iced coffee and juice. Any 3 for KES 890",
+  "price": 350,
+  "unit": "1 pc",
+  "added": "2026-11-27",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Yellow"
+     ],
+     [
+      "Black"
+     ],
+     [
+      "Green"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Yellow": "cup-smoothie-fb1-1",
+   "Black": "cup-smoothie-fb1-2",
+   "Green": "cup-smoothie-fb1-3"
+  },
+  "sub": "Drinking glasses"
  }
 ]
