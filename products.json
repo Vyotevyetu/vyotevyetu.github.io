@@ -236,7 +236,7 @@
    "11.5L (28cm)": "pardini-28-s2"
   },
   "dupmain": "pardini-28-s2",
-  "sub": "Casseroles"
+  "sub": "Casseroles & stew pots"
  },
  {
   "id": "freedom-belly4",
@@ -6513,7 +6513,7 @@
    "95cm (2470)": "dish-rack-s2"
   },
   "dupmain": "dish-rack-s1",
-  "sub": "Dish racks"
+  "sub": "Dish racks & kitchen racks"
  },
  {
   "id": "boro-jugs",
@@ -9892,7 +9892,7 @@
   "price": 2790,
   "unit": "1 rack",
   "added": "2026-11-23",
-  "sub": "Dish racks"
+  "sub": "Dish racks & kitchen racks"
  },
  {
   "id": "iron-steam-hd200a",
@@ -13103,7 +13103,7 @@
   "price": 2690,
   "unit": "1 pc",
   "added": "2026-11-26",
-  "sub": "Dish racks"
+  "sub": "Dish racks & kitchen racks"
  },
  {
   "id": "kit-drawer-organizer",
@@ -14547,5 +14547,106 @@
   "unit": "1 pc",
   "added": "2026-11-27",
   "sub": "Chapati pans, frying pans & sizzlers"
+ },
+ {
+  "id": "vac-jb107",
+  "cat": "home",
+  "name": "🌀 3-in-1 cordless mini vacuum & blower (JB-107)",
+  "detail": "Rechargeable handheld vacuum that also blows air. Comes with crevice nozzle, brush head and inflator nozzle. Clean car seats, sofas, keyboards and shelves, blow dust out, or pump up air mattresses and pool toys. USB charging",
+  "price": 1290,
+  "unit": "1 pc",
+  "added": "2026-11-27",
+  "sub": "Cleaning supplies"
+ },
+ {
+  "id": "shaver-philips-1000",
+  "cat": "home",
+  "name": "🪒 Philips 1000 series rotary shaver",
+  "detail": "3-head rotary electric shaver with PowerCut blades for a fast, clean shave. Cordless, rechargeable, slim grip handle. Boxed",
+  "price": 2490,
+  "unit": "1 pc",
+  "added": "2026-11-27",
+  "sub": "Health & personal care"
+ },
+ {
+  "id": "rack-fold-5tier",
+  "cat": "kitchen",
+  "name": "🗄️ 5-tier foldable kitchen rack with wheels",
+  "detail": "Black heavy carbon steel rack with 5 shelves. Opens in seconds with no tools and folds flat when not in use. Lockable wheels. Microwave, pots, sufurias, groceries and appliances. Clearance price",
+  "price": 5990,
+  "unit": "1 pc",
+  "added": "2026-11-27",
+  "sub": "Dish racks & kitchen racks"
+ },
+ {
+  "id": "marwa-yemetel-12",
+  "cat": "cookware",
+  "name": "✨ Marwa Yemetel 12pc stainless cookware set with kettle",
+  "detail": "Stainless steel pots with glass lids and rose-gold handles and knobs, a non-stick frying pan, saucepan and whistling kettle. Induction ready, dishwasher safe. Boxed",
+  "price": 6990,
+  "unit": "12pc set",
+  "added": "2026-11-27",
+  "sub": "Stainless steel cookware"
+ },
+ {
+  "id": "bosch-11-diamond",
+  "cat": "cookware",
+  "name": "🖤 Bosch 11pc granite cookware with silicone lids, black diamond",
+  "detail": "4 diamond-texture granite pots and a deep frying pan with glass lids and silicone rims, plus a wooden mwiko. Non-stick, uses less oil, easy to clean. Delivery charged by distance for big sets.",
+  "price": 7990,
+  "unit": "11pc set",
+  "added": "2026-11-27",
+  "sub": "Non-stick & granite sets"
+ },
+ {
+  "id": "bosch-10-maroon",
+  "cat": "cookware",
+  "name": "🍷 Bosch 10pc granite cookware set, maroon",
+  "detail": "5 maroon speckled granite pots with glass lids. Non-stick, heavy base, even heating for ugali, stews and pilau. Delivery charged by distance for big sets.",
+  "price": 7990,
+  "unit": "10pc set",
+  "added": "2026-11-27",
+  "sub": "Non-stick & granite sets"
+ },
+ {
+  "id": "bosch-12-granite",
+  "cat": "cookware",
+  "name": "🤍 Bosch 12pc granite cookware with silicone lids & 2 spoons",
+  "detail": "5 granite pots with silicone-rimmed glass lids plus 2 silicone serving spoons. Non-stick, induction friendly, boxed. Cream white, brown or grey. Delivery charged by distance for big sets.",
+  "price": 8490,
+  "unit": "12pc set",
+  "added": "2026-11-27",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Cream white"
+     ],
+     [
+      "Brown"
+     ],
+     [
+      "Grey"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Cream white": "bosch-12-granite-1",
+   "Brown": "bosch-12-granite-2",
+   "Grey": "bosch-12-granite-3"
+  },
+  "sub": "Non-stick & granite sets"
+ },
+ {
+  "id": "pot-ceramic-casserole",
+  "cat": "cookware",
+  "name": "🍲 Black ceramic stew pot with lid",
+  "detail": "Heat-resistant black ceramic (clay-style) pot for slow cooking soups, stews, bone broth and rice on the gas cooker. Keeps food hot long after cooking and doubles as a serving pot",
+  "price": 4690,
+  "unit": "1 pc",
+  "added": "2026-11-27",
+  "sub": "Casseroles & stew pots"
  }
 ]
