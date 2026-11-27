@@ -14138,5 +14138,49 @@
   "unit": "1 pc",
   "added": "2026-11-27",
   "sub": "Storage jars & containers"
+ },
+ {
+  "id": "gl-acrylic-mix",
+  "cat": "glass",
+  "name": "🥤 Unbreakable acrylic glasses, 6pcs: 5 styles",
+  "detail": "Crystal-clear acrylic glasses that look like glass but do not break. Great for kids, parties, hotels, picnics and outdoor use. A tall tumbler 330ml, B pint glass 330ml, C panel tumbler, D ribbed-base tumbler, E ROK bistro glass 300ml. Set of 6. Any 2 acrylic sets KES 1,290",
+  "price": 690,
+  "unit": "6pc set",
+  "added": "2026-11-27",
+  "opts": [
+   {
+    "n": "Style",
+    "v": [
+     [
+      "Tall tumbler 330ml",
+      890
+     ],
+     [
+      "Pint glass 330ml",
+      990
+     ],
+     [
+      "Panel tumbler (KT7)",
+      690
+     ],
+     [
+      "Ribbed-base tumbler (KT6)",
+      690
+     ],
+     [
+      "ROK bistro glass 300ml (BG-2)",
+      690
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Tall tumbler 330ml": "gl-acrylic-mix-1",
+   "Pint glass 330ml": "gl-acrylic-mix-2",
+   "Panel tumbler (KT7)": "gl-acrylic-mix-3",
+   "Ribbed-base tumbler (KT6)": "gl-acrylic-mix-4",
+   "ROK bistro glass 300ml (BG-2)": "gl-acrylic-mix-5"
+  },
+  "sub": "Unbreakable acrylic glasses"
  }
 ]
