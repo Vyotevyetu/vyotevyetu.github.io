@@ -13828,5 +13828,59 @@
    "Green": "cup-smoothie-fb1-3"
   },
   "sub": "Drinking glasses"
+ },
+ {
+  "id": "jug-df-18",
+  "cat": "jugs",
+  "name": "🍹 Dongfang glass jug 1.8L with glass lid, 4 designs",
+  "detail": "Heavy 1.8 litre Dongfang glass jug with matching glass lid and wide pouring lip, boxed. Water, juice, mursik and dawa. Crystal clear KES 650, green-tint glass KES 550. Designs: A diamond, B swirl, C starburst, D leaf. Any 2 jugs KES 990",
+  "price": 550,
+  "unit": "1 pc",
+  "added": "2026-11-27",
+  "opts": [
+   {
+    "n": "Glass",
+    "v": [
+     [
+      "Green tint",
+      550
+     ],
+     [
+      "Crystal clear",
+      650
+     ]
+    ]
+   },
+   {
+    "n": "Design",
+    "v": [
+     [
+      "Diamond (25111)"
+     ],
+     [
+      "Swirl (25112)"
+     ],
+     [
+      "Starburst (25113)"
+     ],
+     [
+      "Leaf (25114)"
+     ]
+    ]
+   }
+  ],
+  "vi": {
+   "Diamond (25111)": "jug-df-18-1",
+   "Swirl (25112)": "jug-df-18-2",
+   "Starburst (25113)": "jug-df-18-3",
+   "Leaf (25114)": "jug-df-18-4"
+  },
+  "imgs": [
+   "jug-df-18-g1",
+   "jug-df-18-g2",
+   "jug-df-18-g3",
+   "jug-df-18-g4"
+  ],
+  "sub": "Glass jugs"
  }
 ]
