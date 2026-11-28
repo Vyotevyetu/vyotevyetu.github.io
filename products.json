@@ -15244,5 +15244,182 @@
    "60W": "solar-tntorch-2"
   },
   "sub": "Garden & outdoor"
+ },
+ {
+  "id": "bulb-led-pack",
+  "cat": "home",
+  "name": "💡 LED bulbs 5W, 9W & 12W, packs of 3 or 10",
+  "detail": "Bright white energy-saving LED bulbs for rooms, kitchens and shops. 5W Maxtek (50,000-hour life, 2-year warranty on the box), 9W Witu (900 lumens) and 12W Witu (1200 lumens, 30,000 hours, 1-year warranty). Pick pin (B22) or screw (E27) fitting. Uses about 80% less power than old bulbs.",
+  "price": 390,
+  "unit": "1 pack",
+  "opts": [
+   {
+    "n": "Bulb",
+    "v": [
+     [
+      "5W Maxtek, 3pcs",
+      390
+     ],
+     [
+      "5W Maxtek, 10pcs",
+      850
+     ],
+     [
+      "9W Witu, 3pcs",
+      450
+     ],
+     [
+      "9W Witu, 10pcs",
+      990
+     ],
+     [
+      "12W Witu, 3pcs",
+      490
+     ],
+     [
+      "12W Witu, 10pcs",
+      1090
+     ]
+    ]
+   },
+   {
+    "n": "Fitting",
+    "v": [
+     [
+      "Pin (B22)"
+     ],
+     [
+      "Screw (E27)"
+     ]
+    ]
+   }
+  ],
+  "added": "2026-11-28",
+  "vi": {
+   "5W Maxtek, 3pcs": "bulb-led-pack-1",
+   "5W Maxtek, 10pcs": "bulb-led-pack-1",
+   "9W Witu, 3pcs": "bulb-led-pack-3",
+   "9W Witu, 10pcs": "bulb-led-pack-3",
+   "12W Witu, 3pcs": "bulb-led-pack-5",
+   "12W Witu, 10pcs": "bulb-led-pack-5"
+  },
+  "sub": "Bulbs & lighting"
+ },
+ {
+  "id": "bulb-witu-t",
+  "cat": "home",
+  "name": "💡 Witu high-power LED bulb 30W & 40W",
+  "detail": "Big, very bright Witu T-shape LED bulb for sitting rooms, shops, stores, gates and verandas. 30W gives 2400 lumens and 40W gives 3200 lumens. Pin (B22) fitting, 30,000-hour life, 1-year warranty, about 80% energy saving.",
+  "price": 490,
+  "unit": "1 bulb",
+  "opts": [
+   {
+    "n": "Power",
+    "v": [
+     [
+      "30W",
+      490
+     ],
+     [
+      "40W",
+      650
+     ]
+    ]
+   }
+  ],
+  "added": "2026-11-28",
+  "vi": {
+   "30W": "bulb-witu-t-1",
+   "40W": "bulb-witu-t-2"
+  },
+  "sub": "Bulbs & lighting"
+ },
+ {
+  "id": "spare-weight-2handle",
+  "cat": "pressure",
+  "name": "⚙️ Pressure cooker weight (whistle) for two-handle cookers, small & large",
+  "detail": "Replacement weight (whistle) for two-handle pressure cookers. Stainless steel base with heat-resistant black handle. Small and large sizes; send us a photo of your cooker lid on WhatsApp to confirm the size.",
+  "price": 790,
+  "unit": "1 piece",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "Small",
+      790
+     ],
+     [
+      "Large",
+      790
+     ]
+    ]
+   }
+  ],
+  "added": "2026-11-28",
+  "vi": {
+   "Small": "spare-weight-2handle-1",
+   "Large": "spare-weight-2handle-2"
+  },
+  "sub": "Pressure cooker spare parts"
+ },
+ {
+  "id": "spare-knob-2handle",
+  "cat": "pressure",
+  "name": "⚙️ Pressure cooker lid knob for two-handle cookers",
+  "detail": "Replacement black lid knob for two-handle pressure cookers. Tough heat-resistant plastic, screws onto the lid. Send us a photo of your cooker lid on WhatsApp to confirm fit.",
+  "price": 790,
+  "unit": "1 piece",
+  "added": "2026-11-28",
+  "sub": "Pressure cooker spare parts"
+ },
+ {
+  "id": "spare-weight-prestige",
+  "cat": "pressure",
+  "name": "⚙️ Prestige pressure cooker weight (SKU 60704)",
+  "detail": "Original Prestige replacement weight (whistle), weight only, SKU 60704. Send us a photo or the model of your Prestige cooker on WhatsApp to confirm fit.",
+  "price": 990,
+  "unit": "1 piece",
+  "added": "2026-11-28",
+  "sub": "Pressure cooker spare parts"
+ },
+ {
+  "id": "spare-plug-prestige",
+  "cat": "pressure",
+  "name": "⚙️ Prestige metallic safety plug",
+  "detail": "Original Prestige metallic safety plug for Prestige Popular and stainless steel pressure cookers. Replace it if your cooker leaks steam from the safety plug. A cheap add-on to any spare part order.",
+  "price": 290,
+  "unit": "1 piece",
+  "added": "2026-11-28",
+  "sub": "Pressure cooker spare parts"
+ },
+ {
+  "id": "spare-handle",
+  "cat": "pressure",
+  "name": "⚙️ Pressure cooker handles, long lid handle & side handle",
+  "detail": "Replacement black heat-resistant handles for pressure cookers: the long lid handle and the small side (helper) handle. Fittings differ between brands, so send us a photo of your cooker on WhatsApp to confirm before ordering.",
+  "price": 390,
+  "unit": "1 piece",
+  "opts": [
+   {
+    "n": "Handle",
+    "v": [
+     [
+      "Long lid handle",
+      790
+     ],
+     [
+      "Side helper handle",
+      390
+     ]
+    ]
+   }
+  ],
+  "added": "2026-11-28",
+  "vi": {
+   "Long lid handle": "spare-handle-1",
+   "Side helper handle": "spare-handle-2"
+  },
+  "sub": "Pressure cooker spare parts"
  }
 ]
