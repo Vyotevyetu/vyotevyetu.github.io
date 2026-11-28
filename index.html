@@ -931,7 +931,7 @@ const TAGS = { cookware: "#Sufuria #Cookware", hotpots: "#Hotpots", sets: "#Dinn
 let PLAT = "wa";
 const COLOURISH = /colou?r|design|print|pattern|shade|finish|style|handle/i;
 function pickedVals(p) { /* option values whose own photo is among the photos chosen to send */
-  if (!p.vi || !SHPICS) return null; const g = gallery(p), sel = SHPICS.filter(u => g.includes(u)); if (sel.length < 2 || sel.includes("img/" + p.id + ".jpg")) return null;
+  if (!p.vi || !SHPICS) return null; const g = gallery(p), sel = SHPICS.filter(u => g.includes(u)); if (!sel.length || sel.includes("img/" + p.id + ".jpg")) return null;
   const out = []; (p.opts || []).forEach(o => o.v.forEach(v => { const st = p.vi[v[0]]; if (st && sel.includes("img/v/" + st + ".jpg")) out.push([o, v]); })); return out.length ? out : null;
 }
 function itemTitle(p, base, chosen) { /* chosen: [[opt, val]] → name only those items, not the whole list */
@@ -958,7 +958,7 @@ function itemTitle(p, base, chosen) { /* chosen: [[opt, val]] → name only thos
 function caption(p, plat, st) {
   const photo = st || (plat !== "wa" && plat !== "x");
   const picked = photo ? pickedVals(p) : null;
-  const shSel = (SHPICS || []).filter(u => gallery(p).includes(u)), multi = !picked && photo && p.opts && (shSel.length > 1 || (shSel.length === 1 && shSel[0] === "img/" + p.id + ".jpg" && p.opts.some(o => o.v.some(v => v[1]))));
+  const shSel = (SHPICS || []).filter(u => gallery(p).includes(u)), multi = !picked && photo && p.opts && (shSel.length > 1 || (shSel.length === 1 && shSel[0] === "img/" + p.id + ".jpg"));
   const k = vkey(), link = SITE + "p/" + p.id + ".html";
   const chosen = picked || (p.opts && !multi ? (VSEL[vid] || []).map((v, i) => p.opts[i] && [p.opts[i], p.opts[i].v.find(x => x[0] === v)]).filter(x => x && x[1]) : []);
   const cprice = ([, v]) => v[1] || p.price;
