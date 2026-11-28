@@ -957,6 +957,7 @@ function itemTitle(p, base, chosen) { /* chosen: [[opt, val]] → name only thos
 }
 function caption(p, plat, st) {
   const photo = st || (plat !== "wa" && plat !== "x");
+  const strk = t => plat === "wa" || plat === "ch" ? `~${t}~` : [...t.replace(/ /g, "\u00a0")].map(c => c + "\u0336").join("");
   const picked = photo ? pickedVals(p) : null;
   const shSel = (SHPICS || []).filter(u => gallery(p).includes(u)), multi = !picked && photo && p.opts && (shSel.length > 1 || (shSel.length === 1 && shSel[0] === "img/" + p.id + ".jpg"));
   const k = vkey(), link = SITE + "p/" + p.id + ".html";
@@ -967,7 +968,7 @@ function caption(p, plat, st) {
   const po = (p.opts || []).find(o => o.v.some(v => v[1]));
   const f = feats(p).map(x => { if (multi && po && po.v.filter(v => x.toLowerCase().includes(v[0].toLowerCase().split(",")[0])).length >= 2) return null; if (!chosen.length) return x; const hits = allVals.filter(v => !mine.includes(v) && x.toLowerCase().includes(v)).length; if (hits < 2) return x; const c = x.indexOf(":"); return c > 15 ? x.slice(0, c) : null; }).filter(Boolean).slice(0, plat === "x" ? 0 : 3), ds = dealsOf(p).slice(0, 2);
   const prices = picked ? "💰 " + picked.map(c => `${c[1][0]} ${fmt(cprice(c))}`).join(" · ") + ` (${p.unit} each)`
-    : po && multi ? po.v.map(v => `📏 ${v[0]}: ${fmt(v[1] || p.price)}${v[2] && v[2] > (v[1] || p.price) ? ` ~${fmt(v[2])}~` : ""}`).join("\n") : `💰 ${fmt(it.price)}${pct(it.price, it.was) ? ` ~${fmt(it.was)}~ (-${pct(it.price, it.was)}% ${SALE.name}, ends ${SALE.ends})` : ""} (${p.unit})`;
+    : po && multi ? po.v.map(v => `📏 ${v[0]}: ${fmt(v[1] || p.price)}${v[2] && v[2] > (v[1] || p.price) ? ` ${strk(fmt(v[2]))}` : ""}`).join("\n") : `💰 ${fmt(it.price)}${pct(it.price, it.was) ? ` ${strk(fmt(it.was))} (-${pct(it.price, it.was)}% ${SALE.name}, ends ${SALE.ends})` : ""} (${p.unit})`;
   const tags = ["#VyetuVyote", ...(TAGS[p.cat] || "#HomeEssentials").split(" "), "#Nairobi", "#KenyaShopping"];
   const nm = p.name.match(/^([^\p{L}\p{N}]*)(.*)$/u), emo = nm[1].trim(), base = nm[2].replace(/\s*\((?=[^)]*\d)[A-Z0-9][A-Za-z0-9 .\-\/]*\)\s*$/, "").trim();
   const title = multi ? base : itemTitle(p, base, chosen);
@@ -976,7 +977,7 @@ function caption(p, plat, st) {
   const L = [];
   if (plat === "x") { let t = `${name} 🛒 Order on WhatsApp 0114 308 114 ${tags.slice(0, 3).join(" ")}`; return t.slice(0, 250) + "\n" + link; }
   L.push(bold); f.forEach(x => L.push("✅ " + x)); if (multi) p.opts.filter(o => !o.v.some(v => v[1])).forEach(o => L.push("🎨 " + o.n + ": " + o.v.map(v => v[0]).join(" · "))); L.push(prices);
-  ds.forEach(d => L.push(`🔥 ${d.label}: ${fmt(d.price)}${d.was ? ` ~${fmt(d.was)}~` : ""}`));
+  ds.forEach(d => L.push(`🔥 ${d.label}: ${fmt(d.price)}${d.was ? ` ${strk(fmt(d.was))}` : ""}`));
   L.push("");
   if (plat === "wa") L.push("🚚 Delivery in Nairobi & worldwide (at customer's cost)", "🛒 " + link);
   if (plat === "ch") L.push("🚚 Delivery in Nairobi & worldwide (at customer's cost)", "📲 Order: https://wa.me/254114308114", "🛒 " + link);
