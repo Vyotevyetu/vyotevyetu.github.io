@@ -13015,7 +13015,7 @@
   "id": "flask-coffee-20177",
   "cat": "flasks",
   "name": "☕ Stainless vacuum coffee pot 2L (20177)",
-  "detail": "Double-wall stainless steel vacuum flask shaped like a coffee jug, with press-button pour lid and big handle. Keeps tea, coffee or hot water hot for hours. Unbreakable, no glass inside. Boxed, a good gift",
+  "detail": "Double-wall stainless steel vacuum flask shaped like a coffee jug, with press-button pour lid and big handle. Keeps tea, coffee or hot water hot for hours. Unbreakable, no glass inside. Boxed, a good gift. Any 2 steel flasks KES 2,390",
   "price": 1290,
   "unit": "1 pc",
   "added": "2026-11-26",
@@ -14988,5 +14988,140 @@
   "unit": "1 set",
   "added": "2026-11-28",
   "sub": "Pressure cooker spare parts"
+ },
+ {
+  "id": "gl-hex-3613",
+  "cat": "glass",
+  "name": "💎 Hexagon whisky glasses 320ml, 6pcs (3613)",
+  "detail": "Exquisite Glassware hexagon-base whisky and juice glasses, 320ml each, heavy 185g glass, boxed set of 6. Clear or smoky black tint. For whisky, juice, soda and gifts. Any 2 Exquisite glass sets KES 2,190",
+  "price": 1190,
+  "unit": "6pc set",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Clear"
+     ],
+     [
+      "Black tint"
+     ]
+    ]
+   }
+  ],
+  "added": "2026-11-28",
+  "vi": {
+   "Clear": "gl-hex-3613-1",
+   "Black tint": "gl-hex-3613-2"
+  },
+  "sub": "Wine, whisky & party glasses"
+ },
+ {
+  "id": "gl-whisky-3611",
+  "cat": "glass",
+  "name": "🥃 Exquisite whisky glasses 300ml, 6pcs (3611)",
+  "detail": "Exquisite Glassware tapered whisky tumblers, 300ml each, thick 180g base, boxed set of 6. Whisky, juice and water. Any 2 Exquisite glass sets KES 2,190",
+  "price": 990,
+  "unit": "6pc set",
+  "added": "2026-11-28",
+  "sub": "Wine, whisky & party glasses"
+ },
+ {
+  "id": "wine-kd-24708",
+  "cat": "glass",
+  "name": "🍷 King Dealay wine glasses 340ml, 6pcs (24708)",
+  "detail": "King Dealay Exquisite wine glasses, 340ml each (19.7cm tall), clear glass on a long stem, boxed set of 6. Red or white wine, juice and parties. Any 2 Exquisite glass sets KES 2,190",
+  "price": 1390,
+  "unit": "6pc set",
+  "added": "2026-11-28",
+  "sub": "Wine, whisky & party glasses"
+ },
+ {
+  "id": "gl-highball-3614",
+  "cat": "glass",
+  "name": "🍹 Exquisite tall cocktail glasses 340ml, 6pcs (3614)",
+  "detail": "Exquisite Glassware curved tall glasses, 340ml each, 206g, boxed set of 6. Cocktails, juice, smoothies and water. Any 2 Exquisite glass sets KES 2,190",
+  "price": 1090,
+  "unit": "6pc set",
+  "added": "2026-11-28",
+  "sub": "Drinking glasses"
+ },
+ {
+  "id": "flask-afrlory-02785",
+  "cat": "flasks",
+  "name": "☕ Afrlory stainless vacuum flask 2L (02785)",
+  "detail": "Afrlory unbreakable 2-litre stainless steel vacuum jug with black press lid and big handle. Keeps tea, coffee or hot water hot for hours, no glass inside. Boxed. Any 2 steel flasks KES 2,390",
+  "price": 1290,
+  "unit": "1 pc",
+  "added": "2026-11-28",
+  "sub": "Tea flasks"
+ },
+ {
+  "id": "flask-8160",
+  "cat": "flasks",
+  "name": "🫖 Stainless flower flask 1.7L (8160)",
+  "detail": "1.7-litre stainless steel vacuum flask with flower print and coloured lid and handle. Keeps tea hot for hours. Any 2 steel flasks KES 2,390",
+  "price": 1190,
+  "unit": "1 pc",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Brown"
+     ],
+     [
+      "Blue"
+     ],
+     [
+      "Black"
+     ]
+    ]
+   }
+  ],
+  "added": "2026-11-28",
+  "vi": {
+   "Brown": "flask-8160-1",
+   "Blue": "flask-8160-2",
+   "Black": "flask-8160-3"
+  },
+  "sub": "Tea flasks"
+ },
+ {
+  "id": "flask-marble-1771",
+  "cat": "flasks",
+  "name": "✨ Marble coffee pot flask 2L (1771)",
+  "detail": "2-litre stainless steel vacuum coffee pot with gold-vein marble finish and shiny chrome tulip spout and handle. Keeps tea or coffee hot for hours. Looks great on the table and as a gift. Any 2 steel flasks KES 2,390",
+  "price": 1490,
+  "unit": "1 pc",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "White marble"
+     ],
+     [
+      "Black marble"
+     ]
+    ]
+   }
+  ],
+  "added": "2026-11-28",
+  "vi": {
+   "White marble": "flask-marble-1771-1",
+   "Black marble": "flask-marble-1771-2"
+  },
+  "sub": "Tea flasks"
+ },
+ {
+  "id": "uken-big-set6",
+  "cat": "cookware",
+  "name": "✨ Uken big sufuria set, 6pcs (sizes 31 to 36)",
+  "detail": "Six heavy Uken big sufurias, sizes 31, 32, 33, 34, 35 and 36, about 28L up to 38L each (on Uken big sizing). For catering, schools, churches, hotels and big functions",
+  "price": 18990,
+  "unit": "6pc set",
+  "added": "2026-11-28",
+  "sub": "Big catering sufurias"
  }
 ]
