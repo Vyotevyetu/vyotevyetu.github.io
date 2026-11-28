@@ -955,23 +955,24 @@ function itemTitle(p, base, chosen) { /* chosen: [[opt, val]] → name only thos
   if (rest.length) n += " (" + [...new Set(rest.map(([, v]) => v[0].replace(/\s*\((.*)\)/, " – $1")))].join(", ") + ")";
   return n;
 }
-function caption(p, plat) {
-  const picked = plat !== "wa" && plat !== "x" ? pickedVals(p) : null;
-  const multi = !picked && plat !== "wa" && plat !== "x" && p.opts && (SHPICS || []).filter(u => gallery(p).includes(u)).length > 1;
+function caption(p, plat, st) {
+  const photo = st || (plat !== "wa" && plat !== "x");
+  const picked = photo ? pickedVals(p) : null;
+  const shSel = (SHPICS || []).filter(u => gallery(p).includes(u)), multi = !picked && photo && p.opts && (shSel.length > 1 || (shSel.length === 1 && shSel[0] === "img/" + p.id + ".jpg" && p.opts.some(o => o.v.some(v => v[1]))));
   const k = vkey(), link = SITE + "p/" + p.id + ".html";
   const chosen = picked || (p.opts && !multi ? (VSEL[vid] || []).map((v, i) => p.opts[i] && [p.opts[i], p.opts[i].v.find(x => x[0] === v)]).filter(x => x && x[1]) : []);
   const cprice = ([, v]) => v[1] || p.price;
   const it = multi ? { price: Math.min(p.price, ...p.opts.flatMap(o => o.v.map(v => v[1] || p.price))) } : picked ? { price: Math.min(...picked.map(cprice)) } : (item(k) || p);
   const allVals = (p.opts || []).flatMap(o => o.v.map(v => v[0].toLowerCase())), mine = chosen.map(([, v]) => v[0].toLowerCase());
-  const f = feats(p).map(x => { if (!chosen.length) return x; const hits = allVals.filter(v => !mine.includes(v) && x.toLowerCase().includes(v)).length; if (hits < 2) return x; const c = x.indexOf(":"); return c > 15 ? x.slice(0, c) : null; }).filter(Boolean).slice(0, plat === "x" ? 0 : 3), ds = dealsOf(p).slice(0, 2);
   const po = (p.opts || []).find(o => o.v.some(v => v[1]));
+  const f = feats(p).map(x => { if (multi && po && po.v.filter(v => x.toLowerCase().includes(v[0].toLowerCase().split(",")[0])).length >= 2) return null; if (!chosen.length) return x; const hits = allVals.filter(v => !mine.includes(v) && x.toLowerCase().includes(v)).length; if (hits < 2) return x; const c = x.indexOf(":"); return c > 15 ? x.slice(0, c) : null; }).filter(Boolean).slice(0, plat === "x" ? 0 : 3), ds = dealsOf(p).slice(0, 2);
   const prices = picked ? "💰 " + picked.map(c => `${c[1][0]} ${fmt(cprice(c))}`).join(" · ") + ` (${p.unit} each)`
-    : po && multi ? "📏 " + po.v.slice(0, 6).map(v => `${v[0]} ${fmt(v[1] || p.price)}`).join(" · ") : `💰 ${fmt(it.price)}${pct(it.price, it.was) ? ` ~${fmt(it.was)}~ (-${pct(it.price, it.was)}% ${SALE.name}, ends ${SALE.ends})` : ""} (${p.unit})`;
+    : po && multi ? po.v.map(v => `📏 ${v[0]}: ${fmt(v[1] || p.price)}${v[2] && v[2] > (v[1] || p.price) ? ` ~${fmt(v[2])}~` : ""}`).join("\n") : `💰 ${fmt(it.price)}${pct(it.price, it.was) ? ` ~${fmt(it.was)}~ (-${pct(it.price, it.was)}% ${SALE.name}, ends ${SALE.ends})` : ""} (${p.unit})`;
   const tags = ["#VyetuVyote", ...(TAGS[p.cat] || "#HomeEssentials").split(" "), "#Nairobi", "#KenyaShopping"];
   const nm = p.name.match(/^([^\p{L}\p{N}]*)(.*)$/u), emo = nm[1].trim(), base = nm[2].replace(/\s*\((?=[^)]*\d)[A-Z0-9][A-Za-z0-9 .\-\/]*\)\s*$/, "").trim();
   const title = multi ? base : itemTitle(p, base, chosen);
   const qn = parseInt(p.unit, 10), qty = qn > 1 && !/\b\d+\s*(pcs?|pieces)\b/i.test(title) ? qn + "Pcs " : "";
-  const name = `${emo ? emo + " " : ""}${qty}${title} @${fmt(it.price)}${picked && new Set(picked.map(cprice)).size > 1 ? " – " + Math.max(...picked.map(cprice)).toLocaleString("en-US") : ""}`, bold = plat === "wa" || plat === "ch" ? `*${name}*` : name;
+  const name = `${emo ? emo + " " : ""}${qty}${title} @${fmt(it.price)}${picked && new Set(picked.map(cprice)).size > 1 ? " – " + Math.max(...picked.map(cprice)).toLocaleString("en-US") : multi && po && new Set(po.v.map(v => v[1] || p.price)).size > 1 ? " – " + Math.max(...po.v.map(v => v[1] || p.price)).toLocaleString("en-US") : ""}`, bold = plat === "wa" || plat === "ch" ? `*${name}*` : name;
   const L = [];
   if (plat === "x") { let t = `${name} 🛒 Order on WhatsApp 0114 308 114 ${tags.slice(0, 3).join(" ")}`; return t.slice(0, 250) + "\n" + link; }
   L.push(bold); f.forEach(x => L.push("✅ " + x)); if (multi) p.opts.filter(o => !o.v.some(v => v[1])).forEach(o => L.push("🎨 " + o.n + ": " + o.v.map(v => v[0]).join(" · "))); L.push(prices);
@@ -1010,7 +1011,7 @@ const PL = { wa: ["WhatsApp", "Send on WhatsApp", "Opens WhatsApp with the capti
 function renderShare() {
   const p = byId[vid];
   openSheet("Share " + nameOf(p), `<div class="plats">${Object.entries(PL).map(([k, v]) => `<button type="button" data-pl="${k}" aria-pressed="${k === PLAT}">${v[0]}</button>`).join("")}</div>
-  ${PLAT === "wa" || PLAT === "x" ? "" : picksHtml(p)}<textarea id="shtxt" aria-label="Caption">${esc(caption(p, PLAT === "st" ? "wa" : PLAT))}</textarea>
+  ${PLAT === "wa" || PLAT === "x" ? "" : picksHtml(p)}<textarea id="shtxt" aria-label="Caption">${esc(caption(p, PLAT === "st" ? "wa" : PLAT, PLAT === "st"))}</textarea>
   <div class="shrow"><button type="button" class="shgo" id="shgo"${PLAT === "ch" || PLAT === "st" ? ' style="background:#1fa855"' : ""}>${PL[PLAT][1].replace("photo", shPics(p).some(isVid) ? (shPics(p).every(isVid) ? "video" : "photos & video") : "photo")}</button><button type="button" class="shcp" id="shcp">Copy caption</button></div><p class="shnote">${PL[PLAT][2]} You can edit the caption first.</p>${PLAT === "ch" ? `<button type="button" id="shch" style="width:100%;margin-top:10px;padding:11px;border-radius:12px;border:1px dashed #0f3d2e;background:#fff;color:#0f3d2e;font:700 .85rem var(--body);cursor:pointer">Channel not in the list? Save photo, copy caption &amp; open channel</button>` : ""}`);
 }
 $("vshb").addEventListener("click", async e => {
