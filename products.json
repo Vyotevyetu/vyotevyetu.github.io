@@ -14981,5 +14981,63 @@
   "unit": "1 pc",
   "added": "2026-11-28",
   "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "spare-float-seal",
+  "cat": "pressure",
+  "name": "⚙️ Pressure cooker float valve seal, white silicone",
+  "detail": "Replacement white silicone seal (rubber ring) for the float valve on electric pressure cookers. A worn or missing seal lets steam leak and the cooker never builds pressure. Fits most electric pressure cookers; send us a photo of your valve on WhatsApp to confirm.",
+  "price": 450,
+  "unit": "1 seal",
+  "opts": [
+   {
+    "n": "Pack",
+    "v": [
+     [
+      "1 seal",
+      450
+     ],
+     [
+      "2 seals",
+      790
+     ]
+    ]
+   }
+  ],
+  "added": "2026-11-28",
+  "sub": "Pressure cooker spare parts"
+ },
+ {
+  "id": "spare-float-combo",
+  "cat": "pressure",
+  "name": "⚙️ Pressure cooker float valve pin + seal set",
+  "detail": "Steel float valve pin with its white silicone seal, the part that pops up to lock the lid when pressure builds. Replace both when the pin is lost or the cooker will not seal. Fits most electric pressure cookers; send a photo of your lid on WhatsApp to confirm.",
+  "price": 890,
+  "unit": "1 set",
+  "added": "2026-11-28",
+  "sub": "Pressure cooker spare parts"
+ },
+ {
+  "id": "spare-safety-plug",
+  "cat": "pressure",
+  "name": "⚙️ Pressure cooker lid safety valve rubber plug",
+  "detail": "Replacement rubber safety plug for the centre of the inner lid steam plate. Stops steam escaping through the middle of the lid. Send a photo of your lid on WhatsApp to confirm it fits.",
+  "price": 590,
+  "unit": "1 pc",
+  "imgs": [
+   "spare-safety-plug-g1"
+  ],
+  "added": "2026-11-28",
+  "sub": "Pressure cooker spare parts"
+ },
+ {
+  "id": "spare-valve-von",
+  "cat": "pressure",
+  "name": "⚙️ Float valve with rubber for Von, Mika & similar electric pressure cookers",
+  "detail": "Long steel float valve with its rubber seal, for Von, Mika and similar electric pressure cookers. Fixes lids that will not lock or cookers that leak steam. Send a photo of your old valve on WhatsApp to confirm.",
+  "price": 1290,
+  "unit": "1 set",
+  "added": "2026-11-28",
+  "sub": "Pressure cooker spare parts"
  }
 ]
