@@ -252,7 +252,7 @@
   "id": "uken-big",
   "cat": "cookware",
   "name": "✨ Uken big stainless sufuria",
-  "detail": "Heavy stainless sufuria sold singly for big families, functions and catering. Size 24 14L KES 4,890 up to Size 30 26L KES 6,890",
+  "detail": "Heavy stainless sufuria sold singly for big families, functions and catering. Size 24 14L KES 4,890 up to Size 30 26L KES 6,890. Or take the full set of 7 (sizes 24 to 30) for KES 12,990",
   "price": 4890,
   "unit": "1 pc",
   "added": "2026-11-20",
@@ -287,10 +287,17 @@
      [
       "30 · 26L",
       6890
+     ],
+     [
+      "Full set 24 to 30 · 7pcs (14L to 26L)",
+      12990
      ]
     ]
    }
   ],
+  "vi": {
+   "Full set 24 to 30 · 7pcs (14L to 26L)": "uken-big-set7"
+  },
   "sub": "Big catering sufurias"
  },
  {
@@ -15123,5 +15130,119 @@
   "unit": "6pc set",
   "added": "2026-11-28",
   "sub": "Big catering sufurias"
+ },
+ {
+  "id": "bottle-square-700",
+  "cat": "flasks",
+  "name": "💧 Square water bottle 700ml with strap",
+  "detail": "Shuiyinzi square sports water bottle, 700ml, with clear window and 100-700ml markings, flip lock lid and carry strap. School, gym and office. Any 2 square bottles KES 1,150",
+  "price": 650,
+  "unit": "1 pc",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Brown"
+     ],
+     [
+      "Teal"
+     ],
+     [
+      "Pink"
+     ],
+     [
+      "Grey"
+     ]
+    ]
+   }
+  ],
+  "added": "2026-11-28",
+  "vi": {
+   "Brown": "bottle-square-700-1",
+   "Teal": "bottle-square-700-2",
+   "Pink": "bottle-square-700-3",
+   "Grey": "bottle-square-700-4"
+  },
+  "sub": "Water bottles"
+ },
+ {
+  "id": "cookset-rosegold-12",
+  "cat": "cookware",
+  "name": "✨ Ebberg 12pc stainless cookware set, rose-gold handles",
+  "detail": "12-piece stainless steel cookware set: 4 pots, 1 saucepan and 1 non-stick frying pan, each with a glass lid. Rose-gold handles and knobs. Induction ready and dishwasher safe. Works on gas, electric and induction",
+  "price": 7490,
+  "unit": "12pc set",
+  "added": "2026-11-28",
+  "sub": "Stainless steel cookware"
+ },
+ {
+  "id": "marwa-kasavilla-6",
+  "cat": "cookware",
+  "name": "🍲 Marwa Kasavilla 6pc stainless cookware set (2L, 3.8L, 6.3L)",
+  "detail": "Marwa VIP Gold Edition belly pots: 3 stainless steel pots of 2L, 3.8L and 6.3L, each with a glass lid and colour-dial knob. Works on gas, electric and induction",
+  "price": 4690,
+  "unit": "6pc set",
+  "added": "2026-11-28",
+  "sub": "Stainless steel cookware"
+ },
+ {
+  "id": "castiron-red-11",
+  "cat": "cookware",
+  "name": "❤️ Red enamelled cast iron cookware set, 11pcs",
+  "detail": "Heavy enamelled cast iron cookware in red with cream insides: casserole pots and saucepans with lids, a square grill pan and a baking dish. Holds heat for slow stews, roasting and baking, oven safe. A showpiece gift",
+  "price": 18990,
+  "unit": "11pc set",
+  "added": "2026-11-28",
+  "sub": "Casseroles & stew pots"
+ },
+ {
+  "id": "suf-torwakal-14",
+  "cat": "cookware",
+  "name": "🍲 Torwakal aluminium cookware set, 14pcs (16 to 28cm)",
+  "detail": "7 shiny aluminium pots with handles and 7 lids, sizes 16, 18, 20, 22, 24, 26 and 28cm. Comes in a carry bag. Everyday cooking to big family meals",
+  "price": 6490,
+  "unit": "14pc set",
+  "added": "2026-11-28",
+  "sub": "Aluminium sufuria sets"
+ },
+ {
+  "id": "rack-kitchen-4tier-wheels",
+  "cat": "kitchen",
+  "name": "🗄️ Multipurpose 4-tier kitchen rack with baskets & wheels",
+  "detail": "Black steel kitchen rack with 4 wide shelves for microwave, toaster, kettle and pots, plus 4 slide-in vegetable baskets on the side. Lockable wheels move it easily",
+  "price": 5990,
+  "unit": "1 pc",
+  "added": "2026-11-28",
+  "sub": "Dish racks & kitchen racks"
+ },
+ {
+  "id": "solar-tntorch",
+  "cat": "home",
+  "name": "🔆 TNTorch solar flood light with remote (30W, 60W)",
+  "detail": "TNTorch IP66 waterproof solar flood light with separate solar panel, battery level display and remote control (on/off, brightness, 3/5/8-hour timer). For gates, compounds, gardens and parking. No electricity bill",
+  "price": 2890,
+  "unit": "1 set",
+  "opts": [
+   {
+    "n": "Power",
+    "v": [
+     [
+      "30W",
+      2890
+     ],
+     [
+      "60W",
+      3990
+     ]
+    ]
+   }
+  ],
+  "added": "2026-11-28",
+  "vi": {
+   "30W": "solar-tntorch-1",
+   "60W": "solar-tntorch-2"
+  },
+  "sub": "Garden & outdoor"
  }
 ]
