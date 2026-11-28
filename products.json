@@ -3420,7 +3420,7 @@
    }
   ],
   "added": "2026-11-26",
-  "sub": "Toasters"
+  "sub": "Toasters & sandwich makers"
  },
  {
   "id": "lug-rosegold-stripe",
@@ -14747,5 +14747,239 @@
    "laundry-bags-2"
   ],
   "sub": "Cleaning supplies"
+ },
+ {
+  "id": "garden-complast-20",
+  "cat": "home",
+  "name": "🪴 Complast big flower pot No.20 with dish, 20L",
+  "detail": "Large 20-litre plastic flower pot, about 40cm wide x 32cm tall, with matching drip dish. Strong, durable, made in Kenya. For patios, balconies, gardens and indoors. Any 2 Complast pots KES 2,290",
+  "price": 1190,
+  "unit": "1 pot + dish",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Green"
+     ],
+     [
+      "White"
+     ],
+     [
+      "Maroon"
+     ],
+     [
+      "Black"
+     ],
+     [
+      "Brown"
+     ]
+    ]
+   }
+  ],
+  "added": "2026-11-28",
+  "vi": {
+   "Green": "garden-complast-20-1",
+   "White": "garden-complast-20-2",
+   "Maroon": "garden-complast-20-3",
+   "Black": "garden-complast-20-4",
+   "Brown": "garden-complast-20-5"
+  },
+  "imgs": [
+   "garden-complast-20-g1"
+  ],
+  "sub": "Garden & outdoor"
+ },
+ {
+  "id": "garden-crown-27",
+  "cat": "home",
+  "name": "👑 Crown flower pot with plate, 27cm",
+  "detail": "Sturdy plastic planter with matching saucer plate, 27cm wide x 25.5cm tall. Embossed crown pattern, made in Kenya. Flowers, herbs, indoor and outdoor plants. Any 2 crown pots KES 790",
+  "price": 450,
+  "unit": "1 pot + plate",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Green"
+     ],
+     [
+      "Black"
+     ],
+     [
+      "Red"
+     ]
+    ]
+   }
+  ],
+  "added": "2026-11-28",
+  "vi": {
+   "Green": "garden-crown-27-1",
+   "Black": "garden-crown-27-2",
+   "Red": "garden-crown-27-3"
+  },
+  "sub": "Garden & outdoor"
+ },
+ {
+  "id": "garden-melamine-fl20",
+  "cat": "home",
+  "name": "🌼 Melamine flower pot FL20, 18cm",
+  "detail": "Light, durable melamine flower pot 18cm wide x 14cm tall with drainage holes. Bright colours for indoor plants, office desks, balconies and herbs. Any 3 small flower pots KES 850",
+  "price": 350,
+  "unit": "1 pc",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Orange"
+     ],
+     [
+      "White"
+     ],
+     [
+      "Light blue"
+     ]
+    ]
+   }
+  ],
+  "added": "2026-11-28",
+  "vi": {
+   "Orange": "garden-melamine-fl20-1",
+   "White": "garden-melamine-fl20-2",
+   "Light blue": "garden-melamine-fl20-3"
+  },
+  "sub": "Garden & outdoor"
+ },
+ {
+  "id": "garden-melamine-f052",
+  "cat": "home",
+  "name": "🌸 Melamine round flower pot F052, 2L",
+  "detail": "2-litre melamine flower pot with an embossed leaf pattern. Lightweight, easy to clean, for flowers, herbs and small plants at home or office. Any 3 small flower pots KES 850",
+  "price": 290,
+  "unit": "1 pc",
+  "opts": [
+   {
+    "n": "Colour",
+    "v": [
+     [
+      "Lime green"
+     ],
+     [
+      "Light pink"
+     ],
+     [
+      "Pink"
+     ]
+    ]
+   }
+  ],
+  "added": "2026-11-28",
+  "vi": {
+   "Lime green": "garden-melamine-f052-1",
+   "Light pink": "garden-melamine-f052-2",
+   "Pink": "garden-melamine-f052-3"
+  },
+  "sub": "Garden & outdoor"
+ },
+ {
+  "id": "garden-kenpoly-square",
+  "cat": "home",
+  "name": "🪴 Kenpoly square planter, green, 6 sizes",
+  "detail": "Strong square plastic planters with feet, made in Kenya. Flowers, herbs, vegetables and decorative plants, indoor or outdoor. Sizes: No.3 1.9L, No.4 3.4L, No.5 5.64L, No.6 15L, No.7 29L (38.5cm wide), plus mini No.1 480ml in packs of 3",
+  "price": 490,
+  "unit": "1 pot",
+  "opts": [
+   {
+    "n": "Size",
+    "v": [
+     [
+      "No.3, 1.9L",
+      490
+     ],
+     [
+      "No.4, 3.4L",
+      690
+     ],
+     [
+      "No.5, 5.64L",
+      990
+     ],
+     [
+      "No.6, 15L",
+      1590
+     ],
+     [
+      "No.7, 29L",
+      2390
+     ],
+     [
+      "No.1, 480ml (3 pots)",
+      590
+     ]
+    ]
+   }
+  ],
+  "added": "2026-11-28",
+  "vi": {
+   "No.1, 480ml (3 pots)": "garden-kenpoly-square-1",
+   "No.3, 1.9L": "garden-kenpoly-square-2",
+   "No.4, 3.4L": "garden-kenpoly-square-3",
+   "No.5, 5.64L": "garden-kenpoly-square-4",
+   "No.6, 15L": "garden-kenpoly-square-5",
+   "No.7, 29L": "garden-kenpoly-square-6"
+  },
+  "sub": "Garden & outdoor"
+ },
+ {
+  "id": "chafing-triple-9l",
+  "cat": "hotpots",
+  "name": "🍛 Triple chafing dish, 3 compartments",
+  "detail": "Stainless steel buffet food warmer with 3 food pans and a roll-top lid, holds about 9 litres (enough for 25-30 guests). Serve rice, stew and veg at once for weddings, harambees, church events and parties. Uses chafing fuel (not included)",
+  "price": 7490,
+  "unit": "1 set",
+  "added": "2026-11-28",
+  "sub": "Chafing dishes & food warmers"
+ },
+ {
+  "id": "sandwich-ebester-12203",
+  "cat": "kettles",
+  "name": "🥪 E-Bester 2-slice sandwich maker EE-12203",
+  "detail": "750W sandwich maker with non-stick plates, double-sided heat, cool-touch handle and overheat protection. Toasted sandwiches in minutes. 3-pin UK plug",
+  "price": 1990,
+  "unit": "1 pc",
+  "added": "2026-11-28",
+  "sub": "Toasters & sandwich makers"
+ },
+ {
+  "id": "ornament-santa-mini-6",
+  "cat": "decor",
+  "name": "🎅 Mini Santa ornaments, 6 pcs",
+  "detail": "Pack of 6 soft flocked Santa figures with gold hanging strings for your tree, wreath or gift wrap. Any 3 ornament packs KES 990",
+  "price": 350,
+  "unit": "6 pcs",
+  "added": "2026-11-28",
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "ornament-star-bow",
+  "cat": "decor",
+  "name": "⭐ Gold star tree topper with red bow",
+  "detail": "Gold star topper with red velvet bow, berries, pine sprigs and Merry Christmas sign. Any 3 ornament packs KES 990",
+  "price": 350,
+  "unit": "1 pc",
+  "added": "2026-11-28",
+  "sub": "Bows, stockings & ornaments"
+ },
+ {
+  "id": "ornament-bells-jingle",
+  "cat": "decor",
+  "name": "🔔 Gold bells with jingle bell bow",
+  "detail": "Gold double bells with a burlap bow, real jingle bell, tinsel pine and berries. Hang on the door, wall or tree. Any 3 ornament packs KES 990",
+  "price": 350,
+  "unit": "1 pc",
+  "added": "2026-11-28",
+  "sub": "Bows, stockings & ornaments"
  }
 ]
