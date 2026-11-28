@@ -15337,45 +15337,46 @@
  {
   "id": "spare-weight-2handle",
   "cat": "pressure",
-  "name": "⚙️ Pressure cooker weights (whistles): standard, two-handle, boxed & Prestige",
-  "detail": "Replacement weights (whistles) for manual pressure cookers. The weight sits on the vent tube and controls the pressure, so a lost or damaged one means the cooker will not cook. Standard whistle for most one-handle cookers; small and large weights for two-handle cookers (stainless steel base, heat-resistant black handle); boxed whistle; and the original Prestige SS 23mm weight (SKU 60704). Most generic parts fit most cookers; send us a photo of your lid on WhatsApp if unsure.",
-  "price": 690,
+  "name": "⚙️ Pressure cooker weights (whistles / steel caps): standard, two-handle & Prestige",
+  "detail": "Replacement weights (whistles, also called caps) for manual pressure cookers. The weight sits on the vent tube and controls the pressure, so a lost or damaged one means the cooker will not cook. Standard steel cap for most one-handle cookers; small and large weights for two-handle cookers (stainless steel base, heat-resistant black handle); the boxed Prestige whistle; and the Prestige SS 23mm weight (SKU 60704). Most generic parts fit most cookers; send us a photo of your lid on WhatsApp if unsure.",
+  "price": 850,
   "unit": "1 piece",
   "opts": [
    {
     "n": "Weight",
     "v": [
      [
-      "Standard whistle",
-      690
+      "Standard steel cap",
+      850
      ],
      [
       "Two-handle, small",
-      790
+      850
      ],
      [
       "Two-handle, large",
-      790
+      850
      ],
      [
-      "Boxed whistle",
-      990
+      "Prestige boxed whistle",
+      850
      ],
      [
-      "Prestige weight (SKU 60704)",
-      990
+      "Prestige SS 23mm weight (SKU 60704)",
+      850
      ]
     ]
    }
   ],
   "added": "2026-11-28",
   "vi": {
-   "Standard whistle": "spare-weight-2handle-1",
+   "Standard steel cap": "spare-weight-2handle-1",
    "Two-handle, small": "spare-weight-2handle-2",
    "Two-handle, large": "spare-weight-2handle-3",
-   "Saral whistle": "spare-weight-2handle-4",
-   "Prestige weight (SKU 60704)": "spare-weight-2handle-5"
+   "Prestige boxed whistle": "spare-weight-2handle-4",
+   "Prestige SS 23mm weight (SKU 60704)": "spare-weight-2handle-5"
   },
+  "nosale": true,
   "sub": "Pressure cooker spare parts"
  },
  {
@@ -15386,69 +15387,67 @@
   "price": 790,
   "unit": "1 piece",
   "added": "2026-11-28",
+  "nosale": true,
   "sub": "Pressure cooker spare parts"
  },
  {
   "id": "spare-plug-prestige",
   "cat": "pressure",
-  "name": "⚙️ Pressure cooker safety valve & Prestige metallic safety plug",
-  "detail": "Safety parts for manual pressure cookers. The safety valve or plug releases steam if the vent gets blocked, so replace it when it leaks or after it has blown. Original Prestige metallic safety plug (Prestige Popular and stainless steel cookers) and a generic rubber-tipped safety valve. Cheap add-on to any spare part order.",
-  "price": 290,
+  "name": "⚙️ Pressure cooker safety valves, incl. Prestige metallic safety plug",
+  "detail": "Safety valves for manual pressure cookers. The safety valve releases steam if the vent gets blocked, so replace it when it leaks or after it has blown. Generic safety valves fit most cookers; the original Prestige metallic safety plug fits Prestige Popular and stainless steel cookers. Send us a photo of your lid on WhatsApp if unsure.",
+  "price": 550,
   "unit": "1 piece",
   "added": "2026-11-28",
   "opts": [
    {
-    "n": "Part",
+    "n": "Valve",
     "v": [
      [
-      "Prestige metallic safety plug",
-      290
+      "Safety valve",
+      550
      ],
      [
-      "Safety valve",
-      350
+      "Prestige metallic safety plug",
+      550
      ]
     ]
    }
   ],
   "vi": {
-   "Prestige metallic safety plug": "spare-plug-prestige-1",
-   "Safety valve": "spare-plug-prestige-2"
+   "Safety valve": "spare-plug-prestige-2",
+   "Prestige metallic safety plug": "spare-plug-prestige-1"
   },
+  "nosale": true,
   "sub": "Pressure cooker spare parts"
  },
  {
   "id": "spare-handle",
   "cat": "pressure",
-  "name": "⚙️ Pressure cooker handles: side handle, long lid handle & body + lid pair",
-  "detail": "Black heat-resistant replacement handles for manual pressure cookers: the small side (helper) handle, the long lid handle, and the Saral-type body + lid handle pair for 6–10L cookers. Screws come with the cooker fittings. Most generic handles fit most cookers; send us a photo of your cooker on WhatsApp if unsure.",
-  "price": 390,
+  "name": "⚙️ Pressure cooker handles: double handle (body + lid pair) & side handle",
+  "detail": "Black heat-resistant replacement handles for manual pressure cookers. The double handle is the long body + lid handle pair that locks the lid, for 6–10L cookers (Saral and generic types). The side (helper) handle is the small loop on the opposite side. Most generic handles fit most cookers; send us a photo of your cooker on WhatsApp if unsure.",
+  "price": 1190,
   "unit": "1 piece",
   "opts": [
    {
     "n": "Handle",
     "v": [
      [
+      "Double handle (body + lid pair)",
+      1190
+     ],
+     [
       "Side helper handle",
       390
-     ],
-     [
-      "Long lid handle",
-      790
-     ],
-     [
-      "Body + lid handle pair (Saral type)",
-      990
      ]
     ]
    }
   ],
   "added": "2026-11-28",
   "vi": {
-   "Side helper handle": "spare-handle-1",
-   "Long lid handle": "spare-handle-2",
-   "Body + lid handle pair (Saral type)": "spare-handle-3"
+   "Double handle (body + lid pair)": "spare-handle-3",
+   "Side helper handle": "spare-handle-1"
   },
+  "nosale": true,
   "sub": "Pressure cooker spare parts"
  },
  {
@@ -15456,7 +15455,7 @@
   "cat": "pressure",
   "name": "⭕ Pressure cooker lid gaskets (rubber rings), 17–34cm",
   "detail": "Replacement lid gasket (rubber ring) for manual pressure cookers. A worn, cracked or loose gasket leaks steam and the cooker will not whistle. Black rubber in all sizes 17–34cm, or food-grade silicone: blue (17, 19, 21, 23, 25cm), green (24, 26cm) and clear (19.5, 22, 24, 27cm). Also the original Prestige 34cm gasket for Prestige Popular 16L and 20L cookers. Size guide: about 18cm fits 2–3L cookers, 22cm fits 5–6L and 26cm fits 8L and up. Measure your old gasket or lid and send the size on WhatsApp.",
-  "price": 790,
+  "price": 850,
   "unit": "1 gasket",
   "opts": [
    {
@@ -15464,31 +15463,31 @@
     "v": [
      [
       "Black rubber 17–22cm",
-      790
+      850
      ],
      [
       "Black rubber 24–29cm",
-      890
+      950
      ],
      [
       "Black rubber 30–34cm",
-      990
+      1050
      ],
      [
       "Blue silicone",
-      990
+      1050
      ],
      [
       "Green silicone",
-      990
+      1050
      ],
      [
       "Clear silicone",
-      990
+      1050
      ],
      [
       "Prestige 34cm (Popular 16L & 20L)",
-      990
+      1050
      ]
     ]
    }
@@ -15503,6 +15502,7 @@
    "Black rubber 24–29cm": "spare-gasket-1",
    "Black rubber 30–34cm": "spare-gasket-1"
   },
+  "nosale": true,
   "sub": "Pressure cooker spare parts"
  },
  {
@@ -15532,6 +15532,7 @@
    "Steel vent tube": "spare-vent-tube-1",
    "Brass vent tube, two-handle cookers": "spare-vent-tube-2"
   },
+  "nosale": true,
   "sub": "Pressure cooker spare parts"
  }
 ]
