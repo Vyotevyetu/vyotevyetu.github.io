@@ -14079,57 +14079,6 @@
   "sub": "Garden & outdoor"
  },
  {
-  "id": "garden-planter-7",
-  "cat": "home",
-  "name": "🪴 Kenpoly round planter No. 7, 2.3L",
-  "detail": "Plastic flower pot 15.5cm wide x 13.5cm tall, holds about 2.3 litres of soil, with drainage feet. Flowers, herbs, succulents, indoor and outdoor. 3 pots KES 650, 6 pots KES 1,190. Mix colours",
-  "price": 650,
-  "unit": "3 pots",
-  "added": "2026-11-27",
-  "opts": [
-   {
-    "n": "Pack",
-    "v": [
-     [
-      "3 pots",
-      650
-     ],
-     [
-      "6 pots",
-      1190
-     ]
-    ]
-   },
-   {
-    "n": "Colour",
-    "v": [
-     [
-      "Terracotta"
-     ],
-     [
-      "Dark green"
-     ],
-     [
-      "Black"
-     ],
-     [
-      "White"
-     ],
-     [
-      "Mixed colours"
-     ]
-    ]
-   }
-  ],
-  "vi": {
-   "Terracotta": "garden-planter-7-1",
-   "Dark green": "garden-planter-7-2",
-   "Black": "garden-planter-7-3",
-   "White": "garden-planter-7-4"
-  },
-  "sub": "Garden & outdoor"
- },
- {
   "id": "jar-heravin-bird",
   "cat": "storage",
   "name": "🐦 Heravin vintage bird glass jar 660ml",
